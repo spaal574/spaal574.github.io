@@ -16,8 +16,7 @@
 			{"id":603, "name":"Myrmidon Sect",					"pts":300, "upgrades":[14,15,16,19, 52,53]},
 			{"id":604, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55]},
 			{"id":605, "name":"Minotaur Artillery Battery",	    "pts":350, "upgrades":[], "units":"3 Minotaur Artillery Tank"},
-			{"id":606, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[], "units":"3 Ordinatus Minorus"},
-                        {"id":607, "name":"Vultarax Maniple",               "pts":250, "upgrades":[],                     "units":"6 Vultarax Stratos-Automata"}
+			{"id":606, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[], "units":"3 Ordinatus Minorus"}
 
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
@@ -46,7 +45,7 @@
 	    {"id":55, "name":"Hyperios Sentry Guns",			"pts":50}
     ],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[601,602,603,604,605,606,607], "forEach":[500,501,502,503,504], "name2":"Cohort"},
+		{"max":3, "name":"Support Detachment", "from":[601,602,603,604,605,606], "forEach":[500,501,502,503,504], "name2":"Cohort"},
 		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[701,702,703,704]},
 		{"max":1, "from":[704]}
 		
