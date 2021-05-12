@@ -78,7 +78,7 @@
 	        {"min":0, "max":6, "from":[15,16,17], "appliesTo":[500,501,502]},
         	{"min":0, "max":8, "from":[15,16,17], "appliesTo":[604]},
 
-	        {"min":0, "max":3, "from":[18,19], "appliesTo":[500,501,602,604]},
+	        {"min":0, "max":3, "from":[18,19], "appliesTo":[500,501,604]},
        		{"min":0, "max":3, "from":[20,21], "appliesTo":[504]},
         	{"min":0, "max":4, "from":[22], "appliesTo":[500,501,504,601,604]},
 
@@ -87,7 +87,7 @@
 		
         	{"min":3, "max":3, "from":[20,21], 	"appliesTo":[601] },
 		
-        	{"min":5, "max":5, "from":[18,19], 	"appliesTo":[602] },
+        	{"min":5, "max":8, "from":[18,19], 	"appliesTo":[602] },
 		
         	{"min":6, "max":6, "from":[52,53], 	"appliesTo":[604] },
         	{"min":5, "max":5, "from":[54,55,56], 	"appliesTo":[605] },
