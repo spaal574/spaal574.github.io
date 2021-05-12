@@ -52,7 +52,7 @@
 		{"id":58, "name":"Ordinatus Minoris Tormenta W/Ulator Sonic Destroyer",		"pts":0},
 		
 		{"id":59, "name":"Ordinatus Majoris W/Sonic Disruptor",			"pts":0},
-		{"id":60, "name":"Ordinatus Majoris W/6 x Golgothan Missiles",		"pts":0},
+		{"id":60, "name":"Ordinatus Majoris W/6x Golgothan Missiles",		"pts":0},
 		{"id":61, "name":"Ordinatus Majoris W/Nova Cannon",			"pts":0}
     ],
 	"formationConstraints":[
