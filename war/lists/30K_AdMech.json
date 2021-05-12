@@ -50,6 +50,9 @@
 		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":75},
 		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":75},
 		
+		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
+		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
+		
 		{"id":22, "name":"Scyllax",					"pts":50},
 	
 		{"id":51, "name":"Tech Priest",					"pts":0},
@@ -88,7 +91,7 @@
        		{"min":2, "max":5, "from":[51], 	"appliesTo":[500,504] },
 
 		
-        	{"min":3, "max":3, "from":[20,21], 	"appliesTo":[601] },
+        	{"min":3, "max":3, "from":[32,33], 	"appliesTo":[601] },
 		
         	{"min":5, "max":5, "from":[30,31], 	"appliesTo":[602] },
 		
