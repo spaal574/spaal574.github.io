@@ -13,19 +13,19 @@
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
 			{"id":601, "name":"Thanatar Maniple",				"pts":200, "upgrades":[13,19], "units":"3 Thanatar Battle-Automata"},
-			{"id":602, "name":"Krios Battle Tank Squadron",		"pts":300, "upgrades":[16], "units":"5 Krios Battle Tank"},
-			{"id":603, "name":"Myrmidon Sect",					"pts":300, "upgrades":[14,15,16,19, 52,53]},
+			{"id":602, "name":"Krios Battle Tank Squadron",			"pts":300, "upgrades":[16], "units":"5 Krios Battle Tank"},
+			{"id":603, "name":"Myrmidon Sect",				"pts":300, "upgrades":[14,15,16,19, 52,53]},
 			{"id":604, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55]},
-			{"id":605, "name":"Minotaur Artillery Battery",	    "pts":350, "upgrades":[], "units":"3 Minotaur Artillery Tank"},
-			{"id":606, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[], "units":"3 Ordinatus Minorus"}
+			{"id":605, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], "units":"3 Minotaur Artillery Tank"},
+			{"id":606, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[], "units":"3 Ordinatus Minorus"}
 			
 
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":701, "name":"Imperial Navy Avenger Wing",		            "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-            {"id":702, "name":"Imperial Navy Primaris-Lightning Wing",		"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
-			{"id":703, "name":"Super Heavy Tank Destroyer",					"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-		 	{"id":704, "name":"Ordinatus Majoris",							"pts":450, "upgrades":[], "units":"1 Ordinatus Majoris"}
+			{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
+		        {"id":702, "name":"Imperial Navy Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
+			{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
+		 	{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[], "units":"1 Ordinatus Majoris"}
 		
          ]}
 	],	
