@@ -1,7 +1,7 @@
 {
 	"id":"Dark Mechanicum Taghmata",
 	"version":"Heresy v 0.8.?",
-	"by":"freefall, updated by spaal574",
+	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Adsecularis Covenant", 		"pts":150, "upgrades":[11,12,14,15,16,17,18,19,22], "units":"10 Tech-Thrall units"},
