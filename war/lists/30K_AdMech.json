@@ -47,7 +47,7 @@
 	    {"id":55, "name":"Hyperios Sentry Guns",			"pts":50}
     ],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[601,602,603,604,605,606], "forEach":[500,501,502,503,504], "name2":"Cohort"},
+		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606], "forEach":[500,501,502,503,504], "name2":"Cohort"},
 		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[701,702,703,704]},
 		{"max":1, "from":[704]}
 		
