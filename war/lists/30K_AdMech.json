@@ -14,7 +14,7 @@
 			{"id":600, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
 			{"id":601, "name":"Thanatar Maniple",				"pts":200, "upgrades":[13,19], "units":"3 Thanatar Battle-Automata"},
 			{"id":602, "name":"Krios Battle Tank Squadron",			"pts":300, "upgrades":[16], "units":"5 Krios Battle Tank"},
-			{"id":603, "name":"Karacnos Assault Squadron" 			"pts":300, "upgrades":[], "units":"4 Karacnos Assault Tanks"},
+			{"id":603, "name":"Karacnos Assault Squadron", 			"pts":300, "upgrades":[], "units":"4 Karacnos Assault Tanks"},
 			{"id":604, "name":"Myrmidon Sect",				"pts":300, "upgrades":[14,15,16,19, 52,53]},
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], "units":"3 Minotaur Artillery Tank"},
