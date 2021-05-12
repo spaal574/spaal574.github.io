@@ -11,6 +11,7 @@
 		    {"id":504, "name":"Castelax Cohort", 		    "pts":275, "upgrades":[11,12,17,19], "units":"5 Castellax Battle-Automata units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
+			{"id":600, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
 			{"id":601, "name":"Thanatar Maniple",				"pts":200, "upgrades":[13,19], "units":"3 Thanatar Battle-Automata"},
 			{"id":602, "name":"Krios Battle Tank Squadron",		"pts":300, "upgrades":[16], "units":"5 Krios Battle Tank"},
 			{"id":603, "name":"Myrmidon Sect",					"pts":300, "upgrades":[14,15,16,19, 52,53]},
