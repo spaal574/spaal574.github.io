@@ -17,6 +17,7 @@
 			{"id":604, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55]},
 			{"id":605, "name":"Minotaur Artillery Battery",	    "pts":350, "upgrades":[], "units":"3 Minotaur Artillery Tank"},
 			{"id":606, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[], "units":"3 Ordinatus Minorus"}
+			
 
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
