@@ -21,7 +21,7 @@
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]},
-			{"id":607, "name":"Walking Cogitator Stack",			"pts":500, "upgrades":[],	"units":"1 Walking Cogitator Stack"}
+			{"id":607, "name":"Walking Cogitator Stack",			"pts":200, "upgrades":[],	"units":"1 Walking Cogitator Stack","5 tech-thrall cogi-serfs"}
 			
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
