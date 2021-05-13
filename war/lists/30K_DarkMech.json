@@ -22,7 +22,7 @@
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]}
 			
-
+// walking cogitator stacks
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
@@ -34,6 +34,15 @@
 	],	
 	
 	"upgrades":[
+		
+		{"id":1, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":2, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":3, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":4, "name":"Slaughterer cyber-king",			"pts":100},
+		{"id":5, "name":"Sorcerer War-fabricator",			"pts":100},
+		{"id":6, "name":"Techno-arcana salvager-thinkerer",		"pts":100},
+		
+		
 		{"id":11, "name":"Arch-heretech coordinator",			"pts":100},
 		{"id":12, "name":"Heretek Prime",				"pts":50},
    		{"id":13, "name":"Heretek",					"pts":25},
