@@ -20,8 +20,7 @@
 			{"id":604, "name":"Myrmidon Sect",				"pts":300, "upgrades":[14,15,16,17,18,19,22,52,53]},
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
-			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]},
-			{"id":608, "name":"Walking Cogitator Stack",			"pts":200, "upgrades":[],"units":"1 Walking Cogitator Stack","5 tech-thrall cogi-serfs"}	
+			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]}	
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
