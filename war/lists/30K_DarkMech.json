@@ -35,8 +35,8 @@
 	
 	"upgrades":[
 		
-		{"id":1, "name":"Arch-heretech genetor",			"pts":100},
-		{"id":2, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":1, "name":" genetor",			"pts":100},
+		{"id":2, "name":"Tuner-whisperer Hierophant",			"pts":100},
 		{"id":3, "name":"Silica animus cogi-coordinator construct",	"pts":100},
 		{"id":4, "name":"Slaughterer cyber-king",			"pts":100},
 		{"id":5, "name":"Sorcerer War-fabricator",			"pts":100},
