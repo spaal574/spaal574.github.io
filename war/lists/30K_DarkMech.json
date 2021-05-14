@@ -21,7 +21,7 @@
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]},
-			{"id":607, "name":"Walking Cogitator Stack",			"pts":200, "upgrades":[],	"units":"1 Walking Cogitator Stack","5 tech-thrall cogi-serfs"}
+			{"id":607, "name":"Walking Cogitator Stack",			"pts":200, "upgrades":[],"units":"1 Walking Cogitator Stack"}
 			
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
@@ -35,12 +35,12 @@
 	
 	"upgrades":[
 		
-		{"id":1, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":1, "name":"Arch-heretech genetor",			"pts":100},
 		{"id":2, "name":"Arch-heretech coordinator",			"pts":100},
-		{"id":3, "name":"Arch-heretech coordinator",			"pts":100},
+		{"id":3, "name":"Silica animus cogi-coordinator construct",	"pts":100},
 		{"id":4, "name":"Slaughterer cyber-king",			"pts":100},
 		{"id":5, "name":"Sorcerer War-fabricator",			"pts":100},
-		{"id":6, "name":"Techno-arcana salvager-thinkerer",		"pts":100},
+		{"id":6, "name":"Techno-arcana salvager-tinkerer",		"pts":100},
 		
 		
 		{"id":11, "name":"Arch-heretech coordinator",			"pts":100},
