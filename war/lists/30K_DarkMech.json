@@ -34,13 +34,13 @@
 	
 	"upgrades":[
 		
-		{"id":1, "name":"Arch-genetor militant",			"pts":100},
-		{"id":2, "name":"Tuner-whisperer Hierophant",			"pts":100},
-		{"id":3, "name":"Sorcerer War-fabricator",			"pts":100},
-		{"id":4, "name":"Slaughterer cyber-king",			"pts":100},
-		{"id":5, "name":"Silica animus cogi-coordinator construct",	"pts":100},
-		{"id":6, "name":"Techno-arcana salvager-tinkerer",		"pts":100},
-		{"id":11, "name":"Arch-heretek coordinator",			"pts":100},
+		{"id":1, "name":"Arch-Genetor Militant",			"pts":100},
+		{"id":2, "name":"Tuner-Whisperer Hierophant",			"pts":100},
+		{"id":3, "name":"Sorcerer War-Fabricator",			"pts":100},
+		{"id":4, "name":"Slaughterer Cyber-King",			"pts":100},
+		{"id":5, "name":"Silica Animus Cogi-Coordinator Construct",	"pts":100},
+		{"id":6, "name":"Techno-Arcana Salvager-Tinkerer",		"pts":100},
+		{"id":11, "name":"Arch-Heretek Coordinator",			"pts":100},
 		
 		{"id":12, "name":"Heretek Prime",				"pts":50},
    		{"id":13, "name":"Heretek",					"pts":25},
@@ -58,7 +58,7 @@
 
 		{"id":22, "name":"Scyllax",					"pts":50},
 		
-		{"id":23, "name":"tech-thrall cogi-serfs",			"pts":0},
+		{"id":23, "name":"Tech-thrall Cogi-serfs",			"pts":0},
 		
 		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
 		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
