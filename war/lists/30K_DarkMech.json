@@ -58,7 +58,7 @@
 
 		{"id":22, "name":"Scyllax",					"pts":50},
 		
-		{"id":23, "name":"10 tech-thrall cogi-serfs",			"pts":0},
+		{"id":23, "name":"tech-thrall cogi-serfs",			"pts":0},
 		
 		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
 		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
@@ -99,7 +99,9 @@
        		{"min":0, "max":3, "from":[20,21], 	"appliesTo":[504]},
         	{"min":0, "max":4, "from":[22], 	"appliesTo":[500,501,504,601,604]},
 
-       		{"min":2, "max":5, "from":[51], 	"appliesTo":[500,504] },
+       		{"min":2, "max":5, "from":[51], 	"appliesTo":[500,504,506] },
+
+       		{"min":10, "max":11, "from":[23], 	"appliesTo":[608] },
 
 		
         	{"min":1, "max":1, "from":[23], 	"appliesTo":[608] },
