@@ -22,7 +22,7 @@
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]},
 			{"id":608, "name":"Walking Cogitator Stack", 			"pts":200, "upgrades":[23], "units":"1 Walking Cogitator Stack"},
-			{"id":609, "name":"Tunnelling Daemon Engines", 			"pts":200, "upgrades":[], "units":"3 Possessed Termite Drills"}
+			{"id":609, "name":"Tunnelling Daemon Engines", 			"pts":400, "upgrades":[], "units":"4 Possessed Termite Drills"}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
