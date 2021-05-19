@@ -21,7 +21,7 @@
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]},
-			{"id":608, "name":"Walking Cogitator Stack", 			"pts":200, "upgrades":[], "units":"1 Walking Cogitator Stack"},
+			{"id":608, "name":"Walking Cogitator Stack", 			"pts":175, "upgrades":[], "units":"1 Walking Cogitator Stack"},
 			{"id":609, "name":"Tunnelling Daemon Engines", 			"pts":400, "upgrades":[], "units":"4 Possessed Termite Drills"}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
@@ -104,6 +104,7 @@
        		{"min":0, "max":5, "from":[51], 	"appliesTo":[506] },
 
        		{"min":10, "max":10, "from":[23], 	"appliesTo":[608] },
+       		{"min":2, "max":2, "from":[51], 	"appliesTo":[608] },
 		
         	{"min":3, "max":3, "from":[32,33], 	"appliesTo":[601] },
 		
