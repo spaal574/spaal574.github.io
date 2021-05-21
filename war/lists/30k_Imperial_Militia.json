@@ -7,7 +7,7 @@
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"0-1 Militia Command Squad ", 			"pts":225, "upgrades":[2,8,9,10,1,3,4,7,50,51,52,53], "units":"1 Force Commander and 7 Militia Auxiliaries units"},
 			{"id":501, "name":"Inducted Levy Squad", 				"pts":100, "upgrades":[4,50,51,52,53], "units":"10 Levy Auxiliaries"},
-			{"id":502, "name":"Militia Motorcycle Squad", 				"pts":175, "upgrades":[25,50,51,52,53], "units":"1 Motorcycle Commander unit and 7 Militia Biker units"},
+			{"id":502, "name":"Militia Motorcycle Squad", 				"pts":175, "upgrades":[50,51,52], "units":"1 Motorcycle Commander unit and 7 Militia Biker units"},
 			{"id":503, "name":"Militia Grenadier Squad", 				"pts":175, "upgrades":[2,8,9,10,50,51,52,53], "units":"8 Militia Grenadier Units"},
 			{"id":504, "name":"Militia Infantry Squad", 				"pts":125, "upgrades":[1,2,3,4,7,50,51,52,53], "units":"1 Platoon Command and 7 Militia Auxiliaries units"}
 		]},
