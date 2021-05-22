@@ -71,9 +71,8 @@
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[
-		{"min":0, "max":2, "from":[2], "appliesTo":[500.503,504]},	
-		{"min":0, "max":10, "from":[8,9,10], "appliesTo":[501]},
-		{"min":0, "max":1, "from":[11], "appliesTo":[501]},
+		{"min":0, "max":2, "from":[2], "appliesTo":[500.503,504]},
+		{"min":0, "max":1, "from":[4], "appliesTo":[501]},
 		{"min":3, "max":3, "from":[12,13], "appliesTo":[602]},
 		{"min":3, "max":3, "from":[16,19], "appliesTo":[701]},
 		{"min":5, "max":5, "from":[15,14], "appliesTo":[603]},
