@@ -1,13 +1,15 @@
 {
 	"id":"Imperial Militia for 30k",
-	"version":"v0.5",
+	"version":"v0.65",
 	"by":"by Norto, Updated by spaal574",
 	"notes":["Line Detachments and Support Detachments may only take a total of four upgrades per detachment.",
+		" ",
 		"You can only have 2 different types of provenances per army (Feral Warriors, Survivors Of The DAoT,etc...).",
+		" ",
 		"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
 		"You can either choose Heavy Transports(Gorgon Heavy Transporter) or Transports(Arvus Lighter OR Auxilia Rhino OR Land Raider Proteus) for a formation, not both.",
 		"Transports count towards the number of upgrade allowances of a formation.",
-		
+		" ",
 		"Only one Discipline Master(they are free) per 500 points.",
 		"If the army includes Militia Command Squad then the first one must be attached to formation, if a Militia Command Squad is not present in the Army he must be placed in the most expensive Imperial Militia Line Formation",
 		"Any further Discipline Masters may be attached to any other Imperial Militia formations.If you have more Discipline Masters than formations, any excess are lost.",
