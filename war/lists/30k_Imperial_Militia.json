@@ -71,8 +71,8 @@
 		{"id":52, "name":"Feral Warriors",			"pts":50},
 		{"id":53, "name":"Traitors",				"pts":50},
 				
-		{"id":60, "name":"Discipline Master",			"pts":300},
-		{"id":61, "name":"Rogue Psyker",			"pts":150}		
+		{"id":60, "name":"Discipline Master",			"pts":0},
+		{"id":61, "name":"Rogue Psyker",			"pts":0}		
 		
 	],
 	"formationConstraints":[
@@ -83,6 +83,8 @@
 	],
 	"upgradeConstraints":[
 		
+		{"max":1, "from":[60,61],"perPoints":500},
+
 		{"min":0, "max":1, "from":[60,61], "appliesTo":[500]},
 		{"min":0, "max":1, "from":[60,61], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[60], "appliesTo":[502]},
