@@ -1,11 +1,12 @@
 {
-	"id":"Imperial Militia V 0.1.1",
+	"id":"Imperial Militia for 30k",
 	"version":"v0.5",
 	"by":"by Norto, Updated by spaal574",
 	"notes":["Line Detachments and Support Detachments may only take a total of four upgrades per detachment.",
-		"You can only have 2 different types of provenances per army(Feral Warriors, Survivors Of The DAoT,etc...)",
+		"You can only have 2 different types of provenances per army(Feral Warriors, Survivors Of The DAoT,etc...).",
 		"If Using Transports you must take exactly enough to carry all units in the formation after any upgrades have been added.",
-		"Transports count towards the number of upgrade allowances of a formation"],
+		"You can either choose Heavy Transports(Gorgon Heavy Transporter) or Transports(Arvus Lighter OR Auxilia Rhino OR Land Raider Proteus) for a formation, not both.",
+		"Transports count towards the number of upgrade allowances of a formation."],
 	
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
@@ -43,11 +44,12 @@
 		{"id":6, "name":"Survivors of the Dark Age",		"pts":50},
 		
 		{"id":7, "name":"Add 4 Recon Auxillary units",		"pts":75},
-		{"id":8, "name":"Arvus Lighter (Transport)",		"pts":25},
-		{"id":9, "name":"Auxilia Rhinos (Transport)",		"pts":12.5},
-		{"id":10, "name":"Auxilia Land Raider (Transport)",	"pts":50},
+		{"id":8, "name":"Arvus Lighter (Transport)",			"pts":25},
+		{"id":9, "name":"Auxilia Rhinos (Transport)",			"pts":12.5},
+		{"id":10, "name":"Auxilia Land Raider Proteus (Transport)",	"pts":50},
+		
 		{"id":11, "name":"Leman Russ Vanquisher",		"pts":25},
-			
+	
 		{"id":12, "name":"Basilisk",				"pts":0},
 		{"id":13, "name":"Medusa",				"pts":0},
 		{"id":14, "name":"Malcador Heavy Tank",			"pts":0},
