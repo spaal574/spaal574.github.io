@@ -40,7 +40,7 @@ table {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 138.5%;
-	border: 1px solid #659635;
+	border: 1px solid white;
 	color:white;
 	text-shadow:-1px -1px 2px #777777;
 	padding:1em 2em 1em 2em;
@@ -60,7 +60,7 @@ img.icon {
 	border:none;
 }
 #ab {
-	border-top: 1px solid #404000;
+	border-top: 1px solid white;
 }
 #ab td {
 	vertical-align:top;
