@@ -29,6 +29,9 @@
 			{"id":702, "name":"Imperial Navy Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
 			{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
 			{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}
+         ]},
+		{"name":"CYBERTHEURGY AND SORCEROR POWERS", "formations":[
+			{"id":801, "name":"TEST",		    			"pts":0, "upgrades":[]},
          ]}
 	],	
 	
