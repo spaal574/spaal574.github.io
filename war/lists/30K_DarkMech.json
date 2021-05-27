@@ -31,7 +31,11 @@
 			{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}
          ]},
 		{"name":"CYBERTHEURGY AND SORCEROR POWERS", "formations":[
-			{"id":801, "name":"TEST",		    			"pts":0, "upgrades":[]},
+			{"id":801, "name":"TEST1",		    			"pts":0, "upgrades":[]},
+			{"id":802, "name":"TEST2",		    			"pts":0, "upgrades":[]},
+			{"id":803, "name":"TEST3",		    			"pts":0, "upgrades":[]},
+			{"id":804, "name":"TEST4",		    			"pts":0, "upgrades":[]},
+			{"id":805, "name":"TEST5",		    			"pts":0, "upgrades":[]}
          ]}
 	],	
 	
