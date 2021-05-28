@@ -46,7 +46,7 @@ tr.interactive:hover > td {
 .orbat {
 	font-family:sans-serif;
 	background-color:#fff;
-	border:3px solid white;
+	border:3px solid black;
 	width:60%;
 }
 #orbatListName {
@@ -156,9 +156,9 @@ div.dropDown .listDiv table td {
 	color:#222;
 	font-family:serif;
 	font-size:small;
-	box-shadow:white 5px 5px 5px;
-	-webkit-box-shadow: white 5px 5px 5px;
-	-moz-box-shadow: white 5px 5px 5px;
+	box-shadow:black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	-moz-box-shadow: black 5px 5px 5px;
 }
 .listDiv table {
 	width:100%;
