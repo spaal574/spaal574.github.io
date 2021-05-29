@@ -112,7 +112,7 @@ tr.mandatory > td {
 	margin-bottom:0.5em;
 }
 #warnings {
-	color:red;
+	color:#330000;
 	font-size:x-small;
 	font-weight:normal;
 }
