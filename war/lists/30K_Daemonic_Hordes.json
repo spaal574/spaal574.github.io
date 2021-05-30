@@ -7,6 +7,8 @@
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
          ]},
 		{"name":"DAEMONIC HORDES", "formations":[
+			{"id":10, "name":"Horrors from the Immaterium",	"pts":250, "upgrades":[99, 200,201,202,203], "units":"6 Lesser Chaos Daemons units"},
+			{"id":400, "name":"Malicious Horde",	"pts":250, "upgrades":[99, 200,201,202,203], "units":"6 Hook Horrors units"},
 			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 102,103,104,105, 200,201,202,203], "units":"6 Bloodletter units"},
 			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 106,107,108,109, 200,201,202,203], "units":"6 Plaguebearer units"},
 			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 110,111,112,113, 200,201,202,203], "units":"6 Daemonette units"},
