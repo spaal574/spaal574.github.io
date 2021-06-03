@@ -34,6 +34,8 @@
 	],	
 	
 	"upgrades":[
+		
+		{"id":95,  "name":"Bloodthirster of Khorne",			"pts":200},
 		{"id":95,  "name":"Bloodthirster of Khorne",			"pts":200},
 		{"id":96,  "name":"Great Unclean One",				"pts":200},
 		{"id":97,  "name":"Keeper of Secrets",				"pts":200},
@@ -41,6 +43,16 @@
 		{"id":99,  "name":"Daemonic Overlord",				"pts":0},
 		{"id":100, "name":"Herald",					"pts":0},
 		{"id":101, "name":"Daemon Prince",				"pts":50},
+
+		{"id":11, "name":"Bloodletters",				"pts":25},
+		{"id":12, "name":"Fleshhounds",					"pts":25},
+		{"id":13, "name":"Bloodcrushers",				"pts":50},
+		{"id":14, "name":"Skull Cannon",				"pts":50},
+
+		{"id":15, "name":"Bloodletters",				"pts":25},
+		{"id":16, "name":"Fleshhounds",					"pts":25},
+		{"id":17, "name":"Bloodcrushers",				"pts":50},
+		{"id":18, "name":"Skull Cannon",				"pts":50},
 		
 		{"id":102, "name":"Bloodletters",				"pts":25},
 		{"id":103, "name":"Fleshhounds",				"pts":25},
@@ -89,7 +101,7 @@
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[99]},
 		{"min":0, "max":1, "from":[99], "appliesTo":[500,600,700,800]},
-		{"min":1, "max":1, "from":[100,101], "appliesTo":[500,600,700,800]},
+		{"min":1, "max":1, "from":[100,101], "appliesTo":[10,400,500,600,700,800]},
 		
 		
 		{"min":1, "max":3, "from":[95], "appliesTo":[501]},
