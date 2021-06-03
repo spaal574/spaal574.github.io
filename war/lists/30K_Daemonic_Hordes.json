@@ -9,7 +9,7 @@
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
          ]},
 		{"name":"DAEMONIC HORDES", "formations":[
-			{"id":10, "name":"Horrors from the Immaterium",	"pts":250, "upgrades":[92,99, 200,201,202,203], "units":"6 Lesser Chaos Daemons units"},
+			{"id":10, "name":"Horrors from the Immaterium",	"pts":250, "upgrades":[91,99, 200,201,202,203], "units":"6 Lesser Chaos Daemons units"},
 			{"id":400, "name":"Malicious Horde",	"pts":250, "upgrades":[92,93,94,99, 15,16,17,18,  200,201,202,203], "units":"6 Hook Horrors units"},
 			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 102,103,104,105, 200,201,202,203], "units":"6 Bloodletters units"},
 			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 106,107,108,109, 200,201,202,203], "units":"6 Plaguebearers units"},
@@ -18,8 +18,8 @@
 		]},
 		{"name":"GREATER DAEMON HORDES", "formations":[
 			
-			{"id":9, "name":"Unaligned Greater Daemons",		"pts":0,  "upgrades":[92]},
-			{"id":401, "name":"Malal Greater Daemons",		"pts":0,  "upgrades":[93,94]},
+			{"id":9, "name":"Unaligned Greater Daemons",		"pts":0,  "upgrades":[91]},
+			{"id":401, "name":"Malal Greater Daemons",		"pts":0,  "upgrades":[92,93,94]},
 			{"id":501, "name":"Khorne Greater Daemons",		"pts":0,  "upgrades":[95]},
        			{"id":601, "name":"Nurgle Greater Daemons",		"pts":0,  "upgrades":[96]},
 			{"id":701, "name":"Slaanesh Greater Daemons",		"pts":0,  "upgrades":[97]},
