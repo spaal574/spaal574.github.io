@@ -7,14 +7,17 @@
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
          ]},
 		{"name":"DAEMONIC HORDES", "formations":[
-			{"id":10, "name":"Horrors from the Immaterium",	"pts":250, "upgrades":[99, 200,201,202,203], "units":"6 Lesser Chaos Daemons units"},
-			{"id":400, "name":"Malicious Horde",	"pts":250, "upgrades":[99, 200,201,202,203], "units":"6 Hook Horrors units"},
-			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 102,103,104,105, 200,201,202,203], "units":"6 Bloodletter units"},
-			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 106,107,108,109, 200,201,202,203], "units":"6 Plaguebearer units"},
-			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 110,111,112,113, 200,201,202,203], "units":"6 Daemonette units"},
-			{"id":800, "name":"Change Coven",	"pts":250, "upgrades":[98,99, 114,115,116,117, 200,201,202,203], "units":"6 Horror units"}
+			{"id":10, "name":"Horrors from the Immaterium",	"pts":250, "upgrades":[92,99, 200,201,202,203], "units":"6 Lesser Chaos Daemons units"},
+			{"id":400, "name":"Malicious Horde",	"pts":250, "upgrades":[92,93,94,99, 15,16,17,18,  200,201,202,203], "units":"6 Hook Horrors units"},
+			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 102,103,104,105, 200,201,202,203], "units":"6 Bloodletters units"},
+			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 106,107,108,109, 200,201,202,203], "units":"6 Plaguebearers units"},
+			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 110,111,112,113, 200,201,202,203], "units":"6 Daemonettes units"},
+			{"id":800, "name":"Change Coven",	"pts":250, "upgrades":[98,99, 114,115,116,117, 200,201,202,203], "units":"6 Assorted Horrors units"}
 		]},
 		{"name":"GREATER DAEMON HORDES", "formations":[
+			
+			{"id":9, "name":"Unaligned Greater Daemons",		"pts":0,  "upgrades":[92]},
+			{"id":401, "name":"Malal Greater Daemons",		"pts":0,  "upgrades":[93,94]},
 			{"id":501, "name":"Khorne Greater Daemons",		"pts":0,  "upgrades":[95]},
        			{"id":601, "name":"Nurgle Greater Daemons",		"pts":0,  "upgrades":[96]},
 			{"id":701, "name":"Slaanesh Greater Daemons",		"pts":0,  "upgrades":[97]},
@@ -35,7 +38,10 @@
 	
 	"upgrades":[
 		
-		{"id":95,  "name":"Bloodthirster of Khorne",			"pts":200},
+		{"id":91,  "name":"Unaligned Greater Daemons",			"pts":200},
+		{"id":92,  "name":"Matron of Malal",				"pts":300},
+		{"id":93,  "name":"Maiden of Malal",				"pts":250},
+		{"id":94,  "name":"Guardian of Contradictions",			"pts":200},
 		{"id":95,  "name":"Bloodthirster of Khorne",			"pts":200},
 		{"id":96,  "name":"Great Unclean One",				"pts":200},
 		{"id":97,  "name":"Keeper of Secrets",				"pts":200},
@@ -44,15 +50,15 @@
 		{"id":100, "name":"Herald",					"pts":0},
 		{"id":101, "name":"Daemon Prince",				"pts":50},
 
-		{"id":11, "name":"Bloodletters",				"pts":25},
-		{"id":12, "name":"Fleshhounds",					"pts":25},
-		{"id":13, "name":"Bloodcrushers",				"pts":50},
-		{"id":14, "name":"Skull Cannon",				"pts":50},
+		{"id":11, "name":"a",					"pts":25},
+		{"id":12, "name":"b",					"pts":25},
+		{"id":13, "name":"c",					"pts":50},
+		{"id":14, "name":"d",					"pts":50},
 
-		{"id":15, "name":"Bloodletters",				"pts":25},
-		{"id":16, "name":"Fleshhounds",					"pts":25},
-		{"id":17, "name":"Bloodcrushers",				"pts":50},
-		{"id":18, "name":"Skull Cannon",				"pts":50},
+		{"id":15, "name":"Hook Horrors",				"pts":25},
+		{"id":16, "name":"Pandemonic Paradox",				"pts":25},
+		{"id":17, "name":"Nightmare Riders",				"pts":50},
+		{"id":18, "name":"Limbo Ticks",					"pts":50},
 		
 		{"id":102, "name":"Bloodletters",				"pts":25},
 		{"id":103, "name":"Fleshhounds",				"pts":25},
@@ -100,8 +106,20 @@
 	],
 	"upgradeConstraints":[
 		{"max":1, "perArmy":true, "from":[99]},
-		{"min":0, "max":1, "from":[99], "appliesTo":[500,600,700,800]},
+		{"min":0, "max":1, "from":[99], "appliesTo":[10,400,500,600,700,800]},
 		{"min":1, "max":1, "from":[100,101], "appliesTo":[10,400,500,600,700,800]},
+	
+		
+		{"min":1, "max":3, "from":[92], "appliesTo":[9]},
+		{"min":0, "max":1, "from":[92], "appliesTo":[10]},
+		{"min":0, "max":6, "from":[11,12], "appliesTo":[10]},
+		{"min":0, "max":6, "from":[13,14], "appliesTo":[10]},
+
+		
+		{"min":1, "max":3, "from":[92,93,94], "appliesTo":[401]},
+		{"min":0, "max":1, "from":[92,93,94], "appliesTo":[400]},
+		{"min":0, "max":6, "from":[15,16], "appliesTo":[400]},
+		{"min":0, "max":6, "from":[17,18], "appliesTo":[400]},
 		
 		
 		{"min":1, "max":3, "from":[95], "appliesTo":[501]},
