@@ -5,47 +5,48 @@
 "notes":["1 captain 1 first mate 8 soldiers 4 of which can be specialists 400 credits"],
   
 "sections":[
-    {"name":"Commanders", "formations":[
-			{"id":200, "name":"Commander", 		  	"pts":0, "upgrades":[] },
-			{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
+	{"name":"COMMANDERS", "formations":[
+		{"id":200, "name":"Commander", 		  	"pts":0, "upgrades":[] },
+		{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
 	]},
-		{"name":"STANDARD SOLDIERS", "formations":[
-			{"id":500, "name":"Recruit", 			"pts":0, "upgrades":[] },
-			{"id":501, "name":"Runner", 			"pts":0, "upgrades":[] },
+	{"name":"STANDARD SOLDIERS", "formations":[
+		{"id":500, "name":"Recruit", 			"pts":0, "upgrades":[] },
+		{"id":501, "name":"Runner", 			"pts":0, "upgrades":[] },
       
-			{"id":502, "name":"Hacker",			"pts":20, "upgrades":[] },
-			{"id":503, "name":"Chiseler",			"pts":20, "upgrades":[] },
+		{"id":502, "name":"Hacker",			"pts":20, "upgrades":[] },
+		{"id":503, "name":"Chiseler",			"pts":20, "upgrades":[] },
       
-			{"id":504, "name":"Guard dog", 			"pts":10, "upgrades":[] },
-			{"id":505, "name":"Sentry", 		  	"pts":50, "upgrades":[] },
+		{"id":504, "name":"Guard dog", 			"pts":10, "upgrades":[] },
+		{"id":505, "name":"Sentry", 		  	"pts":50, "upgrades":[] },
       
-			{"id":506, "name":"Trooper", 			"pts":50, "upgrades":[] },
-			{"id":507, "name":"Medic", 		    	"pts":100, "upgrades":[] }
+		{"id":506, "name":"Trooper", 			"pts":50, "upgrades":[] },
+		{"id":507, "name":"Medic", 		    	"pts":100, "upgrades":[] }
 
 	]},
-		{"name":"SPECIALIST SOLDIERS", "formations":[
-			{"id":600, "name":"Codebreaker",			"pts":75, "upgrades":[] },
-			{"id":601, "name":"Casecracker",			"pts":75, "upgrades":[] },
-			{"id":602, "name":"Commando",		    		"pts":75, "upgrades":[] },
+	{"name":"SPECIALIST SOLDIERS", "formations":[
+		{"id":600, "name":"Codebreaker",			"pts":75, "upgrades":[] },
+		{"id":601, "name":"Casecracker",			"pts":75, "upgrades":[] },
+		{"id":602, "name":"Commando",		    		"pts":75, "upgrades":[] },
       
-			{"id":603, "name":"Pathfinder",			  	"pts":100, "upgrades":[] },
-			{"id":604, "name":"Sniper",		      		"pts":100, "upgrades":[] },
-			{"id":605, "name":"Grenadier",		  		"pts":100, "upgrades":[] },
-			{"id":606, "name":"Burner",		  	    	"pts":100, "upgrades":[] },
-			{"id":607, "name":"Gunner",			    	"pts":100, "upgrades":[] },
+		{"id":603, "name":"Pathfinder",			  	"pts":100, "upgrades":[] },
+		{"id":604, "name":"Sniper",		      		"pts":100, "upgrades":[] },
+		{"id":605, "name":"Grenadier",		  		"pts":100, "upgrades":[] },
+		{"id":606, "name":"Burner",		  	    	"pts":100, "upgrades":[] },
+		{"id":607, "name":"Gunner",			    	"pts":100, "upgrades":[] },
       
-			{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
+		{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
 	]},
-		{"name":"ALLIES", "formations":[
-			{"id":701, "name":"x",		        "pts":250, "upgrades":[]}
-         ]}
+	{"name":"ALLIES", "formations":[
+		{"id":701, "name":"x",		        "pts":250, "upgrades":[] }
+        ]}
 ],	
 	
 "upgrades":[
     
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
+	{"id":1002, "name":"Animal",				"pts":0},
     
 	
    	{"id":1200, "name":"Light armour",			"pts":0},
@@ -86,17 +87,31 @@
 ],
 "upgradeConstraints":[
 	
-	{"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608]},
-
+	{"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,505,506,507,600,601,602,603,604,605,606,607,608]},
+	{"min":1, "from":[1002], "appliesTo":[504]},
 	
 	{"min":1, "from":[1400], "appliesTo":[500]},
 	{"min":1, "from":[1200], "appliesTo":[500]},
 	{"min":1, "from":[1602], "appliesTo":[500]},
 
-	
 	{"min":1, "from":[1400], "appliesTo":[501]},
 	{"min":1, "from":[1200], "appliesTo":[501]},
 	{"min":1, "from":[1602], "appliesTo":[501]}
-			
+	
+	{"min":1, "from":[1400], "appliesTo":[502]},
+	{"min":1, "from":[1200], "appliesTo":[502]},
+	{"min":1, "from":[1602], "appliesTo":[502]},
+	{"min":1, "from":[1900], "appliesTo":[502]},
+	
+	{"min":1, "from":[1400], "appliesTo":[503]},
+	{"min":1, "from":[1200], "appliesTo":[503]},
+	{"min":1, "from":[1602], "appliesTo":[503]},
+	{"min":1, "from":[1903], "appliesTo":[503]},
+	
+
+
+
+
+
 ]
 }
