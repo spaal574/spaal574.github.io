@@ -1,8 +1,11 @@
 {
 "id":"Stargrave",
-"version":"v 0.0.1",
+"version":"v 0.0.3",
 "by":"spaal574",
-"notes":["1 captain 1 first mate 8 soldiers 4 of which can be specialists 400 credits"],
+"notes":["1 captain",
+	 "1 first mate",
+	 "8 soldiers 4 of which can be specialists",
+	 "400 credits"],
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
@@ -24,29 +27,29 @@
 
 	]},
 	{"name":"SPECIALIST SOLDIERS", "formations":[
-		{"id":600, "name":"Codebreaker",			"pts":75, "upgrades":[] },
-		{"id":601, "name":"Casecracker",			"pts":75, "upgrades":[] },
-		{"id":602, "name":"Commando",		    		"pts":75, "upgrades":[] },
+		{"id":600, "name":"Codebreaker",		"pts":75, "upgrades":[] },
+		{"id":601, "name":"Casecracker",		"pts":75, "upgrades":[] },
+		{"id":602, "name":"Commando",	    		"pts":75, "upgrades":[] },
       
-		{"id":603, "name":"Pathfinder",			  	"pts":100, "upgrades":[] },
-		{"id":604, "name":"Sniper",		      		"pts":100, "upgrades":[] },
-		{"id":605, "name":"Grenadier",		  		"pts":100, "upgrades":[] },
-		{"id":606, "name":"Burner",		  	    	"pts":100, "upgrades":[] },
-		{"id":607, "name":"Gunner",			    	"pts":100, "upgrades":[] },
+		{"id":603, "name":"Pathfinder",		  	"pts":100, "upgrades":[] },
+		{"id":604, "name":"Sniper",	      		"pts":100, "upgrades":[] },
+		{"id":605, "name":"Grenadier",	  		"pts":100, "upgrades":[] },
+		{"id":606, "name":"Burner",	  	    	"pts":100, "upgrades":[] },
+		{"id":607, "name":"Gunner",		    	"pts":100, "upgrades":[] },
       
 		{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
 	]},
 	{"name":"ALLIES", "formations":[
-		{"id":701, "name":"x",		        "pts":250, "upgrades":[] }
+		{"id":701, "name":"x",		 	       "pts":0, "upgrades":[] }
         ]}
 ],	
 	
 "upgrades":[
-    
-	{"id":1000, "name":"Human",				"pts":0},
-	{"id":1001, "name":"Robot",				"pts":0},
-	{"id":1002, "name":"Animal",				"pts":0},
+
+	{"id":1000, "name":"Human",			"pts":0},
+	{"id":1001, "name":"Robot",			"pts":0},
+	{"id":1002, "name":"Animal",			"pts":0},
     
 	
    	{"id":1200, "name":"Light armour",			"pts":0},
@@ -116,12 +119,47 @@
 	{"min":1, "from":[1201], "appliesTo":[506]},
 	{"min":1, "from":[1602], "appliesTo":[506]},
 
-	{"min":1, "from":[1401], "appliesTo":[507]},
-	{"min":1, "from":[1201], "appliesTo":[507]},
-	{"min":1, "from":[1902], "appliesTo":[507]}
+	{"min":1, "from":[1401], "appliesTo":[600]},
+	{"min":1, "from":[1900], "appliesTo":[600]},
+	{"min":1, "from":[1200], "appliesTo":[600]},
+	{"min":1, "from":[1602], "appliesTo":[600]},
 
+	{"min":1, "from":[1401], "appliesTo":[601]},
+	{"min":1, "from":[1200], "appliesTo":[601]},
+	{"min":1, "from":[1902], "appliesTo":[601]},
+	{"min":1, "from":[1602], "appliesTo":[601]},
 
-
-
+	{"min":1, "from":[1401], "appliesTo":[602]},
+	{"min":1, "from":[1903], "appliesTo":[602]},
+	{"min":1, "from":[1201], "appliesTo":[602]},
+	{"min":1, "from":[1602], "appliesTo":[602]},
+	
+	{"min":1, "from":[1401], "appliesTo":[603]},
+	{"min":1, "from":[1903], "appliesTo":[603]},
+	{"min":1, "from":[1200], "appliesTo":[603]},
+	{"min":1, "from":[1602], "appliesTo":[603]},
+	
+	{"min":1, "from":[1401], "appliesTo":[604]},
+	{"min":1, "from":[1200], "appliesTo":[604]},
+	{"min":1, "from":[1601], "appliesTo":[604]},
+	
+	{"min":1, "from":[1406], "appliesTo":[605]},
+	{"min":1, "from":[1400], "appliesTo":[605]},
+	{"min":1, "from":[1201], "appliesTo":[605]},
+	{"min":1, "from":[1602], "appliesTo":[605]},
+	
+	{"min":1, "from":[1405], "appliesTo":[606]},
+	{"min":1, "from":[1400], "appliesTo":[606]},
+	{"min":1, "from":[1201], "appliesTo":[606]},
+	{"min":1, "from":[1602], "appliesTo":[606]},
+	
+	{"min":1, "from":[1403], "appliesTo":[607]},
+	{"min":1, "from":[1400], "appliesTo":[607]},
+	{"min":1, "from":[1201], "appliesTo":[607]},
+	{"min":1, "from":[1602], "appliesTo":[607]},
+	
+	{"min":1, "from":[1401], "appliesTo":[608]},
+	{"min":1, "from":[1202], "appliesTo":[608]}
+	
 ]
 }
