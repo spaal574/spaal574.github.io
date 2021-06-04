@@ -5,7 +5,8 @@
 "notes":["1 captain",
 	 "1 first mate",
 	 "8 soldiers 4 of which can be specialists",
-	 "400 credits"],
+	 "400 credits"
+	],
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
@@ -40,25 +41,25 @@
 		{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
 	]},
-	{"name":"ALLIES AND LOOT STORED IN THE SHIP", "formations":[
-		{"id":701, "name":"x",				"pts":0, "upgrades":[] },
-		{"id":702, "name":"Stored in the ship",		"pts":0, "upgrades":[] }
+	{"name":"ALLIES AND OTHER STUFF", "formations":[
+		{"id":701, "name":"Alien",				"pts":0, "upgrades":[] },
+		{"id":702, "name":"Loot stored in the ship",		"pts":0, "upgrades":[] }
         ]}
 ],	
 	
 "upgrades":[
 
-	{"id":1000, "name":"Human",			"pts":0},
-	{"id":1001, "name":"Robot",			"pts":0},
-	{"id":1002, "name":"Animal",			"pts":0},
-    
+	{"id":1000, "name":"Human",				"pts":0},
+	{"id":1001, "name":"Robot",				"pts":0},
+	{"id":1002, "name":"Animal",				"pts":0},
 	
-   	{"id":1200, "name":"Light armour",			"pts":0},
+
+	{"id":1200, "name":"Light armour",			"pts":0},
 	{"id":1201, "name":"Heavy armour",			"pts":0},
 	{"id":1202, "name":"Combat armour",			"pts":0},
 	{"id":1203, "name":"Shield",      			"pts":0},
-    
-		
+   
+
     	{"id":1400, "name":"Pistol",		      		"pts":0},
 	{"id":1401, "name":"Carabine",			    	"pts":0},
 	{"id":1402, "name":"Shotgun",			        "pts":0},
