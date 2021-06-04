@@ -56,9 +56,9 @@
 		{"id":100, "name":"Herald",					"pts":0},
 		{"id":101, "name":"Daemon Prince",				"pts":50},
 
-		{"id":11, "name":"a",					"pts":25},
-		{"id":12, "name":"b",					"pts":25},
-		{"id":13, "name":"c",					"pts":50},
+		{"id":11, "name":"Possessed corpses",			"pts":25},
+		{"id":12, "name":"Daemonic Cavalry",			"pts":25},
+		{"id":13, "name":"aa",					"pts":50},
 		{"id":14, "name":"d",					"pts":50},
 
 		{"id":15, "name":"Hook Horrors",				"pts":25},
