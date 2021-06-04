@@ -6,7 +6,7 @@
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
-		{"id":200, "name":"Commander", 		  	"pts":0, "upgrades":[] },
+		{"id":200, "name":"Captain", 		  	"pts":0, "upgrades":[] },
 		{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
 	]},
 	{"name":"STANDARD SOLDIERS", "formations":[
