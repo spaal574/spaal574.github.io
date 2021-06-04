@@ -56,10 +56,10 @@
 		{"id":100, "name":"Herald",					"pts":0},
 		{"id":101, "name":"Daemon Prince",				"pts":50},
 
-		{"id":11, "name":"Possessed corpses",			"pts":25},
-		{"id":12, "name":"Daemonic Cavalry",			"pts":25},
-		{"id":13, "name":"aa",					"pts":50},
-		{"id":14, "name":"d",					"pts":50},
+		{"id":11, "name":"Possessed corpses",				"pts":25},
+		{"id":12, "name":"Daemonic Cavalry",				"pts":25},
+		{"id":13, "name":"aa inj",					"pts":50},
+		{"id":14, "name":"dibj inu",					"pts":50},
 
 		{"id":15, "name":"Hook Horrors",				"pts":25},
 		{"id":16, "name":"Pandemonic Paradox",				"pts":25},
@@ -196,9 +196,5 @@
 		{"min":0, "max":3, "name":"Gifts of Chaos",  "from":[202], "appliesTo":[8,10,400,500,600,700,800,402,502,602,702,802,901,902,903]},
 		{"min":0, "max":3, "name":"Gifts of Chaos",  "from":[203], "appliesTo":[8,10,400,500,600,700,800,402,502,602,702,802,901,902,903]}
 		
-		
-		
-	
-				
 	]
 }
