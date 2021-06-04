@@ -1,15 +1,14 @@
 {
-	"id":"Stargrave",
-	"version":"v 0.0.1",
-	"by":"spaal574",
-  "notes":["1 captain 1 first mate 8 soldiers 4 of which can be specialists 400 credits"],
+"id":"Stargrave",
+"version":"v 0.0.1",
+"by":"spaal574",
+"notes":["1 captain 1 first mate 8 soldiers 4 of which can be specialists 400 credits"],
   
-	"sections":[
+"sections":[
     {"name":"Commanders", "formations":[
 			{"id":200, "name":"Commander", 		  	"pts":0, "upgrades":[] },
 			{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
-      
-         ]},
+	]},
 		{"name":"STANDARD SOLDIERS", "formations":[
 			{"id":500, "name":"Recruit", 			"pts":0, "upgrades":[] },
 			{"id":501, "name":"Runner", 			"pts":0, "upgrades":[] },
@@ -22,8 +21,8 @@
       
 			{"id":506, "name":"Trooper", 			"pts":50, "upgrades":[] },
 			{"id":507, "name":"Medic", 		    	"pts":100, "upgrades":[] }
-      
-         ]},
+
+	]},
 		{"name":"SPECIALIST SOLDIERS", "formations":[
 			{"id":600, "name":"Codebreaker",			"pts":75, "upgrades":[] },
 			{"id":601, "name":"Casecracker",			"pts":75, "upgrades":[] },
@@ -37,13 +36,13 @@
       
 			{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
-		]},
+	]},
 		{"name":"ALLIES", "formations":[
 			{"id":701, "name":"x",		        "pts":250, "upgrades":[]}
          ]}
-	],	
+],	
 	
-	"upgrades":[
+"upgrades":[
     
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
@@ -73,31 +72,31 @@
 	{"id":1901, "name":"Filter mask",	  	   	"pts":0},
 	{"id":1902, "name":"Medic kit",   			"pts":0},
 	{"id":1903, "name":"Picks",    	        		"pts":0}
-    
-    ],
-	"formationConstraints":[
-    
-		{"max":1, "name":"Captain",      "from":[200] },
-		{"max":1, "name":"First Mate",   "from":[201] },
-    
-		{"max":8, "name":"soldiers", "from":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608] },
-    
-		{"max":4, "name":"specialists", "from":[600,601,602,603,604,605,606,607,608]}
-    
-	],
-	"upgradeConstraints":[
 
-    {"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608]},
+],
+"formationConstraints":[
+    
+	{"max":1, "name":"Captain",      "from":[200] },
+	{"max":1, "name":"First Mate",   "from":[201] },
+    
+	{"max":8, "name":"soldiers", "from":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608] },
+    
+	{"max":4, "name":"specialists", "from":[600,601,602,603,604,605,606,607,608]}
+    
+],
+"upgradeConstraints":[
+	
+	{"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608]},
 
-		
-    {"min":1, "from":[1400], "appliesTo":[500]},
-    {"min":1, "from":[1200], "appliesTo":[500]},
-    {"min":1, "from":[1602], "appliesTo":[500]},
-    
-    
-    {"min":1, "from":[1400], "appliesTo":[501]},
-    {"min":1, "from":[1200], "appliesTo":[501]},
-    {"min":1, "from":[1602], "appliesTo":[501]}
-				
-	]
+	
+	{"min":1, "from":[1400], "appliesTo":[500]},
+	{"min":1, "from":[1200], "appliesTo":[500]},
+	{"min":1, "from":[1602], "appliesTo":[500]},
+
+	
+	{"min":1, "from":[1400], "appliesTo":[501]},
+	{"min":1, "from":[1200], "appliesTo":[501]},
+	{"min":1, "from":[1602], "appliesTo":[501]}
+			
+]
 }
