@@ -45,18 +45,16 @@
 	
 	"upgrades":[
     
-    /*------Races-----------------*/
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
     
-    
-    /*------Armours---------------*/
+	
    	{"id":1200, "name":"Light armour",			"pts":0},
 	{"id":1201, "name":"Heavy armour",			"pts":0},
 	{"id":1202, "name":"Combat armour",			"pts":0},
 	{"id":1203, "name":"Shield",      			"pts":0},
     
-    /*------Ranged Weapons--------*/
+		
     	{"id":1400, "name":"Pistol",		      		"pts":0},
 	{"id":1401, "name":"Carabine",			    	"pts":0},
 	{"id":1402, "name":"Shotgun",			        "pts":0},
@@ -65,12 +63,12 @@
 	{"id":1405, "name":"Flamethrower",    			"pts":0},
 	{"id":1406, "name":"Grenade Launcher",			"pts":0},
     
-    /*------Melee Weapons---------*/
+		
 	{"id":1600, "name":"Unarmed",				"pts":0},
 	{"id":1601, "name":"Hand weapon",	   		"pts":0},
 	{"id":1602, "name":"Knife",           			"pts":0},
     
-    /*------Equipment------------*/
+		
 	{"id":1900, "name":"Deck",		     		"pts":0},
 	{"id":1901, "name":"Filter mask",	  	   	"pts":0},
 	{"id":1902, "name":"Medic kit",   			"pts":0},
@@ -88,9 +86,7 @@
     
 	],
 	"upgradeConstraints":[
-		
- 
-    
+
     {"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608]},
 
 		
