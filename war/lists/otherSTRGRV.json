@@ -40,8 +40,9 @@
 		{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
 	]},
-	{"name":"ALLIES", "formations":[
-		{"id":701, "name":"x",		 	       "pts":0, "upgrades":[] }
+	{"name":"ALLIES AND LOOT STORED IN THE SHIP", "formations":[
+		{"id":701, "name":"x",				"pts":0, "upgrades":[] },
+		{"id":702, "name":"Stored in the ship",		"pts":0, "upgrades":[] }
         ]}
 ],	
 	
