@@ -6,34 +6,34 @@
   
 	"sections":[
     {"name":"Commanders", "formations":[
-			{"id":200, "name":"Commander", 		  "pts":0, "upgrades":[] },
-			{"id":201, "name":"First Mate", 	  "pts":0, "upgrades":[] }
+			{"id":200, "name":"Commander", 		  	"pts":0, "upgrades":[] },
+			{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
       
          ]},
 		{"name":"STANDARD SOLDIERS", "formations":[
-			{"id":500, "name":"Recruit", 		  "pts":0, "upgrades":[] },
-			{"id":501, "name":"Runner", 		  "pts":0, "upgrades":[] },
+			{"id":500, "name":"Recruit", 			"pts":0, "upgrades":[] },
+			{"id":501, "name":"Runner", 			"pts":0, "upgrades":[] },
       
-			{"id":502, "name":"Hacker", 		  "pts":20, "upgrades":[] },
-			{"id":503, "name":"Chiseler", 		"pts":20, "upgrades":[] },
+			{"id":502, "name":"Hacker",			"pts":20, "upgrades":[] },
+			{"id":503, "name":"Chiseler",			"pts":20, "upgrades":[] },
       
-			{"id":504, "name":"Guard dog", 		"pts":10, "upgrades":[] },
-			{"id":505, "name":"Sentry", 	  	"pts":50, "upgrades":[] },
+			{"id":504, "name":"Guard dog", 			"pts":10, "upgrades":[] },
+			{"id":505, "name":"Sentry", 		  	"pts":50, "upgrades":[] },
       
-			{"id":506, "name":"Trooper", 		  "pts":50, "upgrades":[] },
-			{"id":507, "name":"Medic", 	    	"pts":100, "upgrades":[] }
+			{"id":506, "name":"Trooper", 			"pts":50, "upgrades":[] },
+			{"id":507, "name":"Medic", 		    	"pts":100, "upgrades":[] }
       
          ]},
 		{"name":"SPECIALIST SOLDIERS", "formations":[
-			{"id":600, "name":"Codebreaker",				"pts":75, "upgrades":[] },
-			{"id":601, "name":"Casecracker",				"pts":75, "upgrades":[] },
+			{"id":600, "name":"Codebreaker",			"pts":75, "upgrades":[] },
+			{"id":601, "name":"Casecracker",			"pts":75, "upgrades":[] },
 			{"id":602, "name":"Commando",		    		"pts":75, "upgrades":[] },
       
 			{"id":603, "name":"Pathfinder",			  	"pts":100, "upgrades":[] },
 			{"id":604, "name":"Sniper",		      		"pts":100, "upgrades":[] },
 			{"id":605, "name":"Grenadier",		  		"pts":100, "upgrades":[] },
 			{"id":606, "name":"Burner",		  	    	"pts":100, "upgrades":[] },
-			{"id":607, "name":"Gunner",			    	  "pts":100, "upgrades":[] },
+			{"id":607, "name":"Gunner",			    	"pts":100, "upgrades":[] },
       
 			{"id":608, "name":"Armoured trooper",		"pts":150, "upgrades":[] }
 
@@ -46,35 +46,35 @@
 	"upgrades":[
     
     /*------Races-----------------*/
-		{"id":1000, "name":"Human",				"pts":0},
-		{"id":1001, "name":"Robot",				"pts":0},
+	{"id":1000, "name":"Human",				"pts":0},
+	{"id":1001, "name":"Robot",				"pts":0},
     
     
     /*------Armours---------------*/
-    {"id":1200, "name":"Light armour",				"pts":0},
-		{"id":1201, "name":"Heavy armour",				"pts":0},
-		{"id":1202, "name":"Combat armour",				"pts":0},
-		{"id":1203, "name":"Shield",      				"pts":0},
+   	{"id":1200, "name":"Light armour",			"pts":0},
+	{"id":1201, "name":"Heavy armour",			"pts":0},
+	{"id":1202, "name":"Combat armour",			"pts":0},
+	{"id":1203, "name":"Shield",      			"pts":0},
     
     /*------Ranged Weapons--------*/
-    {"id":1400, "name":"Pistol",		      		"pts":0},
-		{"id":1401, "name":"Carabine",			    	"pts":0},
-		{"id":1402, "name":"Shotgun",		          "pts":0},
-		{"id":1403, "name":"Rapid fire",      		"pts":0},
-		{"id":1404, "name":"Grenades",	        	"pts":0},
-		{"id":1405, "name":"Flamethrower",    		"pts":0},
-		{"id":1406, "name":"Grenade Launcher",		"pts":0},
+    	{"id":1400, "name":"Pistol",		      		"pts":0},
+	{"id":1401, "name":"Carabine",			    	"pts":0},
+	{"id":1402, "name":"Shotgun",			        "pts":0},
+	{"id":1403, "name":"Rapid fire",      			"pts":0},
+	{"id":1404, "name":"Grenades",	        		"pts":0},
+	{"id":1405, "name":"Flamethrower",    			"pts":0},
+	{"id":1406, "name":"Grenade Launcher",			"pts":0},
     
     /*------Melee Weapons---------*/
-    {"id":1600, "name":"Unarmed",		      		"pts":0},
-		{"id":1601, "name":"Hand weapon",			   	"pts":0},
-		{"id":1602, "name":"Knife",           		"pts":0},
+	{"id":1600, "name":"Unarmed",				"pts":0},
+	{"id":1601, "name":"Hand weapon",	   		"pts":0},
+	{"id":1602, "name":"Knife",           			"pts":0},
     
     /*------Equipment------------*/
-    {"id":1900, "name":"Deck",		        		"pts":0},
-		{"id":1901, "name":"Filter mask",	  	   	"pts":0},
-		{"id":1902, "name":"Medic kit",   		    "pts":0},
-		{"id":1903, "name":"Picks",    	        	"pts":0}
+	{"id":1900, "name":"Deck",		     		"pts":0},
+	{"id":1901, "name":"Filter mask",	  	   	"pts":0},
+	{"id":1902, "name":"Medic kit",   			"pts":0},
+	{"id":1903, "name":"Picks",    	        		"pts":0}
     
     ],
 	"formationConstraints":[
