@@ -27,7 +27,7 @@
 		
          ]},
 		{"name":"FOLLOWERS OF CHAOS", "formations":[
-			{"id":8, "name":"Assorted Horde",				"pts":0,  "upgrades":[12,13,14, 200,201,202,203]},
+			{"id":8, "name":"Daemonic hordes",				"pts":0,  "upgrades":[12,13,14, 200,201,202,203]},
 			
 			{"id":402, "name":"Followers of Malal",				"pts":0,  "upgrades":[16,17,18, 200,201,202,203]},
 			{"id":502, "name":"Followers of Khorne",			"pts":0,  "upgrades":[103,104,105, 200,201,202,203]},
@@ -99,7 +99,7 @@
 		{"max":1, "from":[1000]},
 		
 		{"max":1, "name":"Ruinstorm Greater Deamons",	"from":[9], "forEach":[10], "name2":"Horrors from the Immaterium""},
-		{"max":1, "from":[8], "forEach":[10], "name2":"Horrors from the Immaterium""},
+		{"max":1, "name":"Daemonic hordes",		"from":[8], "forEach":[10], "name2":"Horrors from the Immaterium""},
 		
 		{"max":1, "name":"Malal Greater Deamons",	"from":[401], "forEach":[400], "name2":"Malal Deamonic Hordes"},
 		{"max":1, "name":"Followers of Malal",		"from":[402], "forEach":[400], "name2":"Malal Deamonic Hordes"},
