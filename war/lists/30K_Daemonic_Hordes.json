@@ -98,9 +98,6 @@
 	"formationConstraints":[
 		{"max":1, "from":[1000]},
 		
-		{"max":1, "name":"Ruinstorm Greater Deamons",	"from":[9], "forEach":[10], "name2":"Horrors from the Immaterium""},
-	/*	{"max":1, "name":"Daemonic hordes",		"from":[8], "forEach":[10], "name2":"Horrors from the Immaterium""},*/
-		
 		{"max":1, "name":"Malal Greater Deamons",	"from":[401], "forEach":[400], "name2":"Malal Deamonic Hordes"},
 		{"max":1, "name":"Followers of Malal",		"from":[402], "forEach":[400], "name2":"Malal Deamonic Hordes"},
 		
