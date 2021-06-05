@@ -55,7 +55,7 @@
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
 	{"id":1002, "name":"Animal",				"pts":0},
-	0
+	
 
 	{"id":1200, "name":"Light armour",			"pts":0},
 	{"id":1201, "name":"Heavy armour",			"pts":0},
