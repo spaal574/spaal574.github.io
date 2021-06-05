@@ -2,11 +2,7 @@
 "id":"Stargrave",
 "version":"v 0.0.3",
 "by":"spaal574",
-"notes":["1 captain",
-	 "1 first mate",
-	 "8 soldiers 4 of which can be specialists",
-	 "400 credits"
-	],
+"notes":["400 credits"],
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
