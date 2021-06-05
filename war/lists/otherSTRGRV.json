@@ -30,10 +30,11 @@
 	{"name":"SPECIALIST SOLDIERS", "formations":[
 		{"id":600, "name":"Codebreaker",		"pts":75, "upgrades":[] },
 		{"id":601, "name":"Casecracker",		"pts":75, "upgrades":[] },
-		{"id":602, "name":"Commando",	    		"pts":75, "upgrades":[] },
-      
+		{"id":602, "name":"Commando",	    		"pts":75, "upgrades":[] },     
+		
 		{"id":603, "name":"Pathfinder",		  	"pts":100, "upgrades":[] },
 		{"id":604, "name":"Sniper",	      		"pts":100, "upgrades":[] },
+		
 		{"id":605, "name":"Grenadier",	  		"pts":100, "upgrades":[] },
 		{"id":606, "name":"Burner",	  	    	"pts":100, "upgrades":[] },
 		{"id":607, "name":"Gunner",		    	"pts":100, "upgrades":[] },
@@ -43,16 +44,18 @@
 	]},
 	{"name":"ALLIES AND OTHER STUFF", "formations":[
 		{"id":701, "name":"Alien",				"pts":0, "upgrades":[] },
-		{"id":702, "name":"Loot stored in the ship",		"pts":0, "upgrades":[] }
+		{"id":702, "name":"Loot stored in the ship",		"pts":0, "upgrades":[2000] }
         ]}
 ],	
 	
 "upgrades":[
 
+	{"id":2000, "name":"10 Credits",			"pts":0},
+	
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
 	{"id":1002, "name":"Animal",				"pts":0},
-	
+	0
 
 	{"id":1200, "name":"Light armour",			"pts":0},
 	{"id":1201, "name":"Heavy armour",			"pts":0},
@@ -128,7 +131,7 @@
 
 	{"min":1, "from":[1401], "appliesTo":[601]},
 	{"min":1, "from":[1200], "appliesTo":[601]},
-	{"min":1, "from":[1902], "appliesTo":[601]},
+	{"min":1, "from":[1903], "appliesTo":[601]},
 	{"min":1, "from":[1602], "appliesTo":[601]},
 
 	{"min":1, "from":[1401], "appliesTo":[602]},
