@@ -14,7 +14,6 @@
 		{"id":201, "name":"Captain(Cyborg)", 		  	"pts":0, "upgrades":[] },
 		{"id":202, "name":"Captain(Mystic)", 		  	"pts":0, "upgrades":[] },
 		{"id":203, "name":"Captain(Robotics Expert)", 	  	"pts":0, "upgrades":[] },
-		{"id":204, "name":"Captain(Rogue)"			"pts":0, "upgrades":[] },
 		{"id":205, "name":"Captain(Psyonicist)", 	  	"pts":0, "upgrades":[] },
 		{"id":206, "name":"Captain(Tekker)", 		  	"pts":0, "upgrades":[] },
 		{"id":207, "name":"Captain(Veteran)", 		  	"pts":0, "upgrades":[] },
