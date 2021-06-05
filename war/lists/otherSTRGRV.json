@@ -10,8 +10,24 @@
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
-		{"id":200, "name":"Captain", 		  	"pts":0, "upgrades":[] },
-		{"id":201, "name":"First Mate", 		"pts":0, "upgrades":[] }
+		{"id":200, "name":"Captain(Biomorph)", 		  	"pts":0, "upgrades":[] },
+		{"id":201, "name":"Captain(Cyborg)", 		  	"pts":0, "upgrades":[] },
+		{"id":202, "name":"Captain(Mystic)", 		  	"pts":0, "upgrades":[] },
+		{"id":203, "name":"Captain(Robotics Expert)", 	  	"pts":0, "upgrades":[] },
+		{"id":204, "name":"Captain(Rogue)" 		  	"pts":0, "upgrades":[] },
+		{"id":205, "name":"Captain(Psyonicist)", 	  	"pts":0, "upgrades":[] },
+		{"id":206, "name":"Captain(Tekker)", 		  	"pts":0, "upgrades":[] },
+		{"id":207, "name":"Captain(Veteran)", 		  	"pts":0, "upgrades":[] },
+	
+		{"id":208, "name":"First Mate(Biomorph)", 		"pts":0, "upgrades":[] },
+		{"id":209, "name":"First Mate(Cyborg)", 		"pts":0, "upgrades":[] },
+		{"id":210, "name":"First Mate(Mystic)", 		"pts":0, "upgrades":[] },
+		{"id":211, "name":"First Mate(Robotics Expert)",   	"pts":0, "upgrades":[] },
+		{"id":212, "name":"First Mate(Rogue)", 			"pts":0, "upgrades":[] },
+		{"id":213, "name":"First Mate(Psyonicist)", 		"pts":0, "upgrades":[] },
+		{"id":214, "name":"First Mate(Tekker)", 		"pts":0, "upgrades":[] },
+		{"id":215, "name":"First Mate(Veteran)", 		"pts":0, "upgrades":[] }
+	
 	]},
 	{"name":"STANDARD SOLDIERS", "formations":[
 		{"id":500, "name":"Recruit", 			"pts":0, "upgrades":[] },
@@ -85,8 +101,8 @@
 ],
 "formationConstraints":[
     
-	{"max":1, "name":"Captain",      "from":[200] },
-	{"max":1, "name":"First Mate",   "from":[201] },
+	{"max":1, "name":"Captain",      "from":[200,201,202,203,204,205,206,207] },
+	{"max":1, "name":"First Mate",   "from":[208,209,210,211,212,213,214,215] },
     
 	{"max":8, "name":"soldiers", "from":[500,501,502,503,504,505,506,507,600,601,602,603,604,605,606,607,608] },
     
