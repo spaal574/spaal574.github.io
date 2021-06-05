@@ -126,12 +126,9 @@
 	{"min":1, "from":[1401], "appliesTo":[601]},
 	{"min":1, "from":[1200], "appliesTo":[601]},
 	{"min":1, "from":[1903], "appliesTo":[601]},
-	{"min":1, "from":[1603], "appliesTo":[601]},
 
 	{"min":1, "from":[1401], "appliesTo":[602]},
-	{"min":1, "from":[1404], "appliesTo":[602]},
 	{"min":1, "from":[1201], "appliesTo":[602]},
-	{"min":1, "from":[1601], "appliesTo":[602]},
 	
 	{"min":1, "from":[1401], "appliesTo":[603]},
 	{"min":1, "from":[1404], "appliesTo":[603]},
