@@ -2,7 +2,11 @@
 "id":"Stargrave",
 "version":"v 0.0.3",
 "by":"spaal574",
-"notes":["400 credits"],
+"notes":["1 captain",
+	 "1 first mate",
+	 "8 soldiers 4 of which can be specialists",
+	 "400 credits"
+	],
   
 "sections":[
 	{"name":"COMMANDERS", "formations":[
@@ -125,10 +129,13 @@
 
 	{"min":1, "from":[1401], "appliesTo":[601]},
 	{"min":1, "from":[1200], "appliesTo":[601]},
-	{"min":1, "from":[1903], "appliesTo":[601]},
+	{"min":1, "from":[1902], "appliesTo":[601]},
+	{"min":1, "from":[1602], "appliesTo":[601]},
 
 	{"min":1, "from":[1401], "appliesTo":[602]},
+	{"min":1, "from":[1903], "appliesTo":[602]},
 	{"min":1, "from":[1201], "appliesTo":[602]},
+	{"min":1, "from":[1602], "appliesTo":[602]},
 	
 	{"min":1, "from":[1401], "appliesTo":[603]},
 	{"min":1, "from":[1404], "appliesTo":[603]},
