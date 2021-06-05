@@ -30,11 +30,10 @@
 	{"name":"SPECIALIST SOLDIERS", "formations":[
 		{"id":600, "name":"Codebreaker",		"pts":75, "upgrades":[] },
 		{"id":601, "name":"Casecracker",		"pts":75, "upgrades":[] },
-		
 		{"id":602, "name":"Commando",	    		"pts":75, "upgrades":[] },
+      
 		{"id":603, "name":"Pathfinder",		  	"pts":100, "upgrades":[] },
 		{"id":604, "name":"Sniper",	      		"pts":100, "upgrades":[] },
-		
 		{"id":605, "name":"Grenadier",	  		"pts":100, "upgrades":[] },
 		{"id":606, "name":"Burner",	  	    	"pts":100, "upgrades":[] },
 		{"id":607, "name":"Gunner",		    	"pts":100, "upgrades":[] },
@@ -138,9 +137,9 @@
 	{"min":1, "from":[1602], "appliesTo":[602]},
 	
 	{"min":1, "from":[1401], "appliesTo":[603]},
-	{"min":1, "from":[1404], "appliesTo":[603]},
+	{"min":1, "from":[1903], "appliesTo":[603]},
 	{"min":1, "from":[1200], "appliesTo":[603]},
-	{"min":1, "from":[1601], "appliesTo":[603]},
+	{"min":1, "from":[1602], "appliesTo":[603]},
 	
 	{"min":1, "from":[1401], "appliesTo":[604]},
 	{"min":1, "from":[1200], "appliesTo":[604]},
