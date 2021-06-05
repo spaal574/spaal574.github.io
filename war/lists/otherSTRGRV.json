@@ -129,7 +129,7 @@
 
 	{"min":1, "from":[1401], "appliesTo":[601]},
 	{"min":1, "from":[1200], "appliesTo":[601]},
-	{"min":1, "from":[1902], "appliesTo":[601]},
+	{"min":1, "from":[1903], "appliesTo":[601]},
 	{"min":1, "from":[1603], "appliesTo":[601]},
 
 	{"min":1, "from":[1401], "appliesTo":[602]},
