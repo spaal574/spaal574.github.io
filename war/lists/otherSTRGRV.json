@@ -131,6 +131,7 @@
 	{"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,505,506,507,600,601,602,603,604,605,606,607,608]},
 	{"min":1, "from":[1002], "appliesTo":[504]},
 	
+	/*Captain and first mate stats increases*/
 	
 	{"min":1, "from":[10], "appliesTo":[200]},
 	{"min":2, "from":[11,12,13], "appliesTo":[200]},
@@ -161,8 +162,35 @@
 	{"min":1, "from":[11,12,13], "appliesTo":[207]},
 	
 	
+	{"min":1, "from":[10], "appliesTo":[208]},
+	{"min":2, "from":[11,12,13], "appliesTo":[208]},
 	
+	{"min":1, "from":[10], "appliesTo":[209]},
+	{"min":2, "from":[11,12,13], "appliesTo":[209]},
 	
+	{"min":1, "from":[15], "appliesTo":[210]},
+	{"min":1, "from":[10], "appliesTo":[210]},
+	{"min":1, "from":[11,12,13], "appliesTo":[210]},
+	
+	{"min":1, "from":[14], "appliesTo":[211]},
+	{"min":2, "from":[11,12,13], "appliesTo":[211]},
+
+	{"min":1, "from":[14], "appliesTo":[212]},
+	{"min":1, "from":[10], "appliesTo":[212]},
+	{"min":2, "from":[11,12,13], "appliesTo":[212]},
+	
+	{"min":1, "from":[15], "appliesTo":[213]},
+	{"min":1, "from":[10], "appliesTo":[213]},
+	{"min":1, "from":[11,12,13], "appliesTo":[213]},
+	
+	{"min":1, "from":[15], "appliesTo":[214]},
+	{"min":2, "from":[11,12,13], "appliesTo":[214]},
+	
+	{"min":1, "from":[12], "appliesTo":[215]},
+	{"min":1, "from":[10], "appliesTo":[215]},
+	{"min":1, "from":[11,12,13], "appliesTo":[215]},
+	
+	/*Soldier equipment*/
 	{"min":1, "from":[1400], "appliesTo":[500]},
 	{"min":1, "from":[1200], "appliesTo":[500]},
 	{"min":1, "from":[1602], "appliesTo":[500]},
