@@ -66,6 +66,23 @@
 	
 "upgrades":[
 
+	{"id":10, "name":"+1 Health",			"pts":0},
+	{"id":11, "name":"+1 Move",			"pts":0},
+	{"id":12, "name":"+1 Fight",			"pts":0},
+	{"id":13, "name":"+1 Shoot",			"pts":0},
+	{"id":14, "name":"+1 Will",			"pts":0},
+	{"id":15, "name":"+2 Will",			"pts":0},
+	
+	
+	{"id":20, "name":"+1 Health",			"pts":0},
+	{"id":21, "name":"+1 Move",			"pts":0},
+	{"id":22, "name":"+1 Fight",			"pts":0},
+	{"id":23, "name":"+1 Shoot",			"pts":0},
+	{"id":24, "name":"+1 Will",			"pts":0},
+	{"id":25, "name":"+2 Will",			"pts":0},
+	
+	
+	
 	{"id":2000, "name":"10 Credits",			"pts":0},
 	
 	{"id":1000, "name":"Human",				"pts":0},
@@ -113,6 +130,38 @@
 	
 	{"min":1, "from":[1000,1001], "appliesTo":[500,501,502,503,505,506,507,600,601,602,603,604,605,606,607,608]},
 	{"min":1, "from":[1002], "appliesTo":[504]},
+	
+	
+	{"min":1, "from":[10], "appliesTo":[200]},
+	{"min":2, "from":[11,12,13], "appliesTo":[200]},
+	
+	{"min":1, "from":[10], "appliesTo":[201]},
+	{"min":2, "from":[11,12,13], "appliesTo":[201]},
+	
+	{"min":1, "from":[15], "appliesTo":[202]},
+	{"min":1, "from":[10], "appliesTo":[202]},
+	{"min":1, "from":[11,12,13], "appliesTo":[202]},
+	
+	{"min":1, "from":[14], "appliesTo":[203]},
+	{"min":2, "from":[11,12,13], "appliesTo":[203]},
+
+	{"min":1, "from":[14], "appliesTo":[204]},
+	{"min":1, "from":[10], "appliesTo":[204]},
+	{"min":2, "from":[11,12,13], "appliesTo":[204]},
+	
+	{"min":1, "from":[15], "appliesTo":[205]},
+	{"min":1, "from":[10], "appliesTo":[205]},
+	{"min":1, "from":[11,12,13], "appliesTo":[205]},
+	
+	{"min":1, "from":[15], "appliesTo":[206]},
+	{"min":2, "from":[11,12,13], "appliesTo":[206]},
+	
+	{"min":1, "from":[12], "appliesTo":[207]},
+	{"min":1, "from":[10], "appliesTo":[207]},
+	{"min":1, "from":[11,12,13], "appliesTo":[207]},
+	
+	
+	
 	
 	{"min":1, "from":[1400], "appliesTo":[500]},
 	{"min":1, "from":[1200], "appliesTo":[500]},
