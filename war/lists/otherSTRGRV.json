@@ -74,12 +74,38 @@
 	{"id":15, "name":"+2 Will",			"pts":0},
 	
 	
-	{"id":20, "name":"+1 Health",			"pts":0},
-	{"id":21, "name":"+1 Move",			"pts":0},
-	{"id":22, "name":"+1 Fight",			"pts":0},
-	{"id":23, "name":"+1 Shoot",			"pts":0},
-	{"id":24, "name":"+1 Will",			"pts":0},
-	{"id":25, "name":"+2 Will",			"pts":0},
+	{"id":20, "name":"Adrenaline Surge(12)",	"pts":0},
+	{"id":21, "name":"Antigravity Projection(10)",	"pts":0},
+	{"id":22, "name":"Armour Plates(10)",		"pts":0},
+	{"id":23, "name":"Armoury(10)",			"pts":0},
+	{"id":24, "name":"Bait and Switch(12)",		"pts":0},
+	{"id":25, "name":"Break Lock(12)",		"pts":0},
+		
+	{"id":27, "name":"Bribe(14)",			"pts":0},
+	{"id":28, "name":"Camouflage(10)",		"pts":0},
+	{"id":29, "name":"Cancel Power(12)",		"pts":0},
+	{"id":30, "name":"Command(10)",			"pts":0},
+	
+	{"id":31, "name":"Concealed Firearm(10)",	"pts":0},
+	{"id":32, "name":"Control Animal(10)",		"pts":0},
+	{"id":33, "name":"Control Robot(10)",		"pts":0},
+	{"id":34, "name":"Coordinated Fire(10)",	"pts":0},
+	{"id":35, "name":"Create Robot(14)",		"pts":0},
+	
+	{"id":36, "name":"Dark Energy(10)",		"pts":0},
+	{"id":37, "name":"Data Jump(10)",		"pts":0},
+	{"id":38, "name":"Data Knock(12)",		"pts":0},
+	{"id":39, "name":"Data Skip(12)",		"pts":0},
+	{"id":40, "name":"Destroy Weapon(12)",		"pts":0},
+	{"id":41, "name":"Drone(10)",			"pts":0},
+	
+	{"id":42, "name":"ElectroMagnetic Pulse(10)",	"pts":0},
+	{"id":43, "name":"Energy Shield(10)",		"pts":0},
+	{"id":44, "name":"Fling(8)",			"pts":0},
+	{"id":45, "name":"Fortune(12)",			"pts":0},
+	{"id":46, "name":"Haggle(10)",			"pts":0},
+	
+	{"id":47, "name":"Drone(10)",			"pts":0},
 	
 	
 	
