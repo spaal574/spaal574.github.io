@@ -47,7 +47,7 @@
 		{"id":4, "name":"Slaughterer Cyber-King",			"pts":100},
 		{"id":5, "name":"Silica Animus Cogi-Coordinator Construct",	"pts":100},
 		{"id":6, "name":"Techno-Arcana Salvager-Tinkerer",		"pts":100},
-		{"id":11, "name":"Arch-Heretek Coordinator",			"pts":100},
+		{"id":11, "name":"Arch-Heretek Coordinator on Veleequs Construct", "pts":100},
 		
 		{"id":12, "name":"Heretek Prime",				"pts":50},
    		{"id":13, "name":"Heretek",					"pts":25},
