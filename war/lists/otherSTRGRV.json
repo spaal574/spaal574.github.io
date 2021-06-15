@@ -60,7 +60,7 @@
 	]},
 	{"name":"ALLIES AND OTHER STUFF", "formations":[
 		{"id":701, "name":"Alien",				"pts":0, "upgrades":[] },
-		{"id":702, "name":"Loot stored in the ship",		"pts":0, "upgrades":[2000] }
+		{"id":702, "name":"Loot stored in the ship",		"pts":0, "upgrades":[2000,2001,2002,2003,2004] }
         ]}
 ],	
 	
@@ -109,7 +109,11 @@
 	
 	
 	
-	{"id":2000, "name":"10 Credits",			"pts":0},
+	{"id":2000, "name":"1 Credits",				"pts":0},
+	{"id":2001, "name":"10 Credits",			"pts":0},
+	{"id":2002, "name":"100 Credits",			"pts":0},
+	{"id":2003, "name":"1000 Credits",			"pts":0},
+	{"id":2004, "name":"10000 Credits",			"pts":0},
 	
 	{"id":1000, "name":"Human",				"pts":0},
 	{"id":1001, "name":"Robot",				"pts":0},
