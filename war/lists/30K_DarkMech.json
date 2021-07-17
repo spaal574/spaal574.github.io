@@ -33,7 +33,7 @@
          ]},
 		{"name":"CYBERTHEURGY AND SORCERER POWERS", "formations":[
 			{"id":801, "name":"Passive:Revenant Alchemistry",		"pts":0, "upgrades":[]},
-			{"id":802, "name":"TEST2",		    			"pts":0, "upgrades":[]},
+			{"id":802, "name":"Passive:Stataraga",	    			"pts":0, "upgrades":[]},
 			{"id":803, "name":"TEST3",		    			"pts":0, "upgrades":[]},
 			{"id":804, "name":"TEST4",		    			"pts":0, "upgrades":[]},
 			{"id":805, "name":"TEST5",		    			"pts":0, "upgrades":[]},
@@ -109,7 +109,7 @@
 	"upgradeConstraints":[
 		{"min":0, "max":1, "from":[1,2,3,4,5,6,11,12], "appliesTo":[500,504,505,601]},
 		
-	        {"min":0, "max":1, "from":[34], 	"appliesTo":[501,502,503,505,507,600,608]},
+	        {"min":0, "max":1, "from":[34], 	"appliesTo":[500,501,502,503,505,507,600,608]},
 		
 	        {"min":0, "max":3, "from":[13], 	"appliesTo":[501,502,503,601,604]},
 	        {"min":0, "max":3, "from":[14], 	"appliesTo":[500,501,502]},
