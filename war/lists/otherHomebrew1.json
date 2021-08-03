@@ -33,7 +33,7 @@
 		{"id":206, "name":"Gas Troops", 		                      	"pts":400, "upgrades":[], "units":"6 Gas Canisters and 16 Gas Troops"}
 	]},
 	{"name":"VEHICLES", "formations":[
-		{"id":300, "name":"Scout Cars",	  	"pts":75,	"upgrades":[], "units":"4 Scout Cars"},
+		{"id":300, "name":"Scout Cars",	  	"pts":0,	"upgrades":[], "units":"4 Scout Cars"},
 		{"id":301, "name":"Light Tanks",	"pts":400,	"upgrades":[], "units":"5 Light Tanks"},
 		{"id":302, "name":"Medium Tanks",	"pts":600,	"upgrades":[], "units":"3 Medium Tanks"},
 		{"id":303, "name":"Heavy Tanks",	"pts":700,	"upgrades":[], "units":"2 Heavy Tanks"},
