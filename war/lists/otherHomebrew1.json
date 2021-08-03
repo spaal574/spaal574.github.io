@@ -101,8 +101,8 @@
   
 ],
 "formationConstraints":[
-  {"max":2, "name":"Support formation", "from":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "forEach":[200,201,202,203,204,205,206], "name2":"Core formation"},
-	{"max":2, "name":"Vehicle formation", "from":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "forEach":[300,301,302,303,304,305,306,307,308], "name2":"Core formation"}
+  {"max":2, "name":"Support formation", "from":[200,201,202,203,204,205,206], "forEach":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "name2":"Core formation"},
+	{"max":2, "name":"Vehicle formation", "from":[300,301,302,303,304,305,306,307,308], "forEach":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "name2":"Core formation"}
 
 ],
 "upgradeConstraints":[
