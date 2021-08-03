@@ -6,42 +6,42 @@
   
 "sections":[
 	{"name":"STANDARD SOLDIERS", "formations":[
-		{"id":100, "name":"Riflemen",   	  	        	"pts":150, "upgrades":[], "units":"20 Riflemen"},
+		{"id":100, "name":"Riflemen",   	  	       	"pts":150, "upgrades":[], "units":"20 Riflemen"},
 		{"id":101, "name":"Cavalry", 	    	          	"pts":150, "upgrades":[], "units":"10 cavalryman"},
-		{"id":102, "name":"Conscripts", 		          	"pts":150, "upgrades":[], "units":"25 Conscripts"},
-		{"id":103, "name":"Sentry Patrol",      		  	"pts":50, "upgrades":[], "units":"5 Riflemen"},
-		{"id":104, "name":"Trench Mortars",     		  	"pts":0, "upgrades":[], "units":"7 Riflemen and 4 Trench Mortars(Crew 2)"},
+		{"id":102, "name":"Conscripts", 		       	"pts":150, "upgrades":[], "units":"25 Conscripts"},
+		{"id":103, "name":"Sentry Patrol",      	  	"pts":50, "upgrades":[], "units":"5 Riflemen"},
+		{"id":104, "name":"Trench Mortars",     	  	"pts":0, "upgrades":[], "units":"7 Riflemen and 4 Trench Mortars(Crew 2)"},
 		{"id":105, "name":"Machinegun Squad", 		    	"pts":350, "upgrades":[], "units":"10 Riflemen and 3 Machinegun Teams(Crew 5)"},
 		{"id":106, "name":"Engineers", 		             	"pts":200, "upgrades":[], "units":"15 Engineers"},
-		{"id":107, "name":"--temp--",           		  	"pts":0, "upgrades":[] },
-		{"id":108, "name":"--temp--",            		  	"pts":0, "upgrades":[] },
+		{"id":107, "name":"--temp--",           	  	"pts":0, "upgrades":[] },
+		{"id":108, "name":"--temp--",            	  	"pts":0, "upgrades":[] },
 		{"id":109, "name":"--temp--", 		            	"pts":0, "upgrades":[] },
 		{"id":110, "name":"Light Artillery Battery", 		"pts":0, "upgrades":[] },
-		{"id":111, "name":"Medium Artillery Battery",  	"pts":0, "upgrades":[] },
+		{"id":111, "name":"Medium Artillery Battery",	  	"pts":0, "upgrades":[] },
 		{"id":112, "name":"Heavy Artillery Battery", 		"pts":0, "upgrades":[] },
 		{"id":113, "name":"--temp--",                		"pts":0, "upgrades":[] },
 		{"id":114, "name":"--temp--",   	            	"pts":0, "upgrades":[] },
-		{"id":115, "name":"--temp--", 	               	"pts":0, "upgrades":[] }
+		{"id":115, "name":"--temp--", 	       	        	"pts":0, "upgrades":[] }
 	]},
 	{"name":"SPECIALIST SOLDIERS AND FORTIFICATIONS", "formations":[
 		{"id":200, "name":"Assault Troops",  	                    		"pts":350, "upgrades":[], "units":"15 Assault Troops"},
-		{"id":201, "name":"Sniper Team",                        			"pts":0, "upgrades":[], "units":"2 Snipers"},
-		{"id":202, "name":"50cm of Trenches and/or Barbed Wire", 			"pts":0, "upgrades":[47,48], "units":""},
-		{"id":203, "name":"--temp--",                            			"pts":0, "upgrades":[] },
+		{"id":201, "name":"Sniper Team",                        		"pts":0, "upgrades":[], "units":"2 Snipers"},
+		{"id":202, "name":"50cm of Trenches and/or Barbed Wire", 		"pts":0, "upgrades":[47,48], "units":""},
+		{"id":203, "name":"--temp--",                            		"pts":0, "upgrades":[] },
 		{"id":204, "name":"--temp--", 	                           		"pts":0, "upgrades":[] },
-		{"id":205, "name":"--temp--", 			                          "pts":0, "upgrades":[] },
-		{"id":206, "name":"Gas Troops", 		                        	"pts":400, "upgrades":[], "units":""}
+		{"id":205, "name":"--temp--", 			                        "pts":0, "upgrades":[] },
+		{"id":206, "name":"Gas Troops", 		                      	"pts":400, "upgrades":[], "units":"6 Gas Canisters and 16 Gas Troops"}
 	]},
 	{"name":"VEHICLES", "formations":[
-		{"id":300, "name":"Scout Cars",	  	"pts":75, "upgrades":[], "units":""},
-		{"id":301, "name":"Light Tanks",		"pts":400, "upgrades":[], "units":"5 Light Tanks"},
-		{"id":302, "name":"Medium Tanks",		"pts":600, "upgrades":[], "units":"3 Medium Tanks"},
-		{"id":303, "name":"Heavy Tanks",	 	"pts":700, "upgrades":[], "units":"2 Heavy Tanks"},
-		{"id":304, "name":"Landship",	    	"pts":1200, "upgrades":[], "units":"Landship" },
-		{"id":305, "name":"Scout Plane",	 	"pts":0, "upgrades":[], "units":"1 Scout Plane"},
-		{"id":306, "name":"Fighters",	    	"pts":0, "upgrades":[], "units":"3 Fighters"},
-		{"id":307, "name":"Bombers",		    "pts":0, "upgrades":[], "units":"2 Bombers"},
-		{"id":308, "name":"Airship",	     	"pts":0, "upgrades":[], "units":"1 Airship"}
+		{"id":300, "name":"Scout Cars",	  	"pts":75,	"upgrades":[], "units":"4 Scout Cars"},
+		{"id":301, "name":"Light Tanks",	"pts":400,	"upgrades":[], "units":"5 Light Tanks"},
+		{"id":302, "name":"Medium Tanks",	"pts":600,	"upgrades":[], "units":"3 Medium Tanks"},
+		{"id":303, "name":"Heavy Tanks",	"pts":700,	"upgrades":[], "units":"2 Heavy Tanks"},
+		{"id":304, "name":"Landship",	    	"pts":1200,	"upgrades":[], "units":  "Landship" },
+		{"id":305, "name":"Scout Plane",	"pts":0,	"upgrades":[], "units":  "Scout Plane"},
+		{"id":306, "name":"Fighters",	    	"pts":0,	"upgrades":[], "units":"3 Fighters"},
+		{"id":307, "name":"Bombers",		"pts":0,	"upgrades":[], "units":"2 Bombers"},
+		{"id":308, "name":"Airship",	     	"pts":0,	"upgrades":[], "units":"1 Airship"}
 	]}
 ],	
 "upgrades":[
@@ -50,58 +50,58 @@
 	{"id":12, "name":"Light Machineguns(Upgrades a stand)",  		"pts":0},
 	{"id":13, "name":"Flamethrowers(Upgrades a stand)",     		"pts":0},
  
-	{"id":14, "name":"Armour",                          		  	"pts":0},
-	{"id":50, "name":"Helmets",                          		  	"pts":0},
-	{"id":15, "name":"Bayonets",                  			        "pts":0},
-	{"id":16, "name":"Gas Masks",                       	  		"pts":0},
+	{"id":14, "name":"Armour",			"pts":0},
+	{"id":50, "name":"Helmets",			"pts":0},
+	{"id":15, "name":"Bayonets",			"pts":0},
+	{"id":16, "name":"Gas Masks",			"pts":0},
 
 	{"id":17, "name":"Trucks",		  	"pts":0},
 	{"id":18, "name":"Bikes",		    	"pts":0},
   
-	{"id":19, "name":"AP Shell",		        	"pts":0},
-	{"id":20, "name":"HE Shell",		        	"pts":0},
-	{"id":21, "name":"Gas Shell",	        		"pts":0},
-	{"id":22, "name":"Frag Shells(inf)",			"pts":0},
+	{"id":19, "name":"AP Shell",		       	"pts":0},
+	{"id":20, "name":"HE Shell",		       	"pts":0},
+	{"id":21, "name":"Gas Shell",	        	"pts":0},
+	{"id":22, "name":"Frag Shells(inf)",		"pts":0},
   
 	{"id":23, "name":"Bomb",			"pts":0},
   
-	{"id":24, "name":"Offensive Grenades",			"pts":0},
-	{"id":25, "name":"Defensive Grenades",			"pts":0},
-	{"id":26, "name":"Smoke Grenades",  	  		"pts":0},
-	{"id":27, "name":"Gas Grenades",		      	"pts":0},
-	{"id":28, "name":"Anti-tank Grenades",			"pts":0},
-	{"id":29, "name":"Demolition Charge",		  	"pts":0},
+	{"id":24, "name":"Offensive Grenades",		"pts":0},
+	{"id":25, "name":"Defensive Grenades",		"pts":0},
+	{"id":26, "name":"Smoke Grenades",  		"pts":0},
+	{"id":27, "name":"Gas Grenades",	      	"pts":0},
+	{"id":28, "name":"Anti-tank Grenades",		"pts":0},
+	{"id":29, "name":"Demolition Charge",	  	"pts":0},
   
- 	{"id":30, "name":"Reinforced Unit",			"pts":0},
-	{"id":31, "name":"Reinforced Unit",			"pts":0},
-	{"id":32, "name":"Reinforced Unit",			"pts":0},
-	{"id":33, "name":"Reinforced Unit",			"pts":0},
-	{"id":34, "name":"Reinforced Unit",			"pts":0},
-	{"id":35, "name":"Reinforced Unit",			"pts":0},
+ 	{"id":30, "name":"Reinforced Unit",		"pts":0},
+	{"id":31, "name":"Reinforced Unit",		"pts":0},
+	{"id":32, "name":"Reinforced Unit",		"pts":0},
+	{"id":33, "name":"Reinforced Unit",		"pts":0},
+	{"id":34, "name":"Reinforced Unit",		"pts":0},
+	{"id":35, "name":"Reinforced Unit",		"pts":0},
   
 	{"id":36, "name":"Guards",  			"pts":0},  
 	{"id":37, "name":"Officer",  			"pts":0},    
   
-	{"id":38, "name":"--temp--",	           		"pts":0},
-	{"id":39, "name":"Infantry Support Gun",		"pts":0},
-	{"id":40, "name":"Anti-tank Gun",		       	"pts":0},
-	{"id":41, "name":"--temp--",	              "pts":0},
-	{"id":42, "name":"Trench Mortar",  	     		"pts":0},
-	{"id":43, "name":"--temp--",    	  	      "pts":0},
+	{"id":38, "name":"--temp--",	           	"pts":0},
+	{"id":39, "name":"Infantry Support Gun",	"pts":0},
+	{"id":40, "name":"Anti-tank Gun",	      	"pts":0},
+	{"id":41, "name":"--temp--",	          	"pts":0},
+	{"id":42, "name":"Trench Mortar",  	  	"pts":0},
+	{"id":43, "name":"--temp--",    	       	"pts":0},
   
-	{"id":44, "name":"--temp--",    	        		"pts":0},
-	{"id":45, "name":"--temp--",    	        		"pts":0},
-	{"id":46, "name":"--temp--",    	        		"pts":0},
+	{"id":44, "name":"--temp--",    	       	"pts":0},
+	{"id":45, "name":"--temp--",    	        "pts":0},
+	{"id":46, "name":"--temp--",    	       	"pts":0},
  
-	{"id":47, "name":"Small Bunker",   	        	"pts":30},
-	{"id":48, "name":"Artillery Positions",       "pts":20},
+	{"id":47, "name":"Small Bunker",   	        "pts":30},
+	{"id":48, "name":"Artillery Positions",       	"pts":20},
   
-	{"id":49, "name":"--temp--",    	        		"pts":0},
-	{"id":51, "name":"--temp--",    	        		"pts":0}
+	{"id":49, "name":"--temp--",    	       	"pts":0},
+	{"id":51, "name":"--temp--",    	       	"pts":0}
   
 ],
 "formationConstraints":[
-  {"max":2, "name":"Support formation", "from":[200,201,202,203,204,205,206], "forEach":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "name2":"Core formation"},
+	{"max":2, "name":"Support formation", "from":[200,201,202,203,204,205,206], "forEach":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "name2":"Core formation"},
 	{"max":2, "name":"Vehicle formation", "from":[300,301,302,303,304,305,306,307,308], "forEach":[100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115], "name2":"Core formation"}
 
 ],
