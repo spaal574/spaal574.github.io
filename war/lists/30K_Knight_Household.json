@@ -11,50 +11,50 @@
 			{"id":600, "name":"Cerastus  Knights",			"pts":-75, "upgrades":[110,111,112,113, 200,201,202,203,204]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":699, "name":"Acastus Knight Porphyrion",	"pts":0,  "upgrades":[202,203,402]}
+			{"id":699, "name":"Acastus Knights",	"pts":0,  "upgrades":[202,203,402,403]}
 		]},
 		{"name":"LEGIO TITANICUS COHESIVE ALLIES", "formations":[
 			{"id":700, "name":"Warhound Scout Pack",		"pts":500,  "upgrades":[350], "units":"2 Warhound Scout Titans"},
-            {"id":701, "name":"Reaver Titan",				"pts":575,  "upgrades":[350,351,352], "units":"1 Reaver Titan"},
-			{"id":702, "name":"Warlord Titan",				"pts":725,  "upgrades":[350,351,352], "units":"1 Warlord Titan"},
+          		{"id":701, "name":"Reaver Titan",			"pts":575,  "upgrades":[350,351,352], "units":"1 Reaver Titan"},
+			{"id":702, "name":"Warlord Titan",			"pts":725,  "upgrades":[350,351,352], "units":"1 Warlord Titan"},
 		 	{"id":703, "name":"Emperor Class Titan",		"pts":1350, "upgrades":[350,400,401]}
 		
          ]}
 	],	
 	
 	"upgrades":[
-		{"id":100, "name":"Questorius Knight-Paladin",						"pts":100},
-		{"id":101, "name":"Questorius Knight-Errant",						"pts":100},
-		{"id":102, "name":"Questorius Knight-Gallant",						"pts":125},
-		{"id":103, "name":"Questorius Knight-Magaera",						"pts":125},
-		{"id":104, "name":"Questorius Knight-Crusader",						"pts":125},
-		{"id":105, "name":"Questorius Knight-Styrix",						"pts":125},
-		{"id":106, "name":"Questorius Knight-Warden",						"pts":125},
+		{"id":100, "name":"Questorius Knight-Paladin",					"pts":100},
+		{"id":101, "name":"Questorius Knight-Errant",					"pts":100},
+		{"id":102, "name":"Questorius Knight-Gallant",					"pts":125},
+		{"id":103, "name":"Questorius Knight-Magaera",					"pts":125},
+		{"id":104, "name":"Questorius Knight-Crusader",					"pts":125},
+		{"id":105, "name":"Questorius Knight-Styrix",					"pts":125},
+		{"id":106, "name":"Questorius Knight-Warden",					"pts":125},
 		
-		{"id":110, "name":"Cerastus  Knight-Lancer",						"pts":125},
-		{"id":111, "name":"Cerastus  Knight-Castigator",					"pts":125},
-		{"id":112, "name":"Cerastus  Knight-Atropos",						"pts":150},
-		{"id":113, "name":"Cerastus  Knight-Acheron",						"pts":150},
+		{"id":110, "name":"Cerastus  Knight-Lancer",					"pts":125},
+		{"id":111, "name":"Cerastus  Knight-Castigator",				"pts":125},
+		{"id":112, "name":"Cerastus  Knight-Atropos",					"pts":150},
+		{"id":113, "name":"Cerastus  Knight-Acheron",					"pts":150},
 
 	
-		{"id":200, "name":"Upgrade: Aspirants",								"pts":-50},
-		{"id":201, "name":"Upgrade: Scions of Uhlan",						"pts":0},
-		{"id":202, "name":"Character: Lord Scion",							"pts":25},
-		{"id":203, "name":"Character: Preceptor",							"pts":25},
-	    {"id":204, "name":"Character: Seneschal",							"pts":75},
+		{"id":200, "name":"Upgrade: Aspirants",						"pts":-50},
+		{"id":201, "name":"Upgrade: Scions of Uhlan",					"pts":0},
+		{"id":202, "name":"Character: Lord Scion",					"pts":25},
+		{"id":203, "name":"Character: Preceptor",					"pts":25},
+	    {"id":204, "name":"Character: Seneschal",						"pts":75},
 		
 		{"id":300, "name":"Scout Titan Weapon: Inferno Gun",				"pts":0},
 		{"id":301, "name":"Scout Titan Weapon: Vulcan Megabolter",			"pts":0},
 		{"id":302, "name":"Scout Titan Weapon: Plasma Blastgun",			"pts":0},
-		{"id":303, "name":"Scout Titan Weapon: Turbolaser Destructor",		"pts":25},
+		{"id":303, "name":"Scout Titan Weapon: Turbolaser Destructor",			"pts":25},
 		
 		{"id":304, "name":"Battle Titan Weapon: Laser Burner",				"pts":0},
-		{"id":305, "name":"Battle Titan Weapon: Corvus Assault Pord",		"pts":0},
-		{"id":306, "name":"Battle Titan Weapon: Carapace Landing Pad",		"pts":0},
+		{"id":305, "name":"Battle Titan Weapon: Corvus Assault Pord",			"pts":0},
+		{"id":306, "name":"Battle Titan Weapon: Carapace Landing Pad",			"pts":0},
 		{"id":307, "name":"Battle Titan Weapon: Plasma Cannon",				"pts":25},
 		{"id":308, "name":"Battle Titan Weapon: Gatling Blaster",			"pts":25},
-		{"id":309, "name":"Battle Titan Weapon: Apocalypse Rocket Launcher","pts":25},
-		{"id":310, "name":"Battle Titan Weapon: Close Combat Weapon",		"pts":25},
+		{"id":309, "name":"Battle Titan Weapon: Apocalypse Rocket Launcher",		"pts":25},
+		{"id":310, "name":"Battle Titan Weapon: Close Combat Weapon",			"pts":25},
 		{"id":311, "name":"Battle Titan Weapon: Melta Cannon",				"pts":50},
 		{"id":312, "name":"Battle Titan Weapon: Laser Blaster",				"pts":50},
 		{"id":313, "name":"Battle Titan Weapon: Volcano Cannon",			"pts":50},
@@ -62,14 +62,15 @@
 		{"id":315, "name":"Battle Titan Weapon: Support Missile",			"pts":75},
 		{"id":316, "name":"Battle Titan Weapon: Quake Cannon",				"pts":75},
 		
-		{"id":350, "name":"Veteran Princeps",								"pts":25},
+		{"id":350, "name":"Veteran Princeps",						"pts":25},
 		{"id":351, "name":"Air Defence: Carapace Multi-Lasers",				"pts":50},
-		{"id":352, "name":"Sacred Icon",									"pts":50},
+		{"id":352, "name":"Sacred Icon",						"pts":50},
 		
 		{"id":400, "name":"Support Titan: Imperator",					"pts":0},
 		{"id":401, "name":"Support Titan: Warmonger",					"pts":0},
 		
-		{"id":402, "name":"Acastus Knight Porphyrion",					"pts":250}
+		{"id":402, "name":"Acastus Knight Porphyrion",					"pts":250},
+		{"id":403, "name":"Acastus Knight Asterius",					"pts":250}
 		
 		
     ],
@@ -98,7 +99,7 @@
 		{"min":0, "max":1, "from":[352], "appliesTo":[701,702]},
 		
 		{"min":1, "max":1, "from":[400,401], "appliesTo":[703]},
-		{"min":1, "max":2, "from":[402], "appliesTo":[699]},
+		{"min":1, "max":2, "from":[402,403], "appliesTo":[699]},
 		
 		{"max":1, "perArmy":true, "from":[204]}
 	
