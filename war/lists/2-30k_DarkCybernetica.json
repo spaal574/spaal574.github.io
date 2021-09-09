@@ -7,7 +7,7 @@
 			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
 			{"id":501, "name":"Cataphract Maniple",		"pts":225, "upgrades":[10,11,12,13],		"units":"6 Cataphract Battle-Automata units"},
 			{"id":502, "name":"Castellax Cohort",		"pts":275, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"5 Castellax Battle-Automata units"},
-			{"id":503, "name":"Rho-Tau 17 Patrol",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
+			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
 			{"id":504, "name":"Hunter-Killer Maniple",	"pts":300, "upgrades":[]}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
