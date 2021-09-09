@@ -5,9 +5,14 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Rho-Tau 17 Patrol",			"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
+			{"id":501, "name":"Rho-Tau 17 Patrol",			"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
+			{"id":502, "name":"Rho-Tau 17 Patrol",			"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
+			{"id":503, "name":"Rho-Tau 17 Patrol",			"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
 			{"id":504, "name":"Hunter-Killer Maniple",		"pts":300, "upgrades":[]}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
+			{"id":600, "name":"Heretek Auxilia Maniple",	"pts":300, "upgrades":[10,11,12,13,100,103],			 	"units":"3 Heretek Tech-Manipulators"},
+			{"id":601, "name":"Heretek Auxilia Maniple",	"pts":300, "upgrades":[10,11,12,13,100,103],			 	"units":"3 Heretek Tech-Manipulators"},
 			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":300, "upgrades":[10,11,12,13,100,103],			 	"units":"3 Heretek Tech-Manipulators"},
 			{"id":603, "name":"Walking Cogitator Stack",	"pts":175, "upgrades":[10,11,12,13,100], 				"units":"1 Walking Cogitator Stack"},
 			{"id":604, "name":"Thanatar Maniple",		"pts":350, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]}
