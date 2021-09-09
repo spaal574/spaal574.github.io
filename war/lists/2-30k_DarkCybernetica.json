@@ -71,7 +71,7 @@
 		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
     
 		{"id":104, "name":"Siege Wreckers",			"pts":25},
-		{"id":105, "name":"Power-Blades",			"pts":25},
+		{"id":105, "name":"Bolters",				"pts":25},
 		{"id":106, "name":"Multi-Meltas",			"pts":25},
 		{"id":107, "name":"Flamers",				"pts":25},
 		{"id":108, "name":"Darkfire Cannons",			"pts":25}
