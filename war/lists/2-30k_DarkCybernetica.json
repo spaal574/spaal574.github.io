@@ -11,8 +11,8 @@
 			{"id":504, "name":"Hunter-Killer Maniple",	"pts":300, "upgrades":[]}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Domitar Cohort",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3 Heretek Tech-Manipulators"},
-			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"3 Heretek Tech-Manipulators"},
+			{"id":600, "name":"Domitar Cohort",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3 Domitar Battle-Automata"},
+			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"6 Vulturax Stratos-Automata"},
 			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":300, "upgrades":[10,11,12,13,100,103],		"units":"3 Heretek Tech-Manipulators"},
 			{"id":603, "name":"Walking Cogitator Stack",	"pts":175, "upgrades":[10,11,12,13,100], 		"units":"1 Walking Cogitator Stack"},
 			{"id":604, "name":"Thanatar Maniple",		"pts":350, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]}
@@ -60,14 +60,12 @@
 		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
 		{"id":34, "name":"Thanatar-Cynis w/ Plasma Mortar",		"pts":0},
     
-		{"id":51, "name":"Heretek",				"pts":0},
+		{"id":51, "name":"Datasmith",				"pts":0},
 		{"id":52, "name":"Heretek Prime",			"pts":25},
    		{"id":53, "name":"Cybernetica Myrmidon Secutor",	"pts":25},
 		{"id":54, "name":"Cybernetica Myrmidon Destructor",	"pts":25},
   
   		{"id":100, "name":"Scyllax",				"pts":50},
-		{"id":101, "name":"Bombot Horde",			"pts":25},
-		{"id":102, "name":"Cyber-Occularis",			"pts":50},
 		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
     
 		{"id":104, "name":"Siege Wreckers",			"pts":25},
