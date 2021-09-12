@@ -34,10 +34,10 @@
 		{"id":6, "name":"support upgrades",					"pts":100},
 		{"id":7, "name":"fast",							"pts":100},
     
-		{"id":10, "name":"Datasmith",						"pts":50},
+		{"id":10, "name":"Datasmith",						"pts":25},
 		{"id":11, "name":"Heretek Prime",					"pts":50},
 		{"id":12, "name":"Cybernetica Myrmidon Destructor",			"pts":50},
-		{"id":13, "name":"Cybernetica Myrmidon Secutor",			"pts":25},
+		{"id":13, "name":"Cybernetica Myrmidon Secutor",			"pts":50},
 		
     
 		{"id":14, "name":"Transport: Triaros",					"pts":75},
@@ -105,7 +105,7 @@
     
 		
  	{"min":0, "max":5, "from":[10,11,12,13],	"appliesTo":[503]},
- 	{"min":2, "max":5, "from":[13,11,12,10],	"appliesTo":[500,501,502,600,602,603,604,700,701]},
+ 	{"min":2, "max":5, "from":[10,11,12,13],	"appliesTo":[500,501,502,600,602,603,604,700,701]},
     
 
 	{"min":0, "max":1, "from":[1,2,3,4,5,6,7], 	"appliesTo":[500,501,502,600,602,603,604,700,701]},
