@@ -37,7 +37,7 @@
 		{"id":10, "name":"Cybernetica Myrmidon Secutor",			"pts":50},
 		{"id":11, "name":"Cybernetica Myrmidon Destructor",			"pts":50},
 		{"id":12, "name":"Heretek Prime",					"pts":50},
-		{"id":13, "name":"Heretek",						"pts":25},
+		{"id":13, "name":"Datasmith",						"pts":25},
 		
     
 		{"id":14, "name":"Transport: Triaros",					"pts":75},
