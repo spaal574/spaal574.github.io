@@ -5,13 +5,13 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":100, "upgrades":[1,2,3,4,5,6,7,54,53,52,51,100],	"units":"10 Rho-Tau 17 Security Automata units"},
-			{"id":501, "name":"Cataphract Maniple",		"pts":225, "upgrades":[10,11,12,13],		"units":"6 Cataphract Battle-Automata units"},
-			{"id":502, "name":"Castellax Cohort",		"pts":275, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5 Castellax Battle-Automata units"},
+			{"id":501, "name":"Cataphract Maniple",		"pts":175, "upgrades":[54,53,52,51],		"units":"6 Cataphract Battle-Automata units"},
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[1,2,3,4,5,6,7,54,53,52,51,104,105,107,106,108,100],	"units":"5 Castellax Battle-Automata units"},
 			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[4,5,6,7,10,11,12,13,100],	"units":"6 Vorax Battle-Automata units"},
 			{"id":504, "name":"Hunter-Killer Maniple",	"pts":300, "upgrades":[]}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Domitar Cohort",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3 Domitar Battle-Automata"},
+			{"id":600, "name":"Domitar Cohort",		"pts":200, "upgrades":[1,2,3,4,5,6,7,54,53,52,51,100],	"units":"3 Domitar Battle-Automata"},
 			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"6 Vulturax Stratos-Automata"},
 			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":300, "upgrades":[10,11,12,13,100,103],		"units":"3 Heretek Tech-Manipulators"},
 			{"id":603, "name":"Walking Cogitator Stack",	"pts":175, "upgrades":[10,11,12,13,100], 		"units":"1 Walking Cogitator Stack"},
@@ -105,7 +105,7 @@
     
 		
  	{"min":0, "max":5, "from":[10,11,12,13],	"appliesTo":[503]},
- 	{"min":0, "max":3, "from":[10,11,12,13],	"appliesTo":[501,502,600,602,603,604,700,701]},
+ 	{"min":0, "max":3, "from":[10,11,12,13],	"appliesTo":[600,602,603,604,700,701]},
 	{"min":2, "max":5, "from":[51,52,53,54],	"appliesTo":[500,501,502,600,602,603,604,700,701]},
     
 
