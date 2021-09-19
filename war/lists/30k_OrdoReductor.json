@@ -5,7 +5,7 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Adsecularis Covenant", 		"pts":150, "upgrades":[11,12,14,15,16,17,18,19,22], "units":"10 Tech-Thrall units"},
-			{"id":501, "name":"Thallax Cohort", 			"pts":300, "upgrades":[11,12,13,14,15,16,17,18,19,22], "units":"6 Thallax units" },
+			{"id":501, "name":"Thallax Cohort", 			"pts":250, "upgrades":[11,12,13,14,15,16,17,18,19,22], "units":"6 Thallax units" },
 			{"id":604, "name":"Myrmidon Sect",			"pts":300, "upgrades":[14,15,16,17,18,19,22,52,53]},
 			{"id":504, "name":"Castellax Cohort",			"pts":275, "upgrades":[11,12,20,21,22], "units":"5 Castellax Battle-Automata units"}
          ]},
@@ -26,8 +26,10 @@
 	
 	"upgrades":[
 		{"id":11, "name":"Archmagos Reductor",				"pts":100},
-		{"id":12, "name":"Magos Prime",					"pts":50},
+		{"id":12, "name":"Magos Prime Reductor",			"pts":50},
    		{"id":13, "name":"Tech Priest",					"pts":25},
+   		{"id":10, "name":"",						"pts":50},
+   		{"id":9, "name":"",						"pts":50},
 		
 		
 		{"id":14, "name":"Transport: Triaros",					"pts":75},
@@ -51,14 +53,15 @@
 		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":75},
 		{"id":22, "name":"Scyllax",					"pts":50},
 		
-		{"id":22, "name":"Lightning guns",				"pts":50},
-		{"id":23, "name":"Rad-cleansers",				"pts":50},
-		{"id":24, "name":"Multi-meltas",				"pts":50},
-		{"id":25, "name":"Photon Trusters",				"pts":50},
-		{"id":26, "name":"Augment:Icarian",				"pts":25},
-		{"id":27, "name":"Augment:Ferrox",				"pts":50},
-		{"id":28, "name":"Augment:Empyrite",				"pts":50},
-		{"id":29, "name":"Augment:Destructor",				"pts":50},	
+		{"id":41, "name":"Weapons:Lightning guns",				"pts":0},
+		{"id":42, "name":"Weapons:Phased Plasma Fusil",				"pts":25},
+		{"id":43, "name":"Weapons:Rad-cleansers",				"pts":50},
+		{"id":44, "name":"Weapons:Multi-meltas",				"pts":50},
+		{"id":45, "name":"Weapons:Photon Trusters",				"pts":50},
+		{"id":46, "name":"Augment:Icarian(gains /AA with same stats)",		"pts":25},
+		{"id":47, "name":"Augment:Ferrox(only lightning guns)",			"pts":50},
+		{"id":48, "name":"Augment:Empyrite(teleport)",				"pts":50},
+		{"id":49, "name":"Augment:Destructor(macro weapon against vehicles)",	"pts":50},	
 	
 		{"id":51, "name":"Tech Priest",					"pts":0},
 		{"id":52, "name":"Myrmidon Secutors",				"pts":0},
