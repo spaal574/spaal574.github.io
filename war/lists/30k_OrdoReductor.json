@@ -14,13 +14,13 @@
 			{"id":603, "name":"Karacnos Assault Squadron", 			"pts":300, "upgrades":[], 	"units":"4 Karacnos Assault Tanks"},
 			{"id":605, "name":"Reductor Artillery Battery", 		"pts":250, "upgrades":[]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
-			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]}
+			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
 			{"id":702, "name":"Imperial Navy Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
 			{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}
+			{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[]}
         ]}
 	],	
 	
@@ -29,10 +29,16 @@
 		{"id":12, "name":"Magos Prime",					"pts":50},
    		{"id":13, "name":"Tech Priest",					"pts":25},
 		
+		
 		{"id":14, "name":"Transport: Triaros",					"pts":75},
-		{"id":15, "name":"Transport: Land Raider w/ 2x Twin Lascannon",		"pts":75},
-		{"id":16, "name":"Transport: Land Raider w/ 2x Flamestorm Cannon",	"pts":75},
-		{"id":17, "name":"Transport: Land Raider w/ 2x Twin Multimelta",	"pts":75},
+		{"id":15, "name":"Transport: Land Raider w/ 2x Twin Lascannons",	"pts":75},
+		{"id":16, "name":"Transport: Land Raider w/ 2x Flamestorm Cannons",	"pts":75},
+		{"id":17, "name":"Transport: Land Raider w/ 2x Twin Multi-meltas",	"pts":75},
+		
+		{"id":23, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Heavy Flamers",		"pts":50},
+		{"id":24, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Twin Volkite Chargers",	"pts":50},
+		{"id":25, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Rad-cleansers",		"pts":50},
+		
 		
         	{"id":30, "name":"Krios Battle Tank",				"pts":0},
         	{"id":31, "name":"Krios Venator",				"pts":0},
@@ -40,20 +46,28 @@
         	{"id":18, "name":"Krios Battle Tank",				"pts":50},
         	{"id":19, "name":"Krios Venator",				"pts":50},
 		
+		
 		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":75},
 		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":75},
-		
-		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
-		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
-		
 		{"id":22, "name":"Scyllax",					"pts":50},
+		
+		{"id":22, "name":"Lightning guns",				"pts":50},
+		{"id":23, "name":"Rad-cleansers",				"pts":50},
+		{"id":24, "name":"Multi-meltas",				"pts":50},
+		{"id":25, "name":"Photon Trusters",				"pts":50},
+		{"id":26, "name":"Augment:Icarian",				"pts":25},
+		{"id":27, "name":"Augment:Ferrox",				"pts":50},
+		{"id":28, "name":"Augment:Empyrite",				"pts":50},
+		{"id":29, "name":"Augment:Destructor",				"pts":50},	
 	
 		{"id":51, "name":"Tech Priest",					"pts":0},
 		{"id":52, "name":"Myrmidon Secutors",				"pts":0},
 		{"id":53, "name":"Myrmidon Destructors",			"pts":0},	
+		
 		{"id":54, "name":"Tarantula Sentry Guns w/ Heavy bolter", 	"pts":0},
 		{"id":55, "name":"Tarantula Sentry Guns w/ Lascannon",		"pts":0},
 		{"id":56, "name":"Hyperios Sentry Guns",			"pts":50},
+		
 		
 		{"id":57, "name":"Ordinatus Minoris Tormenta w/ Belicosa Volcano Cannon",	"pts":0},
 		{"id":58, "name":"Ordinatus Minoris Tormenta w/ Ulator Sonic Destroyer",	"pts":0},
