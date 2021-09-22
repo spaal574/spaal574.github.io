@@ -37,11 +37,11 @@
 				
 		
 		{"id":15, "name":"Transport: Triaros",					"pts":75},
-		{"id":16, "name":"Transport: Land Raider w/ 2x Twin Lascannons",	"pts":75},
-		{"id":17, "name":"Transport: Land Raider w/ 2x Flamestorm Cannons",	"pts":75},
-		{"id":18, "name":"Transport: Land Raider w/ 2x Twin Multi-meltas",	"pts":75},
+		{"id":16, "name":"Transport: Macrocarid Explorator w/ 2x Twin Lascannons & Mauler Bolt Cannon",		"pts":100},
+		{"id":17, "name":"Transport: Macrocarid Explorator w/ 2x Iradiation Engine & Mauler Bolt Cannon",	"pts":100},
+		{"id":18, "name":"Transport: Macrocarid Explorator w/ 2x Twin Multi-meltas & Mauler Bolt Cannon",	"pts":100},
 		
-		{"id":20, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Heavy Flamers",		"pts":50},
+		{"id":20, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Storm-Bolters",		"pts":50},
 		{"id":21, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Twin Volkite Chargers",	"pts":50},
 		{"id":22, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Rad-cleansers",		"pts":50},
 		
@@ -54,25 +54,25 @@
 		{"id":36, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":75},
 		
 		
-		{"id":41, "name":"Weapons:Lightning guns",					"pts":0},
-		{"id":42, "name":"Weapons:Phased Plasma Fusils",				"pts":25},
-		{"id":43, "name":"Weapons:Rad-cleansers",					"pts":50},
-		{"id":44, "name":"Weapons:Multi-meltas",					"pts":50},
-		{"id":45, "name":"Weapons:Photon Trusters",					"pts":50},
-		{"id":46, "name":"Augment:Icarian(gains /AA with same stats)",			"pts":25},
-		{"id":47, "name":"Augment:Ferrox((EA+2)in melee but only lightning guns)",	"pts":50},
-		{"id":48, "name":"Augment:Empyrite(teleport)",					"pts":50},
-		{"id":49, "name":"Augment:Destructor(macro weapon against vehicles)",		"pts":50},
-		{"id":50, "name":"Augment:Mortem(extra melee attacks on death)",		"pts":25},	
+		{"id":41, "name":"Weapons: Lightning guns",					"pts":0},
+		{"id":42, "name":"Weapons: Phased Plasma Fusils",				"pts":25},
+		{"id":43, "name":"Weapons: Rad-cleansers",					"pts":50},
+		{"id":44, "name":"Weapons: Multi-meltas",					"pts":50},
+		{"id":45, "name":"Weapons: Photon Trusters",					"pts":50},
+		{"id":46, "name":"Augment: Icarian (gains /AA with same stats)",		"pts":25},
+		{"id":47, "name":"Augment: Ferrox ((EA+2)in melee but only lightning guns)",	"pts":50},
+		{"id":48, "name":"Augment: Empyrite (teleport)",				"pts":50},
+		{"id":49, "name":"Augment: Destructor (macro weapon against vehicles)",		"pts":50},
+		{"id":50, "name":"Augment: Mortem (extra melee attacks on death)",		"pts":25},	
 		
-		{"id":51, "name":"Weapons:Scorpius Launchers",				"pts":0},
-		{"id":52, "name":"Weapons:Scorpius Launchers(AA)",			"pts":0},
-		{"id":53, "name":"Weapons:Demolisher Cannons",				"pts":25},
-		{"id":54, "name":"Weapons:Quad Las-cannons",				"pts":50},
-		{"id":55, "name":"Weapons:Dual Melta-cannons",				"pts":75},
-		{"id":56, "name":"Weapons:Earthshaker Cannon",				"pts":100},
-		{"id":57, "name":"Weapons:Medusa Cannon",				"pts":125},
-		{"id":58, "name":"Weapons:Mars Pattern Colossus Bombard",		"pts":150},
+		{"id":51, "name":"Weapons: Scorpius Launchers",				"pts":0},
+		{"id":52, "name":"Weapons: Scorpius Launchers(AA)",			"pts":0},
+		{"id":53, "name":"Weapons: Demolisher Cannons",				"pts":25},
+		{"id":54, "name":"Weapons: Quad Las-cannons",				"pts":50},
+		{"id":55, "name":"Weapons: Dual Melta-cannons",				"pts":75},
+		{"id":56, "name":"Weapons: Earthshaker Cannon",				"pts":100},
+		{"id":57, "name":"Weapons: Medusa Cannon",				"pts":125},
+		{"id":58, "name":"Weapons: Mars Pattern Colossus Bombard",		"pts":150},
 		
 		
 		{"id":63, "name":"Ordinatus Minoris Tormenta w/ Belicosa Volcano Cannon",	"pts":0},
@@ -101,10 +101,22 @@
 		{"min":1, 		"from":[46,47,48,49,50], 	"appliesTo":[501]},
 		
 		
+	        {"min":0, "max":4, "from":[15], 	"appliesTo":[501,503]},
+        	{"min":0, "max":4, "from":[15],	 	"appliesTo":[502]},
+	        {"min":0, "max":4, "from":[15], 	"appliesTo":[504]},
+		
+	        {"min":0, "max":6, "from":[16,17,18], 	"appliesTo":[501,503]},
+        	{"min":0, "max":6, "from":[16,17,18],	"appliesTo":[502]},
+	        {"min":0, "max":6, "from":[16,17,18], 	"appliesTo":[504]},
+		
+	        {"min":0, "max":6, "from":[20,21,22], 	"appliesTo":[501,503]},
+        	{"min":0, "max":6, "from":[20,21,22], 	"appliesTo":[502]},
+	        {"min":0, "max":6, "from":[20,21,22], 	"appliesTo":[504]},
+		
+		
 		{"min":5, "max":8, 	"from":[32,33],			 "appliesTo":[601]},
 		
-		{"min":1,		"from":[51,52,53,54,55,56,57,58], "appliesTo":[603]},
-			
+		{"min":1,		"from":[51,52,53,54,55,56,57,58], "appliesTo":[603]},	
 		
         	{"min":3, "max":3,	"from":[63,64], 		"appliesTo":[605]},
         	{"min":1, "max":1, 	"from":[65,66,67], 		"appliesTo":[704]},
