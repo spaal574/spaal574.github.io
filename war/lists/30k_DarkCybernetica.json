@@ -54,7 +54,7 @@
     
 		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":100},
 		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":100},
-		{"id":22, "name":"Thanatar-Cynis w/ Plasma Mortar",		"pts":100},
+		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",	"pts":100},
 
 		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
 		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
