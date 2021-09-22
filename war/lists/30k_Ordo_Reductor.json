@@ -12,7 +12,7 @@
 		{"id":505, "name":"Castellax Cohort",		"pts":225, 	"upgrades":[10,11,34,35,36],			"units":"5 Castellax Battle-Automata units"}
          ]},
 	{"name":"SUPPORT DETACHMENTS", "formations":[
-		{"id":601, "name":"Krios Battle Tank Squadron",		"pts":0, "upgrades":[32,33]},
+		{"id":601, "name":"Krios Battle Tank Squadron",		"pts":50, "upgrades":[32,33]},
 		{"id":602, "name":"Karacnos Assault Squadron", 		"pts":300, "upgrades":[],	"units":"4 Karacnos Assault Tanks"},
 		{"id":603, "name":"Reductor Artillery Battery", 	"pts":275, "upgrades":[],	"units":"5 Reductor Artillery Tanks"},
 		{"id":604, "name":"Minotaur Artillery Battery",		"pts":350, "upgrades":[],	"units":"3 Minotaur Artillery Tanks"},
