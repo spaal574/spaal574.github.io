@@ -92,22 +92,22 @@
 	],
 	"upgradeConstraints":[
 	
-		{"min":0, "max":1,						"from":[10,11],		"appliesTo":[501,502,505]},
-		{"min":2, "max":5,						"from":[12,13,14],	"appliesTo":[503,505]},
+		{"min":0, "max":1,	"from":[10,11],			"appliesTo":[501,502,505]},
+		{"min":2, "max":5,	"from":[12,13,14],		"appliesTo":[503,505]},
 		
 		
-		{"min":1, "name":"Augment",					"from":[41,42,43,44,45], "appliesTo":[501]},
-		{"min":1, "name":"Either Ferrox Augment or Weapons",		"from":[42,43,44,45,47], "appliesTo":[501]},
-		{"min":1, "name":"Weapons",					"from":[46,47,48,49,50], "appliesTo":[501]},
+		{"min":1,	 	"from":[41,42,43,44,45], 	"appliesTo":[501]},
+		{"min":1,	 	"from":[42,43,44,45,47], 	"appliesTo":[501]},
+		{"min":1, 		"from":[46,47,48,49,50], 	"appliesTo":[501]},
 		
 		
-		{"min":5, "max":8, "name":"Krios",				"from":[32,33],		 "appliesTo":[601]},
+		{"min":5, "max":8, 	"from":[32,33],			 "appliesTo":[601]},
 		
 		{"min":1,		"from":[51,52,53,54,55,56,57,58], "appliesTo":[603]},
 			
 		
-        	{"min":3, "max":3, "from":[63,64], 	"appliesTo":[605]},
-        	{"min":1, "max":1, "from":[65,66,67], 	"appliesTo":[704]},
+        	{"min":3, "max":3,	"from":[63,64], 		"appliesTo":[605]},
+        	{"min":1, "max":1, 	"from":[65,66,67], 		"appliesTo":[704]},
 		
 		
         	{"max":1, "perArmy":true, "from":[10]}
