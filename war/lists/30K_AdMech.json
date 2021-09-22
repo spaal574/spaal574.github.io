@@ -15,7 +15,7 @@
 			{"id":601, "name":"Thanatar Maniple",				"pts":200, "upgrades":[11,12,13,22]},
 			{"id":602, "name":"Krios Battle Tank Squadron",			"pts":300, "upgrades":[18,19]},
 			{"id":603, "name":"Karacnos Assault Squadron", 			"pts":300, "upgrades":[], 	"units":"4 Karacnos Assault Tanks"},
-			{"id":604, "name":"Myrmidon Sect",				"pts":300, "upgrades":[14,15,16,17,18,19,22,52,53]},
+			{"id":604, "name":"Myrmidon Sect",				"pts":300, "upgrades":[14,15,16,17,18,19,22]},
 			{"id":605, "name":"Tarantula Battery",				"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",			"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",			"pts":500, "upgrades":[57,58]}
