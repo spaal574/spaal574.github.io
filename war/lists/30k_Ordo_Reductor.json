@@ -59,6 +59,7 @@
 		{"id":43, "name":"Weapons: Rad-cleansers",					"pts":50},
 		{"id":44, "name":"Weapons: Multi-meltas",					"pts":50},
 		{"id":45, "name":"Weapons: Photon Trusters",					"pts":50},
+		{"id":99, "name":"Augment: None",						"pts":0},
 		{"id":46, "name":"Augment: Icarian (gains /AA with same stats)",		"pts":25},
 		{"id":47, "name":"Augment: Ferrox ((EA+2)in melee but only lightning guns)",	"pts":50},
 		{"id":48, "name":"Augment: Empyrite (teleport)",				"pts":50},
@@ -104,7 +105,7 @@
 				
 		{"min":1,	"max":1,	"from":[41,42,43,44,45], 	"appliesTo":[501]},
 		{"max":1,	"max":1, 	"from":[42,43,44,45,47], 	"appliesTo":[501]},
-		{"min":1, 	"max":1,	"from":[46,47,48,49,50], 	"appliesTo":[501]},
+		{"min":1, 	"max":1,	"from":[99,46,47,48,49,50], 	"appliesTo":[501]},
 		
 		
 		{"min":6, 			"from":[13,14], 	"appliesTo":[502]},
