@@ -62,7 +62,7 @@
 		{"id":99, "name":"Augment: None",							"pts":0},
 		{"id":46, "name":"Augment: Icarian	(gains /AA with same stats)",			"pts":25},
 		{"id":47, "name":"Augment: Ferrox	((EA+2)in melee but only lightning guns)",	"pts":50},
-		{"id":48, "name":"Augment: Empyrite	(teleport)",					"pts":50},
+		{"id":48, "name":"Augment: Empyrite	(teleport)",					"pts":25},
 		{"id":49, "name":"Augment: Destructor	(Armourbane OR +1 to hit)",			"pts":50},
 		{"id":50, "name":"Augment: Mortem	(scout and bp1,Fleshbane on the stand on death)", "pts":50},	
 		
