@@ -3,14 +3,13 @@
 	"version":"Heresy v 0.8.?",
 	"by":"spaal574",
 	"sections":[
-	
 	{"name":"LINE DETACHMENTS", "formations":[
-		{"id":501, "name":"Thallax Cohort", 		"pts":250, 	"upgrades":[10,11,12,13,14,15,16,17,18,20,21,22,34], "units":"6 Thallax units" },
+		{"id":501, "name":"Thallax Cohort", 		"pts":250, 	"upgrades":[10,11,12,13,14,15,16,17,18,20,21,22,34], "units":"6 Thallax units"},
 		{"id":502, "name":"Myrmidon Sect",		"pts":0,	"upgrades":[15,16,17,18,20,21,22,34]},
 		{"id":503, "name":"Adsecularis Covenant", 	"pts":100, 	"upgrades":[10,11,15,16,17,18,20,21,22,34], 	"units":"10 Tech-Thrall units"},
 		{"id":504, "name":"Scyllax Guardian-Automata Covenant", "pts":0, "upgrades":[10,11,15,16,17,18,20,21,22,34]},
 		{"id":505, "name":"Castellax Cohort",		"pts":225, 	"upgrades":[10,11,34,35,36],			"units":"5 Castellax Battle-Automata units"}
-         ]},
+	]},
 	{"name":"SUPPORT DETACHMENTS", "formations":[
 		{"id":601, "name":"Krios Battle Tank Squadron",		"pts":50, "upgrades":[32,33]},
 		{"id":602, "name":"Karacnos Assault Squadron", 		"pts":300, "upgrades":[],	"units":"4 Karacnos Assault Tanks"},
@@ -20,13 +19,12 @@
 		{"id":605, "name":"Ordinatii Minoris Tormenta",		"pts":500, "upgrades":[]}
 	]},
 	{"name":"ALLIES & LORDS OF WAR", "formations":[
-		{"id":701, "name":"Imperial Navy Avenger Wing",		        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-		{"id":702, "name":"Imperial Navy Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
+		{"id":701, "name":"Basilikon Astra Avenger Wing",	        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
+		{"id":702, "name":"Basilikon Astra Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
 		{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
 		{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[]}
-        ]}
+	]}
 	],	
-	
 	"upgrades":[
 		{"id":9,  "name":"Tech Priest",			"pts":0},	
 		{"id":10, "name":"Archmagos Reductor",		"pts":100},
@@ -60,11 +58,11 @@
 		{"id":44, "name":"Weapons: Multi-meltas",						"pts":50},
 		{"id":45, "name":"Weapons: Photon Trusters",						"pts":50},
 		{"id":99, "name":"Augment: None",							"pts":0},
-		{"id":46, "name":"Augment: Icarian	(gains /AA with same stats)",			"pts":25},
-		{"id":47, "name":"Augment: Ferrox	((EA+2)in melee but only lightning guns)",	"pts":50},
-		{"id":48, "name":"Augment: Empyrite	(teleport)",					"pts":25},
-		{"id":49, "name":"Augment: Destructor	(Armourbane OR +1 to hit)",			"pts":50},
-		{"id":50, "name":"Augment: Mortem	(scout and bp1,Fleshbane on the stand on death)", "pts":50},	
+		{"id":46, "name":"Augment: Icarian (gains /AA with same stats)",			"pts":25},
+		{"id":47, "name":"Augment: Ferrox ((EA+2)in melee but only lightning guns)",		"pts":50},
+		{"id":48, "name":"Augment: Empyrite (teleport)",					"pts":25},
+		{"id":49, "name":"Augment: Destructor (Armourbane OR +1 to hit)",			"pts":50},
+		{"id":50, "name":"Augment: Mortem (scout and bp1,Fleshbane on the stand on death)",	"pts":50},	
 		
 		{"id":51, "name":"Weapons: Scorpius Launchers",				"pts":0},
 		{"id":52, "name":"Weapons: Scorpius Launchers(AA)",			"pts":0},
@@ -92,7 +90,6 @@
 		{"max":1, "name":"Ordinatus Majoris", "from":[704]}		
 	],
 	"upgradeConstraints":[
-	
 		{"min":0, 	"max":1,	"from":[10,11],			"appliesTo":[501,502,504,505]},
 		{"min":2, 	"max":5,	"from":[12,13,14],		"appliesTo":[503,504,505]},
 		
@@ -108,7 +105,7 @@
 		{"min":1, 	"max":1,	"from":[99,46,47,48,49,50], 	"appliesTo":[501]},
 		
 		
-		{"min":6, 			"from":[13,14], 	"appliesTo":[502]},
+		{"min":6,		 "from":[13,14], 	"appliesTo":[502]},
 		
 		
 	        {"min":0, 	"max":4, "from":[15], 		"appliesTo":[501,503]},
@@ -123,7 +120,6 @@
         	{"min":0, 	"max":6, "from":[20,21,22], 	"appliesTo":[502]},
 	        {"min":0, 	"max":6, "from":[20,21,22], 	"appliesTo":[504]},
 		
-		
 		{"min":5, 	"max":8, 	"from":[32,33],			 "appliesTo":[601]},
 		
 		{"min":1,			"from":[51,52,53,54,55,56,57,58], "appliesTo":[603]},	
@@ -131,8 +127,6 @@
         	{"min":3, 	"max":3,	"from":[63,64], 		"appliesTo":[605]},
         	{"min":1, 	"max":1, 	"from":[65,66,67], 		"appliesTo":[704]},
 		
-		
-        	{"max":1, "perArmy":true, "from":[10]}
-				
+        	{"max":1, "perArmy":true, "from":[10]}			
 	]
 }
