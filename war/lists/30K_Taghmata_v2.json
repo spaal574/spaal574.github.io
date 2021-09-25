@@ -7,8 +7,9 @@
 			{"id":500, "name":"Adsecularis Covenant", 		"pts":100, "upgrades":[11,12,14,15,16,17,18,19,22], "units":"10 Tech-Thrall units"},
 			
 			
-			{"id":500, "name":"Magisterium Cohort", 		"pts":0, "upgrades":[], "units":"1 Magos Malagra "},
+			{"id":500, "name":"Magisterium Skitarii Cohort", 	"pts":225, "upgrades":[], "units":"1 Magos Mhalagra 10 Magisterum Skitarii"},
 			{"id":500, "name":"Hunter-killer Clade", 		"pts":0, "upgrades":[], "units":""},
+			{"id":500, "name":"",			 		"pts":0, "upgrades":[], "units":""},
 			
 			
 
