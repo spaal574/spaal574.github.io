@@ -18,7 +18,7 @@
 		{"id":606, "name":"Sagittarii Heavy Weapons Teams",	"pts":150, "upgrades":[34],	"units":"3 Skitarii,3 Grav-Rapiers Pieces"},
 		{"id":605, "name":"Ordinatii Minoris Tormenta",		"pts":500, "upgrades":[]}
 	]},
-	{"name":"ALLIES & LORDS OF WAR", "formations":[
+	{"name":"LORDS OF WAR", "formations":[
 		{"id":701, "name":"Basilikon Astra Avenger Wing",	        "pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
 		{"id":702, "name":"Basilikon Astra Primaris-Lightning Wing", 	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
 		{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
@@ -32,7 +32,6 @@
    		{"id":12, "name":"Tech Priest",			"pts":25},
 		{"id":13, "name":"Myrmidon Secutors",		"pts":50},
 		{"id":14, "name":"Myrmidon Destructors",	"pts":50},
-				
 		
 		{"id":15, "name":"Transport: Triaros",									"pts":75},
 		{"id":16, "name":"Transport: Macrocarid Explorator w/ 2x Twin Lascannons & Mauler Bolt Cannon",		"pts":100},
@@ -40,9 +39,8 @@
 		{"id":18, "name":"Transport: Macrocarid Explorator w/ 2x Twin Multi-meltas & Mauler Bolt Cannon",	"pts":100},
 		
 		{"id":20, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Storm-Bolters",		"pts":50},
-		{"id":21, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Twin Volkite Chargers",	"pts":50},
-		{"id":22, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Rad-cleansers",		"pts":50},
-		
+		{"id":21, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Twin Volkite Chargers",	"pts":75},
+		{"id":22, "name":"Transport: Terrax Pattern Termite Drill w/ 2x Rad-cleansers",		"pts":75},
 		
         	{"id":32, "name":"Krios Battle Tank",				"pts":50},
         	{"id":33, "name":"Krios Venator",				"pts":50},
@@ -64,18 +62,24 @@
 		{"id":49, "name":"Augment: Destructor (Armourbane OR +1 to hit)",			"pts":50},
 		{"id":50, "name":"Augment: Mortem (scout and bp1,Fleshbane on the stand on death)",	"pts":50},	
 		
-		{"id":51, "name":"Weapons: Scorpius Launchers",				"pts":0},
-		{"id":52, "name":"Weapons: Scorpius Launchers(AA)",			"pts":0},
-		{"id":53, "name":"Weapons: Demolisher Cannons",				"pts":25},
-		{"id":54, "name":"Weapons: Quad Las-cannons",				"pts":50},
-		{"id":55, "name":"Weapons: Dual Melta-cannons",				"pts":75},
-		{"id":56, "name":"Weapons: Earthshaker Cannon",				"pts":100},
-		{"id":57, "name":"Weapons: Medusa Cannon",				"pts":125},
-		{"id":58, "name":"Weapons: Mars Pattern Colossus Bombard",		"pts":150},
+		{"id":31, "name":"Augment: Suicide Harnesses for thralls",	"pts":50},	
 		
-		{"id":59, "name":"Weapons: Twin-linked Heavy Bolter",		"pts":0},
-		{"id":60, "name":"Weapons: Twin-linked Lascannon",		"pts":0},
-		{"id":61, "name":"Weapons: Thudd Gun",				"pts":0},		
+		{"id":51, "name":"Weapons: Scorpius Launchers",			"pts":0},
+		{"id":52, "name":"Weapons: Scorpius Launchers(AA)",		"pts":0},
+		{"id":53, "name":"Weapons: Demolisher Cannons",			"pts":25},
+		{"id":54, "name":"Weapons: Quad Las-cannons",			"pts":50},
+		{"id":55, "name":"Weapons: Dual Melta-cannons",			"pts":75},
+		{"id":56, "name":"Weapons: Earthshaker Cannon",			"pts":100},
+		{"id":57, "name":"Weapons: Medusa Cannon",			"pts":125},
+		{"id":58, "name":"Weapons: Mars Pattern Colossus Bombard",	"pts":150},
+		
+		{"id":59, "name":"Weapons: Twin-linked Heavy Bolters",		"pts":0},
+		{"id":60, "name":"Weapons: Twin-linked Lascannons",		"pts":0},
+		{"id":61, "name":"Weapons: Thudd Guns",				"pts":0},		
+			
+		{"id":68, "name":"Weapons: Twin Earthshaker Cannons",		"pts":0},
+		{"id":69, "name":"Weapons: Twin Heavy Lightning Cannons",	"pts":0},	
+		{"id":70, "name":"Weapons: Twin Vanquisher Cannons",		"pts":0},	
 		
 		{"id":63, "name":"Ordinatus Minoris Tormenta w/ Belicosa Volcano Cannon",	"pts":0},
 		{"id":64, "name":"Ordinatus Minoris Tormenta w/ Ulator Sonic Destroyer",	"pts":0},
@@ -93,11 +97,13 @@
 		{"max":1, "name":"Ordinatus Majoris", "from":[704]}		
 	],
 	"upgradeConstraints":[
-		{"min":0, 	"max":1,	"from":[10,11],			"appliesTo":[501,502,504,505]},
+		{"min":0, 	"max":1,	"from":[10,11],			"appliesTo":[501,502,503,504,505]},
 		
 		{"min":5, 	"max":8,	"from":[34],			"appliesTo":[504]},
 		{"min":5, 	"max":8, 	"from":[32,33],			"appliesTo":[601]},
 		{"min":2, 	"max":5,	"from":[12,13,14],		"appliesTo":[503,504,505]},
+		
+		{"min":0, 	"max":1,	"from":[31],			"appliesTo":[503]},
 		
 		{"min":0, 	"max":3,	"from":[12,13,14],		"appliesTo":[501]},
 		
@@ -110,6 +116,7 @@
 		{"min":1, 	"max":1,	"from":[99,46,47,48,49,50], 	"appliesTo":[501]},
 		
 		{"min":1,		 "from":[59,60,61], 	"appliesTo":[606]},
+		{"min":1,		 "from":[68,69,70], 	"appliesTo":[604]},
 		
 		{"min":6,		 "from":[13,14], 	"appliesTo":[502]},
 		
