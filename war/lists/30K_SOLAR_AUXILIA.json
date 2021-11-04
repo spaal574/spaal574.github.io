@@ -94,6 +94,7 @@
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[
+		{"max":1, 	"from":[31,32], "appliesTo":[500,502,503]},
 		{"max":1, 	"from":[33], "appliesTo":[500,502,503]}, 
 {"max":1, 	"from":[34], "appliesTo":[500,502,503]},
 	{"max":1, 	"from":[30], "appliesTo":[500,502]}, 
