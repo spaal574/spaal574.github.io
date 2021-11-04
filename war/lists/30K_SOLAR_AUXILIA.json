@@ -4,16 +4,15 @@
 	"by":"J.Barr AKA Fattdex. Updated by Mard, Updated by spaal574",
 	"sections":[
 		{"name":"SOLAR AUXILIA DETACHMENTS", "formations":[
-			{"id":500, "name":"Solar Auxilia Command Retinue", 		"pts":300, "upgrades":[], "units":"1x Lord Marshall unit"},
+			{"id":500, "name":"Solar Auxilia Command Retinue", 		"pts":300, "upgrades":[31,32,33,30,35,36,37], "units":"1x Lord Marshall unit"},
 			{"id":501, "name":"Solar Auxilia Strike Squadron", 		"pts":350, "upgrades":[]},
-			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[],"units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
-			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[],"units":"1x Auxilia Tactical Command Section"},
-		
-			{"id":501, "name":" Terico", 		"pts":150, "upgrades":[14,15,16,17,18,19,38,39,99]},
-			{"id":502, "name":" Storm Cohort", 	"pts":200, "upgrades":[14,15,16,38,39,99]}
+			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[31,32,33,30,34,35,36,37],"units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
+			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[31,32,33,35,36,37],"units":"1x Auxilia Tactical Command Section"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":601, "name":"Orbital Support",				"pts":0, "upgrades":[]},
+			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
+			
+			
 			{"id":602, "name":"Auxilia Artillery Tank Battery",		"pts":250, "upgrades":[]},
 			{"id":603, "name":"Auxilia Super Heavy Tank",			"pts":200, "upgrades":[]},
 			{"id":604, "name":"Auxilia Super Heavy Tank Platoon",		"pts":500, "upgrades":[]},
@@ -38,24 +37,40 @@
 		{"id":5, "name":"7x Veletaris Storm Sections units w/power axes ",		"pts":0},
 		{"id":6, "name":"7x Veletaris Storm Sections units w/volkyte chargers",		"pts":0},
 		
-		{"id":6, "name":"Leman Russ Battle Tank",					"pts":0},
-		{"id":12, "name":"Leman Russ Exterminator Tank",				"pts":0},
-		{"id":13, "name":"Leman Russ Vanquisher Tank",					"pts":25},
-		
-		{"id":5, "name":"Solar Auxilia Support : 4 Veletaris Storm Sections/Auxilia Flamer Sections in any combination", 	"pts":75},
-		
-		{"id":6, "name":"Infantry Support Tank : Leman Russ Demolisher",			"pts":75},
-		{"id":6, "name":"Infantry Support Tank : Malcador Infernus Special Weapons Tank	",	"pts":75},
-		
-		{"id":6, "name":"Ogryn Charonite Squad : 2x Ogryn Charonite Units",			"pts":75},
-		
-		{"id":6, "name":"Rapier Battery : 4x Solar Auxilia Rapier Platform units",		"pts":100},
-		
-		{"id":14, "name":"Transport: Auxilia Dracosan Armoured Transport",			"pts":75},
-		{"id":15, "name":"Transport: Auxilia Stormlord Transport",				"pts":200},
+		{"id":7, "name":"Leman Russ Battle Tank",					"pts":0},
+		{"id":8, "name":"Leman Russ Exterminator Tank",					"pts":0},
+		{"id":9, "name":"Leman Russ Vanquisher Tank",					"pts":25},
+		{"id":10, "name":"Leman Russ Executioner Tank",					"pts":25},
+		{"id":11, "name":"Leman Russ Incinerator Tank",					"pts":0},
+		{"id":12, "name":"Leman Russ Demolisher Tank",					"pts":0},
 		
 		
 		
+		
+		{"id":27, "name":"Dauntless Class Light Cruiser",				"pts":150},
+		{"id":28, "name":"Emperor Class Battleship",					"pts":300},
+		
+		
+		{"id":30, "name":"Solar Auxilia Support : 4 Veletaris Storm Sections/Auxilia Flamer Sections in any combination", 	"pts":75},
+		
+		{"id":31, "name":"Infantry Support Tank : Leman Russ Demolisher",			"pts":75},
+		{"id":32, "name":"Infantry Support Tank : Malcador Infernus Special Weapons Tank",	"pts":75},
+		
+		{"id":33, "name":"Ogryn Charonite Squad : 2x Ogryn Charonite Units",			"pts":75},
+		
+		{"id":34, "name":"Rapier Battery : 4x Solar Auxilia Rapier Platform units",		"pts":100},
+		
+		{"id":35, "name":"Transport : Auxilia Dracosan Armoured Transport",			"pts":75},
+		{"id":36, "name":"Transport : Auxilia Stormlord Transport",				"pts":200},
+		{"id":37, "name":"Transport : Arvus Lighter Orbital Shuttle Units",			"pts":0},
+		
+		
+		{"id":6, "name":"",		"pts":0},
+		{"id":6, "name":"",		"pts":0},
+		{"id":6, "name":"",		"pts":0},
+		{"id":6, "name":"",		"pts":0},
+		{"id":6, "name":"",		"pts":0},
+		{"id":6, "name":"",		"pts":0},
 		{"id":6, "name":"",		"pts":0},
 
 		
@@ -72,27 +87,22 @@
 		{"id":30, "name":"3x Stormsword",						"pts":0},
 		{"id":31, "name":"3x Stormblade",						"pts":0},
 		{"id":32, "name":"3x Stormhammer",						"pts":0},
-		{"id":33, "name":"Leman Russ Demolisher",					"pts":0},
-		{"id":34, "name":"Leman Russ Incenerator",					"pts":0},
-		{"id":35, "name":"Leman Russ Executioner",					"pts":25},
-		{"id":36, "name":"Malcador ",							"pts":0},
-		{"id":37, "name":"Malcador Infernus",						"pts":0},
-		{"id":38, "name":"Infantry Support Tank: Malcador Infernus",			"pts":50},
-		{"id":39, "name":"Infantry Support Tank: Leman Russ Demolisher",		"pts":50},
 		
-		{"id":67, "name":"Dauntless Class Light Cruiser",				"pts":150},
-		{"id":68, "name":"Emperor Class Battleship",					"pts":300},
-		{"id":99, "name":"Lord Marshall",						"pts":100}
+		{"id":36, "name":"Malcador ",							"pts":0},
+		{"id":37, "name":"Malcador Infernus",						"pts":0}
+		
 			
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Detachment", "from":[601,602,603,604,605,606,607,608], "forEach":[500,501,502], "name2":"Detachment"},
 		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[701,702,703,704,705,706]},
-		{"max":1, "from":[601]}
+		{"max":1, "from":[500]},
+		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[
 		
 		{"min":1, 	"from":[5,6], "appliesTo":[500,503]},
+		{"min":6, 	"from":[7,8,9], "appliesTo":[501]},
 		
 		
 		{"min":0, "max":1, "from":[99], "appliesTo":[500,501,502]},
