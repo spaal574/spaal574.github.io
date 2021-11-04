@@ -4,7 +4,7 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":100, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"8x Rho-Tau 17 Security Automata units"},
+			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":200, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"6x Rho-Tau 17 Security Automata units"},
 			{"id":501, "name":"Cataphract Maniple",		"pts":175, "upgrades":[10,11,12,13],			"units":"6x Cataphract Battle-Automata units"},
 			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5x Castellax Battle-Automata units"},
 			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[4,5,6,7,10,11,12,13,100],	"units":"6x Vorax Battle-Automata units"},
