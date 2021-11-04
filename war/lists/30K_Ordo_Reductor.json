@@ -73,8 +73,8 @@
 		{"id":57, "name":"Weapons: Medusa Cannon",			"pts":125},
 		{"id":58, "name":"Weapons: Mars Pattern Colossus Bombard",	"pts":150},
 		
-		{"id":59, "name":"Weapons: Twin-linked Heavy Bolters",		"pts":0},
-		{"id":60, "name":"Weapons: Twin-linked Lascannons",		"pts":0},
+		{"id":59, "name":"Weapons: Quad-linked Heavy Bolters",		"pts":0},
+		{"id":60, "name":"Weapons: Quad-linked Lascannons",		"pts":0},
 		{"id":61, "name":"Weapons: Thudd Guns",				"pts":0},		
 			
 		{"id":68, "name":"Weapons: Twin Earthshaker Cannons",		"pts":0},
