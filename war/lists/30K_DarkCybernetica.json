@@ -4,23 +4,25 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":100, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"10 Rho-Tau 17 Security Automata units"},
-			{"id":501, "name":"Cataphract Maniple",		"pts":175, "upgrades":[10,11,12,13],		"units":"6 Cataphract Battle-Automata units"},
-			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5 Castellax Battle-Automata units"},
-			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[4,5,6,7,10,11,12,13,100],	"units":"6 Vorax Battle-Automata units"},
+			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":100, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"8x Rho-Tau 17 Security Automata units"},
+			{"id":501, "name":"Cataphract Maniple",		"pts":175, "upgrades":[10,11,12,13],			"units":"6x Cataphract Battle-Automata units"},
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5x Castellax Battle-Automata units"},
+			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[4,5,6,7,10,11,12,13,100],	"units":"6x Vorax Battle-Automata units"},
 			{"id":504, "name":"Hunter-Killer Maniple",	"pts":300, "upgrades":[]}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Domitar Cohort",		"pts":200, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3 Domitar Battle-Automata"},
-			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"6 Vulturax Stratos-Automata"},
-			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":250, "upgrades":[10,11,12,13,100,103],		"units":"3 Heretek Tech-Manipulators"},
-			{"id":603, "name":"Walking Cogitator Stack",	"pts":125, "upgrades":[10,11,12,13,100], 		"units":"1 Walking Cogitator Stack"},
-			{"id":604, "name":"Thanatar Maniple",		"pts":300, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]}
+			{"id":599, "name":"Skitarii Maniple Automata",	"pts":150, "upgrades":[], "units":"1x Hypaspist Secutor 10x Hypaspists"},
+			{"id":600, "name":"Domitar Cohort",		"pts":200, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3x Domitar Battle-Automata"},
+			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"6x Vulturax Stratos-Automata"},
+			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":250, "upgrades":[10,11,12,13,100,103],		"units":"3x Heretek Tech-Manipulators"},
+			{"id":603, "name":"Walking Cogitator Stack",	"pts":125, "upgrades":[10,11,12,13,100], 		"units":"1x Walking Cogitator Stack"},
+			{"id":604, "name":"Thanatar Maniple",		"pts":300, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]},
+			{"id":605, "name":"Bombot Horde",		"pts":50,  "upgrades":[],				"units":"1x Datasmith 5x Bombots"}
       	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":450, "upgrades":[10,11,12,13], "units":"2 Lambda-Zeta-01 Battle-Automata units"},
-			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":500, "upgrades":[10,11,12,13], "units":"1 Enormous Class Battle-Automata"}
-         ]}
+			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":450, "upgrades":[10,11,12,13], "units":"2x Lambda-Zeta-01 Battle-Automata units"},
+			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":500, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
+        ]}
 	],	
 	
 	"upgrades":[
@@ -29,16 +31,26 @@
 		{"id":2, "name":"Tuner-Whisperer Hierophant",				"pts":100},
 		{"id":3, "name":"Sorcerer Automata-Puppeteer",				"pts":100},
     
-		{"id":4, "name":"melee",						"pts":100},
+		{"id":4, "name":"Lord Exterminator-Fabricator",				"pts":100},
 		{"id":5, "name":"Silica Animus Cogi-Coordinator Construct",		"pts":100},
-		{"id":6, "name":"support upgrades",					"pts":100},
-		{"id":7, "name":"fast",							"pts":100},
+		{"id":6, "name":"support upgrades Relic Necro-smthing",			"pts":100},
+		{"id":7, "name":"smthing-Automata Rider",				"pts":100},
+    
+		{"id":40, "name":"",							"pts":0},
+		{"id":41, "name":"God : Khorne",					"pts":25},
+		{"id":42, "name":"God : Slaanesh",					"pts":25},
+		{"id":43, "name":"God : Nurgle",					"pts":25},
+		{"id":44, "name":"God : Tzeentch",					"pts":25},
+		{"id":45, "name":"God : Malal",						"pts":25},
+		{"id":46, "name":"God : Chaos Undivided",				"pts":25},
+		{"id":47, "name":"Daemonic Possession",					"pts":50},
+		{"id":48, "name":"Abominable Intelligence",				"pts":25},
+		{"id":49, "name":"Malifica",						"pts":25},
     
 		{"id":10, "name":"Datasmith",						"pts":25},
 		{"id":11, "name":"Heretek Prime",					"pts":50},
 		{"id":12, "name":"Cybernetica Myrmidon Destructor",			"pts":50},
 		{"id":13, "name":"Cybernetica Myrmidon Secutor",			"pts":50},
-		
     
 		{"id":14, "name":"Transport: Triaros",					"pts":75},
 		{"id":15, "name":"Transport: Land Raider w/ 2x Twin Lascannon",		"pts":75},
@@ -60,11 +72,12 @@
 		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
 		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",	"pts":0},
     
-		{"id":51, "name":"Datasmith",				"pts":0},
-		{"id":52, "name":"Heretek Prime",			"pts":25},
-   		{"id":53, "name":"Cybernetica Myrmidon Secutor",	"pts":25},
-		{"id":54, "name":"Cybernetica Myrmidon Destructor",	"pts":25},
-  
+		{"id":35, "name":"2x Velite Sniper Units",	"pts":75},
+		{"id":36, "name":"3x Protector Handlers 5x Cannibal Servitors ",	"pts":0},
+		{"id":37, "name":"",	"pts":0},
+		{"id":38, "name":"",	"pts":0},
+		{"id":38, "name":"",	"pts":0},
+		
   		{"id":100, "name":"Scyllax",				"pts":50},
 		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
     
@@ -77,13 +90,16 @@
     ],
 	"formationConstraints":[
 	
-	{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605], "forEach":[500,501,502,503,504], "name2":"Cohort"},
+	{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605], "forEach":[500,501,502,503,504], "name2":"Cohort"},
 	{"maxPercent":50, "name":"ALLIES & LORDS OF WAR", "from":[700,701]},
 		
 	{"max":1, "perArmy":true, "from":[701]}
 		
 	],
 	"upgradeConstraints":[
+		
+		
+	{"min":1, "from":[40,41,42,43,44,45,46,47,48,49],	"appliesTo":[500,501,502,503,504,599,600,601,602,604]},
 		
 	{"min":10, "from":[27],				"appliesTo":[603]},
 		
