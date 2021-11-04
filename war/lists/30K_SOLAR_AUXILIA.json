@@ -28,15 +28,10 @@
 			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[], "units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
 
 		]},
-		{"name":"ALLIES & LORDS OF WAR", "formations":[
+		{"name":"LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-			{"id":702, "name":"Imperial Navy Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
-			{"id":703, "name":"Warhound Scout Titan",			"pts":275, "upgrades":[], "units":"1 Warhound Scout Titan unit"},
-			{"id":704, "name":"Warhound Scout Titan Pack",			"pts":500, "upgrades":[], "units":"2 Warhound Scout Titan units"},
-			{"id":705, "name":"Reaver Titan",				"pts":675, "upgrades":[], "units":"1 Reaver Titan unit"},
-			{"id":706, "name":"Warlord Titan",				"pts":850, "upgrades":[], "units":"1 Warlord Titan"}
-		]}
-	],	
+			{"id":702, "name":"Imperial Navy Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"}
+],	
 	
 	"upgrades":[
 		
@@ -83,13 +78,13 @@
 		
 		{"id":35, "name":"Transport : Auxilia Dracosan Armoured Transport",			"pts":75},
 		{"id":36, "name":"Transport : Auxilia Stormlord Transport",				"pts":200},
-		{"id":37, "name":"Transport : Arvus Lighter Orbital Shuttle Units",			"pts":0},
+		{"id":37, "name":"Transport : Arvus Lighter Orbital Shuttle Units",			"pts":25},
 		
 		{"id":38, "name":"Legate Commander",			"pts":0}	
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607], "forEach":[500,501,502,503], "name2":"Detachment"},
-		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[701,702,703,704,705,706]},
+		{"maxPercent":33, "name":"LORDS OF WAR", "from":[701,702,703,704,705,706]},
 		{"max":1, "from":[500]},
 		{"max":1, "from":[600]}
 	],
