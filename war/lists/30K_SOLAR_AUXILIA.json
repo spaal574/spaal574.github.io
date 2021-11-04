@@ -16,10 +16,7 @@
 			{"id":603, "name":"Solar Auxilia Super Heavy Tank",		"pts":200, "upgrades":[]},
 			{"id":604, "name":"Solar Auxilia Super Heavy Tank Squadron",	"pts":500, "upgrades":[]},			
 			{"id":605, "name":"Auxilia Tank Hunter Squadron",		"pts":250, "upgrades":[], "units":"3x Valdor Tank Hunters"},
-			
 			{"id":606, "name":"Solar Auxilia Close Support Squadron",	"pts":200, "upgrades":[]},
-                        3 Leman Russ Demolisher or Leman Russ Incinerator units in any combination	Executioner	
-			
 			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[]"units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
 
 		]},
@@ -122,6 +119,8 @@
 		{"min":1, 	"from":[20,21,22,23,24], "appliesTo":[603]},
 		{"min":1, 	"from":[25,26,27,28,29], "appliesTo":[604]},
 		
+		{"min":3, 	"from":[11,12,10], "appliesTo":[605]},
+		{"min":1, 	"from":[10], "appliesTo":[605]},
 		
 		
 		
