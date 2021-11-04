@@ -14,8 +14,8 @@
 		{"name":"SOLAR AUXILIA DETACHMENTS", "formations":[
 			{"id":500, "name":"Solar Auxilia Command Retinue", 		"pts":300, "upgrades":[38,31,32,33,30,35,36,37], "units":"1x Lord Marshall unit"},
 			{"id":501, "name":"Solar Auxilia Strike Squadron", 		"pts":350, "upgrades":[38]},
-			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[38,31,32,33,30,34,35,36,37],"units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
-			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[38,31,32,33,35,36,37],"units":"1x Auxilia Tactical Command Section"}
+			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[38,31,32,33,30,34,35,36,37], "units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
+			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[38,31,32,33,35,36,37], "units":"1x Auxilia Tactical Command Section"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Solar Auxilia Orbital Support",		"pts":0, "upgrades":[]},
@@ -25,7 +25,7 @@
 			{"id":604, "name":"Solar Auxilia Super Heavy Tank Squadron",	"pts":500, "upgrades":[38]},			
 			{"id":605, "name":"Auxilia Tank Hunter Squadron",		"pts":250, "upgrades":[38], "units":"3x Valdor Tank Hunters"},
 			{"id":606, "name":"Solar Auxilia Close Support Squadron",	"pts":200, "upgrades":[38]},
-			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[]"units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
+			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[], "units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
 
 		]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
