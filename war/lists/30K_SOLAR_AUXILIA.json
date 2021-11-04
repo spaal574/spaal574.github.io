@@ -12,19 +12,19 @@
 
 	"sections":[
 		{"name":"SOLAR AUXILIA DETACHMENTS", "formations":[
-			{"id":500, "name":"Solar Auxilia Command Retinue", 		"pts":300, "upgrades":[31,32,33,30,35,36,37], "units":"1x Lord Marshall unit"},
-			{"id":501, "name":"Solar Auxilia Strike Squadron", 		"pts":350, "upgrades":[]},
-			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[31,32,33,30,34,35,36,37],"units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
-			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[31,32,33,35,36,37],"units":"1x Auxilia Tactical Command Section"}
+			{"id":500, "name":"Solar Auxilia Command Retinue", 		"pts":300, "upgrades":[38,31,32,33,30,35,36,37], "units":"1x Lord Marshall unit"},
+			{"id":501, "name":"Solar Auxilia Strike Squadron", 		"pts":350, "upgrades":[38]},
+			{"id":502, "name":"Solar Auxilia Infantry Tercio", 		"pts":150, "upgrades":[38,31,32,33,30,34,35,36,37],"units":"1x Auxilia Tactical Command Section, 7x Solar Auxilia Infantry Section units"},
+			{"id":503, "name":"Solar Auxilia Veletaris Storm Cohort", 	"pts":200, "upgrades":[38,31,32,33,35,36,37],"units":"1x Auxilia Tactical Command Section"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Solar Auxilia Orbital Support",		"pts":0, "upgrades":[]},
-			{"id":601, "name":"Solar Auxilia Artillery Tank Battery",	"pts":0, "upgrades":[]},
-			{"id":602, "name":"Solar Auxilia Malcador Squadron",		"pts":350, "upgrades":[]},
-			{"id":603, "name":"Solar Auxilia Super Heavy Tank",		"pts":200, "upgrades":[]},
-			{"id":604, "name":"Solar Auxilia Super Heavy Tank Squadron",	"pts":500, "upgrades":[]},			
-			{"id":605, "name":"Auxilia Tank Hunter Squadron",		"pts":250, "upgrades":[], "units":"3x Valdor Tank Hunters"},
-			{"id":606, "name":"Solar Auxilia Close Support Squadron",	"pts":200, "upgrades":[]},
+			{"id":601, "name":"Solar Auxilia Artillery Tank Battery",	"pts":0, "upgrades":[38]},
+			{"id":602, "name":"Solar Auxilia Malcador Squadron",		"pts":350, "upgrades":[38]},
+			{"id":603, "name":"Solar Auxilia Super Heavy Tank",		"pts":200, "upgrades":[38]},
+			{"id":604, "name":"Solar Auxilia Super Heavy Tank Squadron",	"pts":500, "upgrades":[38]},			
+			{"id":605, "name":"Auxilia Tank Hunter Squadron",		"pts":250, "upgrades":[38], "units":"3x Valdor Tank Hunters"},
+			{"id":606, "name":"Solar Auxilia Close Support Squadron",	"pts":200, "upgrades":[38]},
 			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[]"units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
 
 		]},
@@ -99,14 +99,14 @@
 		{"min":6, 	"from":[7,8,9], "appliesTo":[501]},
 		
 		{"min":1, 	"from":[13,14], "appliesTo":[600]},
-		{"min":6, 	"from":[15,16,17], "appliesTo":[601]},
-		{"min":6, 	"from":[18,19], "appliesTo":[602]},
+		{"min":1, 	"from":[15,16,17], "appliesTo":[601]},
+		{"min":5, 	"from":[18,19], "appliesTo":[602]},
 		
 		{"min":1, 	"from":[20,21,22,23,24], "appliesTo":[603]},
 		{"min":1, 	"from":[25,26,27,28,29], "appliesTo":[604]},
 		
-		{"min":3, 	"from":[11,12,10], "appliesTo":[605]},
-		{"min":1, 	"from":[10], "appliesTo":[605]},
+		{"min":3, 	"from":[11,12,10], "appliesTo":[606]},
+		{"min":1, 	"from":[10], "appliesTo":[606]},
 		{"min":1, 	"from":[38], "appliesTo":[500,501,502,503,600,601,602,603,604,605,606,607]}
 	]
 }
