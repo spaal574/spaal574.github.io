@@ -70,8 +70,8 @@
 		
 		{"id":30, "name":"Solar Auxilia Support : 4 Veletaris Storm Sections/Auxilia Flamer Sections in any combination", 	"pts":75},
 		
-		{"id":31, "name":"Infantry Support Tank : Leman Russ Demolisher",			"pts":75},
-		{"id":32, "name":"Infantry Support Tank : Malcador Infernus Special Weapons Tank",	"pts":75},
+		{"id":31, "name":"Infantry Support Tank : Leman Russ Demolisher",			"pts":50},
+		{"id":32, "name":"Infantry Support Tank : Malcador Infernus Special Weapons Tank",	"pts":50},
 		
 		{"id":33, "name":"Ogryn Charonite Squad : 2x Ogryn Charonite Units",			"pts":75},
 		
