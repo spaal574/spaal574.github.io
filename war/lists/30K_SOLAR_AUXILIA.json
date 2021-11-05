@@ -3,7 +3,7 @@
 	"version":"Heresy V 0.9.0",
 	"by":"J.Barr AKA Fattdex. Updated by Mard, Updated by spaal574",
 	"notes":["Each detachment may purchase up to three upgrades, each upgrade can only be chosen once per detachment.",
-"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
+	"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation.",
 	"Dracosan Transports and Stormlord units may only transport units from their own formation (the rules for War Engine transports do not apply to them bought as an upgrade)",
 	"Only one Legate Commander(they are free) per 500 points.",
@@ -91,9 +91,9 @@
 	"upgradeConstraints":[
 		{"max":1, 	"from":[31,32], "appliesTo":[500,502,503]},
 		{"max":1, 	"from":[33], "appliesTo":[500,502,503]}, 
-{"max":1, 	"from":[34], "appliesTo":[500,502,503]},
-	{"max":1, 	"from":[30], "appliesTo":[500,502]}, 
-	{"min":0, "max":4, 	"from":[30,33,34], "appliesTo":[500,502,503]}, 
+		{"max":1, 	"from":[34], "appliesTo":[500,502,503]},
+		{"max":1, 	"from":[30], "appliesTo":[500,502]}, 
+		{"min":0, "max":3, 	"from":[30,33,34], "appliesTo":[500,502,503]}, 
 
 		{"min":1, 	"from":[5,6], "appliesTo":[500,503]},
 		{"min":6, 	"from":[7,8,9], "appliesTo":[501]},
