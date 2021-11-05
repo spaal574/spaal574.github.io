@@ -31,7 +31,8 @@
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
 			{"id":702, "name":"Imperial Navy Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"}
-],	
+		]}		
+	],	
 	
 	"upgrades":[
 		
