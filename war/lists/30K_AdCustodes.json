@@ -17,7 +17,7 @@
 			{"id":606, "name":"Caladius Grav-Tank Squadron",	"pts":325, "upgrades":[], 	        "units":"3x Caladius Grav-Tanks"}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":701, "name":"Orion Assault Squadron",		"pts":0,   "upgrades":[],		"units":"2 Avenger Strike Fighter units"},
+			{"id":701, "name":"Orion Assault Squadron",		"pts":0,   "upgrades":[70]},
 			{"id":702, "name":"Ares Strike Squadron",		"pts":275, "upgrades":[],		"units":"2x Ares Gun-Ships"}
 		]}
 	],	
@@ -50,7 +50,7 @@
     
 		{"min":1, "from":[50,51,52],    "appliesTo":[500]},
 		{"min":4, "from":[60,61,62],    "appliesTo":[604]},
-		{"min":1, "max":2, "from":[70], "appliesTo":[702]},
+		{"min":1, "max":2, "from":[70], "appliesTo":[701]},
     
 		{"max":1, "from":[2], "appliesTo":[501]},
 		{"max":1, "from":[5], "appliesTo":[500,600,603]},
