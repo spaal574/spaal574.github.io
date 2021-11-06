@@ -33,7 +33,7 @@
 
 		{"id":50, "name":"6x Sentinel Guard",			"pts":350},
 		{"id":51, "name":"6x Custodian Guard units",		"pts":350},
-		{"id":52, "name":"6x Sagittarum Custodes",		"pts":350}
+		{"id":52, "name":"6x Sagittarum Custodes",		"pts":350},
     
 		{"id":60, "name":"Contemptor-Achilles Dreadnought",	"pts":0},
 		{"id":61, "name":"Contemptor-Galatus Dreadnought",	"pts":0},
