@@ -27,8 +27,8 @@
 	],	
 	"upgrades":[
 		{"id":9,  "name":"Tech Priest",			"pts":0},	
-		{"id":10, "name":"Archmagos Reductor",		"pts":100},
-		{"id":11, "name":"Magos Prime Reductor",	"pts":50},
+		{"id":10, "name":"Archmagos Reductor",		"pts":125},
+		{"id":11, "name":"Magos Prime Reductor",	"pts":75},
    		{"id":12, "name":"Tech Priest",			"pts":25},
 		{"id":13, "name":"Myrmidon Secutors",		"pts":50},
 		{"id":14, "name":"Myrmidon Destructors",	"pts":50},
