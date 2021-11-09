@@ -101,9 +101,9 @@
 		{"min":11, "max":11,  "from":[20,21], "appliesTo":[601]},
 		{"min":17, "max":17,  "from":[20,21], "appliesTo":[602]},
 		
-		{"min":4, "max":4,	"from":[28,29], "appliesTo":[603]},
-		{"min":8, "max":8,	"from":[28,29], "appliesTo":[604]},
-		{"min":12, "max":12,	"from":[28,29], "appliesTo":[605]},
+		{"min":4, "max":4,	"from":[28,29], "appliesTo":[604]},
+		{"min":8, "max":8,	"from":[28,29], "appliesTo":[605]},
+		{"min":12, "max":12,	"from":[28,29], "appliesTo":[606]},
     
 		{"min":0, "max":4,    "from":[11],    "appliesTo":[609,610]},
 		{"min":0, "max":4,    "from":[18,19], "appliesTo":[609,610]},
