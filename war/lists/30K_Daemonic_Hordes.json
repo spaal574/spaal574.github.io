@@ -1,23 +1,23 @@
 {
 	"id":"Daemonic Hordes",
-	"version":"Heresy v 1",
+	"version":"Heresy v1",
 	"by":"freefall updated by spaal574",
 	"sections":[
 		{"name":"SPECIAL SELECTIONS", "formations":[
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
-         ]},
+		]},
 		{"name":"DAEMONIC HORDES", "formations":[
 			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 111,112,113,114, 200,201,202,203]},
 			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 121,122,123,124, 200,201,202,203]},
 			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 131,132,133,134, 200,201,202,203]},
 			{"id":800, "name":"Change Coven",	"pts":0, "upgrades":[98,99, 141,142,143,144, 200,201,202,203]}
-	]},
+		]},
 		{"name":"GREATER DAEMON HORDES", "formations":[
 			{"id":501, "name":"Khorne Greater Daemons",		"pts":0,  "upgrades":[95]},
        			{"id":601, "name":"Nurgle Greater Daemons",		"pts":0,  "upgrades":[96]},
 			{"id":701, "name":"Slaanesh Greater Daemons",		"pts":0,  "upgrades":[97]},
 		 	{"id":801, "name":"Tzeentch Greater Daemons",		"pts":0,  "upgrades":[98]}
-         ]},
+		]},
 		{"name":"FOLLOWERS OF CHAOS", "formations":[
 			{"id":502, "name":"Followers of Khorne",		"pts":0,  "upgrades":[111,112,113, 200,201,202,203]},
         		{"id":602, "name":"Followers of Nurgle",		"pts":0,  "upgrades":[121,122,123, 200,201,202,203]},
@@ -27,10 +27,9 @@
 		 	{"id":901, "name":"Undivided: Fury Flight",		"pts":0,  "upgrades":[170, 200,201,202,203]},
 		 	{"id":902, "name":"Undivided: Spawn Pack",		"pts":0,  "upgrades":[171, 200,201,202,203]},
 		 	{"id":903, "name":"Undivided: Soulgrinder Maniple",	"pts":0,  "upgrades":[172, 200,201,202,203]}
-         ]} 
+		]} 
 	],	
 	"upgrades":[
-		
 		{"id":10, "name":"Khorne Daemon Prince",	"pts":50},
 		{"id":11, "name":"Nurgle Daemon Prince",	"pts":50},
 		{"id":12, "name":"Slaanesh Daemon Prince",	"pts":50},
@@ -74,7 +73,7 @@
 		{"id":201, "name":"Chaos Gift: Furies",		"pts":25},
 		{"id":202, "name":"Chaos Gift: Chaos Spawn",	"pts":50},
 		{"id":203, "name":"Chaos Gift: Soulgrinder",	"pts":75}
-    ],
+	],
 	"formationConstraints":[
 		{"max":1, "from":[1000]},
 		
@@ -158,6 +157,5 @@
 		{"min":0, "max":3, "name":"Gifts of Chaos",  "from":[201], "appliesTo":[500,600,700,800,502,602,702,802,901,902,903]},
 		{"min":0, "max":3, "name":"Gifts of Chaos",  "from":[202], "appliesTo":[500,600,700,800,502,602,702,802,901,902,903]},
 		{"min":0, "max":3, "name":"Gifts of Chaos",  "from":[203], "appliesTo":[500,600,700,800,502,602,702,802,901,902,903]}
-		
 	]
 }
