@@ -26,7 +26,6 @@
 			{"id":605, "name":"Auxilia Tank Hunter Squadron",		"pts":250, "upgrades":[38], "units":"3x Valdor Tank Hunters"},
 			{"id":606, "name":"Solar Auxilia Close Support Squadron",	"pts":200, "upgrades":[38]},
 			{"id":607, "name":"Solar Auxilia Tarantula Battery",		"pts":125, "upgrades":[], "units":"4x Tarantula units, 1x Tarantula Hyperios unit"}
-
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":701, "name":"Imperial Navy Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
