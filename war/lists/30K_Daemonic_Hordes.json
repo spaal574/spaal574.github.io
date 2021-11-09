@@ -7,10 +7,10 @@
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
 		]},
 		{"name":"DAEMONIC HORDES", "formations":[
-			{"id":500, "name":"Murder Tide",	"pts":125, "upgrades":[95,99, 111,112,113,114, 200,201,202,203]},
-			{"id":600, "name":"Putrid Legion",	"pts":125, "upgrades":[96,99, 121,122,123,124, 200,201,202,203]},
-			{"id":700, "name":"Depraved Host",	"pts":125, "upgrades":[97,99, 131,132,133,134, 200,201,202,203]},
-			{"id":800, "name":"Change Coven",	"pts":125, "upgrades":[98,99, 141,142,143,144, 200,201,202,203]}
+			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 111,112,113,114, 200,201,202,203]},
+			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 121,122,123,124, 200,201,202,203]},
+			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 131,132,133,134, 200,201,202,203]},
+			{"id":800, "name":"Change Coven",	"pts":250, "upgrades":[98,99, 141,142,143,144, 200,201,202,203]}
 		]},
 		{"name":"GREATER DAEMON HORDES", "formations":[
 			{"id":501, "name":"Khorne Greater Daemons",		"pts":0, "upgrades":[95]},
@@ -41,24 +41,29 @@
 		{"id":98,  "name":"Lord of Change",		"pts":200},
 		{"id":99,  "name":"Daemonic Overlord",		"pts":0},
 
+		
+		{"id":109, "name":"Bloodletters",		"pts":0},
 		{"id":110, "name":"Bloodletter Herald",		"pts":0},
 		{"id":111, "name":"Bloodletters",		"pts":25},
 		{"id":112, "name":"Fleshhounds",		"pts":25},
 		{"id":113, "name":"Bloodcrushers",		"pts":50},
 		{"id":114, "name":"Skull Cannon",		"pts":50},
 
+		{"id":119, "name":"Plaguebearers",		"pts":0},
 		{"id":120, "name":"Plaguebearer Herald",	"pts":0},
 		{"id":121, "name":"Plaguebearers",		"pts":25},
 		{"id":122, "name":"Nurglings",			"pts":25},
 		{"id":123, "name":"Beast of Nurgle",		"pts":50},
 		{"id":124, "name":"Plague Drone",		"pts":50},
 
+		{"id":129, "name":"Daemonettes",		"pts":0},
 		{"id":130, "name":"Daemonette Herald",		"pts":0},
 		{"id":131, "name":"Daemonettes",		"pts":25},
 		{"id":132, "name":"Seekers",			"pts":25},
 		{"id":133, "name":"Seeker Chariot",		"pts":50},
 		{"id":134, "name":"Fiends",			"pts":50},
 		
+		{"id":139, "name":"Horrors",			"pts":0},
 		{"id":140, "name":"Horror Herald",		"pts":0},
 		{"id":141, "name":"Horrors",			"pts":25},
 		{"id":142, "name":"Screamers",			"pts":25},
@@ -99,7 +104,7 @@
 		{"min":0, "max":1, "from":[99], "appliesTo":[500,600,700,800]},
 		
 		{"min":1,	"from":[110,10], "appliesTo":[500]},
-		{"min":5,	"from":[111], "appliesTo":[500]},
+		{"min":5,	"from":[109], "appliesTo":[500]},
 		
 		{"min":1, "max":3, "from":[95], "appliesTo":[501]},
 		{"min":0, "max":1, "from":[95], "appliesTo":[500]},
@@ -112,7 +117,7 @@
 		{"min":0, "max":9, "from":[114], "appliesTo":[502]},
 		
 		{"min":1,	"from":[120,11], "appliesTo":[600]},
-		{"min":5,	"from":[121], "appliesTo":[600]},
+		{"min":5,	"from":[119], "appliesTo":[600]},
 		
 		{"min":1, "max":3, "from":[96], "appliesTo":[601]},
 		{"min":0, "max":1, "from":[96], "appliesTo":[600]},
@@ -126,7 +131,7 @@
 
 		
 		{"min":1,	"from":[130,12], "appliesTo":[700]},
-		{"min":5,	"from":[131], "appliesTo":[700]},
+		{"min":5,	"from":[129], "appliesTo":[700]},
 		
 		{"min":1, "max":3, "from":[97], "appliesTo":[701]},
 		{"min":0, "max":1, "from":[97], "appliesTo":[700]},
@@ -140,7 +145,7 @@
 		
 		
 		{"min":1,	"from":[140,13], "appliesTo":[800]},
-		{"min":5,	"from":[141],	 "appliesTo":[800]},
+		{"min":5,	"from":[139],	 "appliesTo":[800]},
 		
 		{"min":1, "max":3, "from":[98], "appliesTo":[801]},
 		{"min":0, "max":1, "from":[98], "appliesTo":[800]},
