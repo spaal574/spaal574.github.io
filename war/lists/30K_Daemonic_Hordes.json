@@ -19,8 +19,8 @@
 		 	{"id":801, "name":"Tzeentch Greater Daemons",		"pts":0, "upgrades":[98]}
 		]},
 		{"name":"FOLLOWERS OF CHAOS", "formations":[
-			{"id":502, "name":"Followers of Khorne",		"pts":0, "upgrades":[111,112,113, 200,201,202,203]},
-        		{"id":602, "name":"Followers of Nurgle",		"pts":0, "upgrades":[121,122,123, 200,201,202,203]},
+			{"id":502, "name":"Followers of Khorne",		"pts":0, "upgrades":[112,113,114, 200,201,202,203]},
+        		{"id":602, "name":"Followers of Nurgle",		"pts":0, "upgrades":[122,123,124, 200,201,202,203]},
 			{"id":702, "name":"Followers of Slaanesh",		"pts":0, "upgrades":[132,133,134, 200,201,202,203]},
 		 	{"id":802, "name":"Followers of Tzeentch",		"pts":0, "upgrades":[142,143,144, 200,201,202,203]},
 			
