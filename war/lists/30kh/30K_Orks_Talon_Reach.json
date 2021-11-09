@@ -79,11 +79,11 @@
 	],
 	"upgradeConstraints":[
 		{"min":0, "max":1,  "from":[10], "appliesTo":[500,501,502,600,601,602,603,604,605,606,607,608]},
-		{"min":0, "max":1,  "from":[13,14,11], "appliesTo":[500,501,502]},
+		{"min":0, "max":1,  "from":[13,14], "appliesTo":[500,501,502]},
     
-		{"min":2, "max":6,  "from":[11,12], "appliesTo":[500]},
-		{"min":4, "max":8,  "from":[11,12], "appliesTo":[501]},
-		{"min":8, "max":12, "from":[11,12], "appliesTo":[502]},
+		{"min":2, "max":6,  "from":[11,12,13,14], "appliesTo":[500]},
+		{"min":4, "max":8,  "from":[11,12,13,14], "appliesTo":[501]},
+		{"min":8, "max":12, "from":[11,12,13,14], "appliesTo":[502]},
     
 		{"min":0, "max":4,  "from":[18,19],    "appliesTo":[500,501,502]},
 		{"min":0, "max":4,  "from":[15,16,17], "appliesTo":[500,501,502]},
@@ -102,9 +102,7 @@
 		{"min":0, "max":4,    "from":[18,19], "appliesTo":[609,610]},
 		{"min":5, "max":5,    "from":[30,31], "appliesTo":[609]},
 		{"min":11, "max":11,  "from":[30,31], "appliesTo":[610]},
-    
-		{"min":8, "max":12, "from":[11], "appliesTo":[502]},
-    
+   
 		{"min":0, "max":1, "from":[32], "appliesTo":[700]},
     
 		{"min":4, "max":6, "from":[33], "appliesTo":[701]},
