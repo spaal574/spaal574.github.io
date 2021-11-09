@@ -7,26 +7,26 @@
 			{"id":1000, "name":"Warp Rift", 	"pts":75, "upgrades":[]}
 		]},
 		{"name":"DAEMONIC HORDES", "formations":[
-			{"id":500, "name":"Murder Tide",	"pts":250, "upgrades":[95,99, 111,112,113,114, 200,201,202,203]},
-			{"id":600, "name":"Putrid Legion",	"pts":250, "upgrades":[96,99, 121,122,123,124, 200,201,202,203]},
-			{"id":700, "name":"Depraved Host",	"pts":250, "upgrades":[97,99, 131,132,133,134, 200,201,202,203]},
-			{"id":800, "name":"Change Coven",	"pts":0, "upgrades":[98,99, 141,142,143,144, 200,201,202,203]}
+			{"id":500, "name":"Murder Tide",	"pts":125, "upgrades":[95,99, 111,112,113,114, 200,201,202,203]},
+			{"id":600, "name":"Putrid Legion",	"pts":125, "upgrades":[96,99, 121,122,123,124, 200,201,202,203]},
+			{"id":700, "name":"Depraved Host",	"pts":125, "upgrades":[97,99, 131,132,133,134, 200,201,202,203]},
+			{"id":800, "name":"Change Coven",	"pts":125, "upgrades":[98,99, 141,142,143,144, 200,201,202,203]}
 		]},
 		{"name":"GREATER DAEMON HORDES", "formations":[
-			{"id":501, "name":"Khorne Greater Daemons",		"pts":0,  "upgrades":[95]},
-       			{"id":601, "name":"Nurgle Greater Daemons",		"pts":0,  "upgrades":[96]},
-			{"id":701, "name":"Slaanesh Greater Daemons",		"pts":0,  "upgrades":[97]},
-		 	{"id":801, "name":"Tzeentch Greater Daemons",		"pts":0,  "upgrades":[98]}
+			{"id":501, "name":"Khorne Greater Daemons",		"pts":0, "upgrades":[95]},
+       			{"id":601, "name":"Nurgle Greater Daemons",		"pts":0, "upgrades":[96]},
+			{"id":701, "name":"Slaanesh Greater Daemons",		"pts":0, "upgrades":[97]},
+		 	{"id":801, "name":"Tzeentch Greater Daemons",		"pts":0, "upgrades":[98]}
 		]},
 		{"name":"FOLLOWERS OF CHAOS", "formations":[
-			{"id":502, "name":"Followers of Khorne",		"pts":0,  "upgrades":[111,112,113, 200,201,202,203]},
-        		{"id":602, "name":"Followers of Nurgle",		"pts":0,  "upgrades":[121,122,123, 200,201,202,203]},
-			{"id":702, "name":"Followers of Slaanesh",		"pts":0,  "upgrades":[132,133,134, 200,201,202,203]},
-		 	{"id":802, "name":"Followers of Tzeentch",		"pts":0,  "upgrades":[142,143,144, 200,201,202,203]},
+			{"id":502, "name":"Followers of Khorne",		"pts":0, "upgrades":[111,112,113, 200,201,202,203]},
+        		{"id":602, "name":"Followers of Nurgle",		"pts":0, "upgrades":[121,122,123, 200,201,202,203]},
+			{"id":702, "name":"Followers of Slaanesh",		"pts":0, "upgrades":[132,133,134, 200,201,202,203]},
+		 	{"id":802, "name":"Followers of Tzeentch",		"pts":0, "upgrades":[142,143,144, 200,201,202,203]},
 			
-		 	{"id":901, "name":"Undivided: Fury Flight",		"pts":0,  "upgrades":[170, 200,201,202,203]},
-		 	{"id":902, "name":"Undivided: Spawn Pack",		"pts":0,  "upgrades":[171, 200,201,202,203]},
-		 	{"id":903, "name":"Undivided: Soulgrinder Maniple",	"pts":0,  "upgrades":[172, 200,201,202,203]}
+		 	{"id":901, "name":"Undivided: Fury Flight",		"pts":0, "upgrades":[170, 200,201,202,203]},
+		 	{"id":902, "name":"Undivided: Spawn Pack",		"pts":0, "upgrades":[171, 200,201,202,203]},
+		 	{"id":903, "name":"Undivided: Soulgrinder Maniple",	"pts":0, "upgrades":[172, 200,201,202,203]}
 		]} 
 	],	
 	"upgrades":[
@@ -58,13 +58,13 @@
 		{"id":132, "name":"Seekers",			"pts":25},
 		{"id":133, "name":"Seeker Chariot",		"pts":50},
 		{"id":134, "name":"Fiends",			"pts":50},
-
+		
 		{"id":140, "name":"Horror Herald",		"pts":0},
 		{"id":141, "name":"Horrors",			"pts":25},
 		{"id":142, "name":"Screamers",			"pts":25},
 		{"id":143, "name":"Flamers",			"pts":25},
 		{"id":144, "name":"Burning Chariot",		"pts":50},
-		
+	
 		{"id":170, "name":"Furies",			"pts":25},
 		{"id":171, "name":"Chaos Spawn",		"pts":50},
 		{"id":172, "name":"Soulgrinder",		"pts":75},
