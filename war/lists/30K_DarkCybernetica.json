@@ -19,7 +19,7 @@
 			{"id":604, "name":"Thanatar Maniple",		"pts":300, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]},
 			{"id":605, "name":"Bombot Horde",		"pts":50,  "upgrades":[],				"units":"1x Datasmith 5x Bombots"}
       	]},
-		{"name":"ALLIES & LORDS OF WAR", "formations":[
+		{"name":"LORDS OF WAR", "formations":[
 			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":450, "upgrades":[10,11,12,13], "units":"2x Lambda-Zeta-01 Battle-Automata units"},
 			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":500, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
         ]}
@@ -89,7 +89,7 @@
 	"formationConstraints":[
 	
 	{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605], "forEach":[500,501,502,503,504], "name2":"Cohort"},
-	{"maxPercent":50, "name":"ALLIES & LORDS OF WAR", "from":[700,701]},
+	{"maxPercent":50, "name":"LORDS OF WAR", "from":[700,701]},
 		
 	{"max":1, "perArmy":true, "from":[701]}
 		
