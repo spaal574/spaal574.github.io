@@ -55,6 +55,9 @@
 
 		{"id":18, "name":"Lootas units     (Moar Dakka minimum 2)", "pts":25},
 		{"id":19, "name":"Tankbustas units (Moar Dakka minimum 2)", "pts":25},
+
+		{"id":20, "name":"Lootas units", "pts":0},
+		{"id":21, "name":"Tankbustas units", "pts":0},
    
 		{"id":25, "name":"Warbikes units",	"pts":0},
 		{"id":26, "name":"Warbuggies units",	"pts":0},
@@ -87,17 +90,16 @@
 		{"min":4, "max":8,  "from":[11,12,13,14], "appliesTo":[501]},
 		{"min":8, "max":12, "from":[11,12,13,14], "appliesTo":[502]},
     
-		{"min":0, "max":4,  "from":[18,19],    "appliesTo":[500,501,502]},
+		{"min":0, "max":4,  "from":[18,19],    "appliesTo":[500,501,502,600,601,602]},
     
 		{"min":8, "max":8,    "from":[25,26,27], "appliesTo":[603]},
 		{"min":4, "max":4,    "from":[28,29],    "appliesTo":[504]},
 		{"min":8, "max":8,    "from":[28,29],    "appliesTo":[505]},
 		{"min":12, "max":12,  "from":[28,29],    "appliesTo":[506]},
     
-		{"min":0, "max":4,    "from":[11],    "appliesTo":[600,601,602]},
-		{"min":5,  "max":9,   "from":[18,19], "appliesTo":[600]},
-		{"min":11, "max":15,  "from":[18,19], "appliesTo":[601]},
-		{"min":17, "max":21,  "from":[18,19], "appliesTo":[602]},
+		{"min":5,  "max":5,   "from":[20,21], "appliesTo":[600]},
+		{"min":11, "max":11,  "from":[20,21], "appliesTo":[601]},
+		{"min":17, "max":17,  "from":[20,21], "appliesTo":[602]},
 		
 		{"min":4, "max":4,	"from":[28,29], "appliesTo":[603]},
 		{"min":8, "max":8,	"from":[28,29], "appliesTo":[604]},
