@@ -2,7 +2,9 @@
 	"id":"Orks Of Talon Reach",
 	"version":"Heresy v0.9.0-(experimental list(?))",
 	"by":"spaal574",
-	"notes":["A line detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once.When Nobz are taken as an upgrade you must add 2 minimum.A support detachment may choose up to three upgrades, each upgrade for that detachment can only be chosen once."],
+	"notes":["A line detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once.",
+		 "A support detachment may choose up to three upgrades, each upgrade for that detachment can only be chosen once.",
+		 "When Nobz are taken as an upgrade you must add 2 minimum."],
 	"sections":[
 		{"name":"Line Detachments", "formations":[
 			{"id":500, "name":"Warband",		"pts":100, "upgrades":[10,11,15,16,17,18,19], "units":"6 Boyz,  2 Grotz"},
@@ -47,12 +49,12 @@
 		{"id":13, "name":"Warboss (Da Big Bosses)",	"pts":50},
 		{"id":14, "name":"Weirdboy (Da Big Bosses)",    "pts":50},
 
-		{"id":15, "name":"Trukks (Ere We Go!)",         "pts":5},
-		{"id":16, "name":"Battlewagons (Ere We Go!)",   "pts":25},
+		{"id":15, "name":"Trukks         (Ere We Go!)", "pts":5},
+		{"id":16, "name":"Battlewagons   (Ere We Go!)", "pts":25},
 		{"id":17, "name":"Battlefortress (Ere We Go!)", "pts":100},
 
-		{"id":18, "name":"Lootas units (Moar Dakka minimum 2)",		"pts":25},
-		{"id":19, "name":"Tankbustas units (Moar Dakka minimum 2)",	"pts":25},
+		{"id":18, "name":"Lootas units     (Moar Dakka minimum 2)", "pts":25},
+		{"id":19, "name":"Tankbustas units (Moar Dakka minimum 2)", "pts":25},
    
 		{"id":25, "name":"Warbikes units",	"pts":0},
 		{"id":26, "name":"Warbuggies units",	"pts":0},
