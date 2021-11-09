@@ -9,7 +9,7 @@
 		{"name":"Line Detachments", "formations":[
 			{"id":500, "name":"Warband",		"pts":100, "upgrades":[10,11,15,16,17,18,19], "units":"6 Boyz,  2 Grotz"},
 			{"id":501, "name":"Big Warband",	"pts":150, "upgrades":[10,11,15,16,17,18,19], "units":"12 Boyz, 4 Grotz"},
-			{"id":502, "name":"'Uge Warband",	"pts":200, "upgrades":[10,11,15,16,17,18,19], "units":"24 Boyz, 8 Grotz"}
+			{"id":502, "name":"'Uge Warband",	"pts":150, "upgrades":[10,11,15,16,17,18,19], "units":"24 Boyz, 8 Grotz"}
 		]},
 		{"name":"Support Detachments", "formations":[
 			{"id":600, "name":"Shooty Mob",        "pts":200, "upgrades":[10,11,18,19], "units":"1 Mekboy and 6 Grotz units"},
