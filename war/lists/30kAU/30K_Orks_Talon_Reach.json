@@ -5,9 +5,9 @@
 	"notes":["A line detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once.When Nobz are taken as an upgrade you must add 2 minimum.A support detachment may choose up to three upgrades, each upgrade for that detachment can only be chosen once."],
 	"sections":[
 		{"name":"Line Detachments", "formations":[
-			{"id":500, "name":"Warband",				  "pts":100, "upgrades":[10,11,15,16,17,18,19], "units":"6 Boyz,  2 Grotz"},
-			{"id":501, "name":"Big Warband",			"pts":150, "upgrades":[10,11,15,16,17,18,19], "units":"12 Boyz, 4 Grotz"},
-			{"id":502, "name":"'Uge Warband",		  "pts":200, "upgrades":[10,11,15,16,17,18,19], "units":"24 Boyz, 8 Grotz"}
+			{"id":500, "name":"Warband",		"pts":100, "upgrades":[10,11,15,16,17,18,19], "units":"6 Boyz,  2 Grotz"},
+			{"id":501, "name":"Big Warband",	"pts":150, "upgrades":[10,11,15,16,17,18,19], "units":"12 Boyz, 4 Grotz"},
+			{"id":502, "name":"'Uge Warband",	"pts":200, "upgrades":[10,11,15,16,17,18,19], "units":"24 Boyz, 8 Grotz"}
 		]},
 		{"name":"Support Detachments", "formations":[
 			{"id":600, "name":"Shooty Mob",        "pts":200, "upgrades":[10,11,18,19], "units":"1 Mekboy and 6 Grotz units"},
@@ -15,15 +15,15 @@
 			{"id":602, "name":"'Uge Shooty Mob",   "pts":550, "upgrades":[10,11,18,19], "units":"1 Mekboy and 6 Grotz units"},
       
 			{"id":603, "name":"Kult of Speed",        "pts":200, "upgrades":[10]},
-			{"id":604, "name":"Blitz Brigade",			  "pts":200, "upgrades":[10]},
+			{"id":604, "name":"Blitz Brigade",	  "pts":200, "upgrades":[10]},
 			{"id":605, "name":"Blitz Brigade (Big)",  "pts":375, "upgrades":[10]},
 			{"id":606, "name":"Blitz Brigade ('Uge)", "pts":550, "upgrades":[10]},
     
-			{"id":607, "name":"Kommando Squad",	    	"pts":200, "upgrades":[10], "units":"6 Kommando units"},
-			{"id":608, "name":"Big Kommando Squad",		"pts":375, "upgrades":[10], "units":"12 Kommando units"},
+			{"id":607, "name":"Kommando Squad",	"pts":200, "upgrades":[10], "units":"6 Kommando units"},
+			{"id":608, "name":"Big Kommando Squad",	"pts":375, "upgrades":[10], "units":"12 Kommando units"},
     
-			{"id":609, "name":"Mekboy Gunz Mob",      "pts":150, "upgrades":[10,18,19], "units":"1 Mekboy and 6 Grotz units"},
-			{"id":610, "name":"Big Mekboy Gunz Mob",	"pts":275, "upgrades":[10,18,19], "units":"1 Mekboy and 6 Grotz units"}
+			{"id":609, "name":"Mekboy Gunz Mob",	"pts":150, "upgrades":[10,18,19], "units":"1 Mekboy and 6 Grotz units"},
+			{"id":610, "name":"Big Mekboy Gunz Mob", "pts":275, "upgrades":[10,18,19], "units":"1 Mekboy and 6 Grotz units"}
 		]},
 		{"name":"Lords of War", "formations":[
 			{"id":700, "name":"Boss Mob",	        "pts":300, "upgrades":[10,15,16,17,32], "units":"1 Warlord unit and 5 Mega Nobz units"},
@@ -33,48 +33,48 @@
     
 			{"id":703, "name":"Supa Heavy Tankz Sqwadron",	"pts":850, "upgrades":[35,31]},
     
-			{"id":704, "name":"Gargant",	      "pts":0, "upgrades":[36]},
-			{"id":705, "name":"Great Gargant",	"pts":850, "upgrades":[], "units":"1 Great Gargant unit"},
+			{"id":704, "name":"Gargant", 		"pts":0,   "upgrades":[36]},
+			{"id":705, "name":"Great Gargant", 	"pts":850, "upgrades":[], "units":"1 Great Gargant unit"},
     
 			{"id":706, "name":"Tellyporta",	"pts":50,  "upgrades":[], "units":"1 Tellyporta Platform"}
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Drop Rok (We'z Going in Hot!)",          "pts":25},
+		{"id":10, "name":"Drop Rok (We'z Going in Hot!)", "pts":25},
 
 		{"id":11, "name":"Nobz units",                  "pts":25},
 		{"id":12, "name":"Cyborks units",               "pts":50},
-		{"id":13, "name":"Warboss (Da Big Bosses)",	    "pts":50},
+		{"id":13, "name":"Warboss (Da Big Bosses)",	"pts":50},
 		{"id":14, "name":"Weirdboy (Da Big Bosses)",    "pts":50},
 
 		{"id":15, "name":"Trukks (Ere We Go!)",         "pts":5},
 		{"id":16, "name":"Battlewagons (Ere We Go!)",   "pts":25},
 		{"id":17, "name":"Battlefortress (Ere We Go!)", "pts":100},
 
-		{"id":18, "name":"Lootas units (Moar Dakka minimum 2)",				"pts":25},
-		{"id":19, "name":"Tankbustas units (Moar Dakka minimum 2)",	  "pts":25},
+		{"id":18, "name":"Lootas units (Moar Dakka minimum 2)",		"pts":25},
+		{"id":19, "name":"Tankbustas units (Moar Dakka minimum 2)",	"pts":25},
    
-		{"id":25, "name":"Warbikes units",		"pts":0},
-		{"id":26, "name":"Warbuggies units",  "pts":0},
-		{"id":27, "name":"Skorchas units",		"pts":0},
+		{"id":25, "name":"Warbikes units",	"pts":0},
+		{"id":26, "name":"Warbuggies units",	"pts":0},
+		{"id":27, "name":"Skorchas units",	"pts":0},
 
-		{"id":28, "name":"Gunwagons units",		"pts":0},
+		{"id":28, "name":"Gunwagons units",	"pts":0},
 		{"id":29, "name":"Flakwagons units",	"pts":0},
 
-		{"id":30, "name":"Gun Crew units (Big gun)",	  "pts":0},
-		{"id":31, "name":"Gun Crew units (Zzap gun)",		"pts":50},
+		{"id":30, "name":"Gun Crew units (Big gun)",	"pts":0},
+		{"id":31, "name":"Gun Crew units (Zzap gun)",	"pts":50},
    
-		{"id":32, "name":"Wot's dis button do?",  "pts":50}
-		{"id":33, "name":"Dakkajet units",	      "pts":50},
-		{"id":34, "name":"Fighta-Bomma units",	  "pts":50},
+		{"id":32, "name":"Wot's dis button do?",	"pts":50}
+		{"id":33, "name":"Dakkajet units",		"pts":50},
+		{"id":34, "name":"Fighta-Bomma units",		"pts":50},
     
-		{"id":35, "name":"Gunfortress units",	    "pts":125},
-		{"id":36, "name":"Gargant units",	        "pts":650}
+		{"id":35, "name":"Gunfortress units",		"pts":125},
+		{"id":36, "name":"Gargant units",		"pts":650}
 	],
 	"formationConstraints":[
-    {"max":2, "name":"Standard Support Detachments",  "from":[600,603,604,607,609], "forEach":[500], "name2":"Warband"},
-    {"max":2, "name":"Big Support Detachments",       "from":[601,605,608,610], "forEach":[501], "name2":"Big Warband"},
-    {"max":2, "name":"'Uge Support Detachments",      "from":[602,606], "forEach":[502], "name2":"'Uge Warband"},
+		{"max":2, "name":"Standard Support Detachments",  "from":[600,603,604,607,609], "forEach":[500], "name2":"Warband"},
+		{"max":2, "name":"Big Support Detachments",       "from":[601,605,608,610], "forEach":[501], "name2":"Big Warband"},
+		{"max":2, "name":"'Uge Support Detachments",      "from":[602,606], "forEach":[502], "name2":"'Uge Warband"},
 		{"maxPercent":33, "name":"Lords of War",          "from":[700,701,702,703,704,705,706,707]}
 	],
 	"upgradeConstraints":[
