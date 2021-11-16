@@ -61,8 +61,8 @@
 		
 		{"id":15, "name":"Terminator Units",					"pts":75},
 		
-		{"id":30, "name":"Battle Barge",					"pts":200},
-		{"id":31, "name":"Strike Cruiser",					"pts":300},
+		{"id":30, "name":"Battle Barge",					"pts":300},
+		{"id":31, "name":"Strike Cruiser",					"pts":200},
 
 		{"id":35, "name":"4x Medusa",						"pts":250},
 		{"id":36, "name":"4x Basilisk",						"pts":300},
