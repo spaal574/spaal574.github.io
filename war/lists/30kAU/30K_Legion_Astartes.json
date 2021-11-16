@@ -100,8 +100,8 @@
 		{"id":55, "name":"Javelin Attack Speeder w/TL Lascannon",		"pts":0},
 		{"id":56, "name":"Javelin Attack Speeder w/TL Cyclone Missile Launcher", "pts":0},
 		
-		{"id":62, "name":"5x Outrider Bike units",				"pts":175},
-		{"id":61, "name":"5x Attack Bike units", 				"pts":175},
+		{"id":61, "name":"5x Outrider Bike units",				"pts":175},
+		{"id":62, "name":"5x Attack Bike units", 				"pts":175},
 		
 		{"id":65, "name":"Predator w/TL Lascannon 2x Heavy Bolters",		"pts":60},
 		{"id":66, "name":"Predator w/TL Lascannon 2x Lascannon",		"pts":60},
@@ -212,7 +212,7 @@
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,618]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,612,618]},
 		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,614,616,618]},	
 		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,606]},
 	
@@ -240,6 +240,8 @@
 
 		{"min":5, "max":5, "from":[50,51], "appliesTo":[610]},
 		{"min":5, "max":5, "from":[55,56], "appliesTo":[611]},
+		
+		{"min":1, "max":1, "from":[61,62], "appliesTo":[612]},
 		
 		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[614]},
 		
