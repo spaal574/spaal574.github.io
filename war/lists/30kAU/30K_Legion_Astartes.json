@@ -111,7 +111,7 @@
 		{"id":70, "name":"Predator w/Predator Cannon 2x Heavy Flamers",		"pts":60},
 		{"id":71, "name":"Predator w/Flamestorm Cannon 2x Heavy Bolters",	"pts":60},
 		{"id":72, "name":"Predator w/Flamestorm Cannon 2x Lascannon",		"pts":60},
-		{"id":73, "name":"Predator w/Flamestorm Cannon2x Heavy Flamers",	"pts":60},
+		{"id":73, "name":"Predator w/Flamestorm Cannon 2x Heavy Flamers",	"pts":60},
 		
 		{"id":80, "name":"Sicaran Battle Tank",					"pts":80},
 		{"id":81, "name":"Sicaran Venator",					"pts":80},
@@ -186,7 +186,7 @@
 		{"id":158, "name":"Tank : Predator w/Predator Cannon 2x Heavy Flamers",			"pts":60},
 		{"id":159, "name":"Tank : Predator w/Flamestorm Cannon 2x Heavy Bolters",		"pts":60},
 		{"id":160, "name":"Tank : Predator w/Flamestorm Cannon 2x Lascannon",			"pts":60},
-		{"id":161, "name":"Tank : Predator w/Flamestorm Cannon2x Heavy Flamers",		"pts":60},
+		{"id":161, "name":"Tank : Predator w/Flamestorm Cannon 2x Heavy Flamers",		"pts":60},
 		
 		{"id":165, "name":"Armoury Assets : Predator Infernus",					"pts":80},
 		{"id":166, "name":"Armoury Assets : Predator Infernus",					"pts":20},
@@ -213,9 +213,18 @@
 	],
 	"upgradeConstraints":[    
 		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,612,618]},
+		
 		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,614,616,618]},	
+		
 		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,606]},
+		
 		{"min":0, "max":2, "from":[140,141,142,143,144,145,146,147], "appliesTo":[500,501,503]},
+		
+		{"min":0, "max":4, "from":[130,131,132,133], "appliesTo":[500]},
+		
+		{"min":0, "max":4, "from":[135,136], "appliesTo":[500]},
+		
+		
 		
 		{"min":0, "max":1, "from":[102], "appliesTo":[501]},
 		
