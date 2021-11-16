@@ -1,12 +1,11 @@
 {
-	"id":"Space Marine Legions,(30k Era)",
+	"id":"Space Marine Legions(30k Era)",
 	"version":"Heresy V1(last update list 22 June 2020)",
 	"by":"J.Barr AKA Fattdex. Updated by Mard & freefall. Remade from 0 by spaal574",
 	"notes":["A line detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once and only one transport option may be selected.",
 	"A support detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once and only one transport option may be selected.",
 	"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation."],
-
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,102,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
