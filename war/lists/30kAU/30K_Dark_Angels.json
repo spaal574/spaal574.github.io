@@ -14,20 +14,20 @@
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":599, "name":"Dreadwing Interemptor Detachment",	"pts":250, "upgrades":[100, 110,111,114,115], "units":"4x Dreadwing Interemptor units"},	
-				
+			{"id":599, "name":"Dreadwing Interemptor Detachment",	"pts":250, "upgrades":[100, 125,126,127, 110,111,114,115], "units":"4x Dreadwing Interemptor units"},	
+			
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
 			
 			{"id":602, "name":"Legion Assault Marine Detachment",	"pts":175, "upgrades":[125,126,127, 100], "units":"4x Assault Squads"},
 			{"id":603, "name":"Legion Breacher Detachment",		"pts":225, "upgrades":[125,126,127, 100,101,103,104, 110,111,112,114,115], "units":"4x Breacher Squads"},
 			{"id":604, "name":"Legion Reconnaissance Squad",	"pts":150, "upgrades":[125,126,127, 100,101,103], "units":"4x Reconnaissance Squads Squads"},
-			{"id":605, "name":"Legion Rapier Weapons Battery",	"pts":240, "upgrades":[100]},
+			{"id":605, "name":"Legion Rapier Weapons Battery",	"pts":-60, "upgrades":[100]},
 			{"id":606, "name":"Legion Destroyer Detachment",	"pts":225, "upgrades":[125,126,127, 100], "units":"4x Destroyer Squads units"},
 			
 			{"id":607, "name":"Legion Dreadnought Talon",		"pts":0, "upgrades":[125,126,127, 40,41, 100]},
-			{"id":608, "name":"Legion Leviathan Dreadnought Talon",	"pts":0, "upgrades":[125,126,127, 200,201,202,203,204, 100]},
-			{"id":609, "name":"Legion Contemptor Dreadnought Talon", "pts":0, "upgrades":[125,126,127, 45,46, 210,211,212,213,214,215,216,217, 100]},
+			{"id":608, "name":"Legion Leviathan Dreadnought Talon",	"pts":0, "upgrades":[125,126,127, 100]},
+			{"id":609, "name":"Legion Contemptor Dreadnought Talon", "pts":0, "upgrades":[125,126,127, 45,46,143,145, 210,211,212,213,214,215,216,217, 100]},
 
 			{"id":610, "name":"Legion Land Speeder Squadron",	"pts":200, "upgrades":[125,126,127]},
 			{"id":611, "name":"Legion Javelin Attack Squadron",	"pts":250, "upgrades":[125,126,127]},
@@ -35,8 +35,8 @@
 			{"id":613, "name":"Legion Sky Hunter Attack Squadron",	"pts":175, "upgrades":[125,126,127], "units":"5x Scimitar Jet Bike units"},
 
 			{"id":614, "name":"Legion Predator Strike Squadron",	"pts":0, "upgrades":[125,126,127, 65,66,67,68,69,70,71,72,73, 165,167,169,175, 120]},
-			{"id":615, "name":"Legion Sicaran Battle Squadron",	"pts":0, "upgrades":[125,126,127, 180,181,182, 120]},
-			{"id":616, "name":"Legion Land Raider Squadron",	"pts":0, "upgrades":[125,126,127, 120]},
+			{"id":615, "name":"Legion Sicaran Battle Squadron",	"pts":0, "upgrades":[125,126,127, 80,81,82, 120]},
+			{"id":616, "name":"Legion Land Raider Squadron",	"pts":0, "upgrades":[125,126,127, 95,96,112, 120]},
 			{"id":617, "name":"Legion Sabre Strike Squadron",	"pts":275, "upgrades":[125,126,127], "units":"4x Sabre Strike Tanks"},
 			{"id":618, "name":"Legion Vindicator Squadron",		"pts":0, "upgrades":[125,126,127, 98, 151, 120]},
 
@@ -46,7 +46,7 @@
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":700, "name":"Lion El'Johnson, the Son of the Forest",	"pts":450, "upgrades":[110,111,112,114,115, 102, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
-			{"id":701, "name":"Legion Super Heavy Tank Squadron",	"pts":700, "upgrades":[125,126,127]},
+			{"id":701, "name":"Legion Super Heavy Tank Squadron",	"pts":0, "upgrades":[125,126,127]},
 		
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -120,9 +120,9 @@
 		{"id":72, "name":"Predator w/Flamestorm Cannon 2x Lascannon",		"pts":60},
 		{"id":73, "name":"Predator w/Flamestorm Cannon 2x Heavy Flamers",	"pts":60},
 		
-		{"id":80, "name":"Sicaran Battle Tank",					"pts":80},
-		{"id":81, "name":"Sicaran Venator",					"pts":80},
-		{"id":82, "name":"Sicaran Omega Tank Destroyer",			"pts":80},
+		{"id":80, "name":"Sicaran Battle Tank",					"pts":75},
+		{"id":81, "name":"Sicaran Venator",					"pts":75},
+		{"id":82, "name":"Sicaran Omega Tank Destroyer",			"pts":75},
 		
 		{"id":85, "name":"Typhon",						"pts":150},
 		{"id":90, "name":"Cerberus",						"pts":150},
@@ -144,6 +144,8 @@
 		
 		{"id":307, "name":"3x Fellblade units",					"pts":700},
 		{"id":308, "name":"3x Glaive units",					"pts":700},
+		
+		
 		
 		
 		{"id":100, "name":"Drop Assault : Transport the entire formation in Drop Pods",	"pts":0},
@@ -214,8 +216,8 @@
 		{"id":190, "name":"Tank : Cerberus",					"pts":150}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503], "name2":"Detachment"},
-		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
+		{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503], "name2":"Detachment"},
+		{"maxPercent":33, "name":"LORDS OF WAR", "from":[700,701,704,705,706,707,708,709]},
 		{"max":1, "perPoints":2000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":2000, "from":[606]},
@@ -223,11 +225,11 @@
 		{"max":1, "from":[700]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618,701]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503, 599,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618, 701]},
 		
-		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,614,616,618,700]},	
+		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618, 700]},	
 		
-		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503, 599,602,603,604,606]},
+		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503, 599,602,603,604,605,606,607,608,609]},
 		
 		{"min":0, "max":2, "from":[140,141,142,143,144,145,146,147], "appliesTo":[500,501,503]},
 		
@@ -238,27 +240,28 @@
 		{"min":0, "max":1, "from":[120], "appliesTo":[500,501,503, 601,614,615,616,618, 700]},
 		
 		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[500,501,503, 700]},
-		
+				
 		{"min":0, "max":1, "from":[102], "appliesTo":[501, 700]},
-		
 		
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
 		
 		{"min":4, "max":6, "from":[15], "appliesTo":[501]},
 		
+		
+		
 
 		{"min":1, "max":1, "from":[30,31], "appliesTo":[600]},
 		{"min":1, "max":1, "from":[35,36,37], "appliesTo":[601]},
 		
-		{"min":4, "max":6, "from":[130,131,132,133], "appliesTo":[605]},
+		{"min":6, "max":6, "from":[130,131,132,133], "appliesTo":[605]},
 		
 		
 		{"min":4, "max":6, "from":[40,41],			"appliesTo":[607]},
 		
-		{"min":3, "max":3, "from":[42,143,145],			"appliesTo":[608]},
-		{"min":0, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
+		{"min":3, "max":3, "from":[42],				"appliesTo":[608]},
+		{"min":6, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
 		
-		{"min":4, "max":6,  "from":[45,46],				"appliesTo":[609]},
+		{"min":4, "max":6,  "from":[45,46,143,145],			"appliesTo":[609]},
 		{"min":4, "max":12, "from":[210,211,212,213,214,215,216,217],	"appliesTo":[609]},
 		
 
@@ -269,15 +272,15 @@
 		
 		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[614]},
 		
-		{"min":4, "max":6, "from":[180,181,182], "appliesTo":[615]},
+		{"min":4, "max":6, "from":[80,81,82], "appliesTo":[615]},
 		
 		{"min":4, "max":6, "from":[95,96,112], "appliesTo":[616]},
 		
 		{"min":4, "max":6, "from":[98,151], "appliesTo":[618]},
 		
 		{"min":1, "max":3, "from":[300], "appliesTo":[619]},
-		{"min":1, "max":3, "from":[301], "appliesTo":[620]},
-		{"min":1, "max":1, "from":[302], "appliesTo":[621]},
+		{"min":1, "max":1, "from":[302], "appliesTo":[620]},
+		{"min":1, "max":3, "from":[301], "appliesTo":[621]},
 		
 		{"min":1, "max":1, "from":[1], "appliesTo":[700]},
 		{"min":3, "max":3, "from":[2], "appliesTo":[700]},
