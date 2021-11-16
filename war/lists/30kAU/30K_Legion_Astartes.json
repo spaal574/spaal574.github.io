@@ -33,7 +33,7 @@
 			{"id":613, "name":"Legion Sky Hunter Attack Squadron",	"pts":175, "upgrades":[125,126,127], "units":"5x Scimitar Jet Bike units"},
 
 			{"id":614, "name":"Legion Predator Strike Squadron",	"pts":0, "upgrades":[125,126,127, 65,66,67,68,69,70,71,72,73, 165,167,169,175, 120]},
-			{"id":615, "name":"Legion Sicaran Battle Squadron",	"pts":0, "upgrades":[125,126,127, 180,181,182, 120]},
+			{"id":615, "name":"Legion Sicaran Battle Squadron",	"pts":0, "upgrades":[125,126,127, 80,81,82, 120]},
 			{"id":616, "name":"Legion Land Raider Squadron",	"pts":0, "upgrades":[125,126,127, 95,96,112, 120]},
 			{"id":617, "name":"Legion Sabre Strike Squadron",	"pts":275, "upgrades":[125,126,127], "units":"4x Sabre Strike Tanks"},
 			{"id":618, "name":"Legion Vindicator Squadron",		"pts":0, "upgrades":[125,126,127, 98, 151, 120]},
@@ -259,7 +259,7 @@
 		
 		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[614]},
 		
-		{"min":4, "max":6, "from":[180,181,182], "appliesTo":[615]},
+		{"min":4, "max":6, "from":[80,81,82], "appliesTo":[615]},
 		
 		{"min":4, "max":6, "from":[95,96,112], "appliesTo":[616]},
 		
