@@ -113,9 +113,9 @@
 		{"id":72, "name":"Predator w/Flamestorm Cannon 2x Lascannon",		"pts":60},
 		{"id":73, "name":"Predator w/Flamestorm Cannon 2x Heavy Flamers",	"pts":60},
 		
-		{"id":80, "name":"Sicaran Battle Tank",					"pts":80},
-		{"id":81, "name":"Sicaran Venator",					"pts":80},
-		{"id":82, "name":"Sicaran Omega Tank Destroyer",			"pts":80},
+		{"id":80, "name":"Sicaran Battle Tank",					"pts":75},
+		{"id":81, "name":"Sicaran Venator",					"pts":75},
+		{"id":82, "name":"Sicaran Omega Tank Destroyer",			"pts":75},
 		
 		{"id":85, "name":"Typhon",						"pts":150},
 		{"id":90, "name":"Cerberus",						"pts":150},
