@@ -1,38 +1,26 @@
 {
 	"id":"Dark Angels Space Marine Legion(30k Era)",
 	"version":"Heresy V1(last update list 22 June 2020)",
-	"by":"spaal574",
+	"by":"J.Barr AKA Fattdex. Updated by Mard & freefall. Remade from 0 by spaal574",
 	"notes":["A line detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once and only one transport option may be selected.",
 	"A support detachment may choose up to four upgrades, each upgrade for that detachment can only be chosen once and only one transport option may be selected.",
 	"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation."],
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,102,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
-			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[5,6,125,126,127, 103,104, 110,111,112,114,115, 102,  140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
+			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
+			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
 			{"id":502, "name":"Legion Assault Marine Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"},
-			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,102,103,104, 110,111,112,114,115,  140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
+			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			
-Dark Angels Support Detachments
-Detachment	Units	Upgrades	Cost
-0-1 Destroyer Detachment
-(per full 2000 pts)	4 Destroyer Squad units	Drop Assault, Centurion	225 pts
-0-1 Dreadwing Interemptor Detachment
-(per full 2000 pts)	4 Dreadwing Interemptor Squad units	Drop Assault OR Heavy Transport, Centurion	250 pts
-		
-			{"id":600, "name":"Destroyer Detachment",		"pts":0, "upgrades":[]},
-			{"id":600, "name":"Dreadwing Interemptor Detachment",	"pts":0, "upgrades":[]},			
-			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
-			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},	
-			
-			
+			{"id":599, "name":"Dreadwing Interemptor Detachment",	"pts":250, "upgrades":[100, 110,111,114,115], "units":"4x Dreadwing Interemptor units"},	
+				
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
 			
 			{"id":602, "name":"Legion Assault Marine Detachment",	"pts":175, "upgrades":[125,126,127, 100], "units":"4x Assault Squads"},
-			{"id":603, "name":"Legion Breacher Detachment",		"pts":225, "upgrades":[125,126,127, 100,101,102,103,104, 110,111,112,114,115], "units":"4x Breacher Squads"}
+			{"id":603, "name":"Legion Breacher Detachment",		"pts":225, "upgrades":[125,126,127, 100,101,103,104, 110,111,112,114,115], "units":"4x Breacher Squads"},
 			{"id":604, "name":"Legion Reconnaissance Squad",	"pts":150, "upgrades":[125,126,127, 100,101,103], "units":"4x Reconnaissance Squads Squads"},
 			{"id":605, "name":"Legion Rapier Weapons Battery",	"pts":240, "upgrades":[100]},
 			{"id":606, "name":"Legion Destroyer Detachment",	"pts":225, "upgrades":[125,126,127, 100], "units":"4x Destroyer Squads units"},
@@ -52,9 +40,9 @@ Detachment	Units	Upgrades	Cost
 			{"id":617, "name":"Legion Sabre Strike Squadron",	"pts":275, "upgrades":[125,126,127], "units":"4x Sabre Strike Tanks"},
 			{"id":618, "name":"Legion Vindicator Squadron",		"pts":0, "upgrades":[125,126,127, 98, 151, 120]},
 
-			{"id":619, "name":"Legion Storm Eagle Attack Wing",	"pts":0, "upgrades":[]},
+			{"id":619, "name":"Legion Storm Eagle Attack Wing",	"pts":0, "upgrades":[300]},
 			{"id":620, "name":"Legion Thunderhawk Gunship",		"pts":0, "upgrades":[]},
-			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[]}
+			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			
@@ -80,8 +68,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		
 		{"id":15, "name":"Terminator Units",					"pts":75},
 		
-		{"id":30, "name":"Battle Barge",					"pts":200},
-		{"id":31, "name":"Strike Cruiser",					"pts":300},
+		{"id":30, "name":"Battle Barge",					"pts":300},
+		{"id":31, "name":"Strike Cruiser",					"pts":200},
 
 		{"id":35, "name":"4x Medusa",						"pts":250},
 		{"id":36, "name":"4x Basilisk",						"pts":300},
@@ -119,8 +107,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":55, "name":"Javelin Attack Speeder w/TL Lascannon",		"pts":0},
 		{"id":56, "name":"Javelin Attack Speeder w/TL Cyclone Missile Launcher", "pts":0},
 		
-		{"id":62, "name":"5x Outrider Bike units",				"pts":175},
-		{"id":61, "name":"5x Attack Bike units", 				"pts":175},
+		{"id":61, "name":"5x Outrider Bike units",				"pts":175},
+		{"id":62, "name":"5x Attack Bike units", 				"pts":175},
 		
 		{"id":65, "name":"Predator w/TL Lascannon 2x Heavy Bolters",		"pts":60},
 		{"id":66, "name":"Predator w/TL Lascannon 2x Lascannon",		"pts":60},
@@ -130,7 +118,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":70, "name":"Predator w/Predator Cannon 2x Heavy Flamers",		"pts":60},
 		{"id":71, "name":"Predator w/Flamestorm Cannon 2x Heavy Bolters",	"pts":60},
 		{"id":72, "name":"Predator w/Flamestorm Cannon 2x Lascannon",		"pts":60},
-		{"id":73, "name":"Predator w/Flamestorm Cannon2x Heavy Flamers",	"pts":60},
+		{"id":73, "name":"Predator w/Flamestorm Cannon 2x Heavy Flamers",	"pts":60},
 		
 		{"id":80, "name":"Sicaran Battle Tank",					"pts":80},
 		{"id":81, "name":"Sicaran Venator",					"pts":80},
@@ -205,7 +193,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":158, "name":"Tank : Predator w/Predator Cannon 2x Heavy Flamers",			"pts":60},
 		{"id":159, "name":"Tank : Predator w/Flamestorm Cannon 2x Heavy Bolters",		"pts":60},
 		{"id":160, "name":"Tank : Predator w/Flamestorm Cannon 2x Lascannon",			"pts":60},
-		{"id":161, "name":"Tank : Predator w/Flamestorm Cannon2x Heavy Flamers",		"pts":60},
+		{"id":161, "name":"Tank : Predator w/Flamestorm Cannon 2x Heavy Flamers",		"pts":60},
 		
 		{"id":165, "name":"Armoury Assets : Predator Infernus",					"pts":80},
 		{"id":166, "name":"Armoury Assets : Predator Infernus",					"pts":20},
@@ -226,21 +214,36 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503], "name2":"Detachment"},
 		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
+		{"max":1, "perPoints":2000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
-		{"max":1, "perPoints":4000, "from":[606]},
+		{"max":1, "perPoints":2000, "from":[606]},
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,618]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
+		
 		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,614,616,618]},	
-		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,606]},
-	
+		
+		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503, 599,602,603,604,606]},
+		
+		{"min":0, "max":2, "from":[140,141,142,143,144,145,146,147], "appliesTo":[500,501,503]},
+		
+		{"min":0, "max":4, "from":[130,131,132,133], "appliesTo":[500]},
+		
+		{"min":0, "max":4, "from":[135,136], "appliesTo":[500]},
+		
+		{"min":0, "max":1, "from":[120], "appliesTo":[500,501,503, 601,614,615,616,618]},
+		
+		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[500,501,503]},
+		
+		
+		
+		{"min":0, "max":1, "from":[102], "appliesTo":[501]},
 		
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
 		
 		{"min":4, "max":6, "from":[15], "appliesTo":[501]},
 		
-		{"min":0, "max":1, "from":[120], "appliesTo":[500,501,503,601]},
 
 		{"min":1, "max":1, "from":[30,31], "appliesTo":[600]},
 		{"min":1, "max":1, "from":[35,36,37], "appliesTo":[601]},
@@ -251,7 +254,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"min":4, "max":6, "from":[40,41],			"appliesTo":[607]},
 		
 		{"min":3, "max":3, "from":[42,143,145],			"appliesTo":[608]},
-		{"min":6, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
+		{"min":0, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
 		
 		{"min":4, "max":6,  "from":[45,46],				"appliesTo":[609]},
 		{"min":4, "max":12, "from":[210,211,212,213,214,215,216,217],	"appliesTo":[609]},
@@ -259,6 +262,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 
 		{"min":5, "max":5, "from":[50,51], "appliesTo":[610]},
 		{"min":5, "max":5, "from":[55,56], "appliesTo":[611]},
+		
+		{"min":1, "max":1, "from":[61,62], "appliesTo":[612]},
 		
 		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[614]},
 		
