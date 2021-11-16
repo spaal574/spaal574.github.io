@@ -25,7 +25,7 @@
 			
 			{"id":607, "name":"Legion Dreadnought Talon",		"pts":0, "upgrades":[125,126,127, 40,41, 100]},
 			{"id":608, "name":"Legion Leviathan Dreadnought Talon",	"pts":0, "upgrades":[125,126,127, 200,201,202,203,204, 100]},
-			{"id":609, "name":"Legion Contemptor Dreadnought Talon", "pts":0, "upgrades":[125,126,127, 45,46, 210,211,212,213,214,215,216,217, 100]},
+			{"id":609, "name":"Legion Contemptor Dreadnought Talon", "pts":0, "upgrades":[125,126,127, 45,46,143,145, 210,211,212,213,214,215,216,217, 100]},
 
 			{"id":610, "name":"Legion Land Speeder Squadron",	"pts":200, "upgrades":[125,126,127]},
 			{"id":611, "name":"Legion Javelin Attack Squadron",	"pts":250, "upgrades":[125,126,127]},
@@ -34,7 +34,7 @@
 
 			{"id":614, "name":"Legion Predator Strike Squadron",	"pts":0, "upgrades":[125,126,127, 65,66,67,68,69,70,71,72,73, 165,167,169,175, 120]},
 			{"id":615, "name":"Legion Sicaran Battle Squadron",	"pts":0, "upgrades":[125,126,127, 180,181,182, 120]},
-			{"id":616, "name":"Legion Land Raider Squadron",	"pts":0, "upgrades":[125,126,127, 120]},
+			{"id":616, "name":"Legion Land Raider Squadron",	"pts":0, "upgrades":[125,126,127, 95,96,112, 120]},
 			{"id":617, "name":"Legion Sabre Strike Squadron",	"pts":275, "upgrades":[125,126,127], "units":"4x Sabre Strike Tanks"},
 			{"id":618, "name":"Legion Vindicator Squadron",		"pts":0, "upgrades":[125,126,127, 98, 151, 120]},
 
@@ -214,9 +214,9 @@
 	"upgradeConstraints":[    
 		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
 		
-		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,614,616,618]},	
+		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618]},	
 		
-		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,606]},
+		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,606,607,608,609]},
 		
 		{"min":0, "max":2, "from":[140,141,142,143,144,145,146,147], "appliesTo":[500,501,503]},
 		
@@ -245,10 +245,10 @@
 		
 		{"min":4, "max":6, "from":[40,41],			"appliesTo":[607]},
 		
-		{"min":3, "max":3, "from":[42,143,145],			"appliesTo":[608]},
-		{"min":0, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
+		{"min":3, "max":3, "from":[42],				"appliesTo":[608]},
+		{"min":6, "max":6, "from":[200,201,202,203,204],	"appliesTo":[608]},
 		
-		{"min":4, "max":6,  "from":[45,46],				"appliesTo":[609]},
+		{"min":4, "max":6,  "from":[45,46,143,145],			"appliesTo":[609]},
 		{"min":4, "max":12, "from":[210,211,212,213,214,215,216,217],	"appliesTo":[609]},
 		
 
