@@ -38,9 +38,9 @@
 			{"id":617, "name":"Legion Sabre Strike Squadron",	"pts":275, "upgrades":[125,126,127], "units":"4x Sabre Strike Tanks"},
 			{"id":618, "name":"Legion Vindicator Squadron",		"pts":0, "upgrades":[125,126,127, 98, 151, 120]},
 
-			{"id":619, "name":"Legion Storm Eagle Attack Wing",	"pts":0, "upgrades":[]},
+			{"id":619, "name":"Legion Storm Eagle Attack Wing",	"pts":0, "upgrades":[300]},
 			{"id":620, "name":"Legion Thunderhawk Gunship",		"pts":0, "upgrades":[]},
-			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[]}
+			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
