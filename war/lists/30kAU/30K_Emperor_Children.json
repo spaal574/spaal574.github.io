@@ -46,6 +46,8 @@
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
+			{"id":700, "name":"Fulgrim, The Illuminator",		"pts":450, "upgrades":[102,103,104, 110,111,114,115]},
+			
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
 			{"id":706, "name":"Legion Stormbird",			"pts":450, "upgrades":[], "units":"1x Stormbird Heavy Attack Ship"},
@@ -56,6 +58,7 @@
 		]}
 	],	
 	"upgrades":[
+		{"id":1, "name":"Fulgrim, Primarch of the Emperor's Children",		"pts":0},
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
     
@@ -219,7 +222,8 @@
 		{"max":1, "perPoints":2000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":4000, "from":[606]},
-		{"max":1, "from":[600]}
+		{"max":1, "from":[600]},
+		{"max":1, "from":[700]}
 	],
 	"upgradeConstraints":[    
 		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
@@ -284,15 +288,19 @@
 		
 		
 		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[597,598,599]},
+		{"min":0, "max":1, "from":[100], "appliesTo":[597,598]},
 		
 		{"min":4, "max":6, "from":[307], "appliesTo":[597]},
 		
 		{"min":4, "max":6, "from":[308], "appliesTo":[598]},
+		{"min":0, "max":1, "from":[120], "appliesTo":[598]},
 		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[598]},
 		
-		{"min":0, "max":1, "from":[102], "appliesTo":[599]},
+		{"min":0, "max":1, "from":[102], "appliesTo":[599,700]},
 		
+		{"min":1, "max":1, "from":[1], "appliesTo":[700]},
+		{"min":1, "max":3, "from":[15], "appliesTo":[700]},
 		
-		{"max":1, "perArmy":true, "from":[5]}
+		{"max":1, "perArmy":true, "from":[1,5]}
 	]
 }
