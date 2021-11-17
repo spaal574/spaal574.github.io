@@ -8,7 +8,7 @@
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation."],
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
+			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
 			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
 			{"id":502, "name":"Legion Assault Marine Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"},
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
