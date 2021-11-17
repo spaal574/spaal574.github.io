@@ -45,7 +45,7 @@
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":701, "name":"Ebon Keshig",			"pts":300, "upgrades":[102,103, 110,111,114,115], "units":"4x Ebon Keshig units"},
-			{"id":700, "name":"Jaghatai Khan, the Great Khan",	"pts":325, "upgrades":[102,103, 110,111,114,115]},
+			{"id":700, "name":"Jaghatai Khan, the Great Khan",	"pts":225, "upgrades":[102,103, 110,111,114,115]},
 					
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -225,7 +225,7 @@
 		{"max":1, "from":[700]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,504, 602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
 		
 		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618]},	
 		
