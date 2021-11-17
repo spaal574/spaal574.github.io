@@ -13,8 +13,8 @@
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":597, "name":"Palatine Blades Detachment",		"pts":0, "upgrades":[125,126,127, 100,101,103]},
-			{"id":598, "name":"Kakophoni Detachment",		"pts":0, "upgrades":[100,101, 110,111,112,114,115, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
+			{"id":597, "name":"Palatine Blades Detachment",		"pts":0, "upgrades":[125,126,127, 307, 100,101,103]},
+			{"id":598, "name":"Kakophoni Detachment",		"pts":0, "upgrades":[308, 100,101, 110,111,112,114,115, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
 			{"id":599, "name":"Phoenix Terminator Detachment",	"pts":340, "upgrades":[5,6,125,126,127, 110,111,114,115, 102,104], "units":"4x Phoenix Terminator units"},
 			
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
@@ -285,12 +285,17 @@
 		
 		
 		
-		
+		{"min":0, "max":1, "from":[100], "appliesTo":[597,598]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[597,598,599]},
 		
 		{"min":4, "max":6, "from":[307], "appliesTo":[597]},
+		
+		
 		{"min":4, "max":6, "from":[308], "appliesTo":[598]},
+		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[598]},
 		
-		
+		{"min":, "max":, "from":[], "appliesTo":[599]},
+		{"min":0, "max":1, "from":[102], "appliesTo":[599]},
 		
 		
 		
