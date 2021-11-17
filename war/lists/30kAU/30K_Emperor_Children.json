@@ -46,7 +46,7 @@
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Fulgrim, The Illuminator",		"pts":225, "upgrades":[102,103,104, 110,111,114,115]},
+			{"id":700, "name":"Fulgrim, The Illuminator",		"pts":375, "upgrades":[102,103,104, 110,111,114,115]},
 			
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
