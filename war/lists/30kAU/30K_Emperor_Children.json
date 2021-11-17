@@ -99,9 +99,8 @@
 		{"id":216, "name":"Contemptor Arms : Multi-Melta",			"pts":0},
 		{"id":217, "name":"Contemptor Arms : TL Lascannon",			"pts":0},		
 		
-		
-		{"id":50, "name":"Javelin Attack Speeder w/Multi-Melta",		"pts":0},
-		{"id":51, "name":"Javelin Attack Speeder w/Plasma Cannon", 		"pts":0},
+		{"id":50, "name":"Land Speeder w/Multi-Melta",				"pts":0},
+		{"id":51, "name":"Land Speeder w/Plasma Cannon", 			"pts":0},
 		
 		{"id":55, "name":"Javelin Attack Speeder w/TL Lascannon",		"pts":0},
 		{"id":56, "name":"Javelin Attack Speeder w/TL Cyclone Missile Launcher", "pts":0},
