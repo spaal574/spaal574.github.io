@@ -20,7 +20,7 @@
 			{"id":605, "name":"Bombot Horde",		"pts":50,  "upgrades":[],				"units":"1x Datasmith 5x Bombots"}
       	]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":450, "upgrades":[10,11,12,13], "units":"2x Lambda-Zeta-01 Battle-Automata units"},
+			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":0, "upgrades":[120, 10,11,12,13]},
 			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":400, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
         ]}
 	],	
@@ -78,7 +78,8 @@
 		
   		{"id":100, "name":"Scyllax",				"pts":50},
 		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
-    
+		
+		{"id":120, "name":"Lambda-Zeta-01 Battle-Automata units",	"pts":225},    
 		
 		{"id":300, "name":"Weapon : Exa-linked Autocannon",	"pts":0},
 		{"id":301, "name":"Weapon : Macro Arc Flail",		"pts":0},
@@ -180,6 +181,7 @@
 		
 	{"min":0, "max":2, "from":[35,36,37,38],	"appliesTo":[599]},
 	
+	{"min":2, "max":4, "from":[120],		"appliesTo":[700]},
 	{"min":2, "from":[30,31],			"appliesTo":[700]},
 	{"min":3, "from":[30,31],			"appliesTo":[701]},
 	
