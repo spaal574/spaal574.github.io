@@ -6,16 +6,12 @@
 	"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation."],
 	"sections":[
-		{"name":"LINE DETACHMENTS", "formations":[
-			
-Legion Land Raider Battle Squadron	4-6 Land Raider Proteus or Phobos units in any configuration	Armoury Assets, Tank, Hyperios	80 pts each
-
-			
+		{"name":"LINE DETACHMENTS", "formations":[			
 			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
 			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[15,16, 5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
 			{"id":502, "name":"Legion Assault Marine Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"},
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"},
-			{"id":504, "name":"Legion Land Raider Battle Squadron",	"pts":0, "upgrades":[5,6,125,126,127]},
+			{"id":504, "name":"Legion Land Raider Battle Squadron",	"pts":0, "upgrades":[5,6,125,126,127, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
 			{"id":505, "name":"Iron Havoc Detachment",		"pts":250, "upgrades":[125,126,127, 100,101, 111,112,114,115, 120], "units":"4x Iron Havoc Support Squad units"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
@@ -49,25 +45,9 @@ Legion Land Raider Battle Squadron	4-6 Land Raider Proteus or Phobos units in an
 			{"id":620, "name":"Legion Thunderhawk Gunship",		"pts":0, "upgrades":[]},
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
-		{"name":"LORDS OF WAR", "formations":[
-			
-4.3 Iron Warriors Lords of War
-		 
-0-1 Perturabo, Primarch of the Iron Warriors	
-		 
-1 Perturabo unit and 3 Terminator units OR
-1 Perturabo unit and 1 Tormentor OR
-1 Perturabo unit and 4 Iron Circle Automata units	
-
-Assault Ram OR Heavy Transport OR Teleport, Armoury Assets, Hyperios	
-with Terminators 450 pts
-in Tormentor 400 pts
-with Iron Circle 400 pts
-		 
-		 
-Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Stormblade units	Centurion	700 pts
-			
-			
+		{"name":"LORDS OF WAR", "formations":[			
+			{"id":700, "name":"Perturabo, Primarch of the Iron Warriors",	"pts":0, "upgrades":[104, 102, 110,111,112,114,115, 120]},
+			{"id":701, "name":"Legion Super Heavy Tank Squadron",		"pts":0, "upgrades":[125,126,127]},
 			
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -79,6 +59,11 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Stormblade units	Centurion	700
 		]}
 	],	
 	"upgrades":[
+		{"id":1, "name":"Perturabo, Primarch of the Iron Warriors",		"pts":225},
+		{"id":2, "name":"1x Tormentor",						"pts":175},
+		{"id":3, "name":"1x Iron Circle",					"pts":175},
+		{"id":4, "name":"3x Terminator Units",					"pts":225},
+		
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
     
@@ -166,6 +151,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Stormblade units	Centurion	700
 		{"id":305, "name":"3x Typhon Heavy Siege Tanks",			"pts":400},
 		{"id":306, "name":"3x Cerberus Tank Destroyer units",			"pts":400},
 		
+		{"id":307, "name":"3x Fellblade units",					"pts":700},
+		{"id":308, "name":"3x Stormblade units",				"pts":700},
 		
 		
 		{"id":100, "name":"Drop Assault : Transport the entire formation in Drop Pods",	"pts":0},
@@ -236,8 +223,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Stormblade units	Centurion	700
 		{"id":190, "name":"Tank : Cerberus",					"pts":150}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503,504,505], "name2":"Detachment"},
-		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
+		{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503,504,505], "name2":"Detachment"},
+		{"maxPercent":33, "name":"LORDS OF WAR", "from":[700,701,704,705,706,707,708,709]},
 		{"max":1, "perPoints":1000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":4000, "from":[606]},
@@ -306,6 +293,18 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Stormblade units	Centurion	700
 		
 		{"min":1, "max":1, "from":[32,33,34], "appliesTo":[599]},
 		
-		{"max":1, "perArmy":true, "from":[5]}
+		{"min":4, "max":6, "from":[95,96,112], "appliesTo":[504]},
+		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[504]},
+		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[504]},	
+		
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[701]},
+		
+		{"min":1, "max":1, "from":[1], "appliesTo":[700]},
+		{"min":1, "max":1, "from":[2,3,4], "appliesTo":[700]},
+		{"min":1, "max":1, "from":[120], "appliesTo":[700]},
+		
+		{"min":1, "max":1, "from":[307,308], "appliesTo":[701]},
+		
+		{"max":1, "perArmy":true, "from":[1,5]}
 	]
 }
