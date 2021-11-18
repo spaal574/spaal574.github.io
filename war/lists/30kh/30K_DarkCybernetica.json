@@ -62,13 +62,13 @@
 		{"id":30, "name":"Questoris Knight-Magaera",						"pts":125},
 		{"id":31, "name":"Questoris Knight-Styrix",						"pts":125},
     
-		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":100},
-		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":100},
-		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",	"pts":100},
+		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":100},
+		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":100},
+		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":100},
 
-		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",		"pts":0},
-		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",		"pts":0},
-		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",	"pts":0},
+		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":0},
+		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":0},
+		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":0},
     
 		{"id":35, "name":"2x Velite Sniper Units",				"pts":75},
 		{"id":36, "name":"3x Protector Handlers 5x Cannibal Servitors ",	"pts":125},
@@ -76,16 +76,16 @@
 		{"id":38, "name":"3x Skitarii Psykers",					"pts":75},
 		{"id":39, "name":"x Skitarii",					"pts":0},
 		
-  		{"id":100, "name":"Scyllax",				"pts":50},
-		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
+  		{"id":100, "name":"Scyllax",						"pts":50},
+		{"id":103, "name":"10 x Servo-Automata",				"pts":100},
 		
-		{"id":120, "name":"Lambda-Zeta-01 Battle-Automata units",	"pts":225},    
+		{"id":120, "name":"Lambda-Zeta-01 Battle-Automata units",		"pts":225},    
 		
-		{"id":300, "name":"Weapon : Exa-linked Autocannon",	"pts":0},
-		{"id":301, "name":"Weapon : Macro Arc Flail",		"pts":0},
-		{"id":302, "name":"Weapon : Cybernetica Macro Claw",	"pts":0},
-		{"id":303, "name":"Weapon : Penta-linked Las-cannon",	"pts":0},
-		{"id":304, "name":"Weapon : ",				"pts":0},
+		{"id":300, "name":"Weapon : Exa-linked Autocannon",			"pts":0},
+		{"id":301, "name":"Weapon : Macro Arc Flail",				"pts":0},
+		{"id":302, "name":"Weapon : Cybernetica Macro Claw",			"pts":0},
+		{"id":303, "name":"Weapon : Penta-linked Las-cannon",			"pts":0},
+		{"id":304, "name":"Weapon : ",					"pts":0},
 		
 		{"id":310, "name":"Weapon : ",				"pts":0},
 		{"id":311, "name":"Weapon : ",				"pts":0},
