@@ -79,6 +79,70 @@
   		{"id":100, "name":"Scyllax",				"pts":50},
 		{"id":103, "name":"10 x Servo-Automata",		"pts":100},
     
+		
+		{"id":300, "name":"Weapon : Exa-linked Autocannon",	"pts":0},
+		{"id":301, "name":"Weapon : Macro Arc Flail",		"pts":0},
+		{"id":302, "name":"Weapon : Cybernetica Macro Claw",	"pts":0},
+		{"id":303, "name":"Weapon : Penta-linked Las-cannon",	"pts":0},
+		{"id":304, "name":"Weapon : ",				"pts":0},
+		
+		{"id":310, "name":"Weapon : ",				"pts":0},
+		{"id":311, "name":"Weapon : ",				"pts":0},
+		{"id":312, "name":"Weapon : ",				"pts":0},
+		{"id":313, "name":"Weapon : ",				"pts":0},
+		{"id":314, "name":"Weapon : ",				"pts":0},
+		
+		
+		{"id":150, "name":"Cybertheurgy(Core) : Concentrated Augur Sweep",		"pts":0},
+		{"id":151, "name":"Cybertheurgy(Core) : Defensive Formation",			"pts":0},
+		{"id":152, "name":"Cybertheurgy(Core) : Rite of Destruction",			"pts":0},
+		{"id":153, "name":"Cybertheurgy(Core) : Rite of Celerity",			"pts":0},
+		{"id":154, "name":"Cybertheurgy(Core) : Rite of Eternity",			"pts":0},
+		{"id":155, "name":"Cybertheurgy(Core) : Rite of Fury",				"pts":0},
+		{"id":156, "name":"Cybertheurgy(Core) : Rite of Destruction",			"pts":0},
+		{"id":157, "name":"Cybertheurgy(Core) : Rite of Dread Castigation",		"pts":0},
+		{"id":158, "name":"Cybertheurgy(Core) : Rite of Immolation",			"pts":0},
+		{"id":159, "name":"Cybertheurgy(Core) : Rite of Possession",			"pts":0},
+		{"id":160, "name":"Cybertheurgy(Core) : Rite of ",			"pts":0},
+		
+		{"id":170, "name":"Cybertheurgy(Scrap) : Testudo Protocols",			"pts":0},
+		{"id":171, "name":"Cybertheurgy(Scrap) : Reassembly Protocols",			"pts":0},
+		{"id":172, "name":"Cybertheurgy(Scrap) : Rad-venting Procedures",		"pts":0},
+		{"id":173, "name":"Cybertheurgy(Scrap) : ",	"pts":0},
+		
+		{"id":180, "name":"Cybertheurgy(Tuner) : Improved Control Cants",		"pts":0},
+		{"id":181, "name":"Cybertheurgy(Tuner) : Masterful Servo-Engines Song",		"pts":0},
+		{"id":182, "name":"Cybertheurgy(Tuner) : Cybernetica Synapse Stimulation",	"pts":0},
+		{"id":183, "name":"Cybertheurgy(Tuner) : Chains of Control",			"pts":0},
+		{"id":184, "name":"Cybertheurgy(Tuner) : ",				"pts":0},
+		
+		{"id":190, "name":"Cybertheurgy(Sorcerer) : Lightning Bolt",			"pts":0},
+		{"id":191, "name":"Cybertheurgy(Sorcerer) : Predictive Augur Cant",		"pts":0},
+		{"id":192, "name":"Cybertheurgy(Sorcerer) : Aetheric Blast",			"pts":0},
+		{"id":193, "name":"Cybertheurgy(Sorcerer) : Teleport",				"pts":0},
+		{"id":194, "name":"Cybertheurgy(Sorcerer) : Predictive Targeting",		"pts":0},
+		{"id":195, "name":"Cybertheurgy(Sorcerer) : Guide",				"pts":0},
+		{"id":196, "name":"Cybertheurgy(Sorcerer) : ",					"pts":0},
+		
+		{"id":200, "name":"Cybertheurgy(Rider) : Engine Boost",				"pts":0},
+		{"id":201, "name":"Cybertheurgy(Rider) : ",			"pts":0},
+		{"id":202, "name":"Cybertheurgy(Rider) : ",			"pts":0},
+		
+		{"id":210, "name":"Cybertheurgy(Silica) : One of Many",				"pts":0},
+		{"id":211, "name":"Cybertheurgy(Silica) : Children of Man",			"pts":0},
+		{"id":212, "name":"Cybertheurgy(Silica) : Free the Slave",			"pts":0},
+		{"id":213, "name":"Cybertheurgy(Silica) : Noo-static Virus",		"pts":0},
+		
+		{"id":220, "name":"Cybertheurgy(Relic) : Laughing Scrapcode",			"pts":0},
+		{"id":221, "name":"Cybertheurgy(Relic) : Noo-spheric Feed-back",		"pts":0},
+		{"id":222, "name":"Cybertheurgy(Relic) : ",				"pts":0},
+		{"id":223, "name":"Cybertheurgy(Relic) : ",				"pts":0},
+		
+		{"id":230, "name":"Cybertheurgy(Rider) : Engine Boost",				"pts":0},
+		{"id":231, "name":"Cybertheurgy(Rider) : Improved Navigation Cant",		"pts":0},
+		{"id":232, "name":"Cybertheurgy(Rider) : ",			"pts":0},
+		
+		
 		{"id":104, "name":"Siege Wreckers",			"pts":25},
 		{"id":105, "name":"Bolters",				"pts":25},
 		{"id":106, "name":"Multi-Meltas",			"pts":25},
