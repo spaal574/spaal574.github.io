@@ -21,7 +21,7 @@
       	]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":450, "upgrades":[10,11,12,13], "units":"2x Lambda-Zeta-01 Battle-Automata units"},
-			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":500, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
+			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":400, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
         ]}
 	],	
 	"upgrades":[
