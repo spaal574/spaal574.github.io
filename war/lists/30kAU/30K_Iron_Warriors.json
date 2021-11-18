@@ -61,7 +61,7 @@
 	"upgrades":[
 		{"id":1, "name":"Perturabo, Primarch of the Iron Warriors",		"pts":225},
 		{"id":2, "name":"1x Tormentor",						"pts":175},
-		{"id":3, "name":"1x Iron Circle",					"pts":175},
+		{"id":3, "name":"4x Iron Circle",					"pts":175},
 		{"id":4, "name":"3x Terminator Units",					"pts":225},
 		
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
