@@ -1,23 +1,19 @@
 {
 	"id":"Legio Titanicus",
-	"version":"Heresy v ?",
-	"by":"freefall",
-	"notes":["One Warhound Titan formation per 4000 pts."],
+	"version":"Heresy v1",
+	"by":"freefall, updated by spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":699, "name":"Warhound Titan",		"pts":275,  "upgrades":[350], "units":"1 Warhound Scout Titan"},
 			{"id":700, "name":"Warhound Scout Pack",	"pts":500,  "upgrades":[350], "units":"2 Warhound Scout Titans"},
 			{"id":701, "name":"Reaver Titan",		"pts":575,  "upgrades":[349,350,351,352], "units":"1 Reaver Titan"},
 			{"id":702, "name":"Warlord Titan",		"pts":725,  "upgrades":[349,350,351,352], "units":"1 Warlord Titan"} 	
-		
          ]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":703, "name":"Emperor Class Titan",	"pts":1350, "upgrades":[349,350]}
 		]}
 	],	
-	
 	"upgrades":[
-		
 		{"id":300, "name":"Scout Titan Weapon: Inferno Gun",			"pts":0},
 		{"id":301, "name":"Scout Titan Weapon: Vulcan Megabolter",		"pts":0},
 		{"id":302, "name":"Scout Titan Weapon: Plasma Blastgun",		"pts":0},
@@ -71,8 +67,6 @@
 		
 		{"min":1, "max":1, "from":[400,401], "appliesTo":[703]},
 		
-		{"max":1, "perArmy":true, "from":[349]}
-	
-				
+		{"max":1, "perArmy":true, "from":[349]}				
 	]
 }
