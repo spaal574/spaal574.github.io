@@ -30,10 +30,10 @@
 		{"id":105, "name":"Questorius Knight-Styrix",					"pts":125},
 		{"id":106, "name":"Questorius Knight-Warden",					"pts":125},
 		
-		{"id":110, "name":"Cerastus  Knight-Lancer",					"pts":125},
-		{"id":111, "name":"Cerastus  Knight-Castigator",				"pts":125},
-		{"id":112, "name":"Cerastus  Knight-Atropos",					"pts":150},
-		{"id":113, "name":"Cerastus  Knight-Acheron",					"pts":150},
+		{"id":110, "name":"Cerastus Knight-Lancer",					"pts":125},
+		{"id":111, "name":"Cerastus Knight-Castigator",					"pts":125},
+		{"id":112, "name":"Cerastus Knight-Atropos",					"pts":150},
+		{"id":113, "name":"Cerastus Knight-Acheron",					"pts":150},
 		
 		{"id":114, "name":"Armiger Knight-Warglaives",					"pts":40},
 		{"id":115, "name":"Armiger Knight-Helverins",					"pts":40},
