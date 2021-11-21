@@ -7,18 +7,11 @@
 	"You can't mix transport upgrades in the same formation, transports count towards the number of upgrade allowances of a formation."],
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			
-Legion Predator Detachment	6 Predator units	Centurion OR Praetor, Armoury Assets, Hyperios	350 pts
-Legion Terminator Detachment	4-6 Terminator units OR 4-6 Gorgon Terminator units	Heavy Transport OR Teleport OR Assault Ram, Centurion OR Praetor
-Terminators 75 pts each 
-Gorgon Terminators 85 pts each
-			
 			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
 			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[15, 5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
 			{"id":502, "name":"Legion Assault Marine Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"},
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"},
-			{"id":504, "name":"Legion Predator Detachment",		"pts":350, "upgrades":[5,6,125,126,127, 100]},
-			{"id":505, "name":"Legion Terminator Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"}
+			{"id":504, "name":"Legion Predator Detachment",		"pts":-10, "upgrades":[5,6,125,126,127, 100, 120]}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":599, "name":"Medusan Immortals Squad",		"pts":250, "upgrades":[104,110,111,114,115], "units":"4x Medusan Immortals units"},
@@ -52,9 +45,8 @@ Gorgon Terminators 85 pts each
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			
-Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
-0-1 Ferrus Manus, the Bane of Asirnoth	1 Ferrus Manus unit and 3 Gorgon Terminator units	Assault Ram OR Heavy Transport OR Teleport, Armoury Assets, Tank, Hyperios	450 pts
+			{"id":700, "name":"Ferrus Manus, the Bane of Asirnoth",		"pts":450, "upgrades":[102,104, 110,111,112,114,115, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120], "units":"3x Gorgon Terminator units"},
+			{"id":701, "name":"Legion Super Heavy Tank Squadron",	"pts":0, "upgrades":[125,126,127]},
 			
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -66,6 +58,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		]}
 	],	
 	"upgrades":[
+		{"id":1, "name":"Ferrus Manus, Primarch of the Iron Hands",		"pts":0},
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
     
@@ -73,6 +66,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":11, "name":"8x Despoiler Squads",					"pts":275},
 		
 		{"id":15, "name":"Terminator Units",					"pts":75},
+		{"id":16, "name":"Gorgon Terminator Units",				"pts":85},
 		
 		{"id":30, "name":"Battle Barge",					"pts":300},
 		{"id":31, "name":"Strike Cruiser",					"pts":200},
@@ -148,6 +142,8 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":305, "name":"3x Typhon Heavy Siege Tanks",			"pts":400},
 		{"id":306, "name":"3x Cerberus Tank Destroyer units",			"pts":400},
 		
+		{"id":307, "name":"3x Fellblade units",					"pts":700},
+		{"id":308, "name":"3x Glaive units",					"pts":700},
 		
 		
 		{"id":100, "name":"Drop Assault : Transport the entire formation in Drop Pods",	"pts":0},
@@ -218,17 +214,18 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"id":190, "name":"Tank : Cerberus",					"pts":150}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503], "name2":"Detachment"},
+		{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620], "forEach":[500,501,502,503,504], "name2":"Detachment"},
 		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
 		{"max":1, "perPoints":1000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":2000, "from":[606]},
-		{"max":1, "from":[600]}
+		{"max":1, "from":[600]},
+		{"max":1, "from":[700]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,506,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
 		
-		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618]},	
+		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,506,602,603,604,609,614,616,618]},	
 		
 		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,605,606,607,608,609]},
 		
@@ -248,7 +245,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
 		
-		{"min":4, "max":6, "from":[15], "appliesTo":[501]},
+		{"min":4, "max":6, "from":[15,16], "appliesTo":[501]},
 		
 
 		{"min":1, "max":1, "from":[30,31], "appliesTo":[600]},
@@ -271,7 +268,7 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		
 		{"min":1, "max":1, "from":[61,62], "appliesTo":[612]},
 		
-		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[614]},
+		{"min":4, "max":6, "from":[65,66,67,68,69,70,71,72,73, 165,167,169,175], "appliesTo":[506,614]},
 		
 		{"min":4, "max":6, "from":[80,81,82], "appliesTo":[615]},
 		
@@ -286,6 +283,9 @@ Legion Super Heavy Tank Squadron	3 Fellblade OR 3 Glaive units	Centurion	700 pts
 		{"min":1, "max":1, "from":[303,304], "appliesTo":[707]},
 		{"min":1, "max":1, "from":[305,306], "appliesTo":[709]},
 		
-		{"max":1, "perArmy":true, "from":[5]}
+		{"min":1, "max":1, "from":[1], "appliesTo":[700]},
+		{"min":1, "max":1, "from":[307,308], "appliesTo":[701]},
+		
+		{"max":1, "perArmy":true, "from":[1,5]}
 	]
 }
