@@ -1,6 +1,6 @@
 {
 	"id":"Knight Household & Legio Titanicus Cohesive Allies",
-	"version":"Heresy v 0.3.?",
+	"version":"Heresy v1",
 	"by":"freefall.Updated by spaal574",
 	"notes":["Titans are not part of this list. Legion Titanicus is a different Army List. It's put here just for the convenience.Only 1 Armiger formation per full 2000 points"],
 	"sections":[
@@ -8,8 +8,8 @@
 			{"id":500, "name":"Questorius Knights", 		"pts":25, "upgrades":[100,101,102,103,104,105,106,200,202,203,204]}
         	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Cerastus  Knights",			"pts":0, "upgrades":[110,111,112,113, 200,202,203,204]},
-			{"id":601, "name":"Armiger  Knights",			"pts":0, "upgrades":[200]}
+			{"id":600, "name":"Cerastus Knights",			"pts":0, "upgrades":[110,111,112,113, 200,202,203,204]},
+			{"id":601, "name":"Armiger Knights",			"pts":0, "upgrades":[200]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":699, "name":"Acastus Knights",			"pts":0,  "upgrades":[202,203,402,403]}
