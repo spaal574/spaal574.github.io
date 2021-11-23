@@ -2,7 +2,7 @@ body {
 	background-color:#101414;
 	padding:0;
 	margin:0;
-	color:white;
+	color:#bcc0c3;
 }
 p {
 	margin-top:5em;
@@ -41,7 +41,7 @@ table {
 	font-weight: bold;
 	font-size: 138.5%;
 	border: 1px solid #659635;
-	color:white;
+	color:#bcc0c3;
 	text-shadow:-1px -1px 2px #777777;
 	padding:1em 2em 1em 2em;
 	-moz-border-radius:0.5em;
@@ -60,7 +60,7 @@ img.icon {
 	border:none;
 }
 #ab {
-	border-top: 1px solid white;
+	border-top: 1px solid #bcc0c3;
 }
 #ab td {
 	vertical-align:top;
@@ -75,13 +75,13 @@ img.icon {
 	width:18em;
 	text-align:left;
 	background-color:#c2c2c2;
-	border-top:solid 0.1em white;
+	border-top:solid 0.1em #bcc0c3;
 	vertical-align:center;
 	padding:0.33em;
 }
 .list a {
 	text-decoration:none;
-	color:black;
+	color:#bcc0c3;
 }
 .list a span {
 	text-align:center;
