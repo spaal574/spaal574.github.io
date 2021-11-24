@@ -24,13 +24,7 @@ th, td {
 	border-bottom: 1px solid black;
 }
 tr:hover {
-	background-color: yellow;
-}
-tr:nth-child(even) {
-	background-color: ##2e2e2e;
-}
-tr:nth-child(odd) {
-	background-color: #101414;
+	background-color: #2e2e2e;
 }
 .ab a:hover { 
 	color:orange;
