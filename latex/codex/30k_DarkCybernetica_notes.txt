@@ -1,5 +1,6 @@
 
 		Lambda-Zeta-01 Battle-Automata unit		
+                Either reaver sized or between castellax and thanatar 
 
 				Weapon : Heavy Mechadendrites
 						 (assault weapons) EA(+2),MW
@@ -24,6 +25,17 @@
 						 AP5+/AT3+ armourbane 50cm
 				Weapon : Laser Destroyer
 						 AP6+/AT4+ 45cm
+
+                Scrap-Lord Militant				
+		Tuner-Whisperer Hierophant				
+		Sorcerer Automata-Puppeteer			
+	        Lord Exterminator-Fabricator				
+		Silica Animus Cogi-Coordinator Construct
+		support upgrades Relic Necro-smthing
+		smthing-Automata Rider
+    
+
+
 
 
 		Cybertheurgy
