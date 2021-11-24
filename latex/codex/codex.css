@@ -26,13 +26,13 @@ th, td {
 	border-bottom: 1px solid black;
 }
 tr:nth-child(even) {
-  background-color: #2e2e2e;
+	background-color: #2e2e2e;
 }
 tr:nth-child(odd) {
-  background-color: #101414;
+	background-color: #101414;
 }
 tr:hover {
-  background-color: #474747;
+	background-color: #474747;
 }
 .ab a:hover { 
 	color:orange;
