@@ -1,6 +1,7 @@
 
 		Lambda-Zeta-01 Battle-Automata unit		
-                Either reaver sized or between castellax and thanatar 
+                Either reaver sized or between castellax and thanatar, 
+                the titan-sized automata role could be occupied by the other l.o.w., but I'd suggest having the choice of 2 types
 
 				Weapon : Heavy Mechadendrites
 						 (assault weapons) EA(+2),MW
