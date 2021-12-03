@@ -4,23 +4,22 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Rho-Tau 17 Patrol",		"pts":150, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"6x Rho-Tau 17 Security Automata units"},
-			{"id":501, "name":"Cataphract Maniple",		"pts":175, "upgrades":[10,11,12,13],			"units":"6x Cataphract Battle-Automata units"},
-			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5x Castellax Battle-Automata units"},
-			{"id":503, "name":"Vorax Cohort",		"pts":250, "upgrades":[4,5,6,7,10,11,12,13,100],	"units":"6x Vorax Battle-Automata units"},
-			{"id":504, "name":"Hunter-Killer Maniple",	"pts":25, "upgrades":[]}
+			{"id":500, "name":"Rho-Tau Patrol",		"pts":100, "upgrades":[100],				"units":"3x Rho-Tau 17 Security Automata units"},
+			{"id":501, "name":"Vorax Kill-Clave",		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"6x Vorax Battle-Automata units"},
+			{"id":502, "name":"Castellax Maniple",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5x Castellax Battle-Automata units"},
+			{"id":503, "name":"Cataphract Maniple",		"pts":175, "upgrades":[1,2,3,4,5,6,7,10,11,12,13],	"units":"5x Cataphract Battle-Automata units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":599, "name":"Skitarii Maniple Automata",	"pts":150, "upgrades":[35,36,37,38], "units":"1x Hypaspist Secutor 10x Hypaspists"},
-			{"id":600, "name":"Domitar Cohort",		"pts":200, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3x Domitar Battle-Automata"},
-			{"id":601, "name":"Vultarax Cohort",		"pts":250, "upgrades":[],			 	"units":"6x Vulturax Stratos-Automata"},
-			{"id":602, "name":"Heretek Auxilia Maniple",	"pts":250, "upgrades":[10,11,12,13,100,103],		"units":"3x Heretek Tech-Manipulators"},
-			{"id":603, "name":"Walking Cogitator Stack",	"pts":125, "upgrades":[10,11,12,13,100], 		"units":"1x Walking Cogitator Stack"},
-			{"id":604, "name":"Thanatar Maniple",		"pts":300, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]},
+			{"id":599, "name":"Skitarii Maniple Automata",	"pts":150, "upgrades":[35,36,37,38], 		"units":"1x Hypaspist Secutor 8x Tech Guard units"},
+			{"id":600, "name":"Domitar Maniple",		"pts":175, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3x Domitar Battle-Automata"},
+			{"id":601, "name":"Thanatar Maniple",		"pts":275, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]},
+			{"id":602, "name":"Vultarax Maniple",		"pts":225, "upgrades":[],			 	"units":"5x Vulturax Stratos-Automata"},
+			{"id":603, "name":"Heretek Auxilia Maniple",	"pts":250, "upgrades":[10,11,12,13,100,103],		"units":"3x Heretek Tech-Manipulators"},
+			{"id":604, "name":"Walking Cogitator Stack",	"pts":175, "upgrades":[10,11,12,13,100], 		"units":"1x Walking Cogitator Stack"},
 			{"id":605, "name":"Bombot Horde",		"pts":50,  "upgrades":[],				"units":"1x Datasmith 5x Bombots"}
       	]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Lambda-Zeta-01 Subjugation force",	"pts":0, "upgrades":[120, 10,11,12,13]},
+			{"id":700, "name":"Lambda-Zeta-01 Subjugation Force",	"pts":0, "upgrades":[120, 10,11,12,13]},
 			{"id":701, "name":"Enormous Class Battle-Automata",	"pts":400, "upgrades":[10,11,12,13], "units":"1x Enormous Class Battle-Automata"}
         ]}
 	],	
@@ -63,12 +62,12 @@
 		{"id":31, "name":"Questoris Knight-Styrix",						"pts":125},
     
 		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":100},
-		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":100},
-		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":100},
+		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon and Graviton Ram",	"pts":125},
+		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":110},
 
 		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":0},
-		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":0},
-		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":0},
+		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":25},
+		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":10},
     
 		{"id":35, "name":"2x Velite Sniper Units",				"pts":75},
 		{"id":36, "name":"3x Protector Handlers 5x Cannibal Servitors ",	"pts":125},
@@ -147,31 +146,32 @@
 		{"id":104, "name":"Siege Wreckers",			"pts":25},
 		{"id":105, "name":"Bolters",				"pts":25},
 		{"id":106, "name":"Multi-Meltas",			"pts":25},
-		{"id":107, "name":"Flamers",				"pts":25},
+		{"id":107, "name":"2x Flamers",				"pts":25},
 		{"id":108, "name":"Darkfire Cannons",			"pts":25}
 		
     ],
 	"formationConstraints":[
 	
-	{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605], "forEach":[500,501,502,503,504], "name2":"Cohort"},
+	{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605], "forEach":[500,501,502,503], "name2":"Cohort"},
 	{"maxPercent":50, "name":"LORDS OF WAR", "from":[700,701]},
+		
+	{"max":1, "perPoints":1000, "from":[599]},
+	{"max":1, "perPoints":2000, "from":[603]},
+	{"max":1, "perPoints":3000, "from":[604]},
 		
 	{"max":1, "perArmy":true, "from":[701]}
 		
 	],
 	"upgradeConstraints":[
 		
-	{"min":10, "from":[27],				"appliesTo":[603]},
+	{"min":10, "from":[27],				"appliesTo":[604]},
 		
-	{"min":3, "from":[32,33,34],			"appliesTo":[604]},
+	{"min":3, "from":[32,33,34],			"appliesTo":[601]},
 		
-	{"min":1, "from":[30,31],			"appliesTo":[504]},
-	{"min":2, "from":[28,29],			"appliesTo":[504]},
-    
 	{"max":1, "from":[104,105,107],			"appliesTo":[502]},
 	{"max":1, "from":[106,108],			"appliesTo":[502]},
     
-	{"min":0, "max":5, "from":[100],		"appliesTo":[500,501,502,503,504,600,602,603,604]},
+	{"min":0, "max":5, "from":[100],		"appliesTo":[500,501,502,503,600,601,603,604]},
 	
 	
 	{"min":0, "max":1, "from":[35],			"appliesTo":[599]},
@@ -186,13 +186,13 @@
 	{"min":3, "from":[30,31],			"appliesTo":[701]},
 	
 		
- 	{"min":0, "max":5, "from":[10,11,12,13],	"appliesTo":[503]},
- 	{"min":2, "max":5, "from":[10,11,12,13],	"appliesTo":[500,501,502,600,602,603,604]},
+ 	{"min":0, "max":5, "from":[10,11,12,13],	"appliesTo":[501]},
+ 	{"min":2, "max":5, "from":[10,11,12,13],	"appliesTo":[502,503,600,601,603,604]},
     
 		
-	{"min":1, "from":[40,41,42,43,44,45,46,47,48,49], "appliesTo":[500,501,502,503,504,600,601,602,604,700,701]},
+	{"min":1, "from":[40,41,42,43,44,45,46,47,48,49], "appliesTo":[500,501,502,503,600,601,602,603,700,701]},
 		
-	{"min":0, "max":1, "from":[1,2,3,4,5,6,7], 	"appliesTo":[500,501,502,600,602,603,604,700,701]},
+	{"min":0, "max":1, "from":[1,2,3,4,5,6,7], 	"appliesTo":[500,501,502,503,600,601,603,604,700,701]},
 		
 	{"max":1, "perArmy":true,	"from":[1,2,3,4,5,6,7]}
 
