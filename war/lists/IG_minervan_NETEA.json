@@ -9,14 +9,14 @@
 			{"id":515, "name":"Tank Company",			"pts":425, "upgrades":[51,52,53,54,58,59,55,56,57,61,62,63,64,71,72]}
 		]},
 		{"name":"SUPPORT FORMATIONS", "formations":[			
+			{"id":504, "name":"Salamander Scout Platoon",		"pts":100, "upgrades":[56,71,72],"units":"3 Salamanders"},
 			{"id":501, "name":"Tank Platoon",			"pts":280, "upgrades":[71,72]},
-			{"id":502, "name":"Artillery Battery",			"pts":250, "upgrades":[71,72]},
 			{"id":503, "name":"Super-Heavy Tank Platoon", 		"pts":200, "upgrades":[71,72]},
 			
 			{"id":505, "name":"Mechanized Platoon",			"pts":300, "upgrades":[56,71,72],"units":"10 Infantry, 5 Chimera"},
 			{"id":508, "name":"Storm Trooper Platoon",		"pts":200, "upgrades":[70,71,72],"units":"8 Storm Troopers"},
 			
-			{"id":504, "name":"Salamander Scout Platoon",		"pts":100, "upgrades":[56,71,72],"units":"3 Salamanders"},
+			{"id":502, "name":"Artillery Battery",			"pts":250, "upgrades":[71,72]},
 			{"id":511, "name":"Assault Gun Platoon",		"pts":150, "upgrades":[71,72],	"units":"3 Medusas"},
 			{"id":509, "name":"Deathstrike Missile Battery",	"pts":200, "upgrades":[71,72],	"units":"2 Deathstrike Missile Launchers"},
 			{"id":506, "name":"Flak Battery",			"pts":150, "upgrades":[71,72],	"units":"3 Hydra"},
