@@ -14,9 +14,9 @@
 			{"id":503, "name":"Super-Heavy Tank Platoon", 		"pts":200, "upgrades":[71,72]},
 			
 			{"id":505, "name":"Mechanized Platoon",			"pts":300, "upgrades":[56,71,72],"units":"10 Infantry, 5 Chimera"},
-			{"id":508, "name":"Storm Trooper Platoon",		"pts":200, "upgrades":[70,71,72],"units":"8 Storm Troopers"},
+			{"id":508, "name":"Storm Trooper Platoon",		"pts":200, "upgrades":[70,73,71,72],"units":"8 Storm Troopers"},
 			
-			{"id":502, "name":"Artillery Battery",			"pts":250, "upgrades":[71,72]},
+			{"id":502, "name":"Artillery Battery",			"pts":225, "upgrades":[71,72]},
 			{"id":511, "name":"Assault Gun Platoon",		"pts":150, "upgrades":[71,72],	"units":"3 Medusas"},
 			{"id":509, "name":"Deathstrike Missile Battery",	"pts":200, "upgrades":[71,72],	"units":"2 Deathstrike Missile Launchers"},
 			{"id":506, "name":"Flak Battery",			"pts":150, "upgrades":[71,72],	"units":"3 Hydra"},
@@ -81,7 +81,8 @@
 		{"id":63, "name":"(Tank Squadron, Conqueror Surcharge)",	"pts":10},
 		{"id":64, "name":"(Tank Squadron, Exterminator Surcharge)",	"pts":10},
 		
-		{"id":70, "name":"Valkyrie Transport",				"pts":150},
+		{"id":70, "name":"4x Valkyrie Transport",			"pts":150},
+		{"id":73, "name":"4x Chimera Transport",			"pts":100},
 		
 		{"id":72, "name":"Commissar(0-1 per 500 points)",		"pts":0},
 		
@@ -100,11 +101,12 @@
 		{"min":1, "max":1, "from":[15,16,17,18,19], "appliesTo":[503]},
 		{"min":1, "max":1, "from":[41,42,43], "appliesTo":[502]},
 		
-		{"min":10, "max":10, "from":[21,22,23,24,25,26,27,28], "appliesTo":[515]},
-		{"min":6, "max":6, "from":[21,22,23,24,25,26,27,28], "appliesTo":[501]},
-		
+		{"min":10, "max":10, "from":[21,22,23,24,25,26,27,28],	"appliesTo":[515]},
 		{"max":2, "name":"Rare", "from":[26,27,28]},
-		{"max":1, "name":"Rare", "from":[86,87,88]},
+		
+		{"min":6, "max":6, "from":[21,22,23,24,25,26,27,28],	"appliesTo":[501]},
+		{"max":1, "name":"Rare", "from":[26,27,28], 		"appliesTo":[501]},
+		
 		
 		{"max":3, "name":"Upgrades", "from":[51,52,53,54,58,59,55,56,57]},
 		{"max":1, "perArmy":true, "from":[51]},
@@ -114,7 +116,7 @@
 		{"max":1, "from":[56]},
 		{"max":1, "from":[57]},
 		{"max":3, "from":[61,62,63,64]},
-		{"max":1, "from":[70]},
+		{"max":1, "from":[70,73]},
 		{"max":1, "from":[71]},
 		{"max":1, "from":[72]}
 	]
