@@ -1,0 +1,94 @@
+{
+"id":"Homebrew 28mm skirmish wargame",
+"version":"v 0.0.1",
+"by":"spaal574",
+"notes":["100 points"],
+  
+"sections":[
+	{"name":"Formation slots", "formations":[
+		{"id":100, "name":"Riflemen",   	  	       	"pts":10, "upgrades":[], "units":"3 Riflemen w/rifles with bayonets"},
+		{"id":101, "name":"Sentry",             	  	"pts":10, "upgrades":[], "units":"2 Sentry"},
+		{"id":102, "name":"Support Squad", 		        "pts":0, "upgrades":[]},
+		{"id":103, "name":"Sniper Team",              "pts":0, "upgrades":[], "units":"Sniper"},
+		{"id":104, "name":"Cavalry", 	    	          "pts":0, "upgrades":[], "units":"2 Lancers"},
+		{"id":105, "name":"Assault Troops",  	        "pts":0, "upgrades":[], "units":"Assault Troop"},
+		{"id":106, "name":"Grenadier",  	            "pts":0, "upgrades":[], "units":"Grenadier"},
+		{"id":107, "name":"Battlemage",      	        "pts":0, "upgrades":[], "units":"Battlemage"},
+		{"id":108, "name":"Officer",  	              "pts":0, "upgrades":[], "units":"Officer"}
+	]},
+	{"name":"VEHICLES", "formations":[
+		{"id":300, "name":"Scout Car",	  	"pts":0,	"upgrades":[], "units":"Scout Car"},
+		{"id":301, "name":"Light Tank",	    "pts":0,	"upgrades":[], "units":"Light Tank"},
+		{"id":301, "name":"Truck",	    "pts":0,	"upgrades":[], "units":"Light Tank"}
+	]},
+	{"name":"Campaign stuff", "formations":[
+		{"id":202, "name":"", 		"pts":0, "upgrades":[], "units":""}
+	]}
+],	
+"upgrades":[
+	
+  {"id":1000, "name":"RIFLEMEN OPTIONS",	  	        "pts":0},
+  
+	{"id":10, "name":"Grenade",		                    	"pts":0},
+	{"id":11, "name":"Replace 1 rifle w/smg",		       	"pts":0},
+	
+  {"id":1000, "name":"SENTRY OPTIONS",	  	          "pts":0},
+  
+	{"id":10, "name":"Grenade",		                    	"pts":0},
+	{"id":11, "name":"Armour",		       	              "pts":0},
+	{"id":11, "name":"Camo",		                       	"pts":0},
+  
+  {"id":1000, "name":"SUPPORT SQUAD OPTIONS",		      "pts":0},
+  
+	{"id":10, "name":"1 gunner w/lmg",		            	"pts":0},
+	{"id":11, "name":"1 mortar, 3 crew",		          	"pts":0},
+	{"id":12, "name":"1 gunner w/light trench mortar",	"pts":0},
+	{"id":13, "name":"1 flamethrower infantryman",		 	"pts":0},
+	{"id":14, "name":"1 at rifle",			                "pts":0},
+	{"id":15, "name":"1 ammo carrier rifleman",			    "pts":0},
+  
+  {"id":1000, "name":"SNIPER TEAM OPTIONS",		        "pts":0},
+  
+	{"id":10, "name":"Replace Rifle with Scoped Rifle",	"pts":0},
+	{"id":15, "name":"1 Ammo Carrier Rifleman",			    "pts":0},
+  
+  {"id":1000, "name":"CAVALRY OPTIONS",		            "pts":0},
+  
+	{"id":15, "name":"ADD 1 extra cavalryman",			    "pts":0},
+  
+		{"id":105, "name":"Assault Troops",  	        "pts":0, "upgrades":[], "units":"Assault Troop"},
+		{"id":106, "name":"Grenadier",  	            "pts":0, "upgrades":[], "units":"Grenadier"},
+		{"id":107, "name":"Battlemage",      	        "pts":0, "upgrades":[], "units":"Battlemage"},
+		{"id":108, "name":"Officer",  	              "pts":0, "upgrades":[], "units":"Officer"}
+ 
+  
+	{"id":19, "name":"AP Shell",		       	"pts":0},
+	{"id":20, "name":"HE Shell",		       	"pts":0},
+	{"id":21, "name":"Gas Shell",	        	"pts":0},
+	{"id":22, "name":"Frag Shells(inf)",		"pts":0},
+  
+	{"id":24, "name":"Offensive Grenades",		"pts":0},
+	{"id":25, "name":"Defensive Grenades",		"pts":0},
+	{"id":26, "name":"Smoke Grenades",  		"pts":0},
+	{"id":27, "name":"Gas Grenades",	      	"pts":0},
+	{"id":28, "name":"Anti-tank Grenades",		"pts":0},
+	{"id":29, "name":"Demolition Charge",	  	"pts":0},
+  
+	{"id":36, "name":"Guards",  			"pts":0},  
+	{"id":37, "name":"Officer",  			"pts":0},    
+  
+	{"id":39, "name":"Infantry Support Gun",	"pts":0},
+	{"id":40, "name":"Anti-tank Gun",	      	"pts":0},
+	{"id":42, "name":"Trench Mortar",  	  	  "pts":0},
+ 
+	{"id":47, "name":"Small Bunker",   	        "pts":30},
+	{"id":48, "name":"Artillery Positions",    	"pts":20}
+  
+],
+"formationConstraints":[
+
+],
+"upgradeConstraints":[
+	
+]
+}
