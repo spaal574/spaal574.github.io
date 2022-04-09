@@ -7,19 +7,19 @@
 "sections":[
 	{"name":"Formation slots", "formations":[
 		{"id":100, "name":"Riflemen",   	       	"pts":10,	"upgrades":[], "units":"3 Riflemen w/rifles with bayonets"},
-		{"id":101, "name":"Sentry",               	"pts":10,	"upgrades":[], "units":"2 Sentry"},
+		{"id":101, "name":"Sentry",               	"pts":10,	"upgrades":[], "units":"2 Sentries"},
 		{"id":102, "name":"Support Squad", 	        "pts":0,	"upgrades":[]},
 		{"id":103, "name":"Sniper Team",		"pts":0,	"upgrades":[], "units":"Sniper"},
-		{"id":104, "name":"Cavalry",			"pts":0,	"upgrades":[], "units":"2 Uhlans(Lancers)"},
-		{"id":105, "name":"Assault Troop",		"pts":0,	"upgrades":[], "units":"Assault Troop"},
-		{"id":106, "name":"Grenadier",			"pts":0,	"upgrades":[], "units":"Grenadier"},
+		{"id":104, "name":"Cavalry",			"pts":0,	"upgrades":[], "units":"2 Uhlans			(Lance)"},
+		{"id":105, "name":"Grenadier",			"pts":0,	"upgrades":[], "units":"Grenadier"},
+		{"id":106, "name":"Trench Raider",		"pts":0,	"upgrades":[], "units":"Trench Raider"},
 		{"id":107, "name":"Battlemage",			"pts":0,	"upgrades":[], "units":"Battlemage"},
 		{"id":108, "name":"Officer",			"pts":0,	"upgrades":[], "units":"Officer"}
 	]},
 	{"name":"VEHICLES", "formations":[
 		{"id":200, "name":"Scout Car",			"pts":0,	"upgrades":[], "units":"Scout Car"},
 		{"id":201, "name":"Light Tank",			"pts":0,	"upgrades":[], "units":"Light Tank"},
-		{"id":201, "name":"Truck",			"pts":0,	"upgrades":[], "units":"Light Tank"}
+		{"id":201, "name":"Truck",			"pts":0,	"upgrades":[], "units":"Truck"}
 	]},
 	{"name":"Campaign stuff", "formations":[
 		{"id":402, "name":"",				"pts":0,	"upgrades":[], "units":""}
@@ -29,46 +29,92 @@
 	
   {"id":1000, "name":"RIFLEMEN OPTIONS",			"pts":0},
   
-	{"id":10, "name":"Grenade",		                    	"pts":0},
-	{"id":11, "name":"Replace 1 rifle w/smg",		       	"pts":0},
+	{"id":10, "name":"Grenade(s)",		                    	"pts":0},
+	{"id":11, "name":"Submachinegun(s)(Replace Rifle(s))",	       	"pts":0},
 	
 {"id":1000, "name":"SENTRY OPTIONS",			"pts":0},
   
-	{"id":10, "name":"Grenade",		                    	"pts":0},
+	{"id":10, "name":"Grenade(s)",		                    	"pts":0},
 	{"id":11, "name":"Armour",					"pts":0},
 	{"id":11, "name":"Camo",		                       	"pts":0},
   
 {"id":1000, "name":"SUPPORT SQUAD OPTIONS",		"pts":0},
   
-	{"id":10, "name":"1 gunner w/lmg",		            	"pts":0},
-	{"id":11, "name":"1 mortar, 3 crew",		          	"pts":0},
-	{"id":12, "name":"1 gunner w/light trench mortar",		"pts":0},
-	{"id":13, "name":"1 flamethrower infantryman",		 	"pts":0},
-	{"id":14, "name":"1 at rifle",			                "pts":0},
-	{"id":15, "name":"1 ammo carrier rifleman",			"pts":0},
-  
+	{"id":10, "name":"gunner w/lmg + ammo carrier",		       	"pts":0},
+	{"id":11, "name":"mortar, 3 crew",		          	"pts":0},
+	{"id":12, "name":"gunner w/light trench mortar + ammo carrier",	"pts":0},
+	{"id":13, "name":"flamethrower + fuel carrier",		 	"pts":0},
+	{"id":14, "name":"at rifle + ammo carrier",	                "pts":0},
+	{"id":15, "name":"extra ammo carrier rifleman",			"pts":0},
+
 {"id":1000, "name":"SNIPER TEAM OPTIONS",		"pts":0},
   
 	{"id":10, "name":"Replace Rifle with Scoped Rifle",		"pts":0},
-	{"id":15, "name":"1 Ammo Carrier Rifleman",			"pts":0},
-  
+	{"id":15, "name":"Ammo Carrier Rifleman w/rifle",		"pts":0},
+	{"id":15, "name":"Ammo Carrier Rifleman w/smg",			"pts":0},
+	{"id":11, "name":"Portable Shield",				"pts":0},
+	{"id":11, "name":"Camo Blanket",	                       	"pts":0},
+
 {"id":1000, "name":"CAVALRY OPTIONS",			"pts":0},
   
 	{"id":15, "name":"ADD 1 extra cavalryman",			"pts":0},
-	{"id":15, "name":"Upgrade into hussars(Sword + Pistol)",	"pts":0},
-	{"id":15, "name":"Upgrade into curaissers",			"pts":0},
-	{"id":15, "name":"Upgrade into carabiniers",			"pts":0},
-	{"id":15, "name":"Upgrade into dragoons",			"pts":0},
-  
-
-{"id":1000, "name":"ASSAULT OPTIONS",			"pts":0},
 	
+	{"id":15, "name":"Upgrade into hussars		(Sword + Pistol)",	"pts":0},
+	{"id":15, "name":"Upgrade into curaissers	(Armour + Pistol)",	"pts":0},
+	{"id":15, "name":"Upgrade into carabiniers	(Carabine)",		"pts":0},
+	{"id":15, "name":"Upgrade into dragoons		(Long Rifle)",		"pts":0},
+  
 {"id":1000, "name":"GRENADIER OPTIONS",			"pts":0},
 	
+	{"id":24, "name":"Rifle 'nades",			"pts":0},
+	{"id":24, "name":"'Nade Launcher",			"pts":0},
+	{"id":24, "name":"'Nade Belt",				"pts":0},
+	
+	{"id":24, "name":"Offensive Grenades",			"pts":0},
+	{"id":25, "name":"Defensive Grenades",			"pts":0},
+	{"id":26, "name":"Smoke Grenades",  			"pts":0},
+	{"id":27, "name":"Gas Grenades",		      	"pts":0},
+	{"id":28, "name":"Anti-tank Grenades",			"pts":0},
+	{"id":29, "name":"Demolition Charge",	  		"pts":0},
+  
+{"id":1000, "name":"TRENCH RAIDER OPTIONS",		"pts":0},
+	
+	{"id":27, "name":"Rifle w/bayonet",    			"pts":0},
+	{"id":26, "name":"Scoped Rifle",  			"pts":0},
+	{"id":27, "name":"Semi-Auto Rifle w/bayonet",   	"pts":0},
+	{"id":26, "name":"Smg",  				"pts":0},
+	{"id":26, "name":"Lmg",  				"pts":0},
+	{"id":28, "name":"Pistol and Sword",			"pts":0},
+	{"id":29, "name":"Pistol and Mace",	  		"pts":0},
+	{"id":29, "name":"Dual Pistol",		  		"pts":0},
+	{"id":29, "name":"Dual Melee",		  		"pts":0},
+	
+	{"id":11, "name":"Armour",				"pts":0},
+	{"id":11, "name":"Camo",			      	"pts":0},
+	{"id":24, "name":"'Nade Belt",				"pts":0},
+  
 {"id":1000, "name":"BATTLEMAGE OPTIONS",		"pts":0},
+	
+	{"id":26, "name":"Only Mage Staff",  				"pts":0},
+	{"id":26, "name":"Ritual Knife", 				"pts":0},
+	{"id":26, "name":"Smg",  					"pts":0},
+	{"id":27, "name":"Rifle",		      			"pts":0},
+	{"id":28, "name":"Pistol",					"pts":0},
+	{"id":29, "name":"Ampule Launcher",		  		"pts":0},
+	
+	{"id":11, "name":"Runed Armour",				"pts":0},
+	{"id":11, "name":"Esoteric Symbols",			      	"pts":0},
+	
+	{"id":24, "name":"Whispers from the beyond(spell list)",	"pts":0},
+	{"id":26, "name":"", 			"pts":0},
+	{"id":26, "name":"", 			"pts":0},
+	{"id":26, "name":"", 			"pts":0},
+  
 	
 {"id":1000, "name":"OFFICER OPTIONS",			"pts":0},
  
+	
+	
   
 	{"id":19, "name":"AP Shell",		       	"pts":0},
 	{"id":20, "name":"HE Shell",		       	"pts":0},
@@ -87,10 +133,7 @@
   
 	{"id":39, "name":"Infantry Support Gun",	"pts":0},
 	{"id":40, "name":"Anti-tank Gun",	      	"pts":0},
-	{"id":42, "name":"Trench Mortar",		"pts":0},
- 
-	{"id":47, "name":"Small Bunker",   	        "pts":30},
-	{"id":48, "name":"Artillery Positions",    	"pts":20}
+	{"id":42, "name":"Trench Mortar",		"pts":0}
   
 ],
 "formationConstraints":[
