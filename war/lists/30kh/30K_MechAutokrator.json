@@ -4,7 +4,7 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"GROUND ARMOUR", "formations":[
-			{"id":500, "name":"Leman Russ Maniple",		        "pts":-50, "upgrades":[1,2,10,11]},
+			{"id":500, "name":"Leman Russ Maniple",		        "pts":-25, "upgrades":[1,2,10,11]},
 			{"id":501, "name":"Krios Battle Tank Squadron",		"pts":0, "upgrades":[1,2,15,16]}
 		]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
