@@ -6,7 +6,7 @@
 		{"name":"GROUND ARMOUR", "formations":[
 			{"id":500, "name":"Leman Russ Maniple",		        "pts":-50, "upgrades":[1,2,10,11]},
 			{"id":501, "name":"Krios Battle Tank Squadron",		"pts":0, "upgrades":[1,2,15,16]}
-      		]},
+      	]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
 			{"id":599, "name":"Orbital Support",			"pts":200, "upgrades":[], "units":"Ark Mechanicus"},
 			{"id":600, "name":"Autokrator Tech Guard Cohort",	"pts":150, "upgrades":[2], "units":"8x Tech Guard units"},
@@ -55,7 +55,7 @@
 		
 		{"id":35, "name":"Ordinatus Majoris w/ Sonic Disruptor",				"pts":0},
 		{"id":36, "name":"Ordinatus Majoris w/ 6x Golgothan Missiles",				"pts":0},
-		{"id":37, "name":"Ordinatus Majoris w/ Nova Cannon",					"pts":0}
+		{"id":37, "name":"Ordinatus Majoris w/ Nova Cannon",					"pts":0},
 
 	
 		{"id":40, "name":"5x Castellax Battle-Automata units",					"pts":225},
