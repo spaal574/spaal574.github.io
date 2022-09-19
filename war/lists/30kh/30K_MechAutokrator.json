@@ -1,145 +1,93 @@
 {
 	"id":"Mechanicum Autokrator Taghmata force",
-	"version":"Heresy v0.1 VERY experimental",
+	"version":"Heresy v0.1 experimental",
 	"by":"spaal574",
 	"sections":[
-		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Leman Russ Maniple",		        "pts":450, "upgrades":[]},
-			{"id":501, "name":"Krios Battle Tank Squadron",		"pts":0, "upgrades":[]},
-      Ground Armour and HQ units
-      
-         ]},
-		{"name":"SUPPORT DETACHMENTS", "formations":[ 
-     	{"id":600, "name":"Vorax Kill-Clave", 		"pts":250, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"6x Vorax Battle-Automata units"},
-			{"id":601, "name":"Castellax Maniple",		"pts":225, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,104,105,107,106,108,100],	"units":"5x Castellax Battle-Automata units"},
-			{"id":602, "name":"Cataphract Maniple",		"pts":175, "upgrades":[1,2,3,4,5,6,7,10,11,12,13],	"units":"5x Cataphract Battle-Automata units"}
-			{"id":600, "name":"Domitar Maniple",		"pts":175, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3x Domitar Battle-Automata"},
-
-      Pioneer Forces 
-      Mobile Artilley Units 
-      Tech Guard Regiments
-    
-    
-			{"id":599, "name":"Skitarii Maniple Automata",	"pts":150, "upgrades":[35,36,37,38], 		"units":"1x Hypaspist Secutor 8x Tech Guard units"},
-			{"id":600, "name":"Domitar Maniple",		"pts":175, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100],	"units":"3x Domitar Battle-Automata"},
-			{"id":601, "name":"Thanatar Maniple",		"pts":275, "upgrades":[1,2,3,4,5,6,7,10,11,12,13,100]},
-			{"id":602, "name":"Vultarax Maniple",		"pts":225, "upgrades":[],			 	"units":"5x Vulturax Stratos-Automata"},
-			{"id":603, "name":"Heretek Auxilia Maniple",	"pts":250, "upgrades":[10,11,12,13,100,103],		"units":"3x Heretek Tech-Manipulators"},
-			{"id":604, "name":"Walking Cogitator Stack",	"pts":175, "upgrades":[10,11,12,13,100], 		"units":"1x Walking Cogitator Stack"},
-			{"id":605, "name":"Bombot Horde",		"pts":50,  "upgrades":[],				"units":"1x Datasmith 5x Bombots"}
-      	]},
+		{"name":"GROUND ARMOUR", "formations":[
+			{"id":500, "name":"Leman Russ Maniple",		        "pts":-50, "upgrades":[1,2,10,11]},
+			{"id":501, "name":"Krios Battle Tank Squadron",		"pts":0, "upgrades":[1,2,15,16]}
+      		]},
+		{"name":"SUPPORTING ELEMENTS", "formations":[ 
+			{"id":599, "name":"Orbital Support",			"pts":200, "upgrades":[], "units":"Ark Mechanicus"},
+			{"id":600, "name":"Autokrator Tech Guard Cohort",	"pts":150, "upgrades":[2], "units":"8x Tech Guard units"},
+			{"id":601, "name":"Autokrator Super Heavy Tank",	"pts":200, "upgrades":[1,2], "units":"1x Baneblade Variant"},
+			
+			{"id":602, "name":"Karacnos Assault Squadron",		"pts":300, "upgrades":[], "units":"4x Karacnos Assault Tank units"},
+			{"id":603, "name":"Minotaur Artillery Battery",		"pts":450, "upgrades":[], "units":"3x Minotaur Artillery Tank units"},
+			{"id":604, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[1,2]},
+		
+			{"id":605, "name":"Tech-priest Engineseer Sect",	"pts":150, "upgrades":[]},
+			{"id":606, "name":"Autokrator Pioneer Tank Maniple",	"pts":200, "upgrades":[1,2]},
+			{"id":607, "name":"Robot Maniple",			"pts":0, "upgrades":[40,41,42,50,51]},
+			
+			{"id":608, "name":"Tetrarch Heavy Lander",		"pts":475, "upgrades":[], "units":"1x Tetrarch Heavy Lander"}
+	]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"",	"pts":0, "upgrades":[]},
-			{"id":701, "name":"",	"pts":0, "upgrades":[], "units":"1x "}
+			{"id":700, "name":"Ordinatus Majoris",		"pts":450, "upgrades":[1,2]},
+			{"id":701, "name":"Super Heavy Tank Squadron",	"pts":500, "upgrades":[]},
+			{"id":702, "name":"Sub-orbital Avenger Strike Wing",		"pts":250, "upgrades":[], "units":"2x Avenger Fighters units"},
+			{"id":702, "name":"Sub-orbital Primaris-Lightning Strike Wing",	"pts":225, "upgrades":[], "units":"2x Primaris-Lightning Fighters units"}
         ]}
 	],	
 	"upgrades":[
-		{"id":1, "name":"Scrap-Lord Militant",					"pts":125},
-		{"id":2, "name":"Tuner-Whisperer Hierophant",				"pts":125},
-		{"id":3, "name":"Sorcerer Automata-Puppeteer",				"pts":125},
-    
-		{"id":40, "name":"-",							"pts":0},
-		{"id":41, "name":"God : Khorne",					"pts":25},
-		{"id":42, "name":"God : Slaanesh",					"pts":25},
-		{"id":43, "name":"God : Nurgle",					"pts":25},
-		{"id":44, "name":"God : Tzeentch",					"pts":25},
-		{"id":45, "name":"God : Malal",						"pts":25},
-		{"id":46, "name":"God : Chaos Undivided",				"pts":25},
-		{"id":47, "name":"Daemonic Possession",					"pts":50},
-		{"id":48, "name":"Abominable Intelligence",				"pts":25},
-		{"id":49, "name":"Malifica",						"pts":25},
-    
-		{"id":10, "name":"Datasmith",						"pts":25},
-		{"id":11, "name":"Heretek Prime",					"pts":75},
-    
-		{"id":14, "name":"Transport: Triaros",					"pts":75},
-		{"id":15, "name":"Transport: Land Raider w/ 2x Twin Lascannon",		"pts":75},
-		{"id":16, "name":"Transport: Land Raider w/ 2x Flamestorm Cannon",	"pts":75},
-		{"id":17, "name":"Transport: Land Raider w/ 2x Twin Multimelta",	"pts":75},
+		{"id":1, "name":"Magos Ordinator",							"pts":100},
+		{"id":2, "name":"Tech-priest Engineseer",						"pts":50},
 		
-		{"id":30, "name":"Leman Russ Executioner",						"pts":0},
-		{"id":31, "name":"Leman Russ Vanquisher",						  "pts":0},
-    
-		{"id":28, "name":"Hunter Killer Automata w/ 2x Twin-linked Lightning guns",		"pts":75},
-		{"id":29, "name":"Hunter Killer Automata w/ T-L Lightning guns and T-L Grav-Weapons",	"pts":125},
-    
-    
-		{"id":20, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":100},
-		{"id":21, "name":"Thanatar w/ Sollex Heavy Lascannon and Graviton Ram",	"pts":125},
-		{"id":22, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":110},
+		{"id":10, "name":"Leman Russ Executioner",						"pts":50},
+		{"id":11, "name":"Leman Russ Vanquisher",						"pts":50},
+		
+		{"id":15, "name":"Krios Battle Tank",							"pts":50},
+		{"id":16, "name":"Krios Venator",							"pts":50},
+		
+		{"id":20, "name":"Transport: Triaros",							"pts":75},
+		{"id":21, "name":"Transport: Land Raider w/ 2x Twin Lascannon",				"pts":75},
+		{"id":22, "name":"Transport: Land Raider w/ 2x Flamestorm Cannon",			"pts":75},
+		{"id":23, "name":"Transport: Land Raider w/ 2x Twin Multimelta",			"pts":75},		
+		
+		{"id":25, "name":"Baneblade",								"pts":0},
+		{"id":26, "name":"Shadowsword",								"pts":0},
+		{"id":27, "name":"Stormsword",								"pts":0},
+		{"id":28, "name":"Stormblade",								"pts":0},
+		{"id":29, "name":"Stormhammer",								"pts":0},
+	
+		{"id":30, "name":"Ordinatus Minoris Tormenta w/ Belicosa pattern Volcano Cannon",	"pts":0},
+		{"id":31, "name":"Ordinatus Minoris Tormenta w/ Ulator pattern Sonic Destroyer",	"pts":0},
+		
+		{"id":35, "name":"Ordinatus Majoris w/ Sonic Disruptor",				"pts":0},
+		{"id":36, "name":"Ordinatus Majoris w/ 6x Golgothan Missiles",				"pts":0},
+		{"id":37, "name":"Ordinatus Majoris w/ Nova Cannon",					"pts":0}
 
-		{"id":32, "name":"Thanatar w/ Hellex Plasma Mortar",			"pts":0},
-		{"id":33, "name":"Thanatar w/ Sollex Heavy Lascannon",			"pts":25},
-		{"id":34, "name":"Thanatar-Cynis w/ Twin Plasma Ejector",		"pts":10},
-    
-		{"id":35, "name":"2x Velite Sniper Units",				"pts":75},
-		{"id":36, "name":"3x Protector Handlers 5x Cannibal Servitors ",	"pts":125},
-		{"id":37, "name":"4x Balisteria Thudd Guns 4x Balisteria Skitarii",	"pts":100},
-		{"id":38, "name":"3x Skitarii Psykers",					"pts":75},
-		{"id":39, "name":"x Skitarii",					"pts":0},
-		
-  	{"id":100, "name":"Scyllax",						"pts":50},
-		{"id":103, "name":"10 x Servo-Automata",				"pts":100},
-		
-		{"id":120, "name":"Lambda-Zeta-01 Battle-Automata units",		"pts":225},    
-		
-		{"id":104, "name":"Siege Wreckers",			"pts":25},
-		{"id":105, "name":"Bolters",			    	"pts":25},
-		{"id":106, "name":"Multi-Meltas",		  	"pts":25},
-		{"id":107, "name":"2x Flamers",				  "pts":25},
-		{"id":108, "name":"Darkfire Cannons",		"pts":25}
-		
+	
+		{"id":40, "name":"5x Castellax Battle-Automata units",					"pts":225},
+		{"id":41, "name":"5x Cataphract Battle-Automata units",					"pts":175},
+		{"id":42, "name":"3x Domitar Battle-Automata units",					"pts":175},
+
+		{"id":50, "name":"2x Hunter Killer Automata w/ 2x Twin-linked Lightning guns",		"pts":75},
+		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125}
     ],
 	"formationConstraints":[
 	
-	{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605], "forEach":[500,501,502,503], "name2":"Cohort"},
+	{"max":3, "name":"Supporting Elements", "from":[600,601,602,603,604,605], "forEach":[500,501], "name2":"Ground Armour"},
 	{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[700,701]},
 	
-	{"max":1, "perPoints":1000, "from":[599]},
-	{"max":1, "perPoints":2000, "from":[603]},
-	{"max":1, "perPoints":3000, "from":[604]},
-	
+	{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[606]},
 	{"max":1, "perArmy":true, "from":[701]}	
 	],
 	"upgradeConstraints":[
-		
     
-    
-    
-    
-    
-    
-	{"min":10, "from":[27],				"appliesTo":[604]},
-		
-	{"min":3, "from":[32,33,34],			"appliesTo":[601]},
-		
-	{"max":1, "from":[104,105,107],			"appliesTo":[502]},
-	{"max":1, "from":[106,108],			"appliesTo":[502]},
-    
-	{"min":0, "max":5, "from":[100],		"appliesTo":[500,501,502,503,600,601,603,604]},
+	{"min":5, "max":8, "from":[10,11],		"appliesTo":[500]},
+	{"min":6, "max":10, "from":[15,16],		"appliesTo":[501]},
 	
-	
-	{"min":0, "max":1, "from":[35],			"appliesTo":[599]},
-	{"min":0, "max":1, "from":[36],			"appliesTo":[599]},
-	{"min":0, "max":1, "from":[37],			"appliesTo":[599]},
-	{"min":0, "max":1, "from":[38],			"appliesTo":[599]},
+	{"min":2, "max":4, "from":[20,21,22,23],	"appliesTo":[600]},
+	{"min":1,	"from":[25,26,27,28,29],	"appliesTo":[601]},
+	{"min":2, "max":4, "from":[30,31],		"appliesTo":[604]},
+	{"min":1,	"from":[40,41,42,50,51],	"appliesTo":[607]},
+  
+	{"min":2, "max":4, "from":[35,36,37],		"appliesTo":[700]},
+	{"min":3,	"from":[25,26,27,28,29],	"appliesTo":[701]},
 		
-	{"min":0, "max":2, "from":[35,36,37,38],	"appliesTo":[599]},
-	
-	{"min":2, "max":4, "from":[120],		"appliesTo":[700]},
-	{"min":2, "from":[30,31],	      		"appliesTo":[700]},
-	{"min":3, "from":[30,31],			      "appliesTo":[701]},
-	
 		
- 	{"min":0, "max":5, "from":[10,11,12,13],	"appliesTo":[501]},
- 	{"min":2, "max":5, "from":[10,11,12,13],	"appliesTo":[502,503,600,601,603,604]},
-    
-		
-	{"min":1, "from":[40,41,42,43,44,45,46,47,48,49], "appliesTo":[500,501,502,503,600,601,602,603,700,701]},
-		
-	{"min":0, "max":1, "from":[1,2,3,4,5,6,7], 	"appliesTo":[500,501,502,503,600,601,603,604,700,701]},
-		
-	{"max":1, "perArmy":true,	"from":[1,2,3,4,5,6,7]}
-
+	{"min":0, "max":1, "from":[1,2], 	 	"appliesTo":[500,501,600,601,604,606,700]},
+	{"max":1, "from":[1], "perArmy":true}
   ]
 }
