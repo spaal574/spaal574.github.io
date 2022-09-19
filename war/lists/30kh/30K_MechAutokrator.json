@@ -34,8 +34,8 @@
 		{"id":2, "name":"Tech-priest Engineseer",						"pts":50},
 		
 		
-		{"id":10, "name":"Leman Russ Executioner",						"pts":50},
-		{"id":11, "name":"Leman Russ Vanquisher",						"pts":50},
+		{"id":10, "name":"Leman Russ Executioner",						"pts":75},
+		{"id":11, "name":"Leman Russ Vanquisher",						"pts":75},
 		{"id":12, "name":"Leman Russ Incinerator",						"pts":0},
 		{"id":13, "name":"Leman Russ Demolisher",						"pts":0},
 		{"id":14, "name":"Malcador Infernus Special Weapons Tank",				"pts":0},
