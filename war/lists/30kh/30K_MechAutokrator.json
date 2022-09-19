@@ -65,11 +65,20 @@
 		
 		
 		{"id":40, "name":"5x Castellax Battle-Automata units",					"pts":225},
-		{"id":41, "name":"5x Cataphract Battle-Automata units",					"pts":175},
-		{"id":42, "name":"3x Domitar Battle-Automata units",					"pts":175},
+		{"id":41, "name":"3x Domitar Battle-Automata units",					"pts":175},
+		{"id":42, "name":"6x Vorax Battle-Automata units",					"pts":250},
+		
+		{"id":45, "name":"5x Cataphract Robots",						"pts":175},
+		{"id":46, "name":"4x Colossus Robots",							"pts":200},
+		{"id":47, "name":"4x Crusader Robots",							"pts":125},
 
 		{"id":50, "name":"2x Hunter Killer Automata w/ 2x Twin-linked Lightning guns",		"pts":75},
-		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125}
+		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125},
+		
+		
+		{"id":75, "name":"Galvanic Traction Drive",						"pts":50},
+		{"id":76, "name":"-",	"pts":50},
+		{"id":77, "name":"-",	"pts":50}
   	],
 	"formationConstraints":[
 	
@@ -90,7 +99,7 @@
 	{"min":3,	"from":[30,31],			"appliesTo":[604]},
 	{"min":3,	"from":[2],			"appliesTo":[605]},
 	{"min":3,	"from":[12,13,14],		"appliesTo":[606]},
-	{"min":1,	"from":[40,41,42,50,51],	"appliesTo":[607]},
+	{"min":1,	"from":[40,41,42,45,46,47,50,51],	"appliesTo":[607]},
   
 	{"min":1,	"from":[35,36,37],		"appliesTo":[700]},
 	{"min":3,	"from":[25,26,27,28,29],	"appliesTo":[701]},
