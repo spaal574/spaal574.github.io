@@ -9,12 +9,13 @@
 			{"id":502, "name":"Macrotechnia Tarantula Battery",		"pts":0, "upgrades":[]}
 		]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
-			{"id":600, "name":"Imperial Bastion",				"pts":0, "upgrades":[]},
-			{"id":601, "name":"Void Shield Generator",			"pts":0, "upgrades":[]},
-			{"id":602, "name":"Plasma Obliterator",				"pts":0, "upgrades":[]},
-			{"id":603, "name":"Macro-Cannon Strongpoint",			"pts":0, "upgrades":[]},
-			{"id":604, "name":"Primus Redoubt",				"pts":0, "upgrades":[]},
-			{"id":605, "name":"Castellum Stronghold",			"pts":0, "upgrades":[]},
+			{"id":600, "name":"Imperial Bastion",							"pts":0, "upgrades":[]},
+			{"id":600, "name":"Auspex Array Station",						"pts":0, "upgrades":[]},
+			{"id":601, "name":"Void Shield Generator",						"pts":0, "upgrades":[]},
+			{"id":602, "name":"Plasma Obliterator",							"pts":0, "upgrades":[]},
+			{"id":603, "name":"Macro-Cannon Strongpoint",						"pts":0, "upgrades":[]},
+			{"id":604, "name":"Primus Redoubt",							"pts":0, "upgrades":[]},
+			{"id":605, "name":"Castellum Stronghold",						"pts":0, "upgrades":[]},
 			{"id":606, "name":"50cm of Trenches, Tangle Wire and 6 Emplacements or Bunkers",	"pts":0, "upgrades":[]},
 			
 			
@@ -32,21 +33,39 @@
      		]}
 	],	
 	"upgrades":[
-		{"id":1, "name":"Arch-Magos Macrotek",				"pts":100},
-		{"id":2, "name":"Magos Macrotek",				"pts":50},
+		{"id":1, "name":"Arch-Magos Macrotek",					"pts":100},
+		{"id":2, "name":"Magos Macrotek",					"pts":50},
+		
+		{"id":10, "name":"Tarantula Sentry Guns w/ Lascannon",			"pts":25},
+		{"id":11, "name":"Tarantula Sentry Guns w/ Heavy Bolter",		"pts":25},
+		{"id":12, "name":"Hyperios Sentry Guns",				"pts":50},
 		
 		
-		{"id":10, "name":"Tarantula Sentry Guns w/ Lascannon",		"pts":25},
-		{"id":11, "name":"Tarantula Sentry Guns w/ Heavy Bolter",	"pts":25},
-		{"id":12, "name":"Hyperios Sentry Guns",			"pts":50},
+		{"id":13, "name":"Leman Russ Demolisher",				"pts":0},
+		{"id":14, "name":"Malcador Infernus Special Weapons Tank",		"pts":0},
 		
+		{"id":15, "name":"3x Earthshaker Emplacements",				"pts":50},
+		{"id":15, "name":"3x Medusa Emplacements",				"pts":50},
+		{"id":15, "name":"3x Basilisk Emplacements",				"pts":50},
 		
-		{"id":13, "name":"Leman Russ Demolisher",			"pts":0},
-		{"id":14, "name":"Malcador Infernus Special Weapons Tank",	"pts":0},
+		{"id":16, "name":"50cm of Trenches",					"pts":20},
+		{"id":17, "name":"50cm of Tangle Wire",					"pts":20},
+		{"id":18, "name":"6x Emplacements",					"pts":20},
+		{"id":19, "name":"6x Bunkers",						"pts":20},
 		
-		{"id":15, "name":"Krios Battle Tank",						"pts":50},
+		{"id":19, "name":"Minefield",						"pts":0},
+		{"id":19, "name":"Dragon Teeth",					"pts":0},
+		{"id":19, "name":"Ammo Store",						"pts":0},
+		{"id":19, "name":"Booby Trapped",					"pts":0},
+		{"id":19, "name":"Secret Escape Hatch",					"pts":0},
+		{"id":19, "name":"Magos Machine Spirit",				"pts":0},
+		{"id":19, "name":"Void Shields",					"pts":0},
+		{"id":19, "name":"Secret Escape Hatch",					"pts":0},
+		{"id":19, "name":"Comms Relay",						"pts":0},
 		
-		{"id":16, "name":"50cm of Trenches, Tangle Wire and 6 Emplacements or Bunkers",	"pts":75},
+		{"id":19, "name":"Icarus Lascannon",					"pts":0},
+		{"id":19, "name":"Hydra Turret",					"pts":0},
+		{"id":19, "name":"Comms Relay",						"pts":0},
 		
 		
 		{"id":20, "name":"Transport: Triaros",					"pts":75},
@@ -75,9 +94,9 @@
 		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125},
 		
 		
-		{"id":75, "name":"Legs",						"pts":25},
-		{"id":76, "name":"-",	"pts":50},
-		{"id":77, "name":"-",	"pts":50}
+		{"id":75, "name":"Legs",			"pts":0},
+		{"id":76, "name":"-",				"pts":50},
+		{"id":77, "name":"-",				"pts":50}
   	],
 	"formationConstraints":[
 	
@@ -91,7 +110,7 @@
 	"upgradeConstraints":[
     
 	
-	{"min":3,	"from":[30,31],			"appliesTo":[610]},
+	{"min":3,	"from":[30,31],				"appliesTo":[610]},
 	{"min":1,	"from":[40,41,42,45,46,47,50,51],	"appliesTo":[611]},
   
 	{"min":1,	"from":[35,36,37],		"appliesTo":[700]},
