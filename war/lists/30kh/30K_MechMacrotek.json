@@ -4,28 +4,29 @@
 	"by":"spaal574 with units mixed from the au30k mechanicum",
 	"sections":[
 		{"name":"CORE FORMATIONS", "formations":[
-			{"id":500, "name":"Macrotechnia Tech-priest Auxilia Maniple",	"pts":250, "upgrades":[1,2]},
-			{"id":501, "name":"Macrotechnia Adsecularis Covenant",		"pts":120, "upgrades":[], "units":"12x Tech-thrall units"},
+			{"id":500, "name":"Macrotechnia Tech-priest Auxilia Maniple",	"pts":250, "upgrades":[1,2], "units":"2x Tech-priests, 5x Servo-automata w/ Heavy Bolters units"},
+			{"id":501, "name":"Macrotechnia Adsecularis Covenant",		"pts":120, "upgrades":[1,2], "units":"12x Tech-thrall units"},
 			{"id":502, "name":"Macrotechnia Tarantula Battery",		"pts":0, "upgrades":[]}
 		]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
-			{"id":600, "name":"Imperial Bastion",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":601, "name":"Void Shield Generator",		"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":602, "name":"Plasma Obliterator",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":603, "name":"Macro-Cannon Strongpoint",		"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":604, "name":"Primus Redoubt",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":605, "name":"Castellum Stronghold",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Imperial Bastion",				"pts":0, "upgrades":[]},
+			{"id":601, "name":"Void Shield Generator",			"pts":0, "upgrades":[]},
+			{"id":602, "name":"Plasma Obliterator",				"pts":0, "upgrades":[]},
+			{"id":603, "name":"Macro-Cannon Strongpoint",			"pts":0, "upgrades":[]},
+			{"id":604, "name":"Primus Redoubt",				"pts":0, "upgrades":[]},
+			{"id":605, "name":"Castellum Stronghold",			"pts":0, "upgrades":[]},
+			{"id":606, "name":"50cm of Trenches, Tangle Wire and 6 Emplacements or Bunkers",	"pts":0, "upgrades":[]},
+			
 			
 			{"id":610, "name":"Malcador Skirmishers",		"pts":275, "upgrades":[], "units":"5x Malcador Assault Tanks"},
 			{"id":610, "name":"Macrotechnia Leman Russ Tanks",	"pts":0, "upgrades":[], "units":"5x Leman Russ Tanks"},
 			
-			{"id":604, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[1,2]},
+			{"id":610, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[]},
 		
-			{"id":607, "name":"Robot Maniple",			"pts":0, "upgrades":[]}
+			{"id":611, "name":"Robot Maniple",			"pts":0, "upgrades":[]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Ordinatus Majoris",			"pts":450, "upgrades":[1,2]},
-			{"id":701, "name":"Super Heavy Tank Squadron",		"pts":500, "upgrades":[1,2]},
+			{"id":700, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[]},
 			{"id":702, "name":"Sub-orbital Avenger Strike Wing",		"pts":250, "upgrades":[], "units":"2x Avenger Fighters units"},
 			{"id":702, "name":"Sub-orbital Primaris-Lightning Strike Wing",	"pts":225, "upgrades":[], "units":"2x Primaris-Lightning Fighters units"}
      		]}
@@ -43,8 +44,9 @@
 		{"id":13, "name":"Leman Russ Demolisher",			"pts":0},
 		{"id":14, "name":"Malcador Infernus Special Weapons Tank",	"pts":0},
 		
-		{"id":15, "name":"Krios Battle Tank",				"pts":50},
-		{"id":16, "name":"Krios Venator",				"pts":50},
+		{"id":15, "name":"Krios Battle Tank",						"pts":50},
+		
+		{"id":16, "name":"50cm of Trenches, Tangle Wire and 6 Emplacements or Bunkers",	"pts":75},
 		
 		
 		{"id":20, "name":"Transport: Triaros",					"pts":75},
@@ -52,19 +54,13 @@
 		{"id":22, "name":"Transport: Termite Drill w/ 2x Flamers",		"pts":75},
 		{"id":23, "name":"Transport: Termite Drill w/ 2x Volkite Chargers",	"pts":75},		
 		
-		{"id":25, "name":"Baneblade",		"pts":0},
-		{"id":26, "name":"Shadowsword",		"pts":0},
-		{"id":27, "name":"Stormsword",		"pts":0},
-		{"id":28, "name":"Stormblade",		"pts":0},
-		{"id":29, "name":"Stormhammer",		"pts":0},
-	
 		
 		{"id":30, "name":"Ordinatus Minoris Tormenta w/ Belicosa pattern Volcano Cannon",	"pts":0},
 		{"id":31, "name":"Ordinatus Minoris Tormenta w/ Ulator pattern Sonic Destroyer",	"pts":0},
 		
 		{"id":35, "name":"Ordinatus Majoris w/ Sonic Disruptor",  				"pts":0},
-		{"id":36, "name":"Ordinatus Majoris w/ 6x Golgothan Missiles",		"pts":0},
-		{"id":37, "name":"Ordinatus Majoris w/ Nova Cannon",    					"pts":0},
+		{"id":36, "name":"Ordinatus Majoris w/ 6x Golgothan Missiles",				"pts":0},
+		{"id":37, "name":"Ordinatus Majoris w/ Nova Cannon",    				"pts":0},
 		
 		
 		{"id":40, "name":"5x Castellax Battle-Automata units",					"pts":225},
@@ -94,18 +90,11 @@
 	],
 	"upgradeConstraints":[
     
-	{"min":5, "max":8, "from":[10,11],		"appliesTo":[500]},
-	{"min":6, "max":10, "from":[15,16],		"appliesTo":[501]},
 	
-	{"min":2, "max":4, "from":[20,21,22,23],	"appliesTo":[600]},
-	{"min":1,	"from":[25,26,27,28,29],	"appliesTo":[601]},
-	{"min":3,	"from":[30,31],			"appliesTo":[604]},
-	{"min":3,	"from":[2],			"appliesTo":[605]},
-	{"min":3,	"from":[12,13,14],		"appliesTo":[606]},
-	{"min":1,	"from":[40,41,42,45,46,47,50,51],	"appliesTo":[607]},
+	{"min":3,	"from":[30,31],			"appliesTo":[610]},
+	{"min":1,	"from":[40,41,42,45,46,47,50,51],	"appliesTo":[611]},
   
 	{"min":1,	"from":[35,36,37],		"appliesTo":[700]},
-	{"min":3,	"from":[25,26,27,28,29],	"appliesTo":[701]},
 		
 		
 	{"min":0, "max":1, "from":[1,2], 	 	"appliesTo":[500,501,600,601,604,606,610,700,701]},
