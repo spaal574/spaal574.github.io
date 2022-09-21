@@ -1,7 +1,7 @@
 {
 	"id":"Mechanicum Autokrator Taghmata force",
 	"version":"Heresy v0.1 experimental",
-	"by":"spaal574",
+	"by":"spaal574 with units mixed from the cataphractii list and the au30k mechanicum",
 	"sections":[
 		{"name":"GROUND ARMOUR", "formations":[
 			{"id":500, "name":"Leman Russ Maniple",		        "pts":-25, "upgrades":[1,2,10,11]},
