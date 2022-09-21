@@ -4,27 +4,28 @@
 	"by":"spaal574 with units mixed from the au30k mechanicum",
 	"sections":[
 		{"name":"CORE FORMATIONS", "formations":[
-      {"id":500, "name":"Macrotechnia Tech-priest Auxilia Maniple", "pts":200, "upgrades":[1,2,10,11]},
-			{"id":501, "name":"Macrotechnia Adsecularis Covenant",        "pts":120, "upgrades":[1,2,15,16], "units":"12x Tech-thrall units"},
-      {"id":502, "name":"Macrotechnia Tech-priest Auxilia Maniple", "pts":200, "upgrades":[1,2,10,11]}
+			{"id":500, "name":"Macrotechnia Tech-priest Auxilia Maniple",	"pts":250, "upgrades":[1,2]},
+			{"id":501, "name":"Macrotechnia Adsecularis Covenant",		"pts":120, "upgrades":[], "units":"12x Tech-thrall units"},
+			{"id":502, "name":"Macrotechnia Tarantula Battery",		"pts":0, "upgrades":[]}
 		]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
-      
-      
-      
+			{"id":600, "name":"Imperial Bastion",			"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Void Shield Generator",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Plasma Obliterator",			"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Macro-Cannon Strongpoint",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Primus Redoubt",			"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":600, "name":"Castellum Stronghold",		"pts":150, "upgrades":[2,20,21,22,23]},
+			
+			
 			{"id":600, "name":"Autokrator Tech Guard Cohort",	"pts":150, "upgrades":[2,20,21,22,23], "units":"8x Tech Guard units"},
-			{"id":610, "name":"Autokrator Skirmisher Tanks",	"pts":275, "upgrades":[1,2], "units":"5x Malcador Assault Tanks"},
-			{"id":601, "name":"Autokrator Super Heavy Tank",	"pts":200, "upgrades":[1,2]},
+			{"id":610, "name":"Malcador Skirmishers",		"pts":275, "upgrades":[], "units":"5x Malcador Assault Tanks"},
 			
 			{"id":602, "name":"Karacnos Assault Squadron",		"pts":300, "upgrades":[], "units":"4x Karacnos Assault Tanks"},
 			{"id":603, "name":"Minotaur Artillery Battery",		"pts":450, "upgrades":[], "units":"3x Minotaur Artillery Tanks"},
+			
 			{"id":604, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[1,2]},
 		
-			{"id":605, "name":"Tech-priest Engineseer Sect",	"pts":0, "upgrades":[]},
-			{"id":606, "name":"Autokrator Pioneer Tank Maniple",	"pts":200, "upgrades":[1,2]},
-			{"id":607, "name":"Robot Maniple",			"pts":0, "upgrades":[]},
-			
-			{"id":608, "name":"Tetrarch Heavy Lander",		"pts":475, "upgrades":[], "units":"1x Tetrarch Heavy Lander"}
+			{"id":607, "name":"Robot Maniple",			"pts":0, "upgrades":[]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":700, "name":"Ordinatus Majoris",			"pts":450, "upgrades":[1,2]},
@@ -34,30 +35,32 @@
      		]}
 	],	
 	"upgrades":[
-		{"id":1, "name":"Arch-Magos Macrotek",                      "pts":100},
-		{"id":2, "name":"Magos Macrotek",	                					"pts":50},
+		{"id":1, "name":"Arch-Magos Macrotek",				"pts":100},
+		{"id":2, "name":"Magos Macrotek",				"pts":50},
 		
 		
-		{"id":10, "name":"Leman Russ Executioner",				        		"pts":75},
-		{"id":11, "name":"Leman Russ Vanquisher",				          		"pts":75},
-		{"id":12, "name":"Leman Russ Incinerator",      					  	"pts":0},
-		{"id":13, "name":"Leman Russ Demolisher",	          					"pts":0},
-		{"id":14, "name":"Malcador Infernus Special Weapons Tank",		"pts":0},
-		
-		{"id":15, "name":"Krios Battle Tank",			            				"pts":50},
-		{"id":16, "name":"Krios Venator",			    		            		"pts":50},
+		{"id":10, "name":"Tarantula Sentry Guns w/ Lascannon",		"pts":25},
+		{"id":11, "name":"Tarantula Sentry Guns w/ Heavy Bolter",	"pts":25},
+		{"id":12, "name":"Hyperios Sentry Guns",			"pts":50},
 		
 		
-		{"id":20, "name":"Transport: Triaros",                                "pts":75},
-		{"id":21, "name":"Transport: Termite Drill w/ 2x Combibolters",				"pts":75},
-		{"id":22, "name":"Transport: Termite Drill w/ 2x Flamers",            "pts":75},
-		{"id":23, "name":"Transport: Termite Drill w/ 2x Volkite Chargers",	  "pts":75},		
+		{"id":13, "name":"Leman Russ Demolisher",			"pts":0},
+		{"id":14, "name":"Malcador Infernus Special Weapons Tank",	"pts":0},
 		
-		{"id":25, "name":"Baneblade",					  			"pts":0},
-		{"id":26, "name":"Shadowsword",								"pts":0},
-		{"id":27, "name":"Stormsword",								"pts":0},
-		{"id":28, "name":"Stormblade",								"pts":0},
-		{"id":29, "name":"Stormhammer",								"pts":0},
+		{"id":15, "name":"Krios Battle Tank",				"pts":50},
+		{"id":16, "name":"Krios Venator",				"pts":50},
+		
+		
+		{"id":20, "name":"Transport: Triaros",					"pts":75},
+		{"id":21, "name":"Transport: Termite Drill w/ 2x Combibolters",		"pts":75},
+		{"id":22, "name":"Transport: Termite Drill w/ 2x Flamers",		"pts":75},
+		{"id":23, "name":"Transport: Termite Drill w/ 2x Volkite Chargers",	"pts":75},		
+		
+		{"id":25, "name":"Baneblade",		"pts":0},
+		{"id":26, "name":"Shadowsword",		"pts":0},
+		{"id":27, "name":"Stormsword",		"pts":0},
+		{"id":28, "name":"Stormblade",		"pts":0},
+		{"id":29, "name":"Stormhammer",		"pts":0},
 	
 		
 		{"id":30, "name":"Ordinatus Minoris Tormenta w/ Belicosa pattern Volcano Cannon",	"pts":0},
@@ -80,7 +83,7 @@
 		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125},
 		
 		
-		{"id":75, "name":"-",						"pts":50},
+		{"id":75, "name":"Legs",						"pts":25},
 		{"id":76, "name":"-",	"pts":50},
 		{"id":77, "name":"-",	"pts":50}
   	],
@@ -110,6 +113,7 @@
 		
 		
 	{"min":0, "max":1, "from":[1,2], 	 	"appliesTo":[500,501,600,601,604,606,610,700,701]},
+	{"max":2, "from":[75], "perArmy":true},
 	{"max":1, "from":[1], "perArmy":true}
   ]
 }
