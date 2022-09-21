@@ -10,18 +10,14 @@
 		]},
 		{"name":"SUPPORTING ELEMENTS", "formations":[ 
 			{"id":600, "name":"Imperial Bastion",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":600, "name":"Void Shield Generator",		"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":600, "name":"Plasma Obliterator",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":600, "name":"Macro-Cannon Strongpoint",		"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":600, "name":"Primus Redoubt",			"pts":150, "upgrades":[2,20,21,22,23]},
-			{"id":600, "name":"Castellum Stronghold",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":601, "name":"Void Shield Generator",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":602, "name":"Plasma Obliterator",			"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":603, "name":"Macro-Cannon Strongpoint",		"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":604, "name":"Primus Redoubt",			"pts":150, "upgrades":[2,20,21,22,23]},
+			{"id":605, "name":"Castellum Stronghold",		"pts":150, "upgrades":[2,20,21,22,23]},
 			
-			
-			{"id":600, "name":"Autokrator Tech Guard Cohort",	"pts":150, "upgrades":[2,20,21,22,23], "units":"8x Tech Guard units"},
 			{"id":610, "name":"Malcador Skirmishers",		"pts":275, "upgrades":[], "units":"5x Malcador Assault Tanks"},
-			
-			{"id":602, "name":"Karacnos Assault Squadron",		"pts":300, "upgrades":[], "units":"4x Karacnos Assault Tanks"},
-			{"id":603, "name":"Minotaur Artillery Battery",		"pts":450, "upgrades":[], "units":"3x Minotaur Artillery Tanks"},
+			{"id":610, "name":"Macrotechnia Leman Russ Tanks",	"pts":0, "upgrades":[], "units":"5x Leman Russ Tanks"},
 			
 			{"id":604, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[1,2]},
 		
