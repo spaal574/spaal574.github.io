@@ -13,6 +13,9 @@
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
+			{"id":598, "name":"Night Raptor Squad",			"pts":225, "upgrades":[101,103], "units":"4x Night Raptors Units"},
+			{"id":599, "name":"Terror Detachment",			"pts":250, "upgrades":[5,6, 125,126,127, 100,101, 110,111,114,115], "units":"6x Terror Squad Units"},
+			
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
 			
@@ -42,6 +45,8 @@
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
+			{"id":700, "name":"Konrad Curze, the Night Haunter",	"pts":450, "upgrades":[100,101,103, 110,111,112,113,114,115, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"7x Tactical Marine(Boltgun) units"},
+
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
 			{"id":706, "name":"Legion Stormbird",			"pts":450, "upgrades":[], "units":"1x Stormbird Heavy Attack Ship"},
@@ -52,6 +57,7 @@
 		]}
 	],	
 	"upgrades":[
+		{"id":1, "name":"Konrad Curze",						"pts":0},
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
     
@@ -204,16 +210,18 @@
 		{"id":190, "name":"Tank : Cerberus",					"pts":150}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621], "forEach":[500,501,502,503], "name2":"Detachment"},
-		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
+		{"max":3, "name":"Support Detachment", "from":[598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621], "forEach":[500,501,502,503], "name2":"Detachment"},
+		{"maxPercent":33, "name":"LORDS OF WAR", "from":[700,704,705,706,707,708,709]},
+		{"max":1, "perPoints":1000, "from":[598]},
+		{"max":1, "perPoints":2000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":1000, "from":[606]},
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[    
-		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
+		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503, 599,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
 		
-		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618]},	
+		{"min":0, "max":2, "from":[112,113, 143,144,145,146, 151, 165,166,167,168,169,170, 175,176], "appliesTo":[500,501,502,503,602,603,604,609,614,616,618, 700]},	
 		
 		{"min":0, "max":1, "from":[100], "appliesTo":[500,502,503,602,603,604,605,606,607,608,609]},
 		
@@ -223,9 +231,9 @@
 		
 		{"min":0, "max":4, "from":[135,136], "appliesTo":[500]},
 		
-		{"min":0, "max":1, "from":[120], "appliesTo":[500,501,503, 601,614,615,616,618]},
+		{"min":0, "max":1, "from":[120], "appliesTo":[500,501,503, 601,614,615,616,618, 700]},
 		
-		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[500,501,503]},
+		{"min":0, "max":2, "from":[150,151,152, 153,154,155,156,157,158,159,160,161, 165,166,167,168,169,170,175,176, 180,181,182, 185, 190], "appliesTo":[500,501,503, 700]},
 		
 		
 		
@@ -268,9 +276,11 @@
 		{"min":1, "max":1, "from":[302], "appliesTo":[620]},
 		{"min":1, "max":3, "from":[301], "appliesTo":[621]},
 		
+		{"min":1, "from":[1], "appliesTo":[700]},
+		
 		{"min":1, "max":1, "from":[303,304], "appliesTo":[707]},
 		{"min":1, "max":1, "from":[305,306], "appliesTo":[709]},
 		
-		{"max":1, "perArmy":true, "from":[5]}
+		{"max":1, "perArmy":true, "from":[1,5]}
 	]
 }
