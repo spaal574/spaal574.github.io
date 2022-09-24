@@ -16,8 +16,8 @@
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
 			
-			{"id":602, "name":"Legion Assault Marine Detachment",	"pts":175, "upgrades":[125,126,127, 100], "units":"4x Assault Squads"},
-			{"id":603, "name":"Legion Breacher Detachment",		"pts":225, "upgrades":[125,126,127, 100,101,103,104, 110,111,112,114,115], "units":"4x Breacher Squads"},
+			{"id":602, "name":"Legion Assault Marine Squad",	"pts":175, "upgrades":[125,126,127, 100], "units":"4x Assault Squads"},
+			{"id":603, "name":"Legion Breacher Squad",		"pts":225, "upgrades":[125,126,127, 100,101,103,104, 110,111,112,114,115], "units":"4x Breacher Squads"},
 			{"id":604, "name":"Legion Reconnaissance Squad",	"pts":150, "upgrades":[125,126,127, 100,101,103], "units":"4x Reconnaissance Squads Squads"},
 			{"id":605, "name":"Legion Rapier Weapons Battery",	"pts":-60, "upgrades":[100]},
 			{"id":606, "name":"Legion Destroyer Detachment",	"pts":225, "upgrades":[125,126,127, 100], "units":"4x Destroyer Squads units"},
