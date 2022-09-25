@@ -8,12 +8,12 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Legion Tactical Detachment",		"pts":0, "upgrades":[5,6,125,126,127, 100,101,103, 110,111,112,114,115, 130,131,132,133, 135,136, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190, 120]},
-			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[15, 5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
+			{"id":501, "name":"Legion Terminator Detachment",	"pts":0, "upgrades":[15,16, 5,6,125,126,127, 102,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120]},
 			{"id":502, "name":"Legion Assault Marine Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 100], "units":"8x Assault Squads"},
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":599, "name":"Deathshroud Terminator Detachment",			"pts":300, "upgrades":[5,6,125,126,127, 104,102,110,111,114,115], "units":"4x Deathshroud Terminator Units"},
+			{"id":599, "name":"Deathshroud Terminator Detachment",	"pts":300, "upgrades":[5,6,125,126,127, 104,102,110,111,114,115], "units":"4x Deathshroud Terminator Units"},
       
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
@@ -56,7 +56,7 @@
 		]}
 	],	
 	"upgrades":[
-		{"id":5, "name":"Mortarion",				"pts":0},
+		{"id":5, "name":"Mortarion",						"pts":0},
     
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
@@ -65,7 +65,7 @@
 		{"id":11, "name":"8x Despoiler Squads",					"pts":275},
 		
 		{"id":15, "name":"Terminator Units",					"pts":75},
-		{"id":16, "name":"Grave Warden Terminator Units",					"pts":85},
+		{"id":16, "name":"Grave Warden Terminator Units",			"pts":85},
 		
 		{"id":30, "name":"Battle Barge",					"pts":300},
 		{"id":31, "name":"Strike Cruiser",					"pts":200},
@@ -241,7 +241,7 @@
 		
 		{"min":1, "max":1, "from":[10,11], "appliesTo":[500]},
 		
-		{"min":4, "max":6, "from":[15], "appliesTo":[501]},
+		{"min":4, "max":6, "from":[15,16], "appliesTo":[501]},
 		
 
 		{"min":1, "max":1, "from":[30,31], "appliesTo":[600]},
