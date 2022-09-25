@@ -13,9 +13,9 @@
 			{"id":503, "name":"Legion Breacher Detachment",		"pts":300, "upgrades":[5,6,125,126,127, 100,101,103,104, 110,111,112,114,115, 140,141,142,143,145,147, 150,151, 153,154,155,156,157,158,159,160,161, 165,167,169,175, 180,181,182, 185, 190,  120], "units":"8x Breacher Squads"}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":597, "name":"Khenetai Occult Blade Cabal",			"pts":225, "upgrades":[100,101], "units":"4x Khenetai Blades"}
-			{"id":598, "name":"Ammitara Occult Intercession Cabal",			"pts":275, "upgrades":[100,101,102], "units":"4x Ammitara Intercessors"},
-			{"id":599, "name":"Sekhmet Terminator Cabal",			"pts":340, "upgrades":[125,126,127, 110,111,114,115, 102,104], "units":"4x Sekmet Terminators"},
+			{"id":597, "name":"Khenetai Occult Blade Cabal",	"pts":225, "upgrades":[100,101], "units":"4x Khenetai Blades"},
+			{"id":598, "name":"Ammitara Occult Intercession Cabal",	"pts":275, "upgrades":[100,101,102], "units":"4x Ammitara Intercessors"},
+			{"id":599, "name":"Sekhmet Terminator Cabal",		"pts":340, "upgrades":[125,126,127, 110,111,114,115, 102,104], "units":"4x Sekmet Terminators"},
       
 			{"id":600, "name":"Legion Space Craft",			"pts":0, "upgrades":[]},
 			{"id":601, "name":"Legion Artillery Squadron",		"pts":0, "upgrades":[120]},
@@ -58,7 +58,7 @@
 		]}
 	],	
 	"upgrades":[
-		{"id":1, "name":"Magnus the Red",				"pts":0},
+		{"id":1, "name":"Magnus the Red",					"pts":0},
     
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
