@@ -44,6 +44,7 @@
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
+			{"id":700, "name":"Mortarion, The Pale King",		"pts":450, "upgrades":[104,102,110,111,114,115], "units":"3x Terminator units"},
 
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -215,7 +216,8 @@
 		{"max":1, "perPoints":4000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
 		{"max":1, "perPoints":1000, "from":[606]},
-		{"max":1, "from":[600]}
+		{"max":1, "from":[600]},
+		{"max":1, "from":[700]}
 	],
 	"upgradeConstraints":[    
 		{"min":0, "max":1, "from":[5,6,125,126,127], "appliesTo":[500,501,502,503, 599,602,603,604,606,607,608,609,610,611,612,613,614,615,616,617,618]},
