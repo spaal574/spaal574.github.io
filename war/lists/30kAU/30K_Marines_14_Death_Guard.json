@@ -56,7 +56,7 @@
 		]}
 	],	
 	"upgrades":[
-		{"id":5, "name":"Mortarion",						"pts":0},
+		{"id":1, "name":"Mortarion",						"pts":0},
     
 		{"id":5, "name":"Praetor : Lord Commander",				"pts":100},
 		{"id":6, "name":"Praetor : Lieutenant Commander",			"pts":50},
