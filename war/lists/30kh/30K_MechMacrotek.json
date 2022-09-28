@@ -4,17 +4,16 @@
 	"by":"spaal574 with units mixed from the au30k mechanicum",
 	"sections":[
 		{"name":"GARRISON TROOPS", "formations":[
-			{"id":500, "name":"Macrotechnia Engineseer Auxilia Maniple",	"pts":250, "upgrades":[1,2],	"units":"2x Tech-priests, 5x Servo-automata units"},
--			{"id":501, "name":"Macrotechnia Adsecularis Covenant",		"pts":120, "upgrades":[1,2],	"units":"12x Tech-thrall units w/Las-locks"},
-			{"id":502, "name":"Macrotechnia Adsecularis Support Covenant",	"pts":0, "upgrades":[1,2],	"units":"12x Tech-thrall units w/Heavy Bolters"},
-			{"id":503, "name":"Macrotechnia Heavy Sentinels",		"pts":0, "upgrades":[]},
--			{"id":504, "name":"Macrotechnia Tarantula Battery",		"pts":0, "upgrades":[]}
+			{"id":500, "name":"Macrotechnia Engineseer Auxilia Maniple",	"pts":0, "upgrades":[1,2],	"units":"2x Tech-priests, 5x Servo-automata units"},
+			{"id":501, "name":"Macrotechnia Adsecularis Covenant",		"pts":120, "upgrades":[1,2],	"units":"12x Tech-thrall units w/Las-locks"},
+			{"id":502, "name":"Macrotechnia Adsecularis Support Covenant",	"pts":0, "upgrades":[1,2],	"units":"12x Tech-thrall units w/Heavy Bolters"}
 		]},
 		{"name":"FORTIFICATIONS AND SUPPORTING ELEMENTS", "formations":[ 
 			{"id":600, "name":"Imperial Bastion",							"pts":0, "upgrades":[]},
+			{"id":504, "name":"Macrotechnia Tarantula Battery",					"pts":0, "upgrades":[]},
 			
 			{"id":601, "name":"Auspex Array Station",						"pts":125, "upgrades":[]},
-			{"id":601, "name":"Comms Array Station",						"pts":125, "upgrades":[]},
+			{"id":602, "name":"Comms Array Station",						"pts":125, "upgrades":[]},
 			
 			{"id":603, "name":"Plasma Obliterator",							"pts":0, "upgrades":[]},
 			{"id":604, "name":"Macro-Cannon Strongpoint",						"pts":0, "upgrades":[]},
@@ -24,11 +23,14 @@
 			{"id":607, "name":"50cm of Trenches, Tangle Wire and 6 Emplacements or Bunkers",	"pts":0, "upgrades":[]},
 			
 			
-			{"id":609, "name":"Macrotechnia Leman Russ Tanks",	"pts":0, "upgrades":[], "units":"5x Leman Russ Tanks"},
+			{"id":503, "name":"Macrotechnia Heavy Sentinels",		"pts":0, "upgrades":[]},
+			{"id":609, "name":"Macrotechnia Leman Russ Tanks",		"pts":0, "upgrades":[], "units":"5x Leman Russ Tanks"},
 			
-			{"id":610, "name":"Ordinatus Minoris",			"pts":500, "upgrades":[]},
+			{"id":503, "name":"Macrotechnia Heavy Artillery Crawler",	"pts":0, "upgrades":[]},
+			
+			{"id":610, "name":"Ordinatus Minoris",				"pts":500, "upgrades":[]},
 		
-			{"id":611, "name":"Robot Maniple",			"pts":0, "upgrades":[]}
+			{"id":611, "name":"Robot Maniple",				"pts":0, "upgrades":[]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":700, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[]},
@@ -49,36 +51,36 @@
 		{"id":13, "name":"Leman Russ Demolisher",				"pts":0},
 		{"id":14, "name":"Malcador Infernus Special Weapons Tank",		"pts":0},
 		
-		{"id":15, "name":"3x Earthshaker Emplacements",				"pts":0},
-		{"id":16, "name":"3x Medusa Emplacements",				"pts":0},
-		{"id":17, "name":"3x Basilisk Emplacements",				"pts":0},
 		
-		{"id":18, "name":"50cm of Trenches",					"pts":20},
-		{"id":19, "name":"50cm of Tangle Wire",					"pts":20},
-		{"id":20, "name":"6x Emplacements",					"pts":20},
-		{"id":21, "name":"6x Bunkers",						"pts":20},
+		{"id":100, "name":"Twin-linked Lascannon Turret",			"pts":20},
+		{"id":101, "name":"Twin-linked Mauler Bolter Turret",			"pts":20},
+		{"id":102, "name":"Twin-Linked Heavy Flamer Turret",			"pts":20},
+		{"id":103, "name":"Battle-cannon Turret",				"pts":20},
+		{"id":104, "name":"Thudd Gun Turret",					"pts":20},
+		{"id":105, "name":"Plasma Cannon Turret",				"pts":20},
+		{"id":106, "name":"Icarus Lascannon Turret",				"pts":20},
+		{"id":107, "name":"Turbo Laser Destructor Turret",			"pts":20},
+		{"id":108, "name":"Hydra Turret",					"pts":20},
 		
-		{"id":22, "name":"Minefield",						"pts":0},
-		{"id":23, "name":"Dragon Teeth",					"pts":0},
-		{"id":24, "name":"Ammo Store",						"pts":0},
-		
-		{"id":25, "name":"Booby Trapped",					"pts":0},
-		{"id":26, "name":"Secret Escape Hatch",					"pts":0},
-		{"id":27, "name":"Magos Machine Spirit",				"pts":0},
-		{"id":28, "name":"Void Shield Generator",				"pts":0},
+		{"id":110, "name":"3x Earthshaker Emplacements",			"pts":20},
+		{"id":111, "name":"3x Medusa Emplacements",				"pts":20},
+		{"id":112, "name":"3x Basilisk Emplacements",				"pts":20},
 		
 		
-		{"id":31, "name":"Twin-linked Lascannon",				"pts":0},
-		{"id":31, "name":"Twin-linked Mauler Bolter",				"pts":0},
-		{"id":31, "name":"Twin-Linked Heavy Flamer",				"pts":0},
-		{"id":31, "name":"Battle-cannon",					"pts":0},
-		{"id":31, "name":"Thudd Gun",						"pts":0},
-		{"id":31, "name":"Plasma Cannon",					"pts":0},
-		{"id":31, "name":"Icarus Lascannon",					"pts":0},
-		{"id":31, "name":"Turbo Laser Destructor",				"pts":0},
+		{"id":120, "name":"50cm of Trenches",					"pts":20},
+		{"id":121, "name":"50cm of Tangle Wire",				"pts":20},
+		{"id":122, "name":"6x Emplacements",					"pts":20},
+		{"id":123, "name":"6x Bunkers",						"pts":20},
+		{"id":124, "name":"Comms Relay",					"pts":20},
 		
-		{"id":32, "name":"Hydra Turret",					"pts":0},
-		{"id":33, "name":"Comms Relay",						"pts":0},
+		{"id":125, "name":"Minefield",						"pts":20},
+		{"id":126, "name":"Dragon Teeth",					"pts":20},
+		{"id":127, "name":"Ammo Store",						"pts":20},
+		
+		{"id":128, "name":"Booby Trapped",					"pts":20},
+		{"id":129, "name":"Secret Escape Hatch",				"pts":20},
+		{"id":130, "name":"Magos Machine Spirit",				"pts":20},
+		{"id":131, "name":"Void Shield Generator",				"pts":20},
 		
 		
 		{"id":30, "name":"Ordinatus Minoris Tormenta w/ Belicosa pattern Volcano Cannon",	"pts":0},
@@ -97,11 +99,10 @@
 		{"id":46, "name":"4x Colossus Robots",							"pts":200},
 		{"id":47, "name":"4x Crusader Robots",							"pts":125},
 
-		{"id":50, "name":"2x Hunter Killer Automata w/ 2x Twin-linked Lightning guns",		"pts":75},
-		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":125},
+		{"id":50, "name":"2x Hunter Killer Automata w/ 2x Twin-linked Lightning guns",		"pts":125},
+		{"id":51, "name":"2x Hunter Killer Automata w/ T-L Lightning gun and T-L Grav-Cannon",	"pts":175},
 		
 		
-		{"id":75, "name":"Legs",			"pts":0},
 		{"id":76, "name":"-",				"pts":0},
 		{"id":77, "name":"-",				"pts":0}
   	],
