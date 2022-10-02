@@ -46,7 +46,7 @@
 			{"id":621, "name":"Legion Thunderhawk Transport Wing",	"pts":0, "upgrades":[301]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Roboute Guilliman, Master of Ultramar",	"pts":450, "upgrades":[150,151,152,153,154,155,156,157,158,159,160,161,165,166,167,168,169,170,175,176,180,181,182,185,190, 120], "units":"7x Tactical Marines(Boltgun) units"},
+			{"id":700, "name":"Roboute Guilliman, Master of Ultramar",	"pts":450, "upgrades":[100,101, 102,104,110,111,112,113,114,115, 150,151,152,153,154,155,156,157,158,159,160,161,165,166,167,168,169,170,175,176,180,181,182,185,190, 120], "units":"7x Tactical Marines(Boltgun) units"},
 			
 			{"id":704, "name":"Legion Gunship Wing",		"pts":300, "upgrades":[], "units":"2x Fire Raptor units"},
 			{"id":705, "name":"Legion Interceptor Attack Wing",	"pts":250, "upgrades":[], "units":"2x Xiphon Interceptor"},
@@ -213,8 +213,8 @@
 		{"id":190, "name":"Tank : Cerberus",					"pts":150}
 	],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621], "forEach":[500,501,502,503], "name2":"Detachment"},
-		{"maxPercent":33, "name":"LORDS OF WAR", "from":[704,705,706,707,708,709]},
+		{"max":3, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621], "forEach":[500,501,502,503,504,505], "name2":"Detachment"},
+		{"maxPercent":33, "name":"LORDS OF WAR", "from":[700,704,705,706,707,708,709]},
 		{"max":1, "perPoints":2000, "from":[504]},
 		{"max":1, "perPoints":4000, "from":[599]},
 		{"max":1, "perPoints":2000, "from":[601]},
