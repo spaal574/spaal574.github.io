@@ -69,7 +69,7 @@
     
 		{"id":60, "name":"Orion Assault Ship",							"pts":300},
     
-		{"id":70, "name":"Custodian Guard",								"pts":0},    
+		{"id":70, "name":"Custodian Guard",							"pts":0},    
     
 		{"id":100, "name":"Teleport",                                                                   "pts":50},
     
@@ -94,37 +94,24 @@
 		{"max":1,   "perArmy":true,  "from":[705]}
 	],
 	"upgradeConstraints":[
-  
-    
-    
-		{"max":1, "from":[2,3], "appliesTo":[500,501,600,601]},
+  		{"max":1, "from":[2,3], "appliesTo":[500,501,600,601]},
 		
 		{"max":1, "from":[100], "appliesTo":[500,501,600,601,705]},
 		{"max":6, "from":[110,111,112,113,114,115,116], "appliesTo":[501,705]},
 		
-		{"min":1, "from":[20,21],    "appliesTo":[500]},
-		{"min":1, "from":[25,26],    "appliesTo":[501]},
+		{"min":1, 		"from":[20,21],		"appliesTo":[500]},
+		{"min":1, 		"from":[25,26], 	"appliesTo":[501]},
 		
-		{"min":1, "from":[30,31,32], "appliesTo":[600]},
-    
-	//	{"max":1, "from":[2], "appliesTo":[501]},
-	//	{"max":1, "from":[5], "appliesTo":[500,600,603]},
-    
-	//	{"max":1, "from":[16], "appliesTo":[500]},
-	//	{"max":1, "from":[17], "appliesTo":[600]},
-	//	{"max":1, "from":[5,17], "appliesTo":[600]},
-
-    
-		{"min":2, "max":3,	"from":[42,43,44,45],	"appliesTo":[601]},
+		{"min":1, 		"from":[30,31,32],	"appliesTo":[600]},
+		{"min":4, "from":[33,34,35,36,37,38],		"appliesTo":[601]},
 		{"min":2, "max":3,	"from":[42,43,44,45],	"appliesTo":[602]},
 		{"min":1, "max":1,	"from":[48,49,50],	"appliesTo":[603]},
 		{"min":2, "max":3,	"from":[51],		"appliesTo":[604]},
 		{"min":2, "max":3,	"from":[52,53], 	"appliesTo":[605]},
+		{"min":3,		"from":[55,56,57], 	"appliesTo":[606]},
 		
-		{"min":3, "from":[55,56,57], "appliesTo":[606]},
-		
-		{"min":1, "from":[1], "appliesTo":[704]},
-		{"min":3, "from":[70,3,74,75,76,77,78], "appliesTo":[704]},
+		{"min":1, 		"from":[1], 		"appliesTo":[704]},
+		{"min":3, "from":[70,33,34,35,36,37,38], 	"appliesTo":[704]},
     
 		{"max":1, "perArmy":true, "from":[1,2]}
 	]
