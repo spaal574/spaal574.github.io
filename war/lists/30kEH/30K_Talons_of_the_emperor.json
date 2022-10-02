@@ -1,11 +1,11 @@
 {
-	"id":"Legio Custodes",
+	"id":"Talons of The Emperor",
 	"version":"Epichammer Horus Heresy v1.86",
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Hykanatoi Detachment",	"pts":0,   "upgrades":[100,102,2,3]},
-			{"id":501, "name":"Sisters Detachment",		"pts":0,   "upgrades":[100,105,106,102,110,111,112,113,114,115,116]}
+			{"id":501, "name":"Sisters Detachment",		"pts":0,   "upgrades":[100,105,106,102,110,112,113,114,115,116]}
 		]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Eidikoùs Detachment",                    "pts":0, "upgrades":[100,102,2,3]},
@@ -21,7 +21,7 @@
 			{"id":702, "name":"Ares Strike Squadron",		"pts":525, "upgrades":[],		"units":"2x Ares Gun-Ships"},
 			{"id":703, "name":"Equinox Interceptor Squadron",	"pts":525, "upgrades":[],		"units":"2x Equinox Interceptors"},
 			{"id":704, "name":"Costantin Valdor",			"pts":900, "upgrades":[101,102]},
-			{"id":705, "name":"Jenetia Krole",			"pts":700, "upgrades":[100,105,106,102,110,111,112,113,114,115,116],	"units":"Jenetia Krole and 5 Oblivion Knight Cadre"}
+			{"id":705, "name":"Jenetia Krole",			"pts":700, "upgrades":[100,105,106,102,110,112,113,114,115,116],	"units":"Jenetia Krole and 5 Oblivion Knight Cadre"}
 		]}
 	],	
 	"upgrades":[
@@ -94,26 +94,26 @@
 		{"max":1,   "perArmy":true,  "from":[705]}
 	],
 	"upgradeConstraints":[
-  		{"max":1, "max":1,	"from":[2,3], "appliesTo":[500,501,600,601]},
+  		{"max":1,	"max":1,	"from":[2,3],	"appliesTo":[500,501,600,601]},
 		
-		{"max":1, "max":1, "from":[100], "appliesTo":[500,501,600,601,705]},
-		{"min":0, "max":6, "from":[110,111,112,113,114,115,116], "appliesTo":[501,705]},
+		{"max":1,	"max":1,	"from":[100],	"appliesTo":[500,501,600,601,705]},
+		{"min":0,	"max":6,	"from":[110,112,113,114,115,116],	"appliesTo":[501,705]},
 		
-		{"min":1, "max":1,	"from":[20,21],		"appliesTo":[500]},
-		{"min":1, "max":1,	"from":[25,26], 	"appliesTo":[501]},
+		{"min":1,	"max":1,	"from":[20,21],		"appliesTo":[500]},
+		{"min":1,	"max":1,	"from":[25,26], 	"appliesTo":[501]},
 		
-		{"min":1, "max":1,	"from":[30,31,32],	"appliesTo":[600]},
-		{"min":4, "from":[33,34,35,36,37,38],		"appliesTo":[601]},
-		{"min":2, "max":3,	"from":[42,43,44,45],	"appliesTo":[602]},
-		{"min":1, "max":1,	"from":[48,49,50],	"appliesTo":[603]},
-		{"min":2, "max":3,	"from":[51],		"appliesTo":[604]},
-		{"min":2, "max":3,	"from":[52,53], 	"appliesTo":[605]},
-		{"min":3, "max":3,	"from":[55,56,57], 	"appliesTo":[606]},
+		{"min":1,	"max":1,	"from":[30,31,32],	"appliesTo":[600]},
+		{"min":4,	"from":[33,34,35,36,37,38],		"appliesTo":[601]},
+		{"min":2,	"max":3,	"from":[42,43,44,45],	"appliesTo":[602]},
+		{"min":1,	"max":1,	"from":[48,49,50],	"appliesTo":[603]},
+		{"min":2,	"max":3,	"from":[51],		"appliesTo":[604]},
+		{"min":2,	"max":3,	"from":[52,53], 	"appliesTo":[605]},
+		{"min":3,	"max":3,	"from":[55,56,57], 	"appliesTo":[606]},
 		
-		{"min":1, "max":3,	"from":[60], 		"appliesTo":[701]},
-		{"min":1, "max":1,	"from":[1], 		"appliesTo":[704]},
-		{"min":3, "max":3,	"from":[70,33,34,35,36,37,38], 	"appliesTo":[704]},
+		{"min":1,	"max":3,	"from":[60], 		"appliesTo":[701]},
+		{"min":1,	"max":1,	"from":[1], 		"appliesTo":[704]},
+		{"min":3,	"max":3,	"from":[70,33,34,35,36,37,38], 	"appliesTo":[704]},
     
-		{"min":0, "max":1, "perArmy":true, "from":[1,2]}
+		{"min":0,	"max":1,	"perArmy":true,	"from":[1,2]}
 	]
 }
