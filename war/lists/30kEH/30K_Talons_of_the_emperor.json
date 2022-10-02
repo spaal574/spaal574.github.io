@@ -14,7 +14,7 @@
 			{"id":603, "name":"Telemon Heavy Dreadnought Detachment",   "pts":0, "upgrades":[48,49,50]},
 			{"id":604, "name":"Pallas Grav-Attack Squadron",            "pts":0, "upgrades":[51]},
 			{"id":605, "name":"Caladius Grav-Tank Squadron",            "pts":0, "upgrades":[52,53]},
-			{"id":606, "name":"Kataphraktoi Detachment",                "pts":0, "upgrades":[]}
+			{"id":606, "name":"Kataphraktoi Detachment",                "pts":525, "upgrades":[]}
 		]},
 		{"name":"LORDS OF WAR", "formations":[
 			{"id":701, "name":"Orion Assault Squadron",		"pts":0,   "upgrades":[60]},
@@ -63,9 +63,9 @@
 		{"id":53, "name":"Callidus Grav-Tanks w/TL Illiastus Accelerator Cannon",		"pts":250},
     
     
-		{"id":55, "name":"Custodes Agamatus units w/Lastrum Boltcannon",			"pts":525},
-		{"id":56, "name":"Custodes Agamatus units w/Adrathic Devastator",			"pts":525},
-		{"id":57, "name":"Custodes Agamatus units w/Coravae Las-pulsar",			"pts":525},
+		{"id":55, "name":"Custodes Agamatus units w/Lastrum Boltcannon",			"pts":0},
+		{"id":56, "name":"Custodes Agamatus units w/Adrathic Devastator",			"pts":0},
+		{"id":57, "name":"Custodes Agamatus units w/Coravae Las-pulsar",			"pts":0},
     
 		{"id":60, "name":"Orion Assault Ship",							"pts":300},
     
