@@ -11,25 +11,39 @@
 			{"id":504, "name":"Secutarii Hoplites Cohort",		"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
 			{"id":505, "name":"Tech-priest Auxilia",		"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
-
-
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":501, "name":"Thallax Cohort", 			"pts":300, "upgrades":[11,12,13,14,15,16,17,18,19,22], "units":"6 Thallax units" },
-			{"id":502, "name":"Ursarax Cohort", 	 		"pts":250, "upgrades":[13,14,15,16,17], "units":"6 Ursarax units"}, 
-			{"id":600, "name":"Vulturax Maniple",			"pts":250, "upgrades":[], 	"units":"6 Vulturax Stratos-Automata"},
-			{"id":601, "name":"Thanatar Maniple",			"pts":200, "upgrades":[11,12,13,22]},
-			{"id":602, "name":"Krios Battle Tank Squadron",		"pts":50, "upgrades":[18,19]},
+			{"id":600, "name":"Myrmidon Sect",				"pts":, "upgrades":[]},	
+			{"id":601, "name":"Skitarii Cohort",				"pts":, "upgrades":[]},	
+			{"id":602, "name":"Magos Prime with Skitarii",			"pts":, "upgrades":[]},			
+			{"id":603, "name":"Thallax Cohort", 				"pts":, "upgrades":[], "units":"6 Thallax units" },
+			{"id":604, "name":"Ursarax Cohort", 	 			"pts":, "upgrades":[], "units":"6 Ursarax units"}, 
+			{"id":605, "name":"Tarantula Battery",				"pts":, "upgrades":[]},
+			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":, "upgrades":[]},
+			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":, "upgrades":[]},
+			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":, "upgrades":[]},
+			{"id":609, "name":"Vulturax Maniple",				"pts":, "upgrades":[], 	"units":"6 Vulturax Stratos-Automata"},
+			{"id":610, "name":"Thanatar Maniple",				"pts":, "upgrades":[]},
+			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":, "upgrades":[]},
+			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":, "upgrades":[]},
+			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"1 Mechanicum Shadowsword"},
+			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"1 Mechanicum Stormblade"},
+
+			{"id":615, "name":"0-1 1000pts Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]},
+			
 			{"id":603, "name":"Karacnos Assault Squadron", 		"pts":300, "upgrades":[], 	"units":"4 Karacnos Assault Tanks"},
-			{"id":604, "name":"Myrmidon Sect",			"pts":300, "upgrades":[14,15,16,17,18,19,22]},
-			{"id":605, "name":"Tarantula Battery",			"pts":125, "upgrades":[54,55,56]},
 			{"id":606, "name":"Minotaur Artillery Battery",		"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":607, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[57,58]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":701, "name":"Basilikon Astra Avenger Wing",		"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-			{"id":702, "name":"Basilikon Astra Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
+			{"id":700, "name":"Basilikon Astra Avenger Wing",		"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
+			{"id":701, "name":"Basilikon Astra Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
+			{"id":702, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
 			{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":704, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}	
+			{"id":704, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
+			{"id":705, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
+			{"id":706, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
+			{"id":707, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
+			{"id":708, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}	
         ]}
 	],
 	"upgrades":[
@@ -108,10 +122,10 @@
 		{"id":61, "name":"Ordinatus Majoris w/ Nova Cannon",			"pts":0}
     ],
 	"formationConstraints":[
-		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607], "forEach":[500,501,502,503,504], "name2":"Cohort"},
-		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[701,702,703,704]},
+		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
+		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[700,701,702,703,704,705,706,707,708]},
 		
-		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[607]},
+		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[]},
 
 		{"max":1, "from":[704]}		
 	],
