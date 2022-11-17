@@ -5,11 +5,11 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Adsecularis Covenant", 		"pts":100, "upgrades":[30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
-			{"id":501, "name":"Vorax Maniple", 			"pts":250, "upgrades":[], "units":"6 Vorax Battle-Automata"},
-			{"id":502, "name":"Castellax Cohort",			"pts":225, "upgrades":[], "units":"5 Castellax Battle-Automata"},
-			{"id":503, "name":"Secutarii Peltast Cohort",		"pts":200, "upgrades":[], "units":"8 Secutarii Peltast units"}, 
-			{"id":504, "name":"Secutarii Hoplites Cohort",		"pts":225, "upgrades":[], "units":"8 Secutarii Hoplites units"}, 
-			{"id":505, "name":"Tech-priest Auxilia",		"pts":150, "upgrades":[], "units":"6 Servo-automata Units"}
+			{"id":501, "name":"Vorax Maniple", 			"pts":250, "upgrades":[12]},
+			{"id":502, "name":"Castellax Cohort",			"pts":225, "upgrades":[40, 35,36,37], "units":"5 Castellax Battle-Automata"},
+			{"id":503, "name":"Secutarii Peltast Cohort",		"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
+			{"id":504, "name":"Secutarii Hoplites Cohort",		"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
+			{"id":505, "name":"Tech-priest Auxilia",		"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 
 
@@ -33,9 +33,10 @@
         ]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Archmagos Prime",				"pts":100},
-		{"id":11, "name":"Magos Prime",					"pts":50},
-   		{"id":12, "name":"Tech Priest",					"pts":25},
+		{"id":10, "name":"Archmagos Prime",						"pts":100},
+		{"id":11, "name":"Magos Prime",							"pts":50},
+   		{"id":12, "name":"Tech Priest",							"pts":25},
+		
 		
 		{"id":14, "name":"Transport: Triaros",								"pts":65},
 		{"id":15, "name":"Transport: Macrocarid Explorator w/ 2x Irradiation Engine & Extra weapon",	"pts":65},
@@ -43,8 +44,12 @@
 		{"id":17, "name":"Transport: Macrocarid Explorator w/ 2x TL Mauler Bolt Cannon & Extra weapon",	"pts":65},
 		{"id":18, "name":"Transport: Termite Assault Drill",						"pts":25},
 		
-        	{"id":30, "name":"Krios Battle Tank",				"pts":45},
-        	{"id":31, "name":"Krios Venator",				"pts":45},
+		
+        	{"id":30, "name":"Krios Battle Tank",						"pts":45},
+        	{"id":31, "name":"Krios Venator",						"pts":45},
+		
+        	{"id":32, "name":"Vorax Battle-Automata w/Lightning Guns",			"pts":0},
+        	{"id":33, "name":"Vorax Battle-Automata w/Irrad Cleansers",			"pts":5},
 		
 		{"id":35, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":70},
 		{"id":36, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":70},
@@ -54,11 +59,11 @@
 		{"id":136, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":60},
 		{"id":137, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":65},
 		
-		{"id":40, "name":"Scyllax Guardian-Automata Units",		"pts":50},
-		{"id":140, "name":"Scyllax Guardian-Automata Units",		"pts":40},
+		{"id":40, "name":"Scyllax Guardian-Automata Units",				"pts":50},
+		{"id":140, "name":"Scyllax Guardian-Automata Units",				"pts":40},
 	
-		{"id":50, "name":"6x Myrmidon Secutors Units",			"pts":0},
-		{"id":51, "name":"6x Myrmidon Destructors Units",		"pts":0},
+		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":0},
+		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":0},
 		
 		
 		
@@ -76,11 +81,18 @@
 		{"id":109, "name":"Photon Thruster Cannons",			"pts":0},
 		{"id":110, "name":"Irrad Cleansers",				"pts":0},
 		{"id":111, "name":"Darkfire Cannon",				"pts":25},
+		{"id":112, "name":"Mauler Bolt Cannon",				"pts":0},
 		
 		{"id":120, "name":"Galvanic Casters",				"pts":0},
 		{"id":121, "name":"Arc Rifles",					"pts":0},
 		{"id":122, "name":"Radium Carabines",				"pts":25},
-			
+	
+		
+		
+		
+		
+		
+		
 		
 		
 	
@@ -106,16 +118,24 @@
 	"upgradeConstraints":[
        		{"min":1, "max":1, "from":[12,10,11],	 	"appliesTo":[500]},
 
-       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500]},
-       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500]},
+       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504]},
+       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
-       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500]},
+       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502]},
        		
+		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
+		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501]},
+		
+       		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
+       		{"min":0, "max":1, "from":[12,10,11],	 	"appliesTo":[502]},
+       		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
+		
+       		{"min":1, "max":1, "from":[120,121,122],	"appliesTo":[503]},
 		
 		
+       		{"min":1, "max":1, "from":[104,102,105,106,103,107,108],	"appliesTo":[505]},
 		
-		{"min":2, "max":2, "from":[12],		 	"appliesTo":[501]},
-       		{"min":2, "max":2, "from":[12,10,11],	 	"appliesTo":[502,505]},
+		
 		
 		
 		
