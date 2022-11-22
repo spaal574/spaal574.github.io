@@ -30,12 +30,12 @@
 			{"id":615, "name":"Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-			{"id":701, "name":"Mechanicum Primaris-Lightning Wing",		"pts":250, "upgrades":[]},
-			{"id":702, "name":"Mechanicum Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[]},
-			{"id":703, "name":"Mechanicum Marauder Wing",			"pts":250, "upgrades":[]},
-			{"id":704, "name":"Mechanicum Marauder Destroyer Wing",		"pts":250, "upgrades":[]},
-			{"id":705, "name":"Ordinatus Minorus",				"pts":250, "upgrades":[]},
+			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[125,126,127,129], "units":"2 Avenger Strike Fighter units"},
+			{"id":701, "name":"Mechanicum Primaris-Lightning Wing",		"pts":250, "upgrades":[125,126,128,129]},
+			{"id":702, "name":"Mechanicum Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[125,126,127,129]},
+			{"id":703, "name":"Mechanicum Marauder Wing",			"pts":0, "upgrades":[244, 125,126,127]},
+			{"id":704, "name":"Mechanicum Marauder Destroyer Wing",		"pts":0, "upgrades":[245, 125,126,127,129]},
+			{"id":705, "name":"Ordinatus Minorus",				"pts":0, "upgrades":[12]},
 			{"id":706, "name":"Ordinatus Valia mobile HQ",			"pts":350, "upgrades":[], "units":"Ordinatus Valia mobile HQ"},
 			{"id":707, "name":"Tarantula Hyperios",				"pts":150, "upgrades":[], "units":"3 Tarantula Hyperios units"},
 			{"id":708, "name":"The Kaban Project",				"pts":625, "upgrades":[], "units":"1 AI Kaban Type unit"}	
@@ -127,6 +127,14 @@
         	{"id":233, "name":"5x Mars Colossus Bombard",					"pts":250},
 		
 		
+        	{"id":240, "name":"2x Primaris-Lightning Fighter units",			"pts":250},
+        	{"id":241, "name":"2x Primaris-Lightning Fighter Strike units",			"pts":250},
+        	{"id":242, "name":"2x Thunderbolt Heavy Fighter",				"pts":300},
+        	{"id":243, "name":"2x Thunderbolt Fury",					"pts":300},
+        	{"id":244, "name":"Marauder Bomber",						"pts":225},
+        	{"id":245, "name":"Marauder Destroyer",						"pts":225},
+		
+		
         	{"id":99, "name":"Flak Armour",					"pts":0},
         	{"id":100, "name":"Carapace Armour",				"pts":50},
 		
@@ -147,21 +155,15 @@
 		{"id":121, "name":"Arc Rifles",					"pts":0},
 		{"id":122, "name":"Radium Carabines",				"pts":25},
 	
-		
-		
-		
-		
-		
-		
-		
-		
+		{"id":125, "name":"Pair of Hellstrike Missiles",		"pts":75},
+		{"id":126, "name":"Pair of Skystrike Missiles",			"pts":75},
+		{"id":127, "name":"Pair of Wing Bombs",				"pts":75},
+		{"id":128, "name":"Pair of Phospex Wing Bombs",			"pts":150},
+		{"id":129, "name":"Kraken Heavy Missiles",			"pts":150},
 	
-		{"id":57, "name":"Ordinatus Minoris Tormenta w/ Belicosa Volcano Cannon",	"pts":0},
-		{"id":58, "name":"Ordinatus Minoris Tormenta w/ Ulator Sonic Destroyer",	"pts":0},
-		
-		{"id":59, "name":"Ordinatus Majoris w/ Sonic Disruptor",		"pts":0},
-		{"id":60, "name":"Ordinatus Majoris w/ 6x Golgothan Missiles",		"pts":0},
-		{"id":61, "name":"Ordinatus Majoris w/ Nova Cannon",			"pts":0}
+		{"id":250, "name":"Ordinatus Minoris Sagittar",	"pts":425},
+		{"id":251, "name":"Ordinatus Minoris Ulator",	"pts":450},
+		{"id":252, "name":"Ordinatus Minoris Akateus",	"pts":500}
     ],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
@@ -184,7 +186,7 @@
        		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601,602]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
-		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608,610,611]},
+		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608,610,611, 705]},
 		
        		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
        		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
@@ -215,7 +217,16 @@
 		{"min":1, "max":1, "from":[205,206,207,208,209,210,211],								"appliesTo":[615]},		
        		{"min":1, "max":1, "from":[212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,229,230,231,232,233],	"appliesTo":[615]},
 		
+       		{"min":0, "max":2, "from":[125,126,127,128,129],	"appliesTo":[700]},
+       		{"min":0, "max":4, "from":[125,126,127,128,129],	"appliesTo":[701,702]},
+       		{"min":0, "max":12, "from":[125,126,127,128,129],	"appliesTo":[703,704]},
 		
+       		{"min":1, "max":1, "from":[240,241],		"appliesTo":[701]},
+       		{"min":1, "max":1, "from":[242,243],		"appliesTo":[702]},
+       		{"min":1, "max":3, "from":[244],		"appliesTo":[703]},
+       		{"min":1, "max":3, "from":[245],		"appliesTo":[704]},
+		
+       		{"min":1, "max":1, "from":[250,251,252],	"appliesTo":[705]},
 		
         	{"max":1, "perArmy":true, "from":[10]}				
 	]
