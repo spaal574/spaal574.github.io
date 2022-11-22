@@ -4,20 +4,20 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Adsecularis Covenant", 		"pts":100, "upgrades":[30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
+			{"id":500, "name":"Adsecularis Covenant", 		"pts":100, "upgrades":[10,11, 30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
 			{"id":501, "name":"Vorax Maniple", 			"pts":250, "upgrades":[12]},
-			{"id":502, "name":"Castellax Cohort",			"pts":225, "upgrades":[40, 35,36,37], "units":"5 Castellax Battle-Automata"},
+			{"id":502, "name":"Castellax Cohort",			"pts":225, "upgrades":[10,11, 40, 35,36,37], "units":"5 Castellax Battle-Automata"},
 			{"id":503, "name":"Secutarii Peltast Cohort",		"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
 			{"id":504, "name":"Secutarii Hoplites Cohort",		"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
 			{"id":505, "name":"Tech-priest Auxilia",		"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Myrmidon Sect",				"pts":, "upgrades":[]},	
+	-		{"id":600, "name":"Myrmidon Sect",				"pts"0:, "upgrades":[10,11, 40, 14,15,16,17, 30,31]},	
 			{"id":601, "name":"Skitarii Cohort",				"pts":, "upgrades":[]},	
 			{"id":602, "name":"Magos Prime with Skitarii",			"pts":, "upgrades":[]},			
 			{"id":603, "name":"Thallax Cohort", 				"pts":, "upgrades":[], "units":"6 Thallax units" },
 			{"id":604, "name":"Ursarax Cohort", 	 			"pts":, "upgrades":[], "units":"6 Ursarax units"}, 
-			{"id":605, "name":"Tarantula Battery",				"pts":, "upgrades":[]},
+	-		{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
 			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":, "upgrades":[]},
 			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":, "upgrades":[]},
 			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":, "upgrades":[]},
@@ -35,15 +35,15 @@
 			{"id":607, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[57,58]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":700, "name":"Basilikon Astra Avenger Wing",		"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
-			{"id":701, "name":"Basilikon Astra Primaris-Lightning Wing",	"pts":225, "upgrades":[], "units":"2 Primaris-Lightning Fighter units"},
-			{"id":702, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":703, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":704, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":705, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":706, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":707, "name":"Super Heavy Tank Destroyer",			"pts":250, "upgrades":[], "units":"1 Mechanicum Falchion"},
-			{"id":708, "name":"Ordinatus Majoris",				"pts":450, "upgrades":[59,60,61]}	
+			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
+			{"id":701, "name":"Mechanicum Primaris-Lightning Wing",		"pts":250, "upgrades":[]},
+			{"id":702, "name":"Mechanicum Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[]},
+			{"id":703, "name":"Mechanicum Marauder Wing",			"pts":250, "upgrades":[]},
+			{"id":704, "name":"Mechanicum Marauder Destroyer Wing",		"pts":250, "upgrades":[]},
+			{"id":705, "name":"Ordinatus Minorus",				"pts":250, "upgrades":[]},
+			{"id":706, "name":"Ordinatus Valia mobile HQ",			"pts":350, "upgrades":[], "units":"Ordinatus Valia mobile HQ"},
+			{"id":707, "name":"Tarantula Hyperios",				"pts":150, "upgrades":[], "units":"3 Tarantula Hyperios units"},
+			{"id":708, "name":"The Kaban Project",				"pts":625, "upgrades":[], "units":"1 AI Kaban Type unit"}	
         ]}
 	],
 	"upgrades":[
@@ -76,8 +76,17 @@
 		{"id":40, "name":"Scyllax Guardian-Automata Units",				"pts":50},
 		{"id":140, "name":"Scyllax Guardian-Automata Units",				"pts":40},
 	
-		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":0},
-		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":0},
+		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":350},
+		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":400},
+		
+		{"id":55, "name":"Tarantula Sentry Guns w/TL Heavy bolter", 	"pts":25},
+		{"id":56, "name":"Tarantula Sentry Guns w/TL Lascannon",	"pts":25},
+		{"id":57, "name":"Tarantula Sentry Guns w/TL Rotor Cannon",	"pts":25},
+		{"id":58, "name":"Tarantula Sentry Guns w/TL Multimelta", 	"pts":25},
+		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 	"pts":25},
+		
+		
+		
 		
 		
 		
@@ -110,10 +119,6 @@
 		
 		
 	
-		{"id":54, "name":"Tarantula Sentry Guns w/ Heavy bolter", 	"pts":0},
-		{"id":55, "name":"Tarantula Sentry Guns w/ Lascannon",		"pts":0},
-		{"id":56, "name":"Hyperios Sentry Guns",			"pts":50},
-		
 		{"id":57, "name":"Ordinatus Minoris Tormenta w/ Belicosa Volcano Cannon",	"pts":0},
 		{"id":58, "name":"Ordinatus Minoris Tormenta w/ Ulator Sonic Destroyer",	"pts":0},
 		
@@ -129,11 +134,12 @@
 
 		{"max":1, "from":[704]}		
 	],
-	"upgradeConstraints":[
-       		{"min":1, "max":1, "from":[12,10,11],	 	"appliesTo":[500]},
+	"upgradeConstraints":[ 
+       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600]},
+       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
 
-       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504]},
-       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502]},
+       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600]},
+       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
        		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502]},
        		
@@ -141,13 +147,18 @@
 		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501]},
 		
        		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
-       		{"min":0, "max":1, "from":[12,10,11],	 	"appliesTo":[502]},
        		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
 		
        		{"min":1, "max":1, "from":[120,121,122],	"appliesTo":[503]},
 		
-		
        		{"min":1, "max":1, "from":[104,102,105,106,103,107,108],	"appliesTo":[505]},
+		
+		
+       		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
+		
+		
+       		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
+		
 		
 		
 		
