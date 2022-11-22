@@ -4,24 +4,24 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
+			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40,41,42, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
 			{"id":501, "name":"Vorax Maniple", 		"pts":250, "upgrades":[12]},
-			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40, 35,36,37], "units":"5 Castellax Battle-Automata"},
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40,41,42, 35,36,37], "units":"5 Castellax Battle-Automata"},
 			{"id":503, "name":"Secutarii Peltast Cohort",	"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
 			{"id":504, "name":"Secutarii Hoplites Cohort",	"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
 			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 	-		{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
-	-		{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
-	-		{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40, 35,36,37, 14,15,16,17,18]},			
-	-		{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40, 12, 14,15,16,17,18], "units":"6 Thallax units"},
+	-		{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
+	-		{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40,41,42, 35,36,37, 14,15,16,17,18]},			
+	-		{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
 	-		{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
 	-		{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
-			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":, "upgrades":[]},
-			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":, "upgrades":[]},
-			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":, "upgrades":[]},
-			{"id":609, "name":"Vulturax Maniple",				"pts":, "upgrades":[], 	"units":"6 Vulturax Stratos-Automata"},
+	-		{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
+	-		{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
+	-		{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80, 12, 10,11]},
+	-		{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
 			{"id":610, "name":"Thanatar Maniple",				"pts":, "upgrades":[]},
 			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":, "upgrades":[]},
 			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":, "upgrades":[]},
@@ -73,8 +73,9 @@
 		{"id":136, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":60},
 		{"id":137, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":65},
 		
-		{"id":40, "name":"Scyllax Guardian-Automata Units",				"pts":50},
-		{"id":140, "name":"Scyllax Guardian-Automata Units",				"pts":40},
+		{"id":40, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":50},
+		{"id":41, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":50},
+		{"id":42, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":50},
 	
 		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":350},
 		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":400},
@@ -86,6 +87,15 @@
 		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 	"pts":25},
 		
 		{"id":62, "name":"Skitarii units", 				"pts":45},
+		
+		{"id":70, "name":"Arlatax Battle Automata", 			"pts":60},
+		{"id":75, "name":"Domitar Battle Automata", 			"pts":45},
+		
+		{"id":80, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":40},
+		{"id":81, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":40},
+		{"id":82, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":40},
+		
+		
 		
 		
 		
@@ -137,16 +147,16 @@
 		{"max":1, "from":[704]}		
 	],
 	"upgradeConstraints":[ 
-       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603]},
-       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500, 603,604]},
+       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603,606,607,607,608]},
+       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
 
        		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600,603]},
-       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600,601,602,603]},
+       		{"min":0, "max":4, "from":[40,41,42],		"appliesTo":[500,502, 600,601,602,603]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
        		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601,602]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
-		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501]},
+		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608]},
 		
        		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
        		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
@@ -160,12 +170,13 @@
 		
        		{"min":1, "max":1, "from":[10,11],	 	"appliesTo":[602]},
        		{"min":8, "max":12, "from":[62],	 	"appliesTo":[602]},
-
-
+		
        		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
 		
+       		{"min":4, "max":6, "from":[70],			"appliesTo":[606]},
+       		{"min":4, "max":6, "from":[75],			"appliesTo":[607]},
 		
-		
+       		{"min":6, "max":8, "from":[80,81,82],		"appliesTo":[608]},
 		
 		
 		
