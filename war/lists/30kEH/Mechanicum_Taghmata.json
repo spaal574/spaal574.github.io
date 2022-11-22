@@ -4,18 +4,18 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Adsecularis Covenant", 		"pts":100, "upgrades":[10,11, 30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
-			{"id":501, "name":"Vorax Maniple", 			"pts":250, "upgrades":[12]},
-			{"id":502, "name":"Castellax Cohort",			"pts":225, "upgrades":[10,11, 40, 35,36,37], "units":"5 Castellax Battle-Automata"},
-			{"id":503, "name":"Secutarii Peltast Cohort",		"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
-			{"id":504, "name":"Secutarii Hoplites Cohort",		"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
-			{"id":505, "name":"Tech-priest Auxilia",		"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
+			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
+			{"id":501, "name":"Vorax Maniple", 		"pts":250, "upgrades":[12]},
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40, 35,36,37], "units":"5 Castellax Battle-Automata"},
+			{"id":503, "name":"Secutarii Peltast Cohort",	"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
+			{"id":504, "name":"Secutarii Hoplites Cohort",	"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
+			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-	-		{"id":600, "name":"Myrmidon Sect",				"pts"0:, "upgrades":[10,11, 40, 14,15,16,17, 30,31]},	
-			{"id":601, "name":"Skitarii Cohort",				"pts":, "upgrades":[]},	
+	-		{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[10,11, 40, 14,15,16,17, 30,31]},	
+	-		{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
 			{"id":602, "name":"Magos Prime with Skitarii",			"pts":, "upgrades":[]},			
-			{"id":603, "name":"Thallax Cohort", 				"pts":, "upgrades":[], "units":"6 Thallax units" },
+			{"id":603, "name":"Thallax Cohort", 				"pts":, "upgrades":[], "units":"6 Thallax units"},
 			{"id":604, "name":"Ursarax Cohort", 	 			"pts":, "upgrades":[], "units":"6 Ursarax units"}, 
 	-		{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
 			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":, "upgrades":[]},
@@ -139,9 +139,9 @@
        		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
 
        		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600]},
-       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600]},
+       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600,601]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
-       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502]},
+       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
 		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501]},
@@ -155,7 +155,8 @@
 		
 		
        		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
-		
+       		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
+
 		
        		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
 		
