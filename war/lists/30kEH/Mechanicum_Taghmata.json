@@ -12,11 +12,11 @@
 			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-	-		{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[10,11, 40, 14,15,16,17, 30,31]},	
+	-		{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
 	-		{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
-			{"id":602, "name":"Magos Prime with Skitarii",			"pts":, "upgrades":[]},			
-			{"id":603, "name":"Thallax Cohort", 				"pts":, "upgrades":[], "units":"6 Thallax units"},
-			{"id":604, "name":"Ursarax Cohort", 	 			"pts":, "upgrades":[], "units":"6 Ursarax units"}, 
+	-		{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40, 35,36,37, 14,15,16,17,18]},			
+	-		{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40, 12, 14,15,16,17,18], "units":"6 Thallax units"},
+	-		{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
 	-		{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
 			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":, "upgrades":[]},
 			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":, "upgrades":[]},
@@ -85,7 +85,7 @@
 		{"id":58, "name":"Tarantula Sentry Guns w/TL Multimelta", 	"pts":25},
 		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 	"pts":25},
 		
-		
+		{"id":62, "name":"Skitarii units", 				"pts":45},
 		
 		
 		
@@ -132,16 +132,18 @@
 		
 		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[]},
 
+		{"max":1, "from":[602]},
+
 		{"max":1, "from":[704]}		
 	],
 	"upgradeConstraints":[ 
-       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600]},
-       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
+       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603]},
+       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500, 603,604]},
 
-       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600]},
-       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600,601]},
+       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600,603]},
+       		{"min":0, "max":4, "from":[40],		 	"appliesTo":[500,502, 600,601,602,603]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
-       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601]},
+       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601,602]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
 		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501]},
@@ -155,11 +157,12 @@
 		
 		
        		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
-       		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
+		
+       		{"min":1, "max":1, "from":[10,11],	 	"appliesTo":[602]},
+       		{"min":8, "max":12, "from":[62],	 	"appliesTo":[602]},
 
-		
+
        		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
-		
 		
 		
 		
