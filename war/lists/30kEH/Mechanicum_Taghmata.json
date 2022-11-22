@@ -27,14 +27,7 @@
 			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":0, "upgrades":[200,201, 202]},
 			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"1 Mechanicum Shadowsword"},
 			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"1 Mechanicum Stormblade"},
-
-			
-			
-			{"id":615, "name":"0-1 1000pts Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]},
-			
-			{"id":603, "name":"Karacnos Assault Squadron", 		"pts":300, "upgrades":[], 	"units":"4 Karacnos Assault Tanks"},
-			{"id":606, "name":"Minotaur Artillery Battery",		"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
-			{"id":607, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[57,58]}
+			{"id":615, "name":"Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
 			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[], "units":"2 Avenger Strike Fighter units"},
@@ -108,6 +101,30 @@
         	{"id":210, "name":"4x Ordo Reductor Artillery Tank",				"pts":330},
         	{"id":211, "name":"5x Ordo Reductor Artillery Tank",				"pts":400},
 		
+        	{"id":212, "name":"No Ordo Reductor Artillery Tanks in the formation",		"pts":0},
+        	{"id":213, "name":"3x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":214, "name":"3x Quad Lascannon",						"pts":-150},
+        	{"id":215, "name":"3x Hyperios Missile Launcher",				"pts":75},
+        	{"id":216, "name":"3x Demolisher Cannon",					"pts":-75},
+        	{"id":217, "name":"3x Medusa Siege Cannon",					"pts":0},
+        	{"id":218, "name":"3x Earthshaker Cannon",					"pts":75},
+        	{"id":219, "name":"3x Mars Colossus Bombard",					"pts":150},
+		
+        	{"id":220, "name":"4x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":221, "name":"4x Quad Lascannon",						"pts":-200},
+        	{"id":222, "name":"4x Hyperios Missile Launcher",				"pts":100},
+        	{"id":223, "name":"4x Demolisher Cannon",					"pts":-100},
+        	{"id":224, "name":"4x Medusa Siege Cannon",					"pts":0},
+        	{"id":225, "name":"4x Earthshaker Cannon",					"pts":100},
+        	{"id":226, "name":"4x Mars Colossus Bombard",					"pts":200},
+		
+        	{"id":227, "name":"5x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":228, "name":"5x Quad Lascannon",						"pts":-250},
+        	{"id":229, "name":"5x Hyperios Missile Launcher",				"pts":125},
+        	{"id":230, "name":"5x Demolisher Cannon",					"pts":-125},
+        	{"id":231, "name":"5x Medusa Siege Cannon",					"pts":0},
+        	{"id":232, "name":"5x Earthshaker Cannon",					"pts":125},
+        	{"id":233, "name":"5x Mars Colossus Bombard",					"pts":250},
 		
 		
         	{"id":99, "name":"Flak Armour",					"pts":0},
@@ -195,6 +212,8 @@
        		{"min":5, "max":9, "from":[200,201],		"appliesTo":[612]},
        		{"min":0, "max":3, "from":[202],		"appliesTo":[612]},
 		
+		{"min":1, "max":1, "from":[205,206,207,208,209,210,211],								"appliesTo":[615]},		
+       		{"min":1, "max":1, "from":[212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,229,230,231,232,233],	"appliesTo":[615]},
 		
 		
 		
