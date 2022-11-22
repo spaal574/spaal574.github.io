@@ -1,6 +1,6 @@
 {
 	"id":"Mechanicum Taghmata",
-	"version":"Epichammer v2.02",
+	"version":"Epichammer v2.09",
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
@@ -12,22 +12,24 @@
 			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-	-		{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
-	-		{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
-	-		{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40,41,42, 35,36,37, 14,15,16,17,18]},			
-	-		{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
-	-		{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
-	-		{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
-	-		{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
-	-		{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
-	-		{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80, 12, 10,11]},
-	-		{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
-			{"id":610, "name":"Thanatar Maniple",				"pts":, "upgrades":[]},
-			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":, "upgrades":[]},
-			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":, "upgrades":[]},
+			{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
+			{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
+			{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40,41,42, 35,36,37, 14,15,16,17,18]},			
+			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
+			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
+			{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
+			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
+			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
+			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80, 12, 10,11]},
+			{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
+			{"id":610, "name":"Thanatar Maniple",				"pts":0, "upgrades":[90,91, 40,41,42, 12, 10,11]},
+			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":0, "upgrades":[92, 40,41,42, 12, 10,11]},
+			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":0, "upgrades":[200,201, 202]},
 			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"1 Mechanicum Shadowsword"},
 			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"1 Mechanicum Stormblade"},
 
+			
+			
 			{"id":615, "name":"0-1 1000pts Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]},
 			
 			{"id":603, "name":"Karacnos Assault Squadron", 		"pts":300, "upgrades":[], 	"units":"4 Karacnos Assault Tanks"},
@@ -51,7 +53,6 @@
 		{"id":11, "name":"Magos Prime",							"pts":50},
    		{"id":12, "name":"Tech Priest",							"pts":25},
 		
-		
 		{"id":14, "name":"Transport: Triaros",								"pts":65},
 		{"id":15, "name":"Transport: Macrocarid Explorator w/ 2x Irradiation Engine & Extra weapon",	"pts":65},
 		{"id":16, "name":"Transport: Macrocarid Explorator w/ 2x TL Lascannon & Extra weapon",		"pts":65},
@@ -60,7 +61,7 @@
 		
 		
         	{"id":30, "name":"Krios Battle Tank",						"pts":45},
-        	{"id":31, "name":"Krios Venator",						"pts":45},
+        	{"id":31, "name":"Krios Venator",						"pts":75},
 		
         	{"id":32, "name":"Vorax Battle-Automata w/Lightning Guns",			"pts":0},
         	{"id":33, "name":"Vorax Battle-Automata w/Irrad Cleansers",			"pts":5},
@@ -68,10 +69,6 @@
 		{"id":35, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":70},
 		{"id":36, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":70},
 		{"id":37, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":75},
-	
-		{"id":135, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":60},
-		{"id":136, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":60},
-		{"id":137, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":65},
 		
 		{"id":40, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":50},
 		{"id":41, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":50},
@@ -95,8 +92,21 @@
 		{"id":81, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":40},
 		{"id":82, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":40},
 		
+		{"id":90, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":60},
+		{"id":91, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":60},
+		{"id":92, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":65},
 		
+        	{"id":200, "name":"Krios Battle Tank",						"pts":45},
+        	{"id":201, "name":"Krios Venator",						"pts":75},
+        	{"id":202, "name":"Karacnos Assault Tank",					"pts":75},
 		
+        	{"id":205, "name":"4x Karacnos Assault Tank",					"pts":300},
+        	{"id":206, "name":"5x Karacnos Assault Tank",					"pts":375},
+        	{"id":207, "name":"6x Karacnos Assault Tank",					"pts":450},
+        	{"id":208, "name":"Minotaur Artillery Tank",					"pts":350},
+        	{"id":209, "name":"3x Ordo Reductor Artillery Tank",				"pts":240},
+        	{"id":210, "name":"4x Ordo Reductor Artillery Tank",				"pts":330},
+        	{"id":211, "name":"5x Ordo Reductor Artillery Tank",				"pts":400},
 		
 		
 		
@@ -140,23 +150,24 @@
 		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
 		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[700,701,702,703,704,705,706,707,708]},
 		
-		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[]},
+		{"max":1, "name":"Artillery Battery", "perPoints":1000, "from":[615]},
+		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[705]},
 
 		{"max":1, "from":[602]},
-
-		{"max":1, "from":[704]}		
+		{"max":1, "from":[706]},
+		{"max":1, "from":[708]}		
 	],
 	"upgradeConstraints":[ 
-       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603,606,607,607,608]},
+       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603,606,607,607,608,610,611]},
        		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
 
        		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600,603]},
-       		{"min":0, "max":4, "from":[40,41,42],		"appliesTo":[500,502, 600,601,602,603]},
+       		{"min":0, "max":4, "from":[40,41,42],		"appliesTo":[500,502, 600,601,602,603,610,611]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
        		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601,602]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
-		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608]},
+		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608,610,611]},
 		
        		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
        		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
@@ -178,51 +189,15 @@
 		
        		{"min":6, "max":8, "from":[80,81,82],		"appliesTo":[608]},
 		
+       		{"min":3, "max":6, "from":[90,91],		"appliesTo":[610]},
+       		{"min":3, "max":6, "from":[92],			"appliesTo":[611]},
+		
+       		{"min":5, "max":9, "from":[200,201],		"appliesTo":[612]},
+       		{"min":0, "max":3, "from":[202],		"appliesTo":[612]},
+		
 		
 		
 		
         	{"max":1, "perArmy":true, "from":[10]}				
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		{"min":0, "max":1, "from":[11,12], "appliesTo":[500,501,504,601]},
-		
-       		{"min":1, "max":4, "from":[13], 	"appliesTo":[500]},
-       		{"min":2, "max":5, "from":[13], 	"appliesTo":[504]},
-		
-				
-	        {"min":0, "max":3, "from":[13], 	"appliesTo":[501,502,503,601]},
-	        {"min":0, "max":3, "from":[14], 	"appliesTo":[500,501,502]},
-        	{"min":0, "max":4, "from":[14],	 	"appliesTo":[604]},
-	        {"min":0, "max":6, "from":[15,16,17], 	"appliesTo":[500,501,502]},
-        	{"min":0, "max":8, "from":[15,16,17], 	"appliesTo":[604]},
-
-	        {"min":0, "max":3, "from":[18,19], 	"appliesTo":[500,501,604]},
-       		{"min":0, "max":3, "from":[20,21], 	"appliesTo":[504]},
-        	{"min":0, "max":4, "from":[22], 	"appliesTo":[500,501,504,601,604]},
-
-
-		
-        	{"min":3, "max":3, "from":[32,33], 	"appliesTo":[601]},
-		
-        	{"min":5, "max":8, "from":[18,19], 	"appliesTo":[602]},
-		
-        	{"min":6, "max":6, "from":[52,53], 	"appliesTo":[604]},
-        	{"min":5, "max":5, "from":[54,55,56], 	"appliesTo":[605]},
-	
-	
-        	{"min":3, "max":3, "from":[57,58], 	"appliesTo":[607]},
-        	{"min":1, "max":1, "from":[59,60,61], 	"appliesTo":[704]},
-		
-        	{"max":1, "perArmy":true, "from":[11]}				
 	]
 }
