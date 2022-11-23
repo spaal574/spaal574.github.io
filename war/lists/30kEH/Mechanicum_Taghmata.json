@@ -4,41 +4,41 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40,41,42, 14,15,16,17,18, 35,36,37], "units":"10 Tech-Thralls units"},
+			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40,41,42, 14,15,16,17,18, 35,36,37], "units":"10x Tech-Thralls units"},
 			{"id":501, "name":"Vorax Maniple", 		"pts":250, "upgrades":[12]},
-			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40,41,42, 35,36,37], "units":"5 Castellax Battle-Automata"},
-			{"id":503, "name":"Secutarii Peltast Cohort",	"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Peltast units"}, 
-			{"id":504, "name":"Secutarii Hoplites Cohort",	"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8 Secutarii Hoplites units"}, 
-			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6 Servo-automata Units"}
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40,41,42, 35,36,37], "units":"5x Castellax Battle-Automata"},
+			{"id":503, "name":"Secutarii Peltast Cohort",	"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8x Secutarii Peltast units"}, 
+			{"id":504, "name":"Secutarii Hoplites Cohort",	"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8x Secutarii Hoplites units"}, 
+			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6x Servo-automata Units"}
          ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
-			{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8 Skitarii units"},	
+			{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8x Skitarii units"},	
 			{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40,41,42, 35,36,37, 14,15,16,17,18]},			
-			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
-			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
+			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6x Thallax units"},
+			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6x Ursarax units"}, 
 			{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
 			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
 			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
 			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80, 12, 10,11]},
-			{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6 Vulturax Stratos-Automata"},
+			{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6x Vulturax Stratos-Automata"},
 			{"id":610, "name":"Thanatar Maniple",				"pts":0, "upgrades":[90,91, 40,41,42, 12, 10,11]},
 			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":0, "upgrades":[92, 40,41,42, 12, 10,11]},
 			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":0, "upgrades":[200,201, 202]},
-			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"1 Mechanicum Shadowsword"},
-			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"1 Mechanicum Stormblade"},
+			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"Mechanicum Shadowsword"},
+			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"Mechanicum Stormblade"},
 			{"id":615, "name":"Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]}
 	]},
 		{"name":"ALLIES & LORDS OF WAR", "formations":[
-			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[125,126,127,129], "units":"2 Avenger Strike Fighter units"},
+			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[125,126,127,129], "units":"2x Avenger Strike Fighter units"},
 			{"id":701, "name":"Mechanicum Primaris-Lightning Wing",		"pts":0, "upgrades":[125,126,128,129]},
 			{"id":702, "name":"Mechanicum Thunderbolt Heavy Fighter Wing",	"pts":0, "upgrades":[125,126,127,129]},
 			{"id":703, "name":"Mechanicum Marauder Wing",			"pts":0, "upgrades":[244, 125,126,127]},
 			{"id":704, "name":"Mechanicum Marauder Destroyer Wing",		"pts":0, "upgrades":[245, 125,126,127,129]},
 			{"id":705, "name":"Ordinatus Minorus",				"pts":0, "upgrades":[12]},
 			{"id":706, "name":"Ordinatus Valia mobile HQ",			"pts":350, "upgrades":[], "units":"Ordinatus Valia mobile HQ"},
-			{"id":707, "name":"Tarantula Hyperios",				"pts":150, "upgrades":[], "units":"3 Tarantula Hyperios units"},
-			{"id":708, "name":"The Kaban Project",				"pts":625, "upgrades":[], "units":"1 AI Kaban Type unit"}	
+			{"id":707, "name":"Tarantula Hyperios",				"pts":150, "upgrades":[], "units":"3x Tarantula Hyperios units"},
+			{"id":708, "name":"The Kaban Project",				"pts":625, "upgrades":[], "units":"AI Kaban Type unit"}	
         ]}
 	],
 	"upgrades":[
