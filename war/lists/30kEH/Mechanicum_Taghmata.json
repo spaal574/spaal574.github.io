@@ -93,13 +93,13 @@
         	{"id":201, "name":"Krios Venator",						"pts":75},
         	{"id":202, "name":"Karacnos Assault Tank",					"pts":75},
 		
-        	{"id":205, "name":"4x Karacnos Assault Tank",					"pts":300},
-        	{"id":206, "name":"5x Karacnos Assault Tank",					"pts":375},
-        	{"id":207, "name":"6x Karacnos Assault Tank",					"pts":450},
-        	{"id":208, "name":"Minotaur Artillery Tank",					"pts":350},
-        	{"id":209, "name":"3x Ordo Reductor Artillery Tank",				"pts":240},
-        	{"id":210, "name":"4x Ordo Reductor Artillery Tank",				"pts":330},
-        	{"id":211, "name":"5x Ordo Reductor Artillery Tank",				"pts":400},
+        	{"id":205, "name":"4x Karacnos Assault Tanks",					"pts":300},
+        	{"id":206, "name":"5x Karacnos Assault Tanks",					"pts":375},
+        	{"id":207, "name":"6x Karacnos Assault Tanks",					"pts":450},
+        	{"id":208, "name":"3x Minotaur Artillery Tanks",				"pts":350},
+        	{"id":209, "name":"3x Ordo Reductor Artillery Tanks",				"pts":240},
+        	{"id":210, "name":"4x Ordo Reductor Artillery Tanks",				"pts":330},
+        	{"id":211, "name":"5x Ordo Reductor Artillery Tanks",				"pts":400},
 		
         	{"id":212, "name":"No Ordo Reductor Artillery Tanks in the formation",		"pts":0},
 		
