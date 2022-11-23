@@ -70,16 +70,16 @@
 		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":350},
 		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":400},
 		
-		{"id":55, "name":"Tarantula Sentry Guns w/TL Heavy bolter", 	"pts":25},
-		{"id":56, "name":"Tarantula Sentry Guns w/TL Lascannon",	"pts":25},
-		{"id":57, "name":"Tarantula Sentry Guns w/TL Rotor Cannon",	"pts":25},
-		{"id":58, "name":"Tarantula Sentry Guns w/TL Multimelta", 	"pts":25},
-		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 	"pts":25},
+		{"id":55, "name":"Tarantula Sentry Guns w/TL Heavy bolter",		 	"pts":25},
+		{"id":56, "name":"Tarantula Sentry Guns w/TL Lascannon",			"pts":25},
+		{"id":57, "name":"Tarantula Sentry Guns w/TL Rotor Cannon",			"pts":25},
+		{"id":58, "name":"Tarantula Sentry Guns w/TL Multimelta", 			"pts":25},
+		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 			"pts":25},
 		
-		{"id":62, "name":"Skitarii units", 				"pts":45},
+		{"id":62, "name":"Skitarii units",		 				"pts":45},
 		
-		{"id":70, "name":"Arlatax Battle Automata", 			"pts":60},
-		{"id":75, "name":"Domitar Battle Automata", 			"pts":45},
+		{"id":70, "name":"Arlatax Battle Automata", 					"pts":60},
+		{"id":75, "name":"Domitar Battle Automata", 					"pts":45},
 		
 		{"id":80, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":40},
 		{"id":81, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":40},
@@ -139,40 +139,38 @@
         	{"id":245, "name":"Marauder Destroyer",						"pts":225},
 		
 		
-        	{"id":99, "name":"Flak Armour",					"pts":0},
-        	{"id":100, "name":"Carapace Armour",				"pts":50},
+        	{"id":99, "name":"Flak Armour",							"pts":0},
+        	{"id":100, "name":"Carapace Armour",						"pts":50},
 		
-		{"id":101, "name":"Volkite Chargers",				"pts":0},
-		{"id":102, "name":"Flamers",					"pts":0},
-		{"id":103, "name":"Rotor Cannons",				"pts":0},
-		{"id":104, "name":"Heavy Bolters",				"pts":0},
-		{"id":105, "name":"Phased Plasma Fusils",			"pts":0},
-		{"id":106, "name":"Maxim Bolters",				"pts":0},
-		{"id":107, "name":"Multi Melta",				"pts":0},
-		{"id":108, "name":"Servo Arms",					"pts":0},
-		{"id":109, "name":"Photon Thruster Cannons",			"pts":0},
-		{"id":110, "name":"Irrad Cleansers",				"pts":0},
-		{"id":111, "name":"Darkfire Cannon",				"pts":25},
-		{"id":112, "name":"Mauler Bolt Cannon",				"pts":0},
-			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
-			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
+		{"id":101, "name":"Volkite Chargers",						"pts":0},
+		{"id":102, "name":"Flamers",							"pts":0},
+		{"id":103, "name":"Rotor Cannons",						"pts":0},
+		{"id":104, "name":"Heavy Bolters",						"pts":0},
+		{"id":105, "name":"Phased Plasma Fusils",					"pts":0},
+		{"id":106, "name":"Maxim Bolters",						"pts":0},
+		{"id":107, "name":"Multi Melta",						"pts":0},
+		{"id":108, "name":"Servo Arms",							"pts":0},
+		{"id":109, "name":"Photon Thruster Cannons",					"pts":0},
+		{"id":110, "name":"Irrad Cleansers",						"pts":0},
+		{"id":111, "name":"Darkfire Cannon",						"pts":25},
+		{"id":112, "name":"Mauler Bolt Cannon",						"pts":0},
 		
-		{"id":120, "name":"Galvanic Casters",				"pts":0},
-		{"id":121, "name":"Arc Rifles",					"pts":0},
-		{"id":122, "name":"Radium Carabines",				"pts":25},
+		{"id":120, "name":"Galvanic Casters",						"pts":0},
+		{"id":121, "name":"Arc Rifles",							"pts":0},
+		{"id":122, "name":"Radium Carabines",						"pts":25},
 		
-		{"id":122, "name":"Lightning Claws",				"pts":0},
-		{"id":122, "name":"Power Fists",				"pts":0},
+		{"id":123, "name":"Lightning Claws",						"pts":0},
+		{"id":124, "name":"Power Fists",						"pts":0},
 	
-		{"id":125, "name":"Pair of Hellstrike Missiles",		"pts":75},
-		{"id":126, "name":"Pair of Skystrike Missiles",			"pts":75},
-		{"id":127, "name":"Pair of Wing Bombs",				"pts":75},
-		{"id":128, "name":"Pair of Phospex Wing Bombs",			"pts":150},
-		{"id":129, "name":"Kraken Heavy Missiles",			"pts":150},
+		{"id":125, "name":"Pair of Hellstrike Missiles",				"pts":75},
+		{"id":126, "name":"Pair of Skystrike Missiles",					"pts":75},
+		{"id":127, "name":"Pair of Wing Bombs",						"pts":75},
+		{"id":128, "name":"Pair of Phospex Wing Bombs",					"pts":150},
+		{"id":129, "name":"Kraken Heavy Missiles",					"pts":150},
 	
-		{"id":250, "name":"Ordinatus Minoris Sagittar",	"pts":425},
-		{"id":251, "name":"Ordinatus Minoris Ulator",	"pts":450},
-		{"id":252, "name":"Ordinatus Minoris Akateus",	"pts":500}
+		{"id":250, "name":"Ordinatus Minoris Sagittar",					"pts":425},
+		{"id":251, "name":"Ordinatus Minoris Ulator",					"pts":450},
+		{"id":252, "name":"Ordinatus Minoris Akateus",					"pts":500}
     ],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
@@ -209,6 +207,9 @@
 		
        		{"min":1, "max":1, "from":[10,11],	 	"appliesTo":[602]},
        		{"min":8, "max":12, "from":[62],	 	"appliesTo":[602]},
+		
+       		{"min":1, "max":1, "from":[107,105,109,110],	"appliesTo":[603]},
+       		{"min":6, "max":6, "from":[123,124],		"appliesTo":[604]},
 		
        		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
 		
