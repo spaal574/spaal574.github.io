@@ -154,10 +154,15 @@
 		{"id":110, "name":"Irrad Cleansers",				"pts":0},
 		{"id":111, "name":"Darkfire Cannon",				"pts":25},
 		{"id":112, "name":"Mauler Bolt Cannon",				"pts":0},
+			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6 Thallax units"},
+			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6 Ursarax units"}, 
 		
 		{"id":120, "name":"Galvanic Casters",				"pts":0},
 		{"id":121, "name":"Arc Rifles",					"pts":0},
 		{"id":122, "name":"Radium Carabines",				"pts":25},
+		
+		{"id":122, "name":"Lightning Claws",				"pts":0},
+		{"id":122, "name":"Power Fists",				"pts":0},
 	
 		{"id":125, "name":"Pair of Hellstrike Missiles",		"pts":75},
 		{"id":126, "name":"Pair of Skystrike Missiles",			"pts":75},
