@@ -20,7 +20,7 @@
 			{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
 			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
 			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
-			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80, 12, 10,11]},
+			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80,81,82, 12, 10,11]},
 			{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6x Vulturax Stratos-Automata"},
 			{"id":610, "name":"Thanatar Maniple",				"pts":0, "upgrades":[90,91, 40,41,42, 12, 10,11]},
 			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":0, "upgrades":[92, 40,41,42, 12, 10,11]},
