@@ -67,8 +67,16 @@
 		{"id":41, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":50},
 		{"id":42, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":50},
 	
-		{"id":50, "name":"6x Myrmidon Secutors Units",					"pts":350},
-		{"id":51, "name":"6x Myrmidon Destructors Units",				"pts":400},
+		{"id":130, "name":"6x Myrmidon Secutors Units w/2x Volkite Chargers",		"pts":350},
+		{"id":131, "name":"6x Myrmidon Secutors Units w/2x Maxim Bolters",		"pts":350},
+		{"id":132, "name":"6x Myrmidon Secutors Units w/2x Graviton Guns",		"pts":350},
+		{"id":133, "name":"6x Myrmidon Secutors Units w/2x Irrad Cleansers",		"pts":350},
+		{"id":134, "name":"6x Myrmidon Secutors Units w/2x Phased Plasma Fusils",	"pts":350},
+		{"id":150, "name":"6x Myrmidon Destructors Units w/Volkite Culverins",		"pts":400},
+		{"id":151, "name":"6x Myrmidon Destructors Units w/Photon Thrusters",		"pts":400},
+		{"id":152, "name":"6x Myrmidon Destructors Units w/Irrad Engines",		"pts":400},
+		{"id":153, "name":"6x Myrmidon Destructors Units w/Graviton Imploders",		"pts":400},
+		{"id":154, "name":"6x Myrmidon Destructors Units w/Conversion Beamers",		"pts":400},
 		
 		{"id":55, "name":"Tarantula Sentry Guns w/TL Heavy bolter",		 	"pts":25},
 		{"id":56, "name":"Tarantula Sentry Guns w/TL Lascannon",			"pts":25},
@@ -190,7 +198,7 @@
        		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600,603]},
        		{"min":0, "max":4, "from":[40,41,42],		"appliesTo":[500,502, 600,601,602,603,610,611]},
        		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
-       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502, 601,602]},
+       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502,505, 601,602]},
        		
 		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
 		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608,610,611, 705]},
@@ -203,7 +211,7 @@
        		{"min":1, "max":1, "from":[104,102,105,106,103,107,108],	"appliesTo":[505]},
 		
 		
-       		{"min":1, "max":1, "from":[50,51],		"appliesTo":[600]},
+       		{"min":1, "max":1, "from":[130,131,132,133,134,150,151,152,153,154],	"appliesTo":[600]},
 		
        		{"min":1, "max":1, "from":[10,11],	 	"appliesTo":[602]},
        		{"min":8, "max":12, "from":[62],	 	"appliesTo":[602]},
