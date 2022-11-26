@@ -1,0 +1,256 @@
+{
+	"id":"Mechanicum Taghmata",
+	"version":"Epichammer v2.09",
+	"by":"spaal574",
+	"sections":[
+		{"name":"LINE DETACHMENTS", "formations":[
+			{"id":500, "name":"Adsecularis Covenant", 	"pts":100, "upgrades":[10,11, 30,31, 40,41,42, 14,15,16,17,18, 35,36,37], "units":"10x Tech-Thralls units"},
+			{"id":501, "name":"Vorax Maniple", 		"pts":250, "upgrades":[12]},
+			{"id":502, "name":"Castellax Cohort",		"pts":225, "upgrades":[10,11, 40,41,42, 35,36,37], "units":"5x Castellax Battle-Automata"},
+			{"id":503, "name":"Secutarii Peltast Cohort",	"pts":200, "upgrades":[30,31, 14,15,16,17,18], "units":"8x Secutarii Peltast units"}, 
+			{"id":504, "name":"Secutarii Hoplites Cohort",	"pts":225, "upgrades":[30,31, 14,15,16,17,18], "units":"8x Secutarii Hoplites units"}, 
+			{"id":505, "name":"Tech-priest Auxilia",	"pts":150, "upgrades":[14,15,16,17, 35,36,37], "units":"6x Servo-automata Units"}
+         ]},
+		{"name":"SUPPORT DETACHMENTS", "formations":[
+			{"id":600, "name":"Myrmidon Sect",				"pts":0, "upgrades":[30,31, 10,11, 40, 14,15,16,17]},	
+			{"id":601, "name":"Skitarii Cohort",				"pts":350, "upgrades":[40,41,42, 35,36,37, 14,15,16,17,18], "units":"8x Skitarii units"},	
+			{"id":602, "name":"Magos with Skitarii",			"pts":0, "upgrades":[62, 40,41,42, 35,36,37, 14,15,16,17,18]},			
+			{"id":603, "name":"Thallax Cohort", 				"pts":350, "upgrades":[30,31, 10,11, 40,41,42, 12, 14,15,16,17,18], "units":"6x Thallax units"},
+			{"id":604, "name":"Ursarax Cohort", 	 			"pts":350, "upgrades":[12, 14,15,16,17,18], "units":"6x Ursarax units"}, 
+			{"id":605, "name":"Tarantula Battery",				"pts":0, "upgrades":[55,56,57,58,59]},
+			{"id":606, "name":"Arlatax Battle Automata Maniple",		"pts":0, "upgrades":[70, 12, 10,11]},
+			{"id":607, "name":"Domitar Battle Automata Maniple",		"pts":0, "upgrades":[75, 12, 10,11]},
+			{"id":608, "name":"Scyllax Guardian Automata Covenant",		"pts":0, "upgrades":[80,81,82, 12, 10,11]},
+			{"id":609, "name":"Vulturax Maniple",				"pts":250, "upgrades":[], "units":"6x Vulturax Stratos-Automata"},
+			{"id":610, "name":"Thanatar Maniple",				"pts":0, "upgrades":[90,91, 40,41,42, 12, 10,11]},
+			{"id":611, "name":"Thanatar-Calix Maniple",			"pts":0, "upgrades":[92, 40,41,42, 12, 10,11]},
+			{"id":612, "name":"Krios Battle Tank Squadron",			"pts":0, "upgrades":[200,201, 202]},
+			{"id":613, "name":"Mechanicum Super Heavy Tank Destroyer",	"pts":250, "upgrades":[], "units":"Mechanicum Shadowsword"},
+			{"id":614, "name":"Mechanicum Super Heavy Tank",		"pts":225, "upgrades":[], "units":"Mechanicum Stormblade"},
+			{"id":615, "name":"Mechanicum Taghmata Artillery Battery", 	"pts":0, "upgrades":[]}
+	]},
+		{"name":"ALLIES & LORDS OF WAR", "formations":[
+			{"id":700, "name":"Mechanicum Avenger Wing",			"pts":250, "upgrades":[125,126,127,129], "units":"2x Avenger Strike Fighter units"},
+			{"id":701, "name":"Mechanicum Primaris-Lightning Wing",		"pts":0, "upgrades":[125,126,128,129]},
+			{"id":702, "name":"Mechanicum Thunderbolt Heavy Fighter Wing",	"pts":0, "upgrades":[125,126,127,129]},
+			{"id":703, "name":"Mechanicum Marauder Wing",			"pts":0, "upgrades":[244, 125,126,127]},
+			{"id":704, "name":"Mechanicum Marauder Destroyer Wing",		"pts":0, "upgrades":[245, 125,126,127,129]},
+			{"id":705, "name":"Ordinatus Minorus",				"pts":0, "upgrades":[12]},
+			{"id":706, "name":"Ordinatus Valia mobile HQ",			"pts":350, "upgrades":[], "units":"Ordinatus Valia mobile HQ"},
+			{"id":707, "name":"Tarantula Hyperios",				"pts":150, "upgrades":[], "units":"3x Tarantula Hyperios units"},
+			{"id":708, "name":"The Kaban Project",				"pts":625, "upgrades":[], "units":"AI Kaban Type unit"}	
+        ]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Archmagos Prime",						"pts":100},
+		{"id":11, "name":"Magos Prime",							"pts":50},
+   		{"id":12, "name":"Tech Priest",							"pts":25},
+		
+		{"id":14, "name":"Transport: Triaros",								"pts":65},
+		{"id":15, "name":"Transport: Macrocarid Explorator w/ 2x Irradiation Engine & Extra weapon",	"pts":65},
+		{"id":16, "name":"Transport: Macrocarid Explorator w/ 2x TL Lascannon & Extra weapon",		"pts":65},
+		{"id":17, "name":"Transport: Macrocarid Explorator w/ 2x TL Mauler Bolt Cannon & Extra weapon",	"pts":65},
+		{"id":18, "name":"Transport: Termite Assault Drill",						"pts":25},
+		
+		
+        	{"id":30, "name":"Krios Battle Tank",						"pts":45},
+        	{"id":31, "name":"Krios Venator",						"pts":75},
+		
+        	{"id":32, "name":"Vorax Battle-Automata w/Lightning Guns",			"pts":0},
+        	{"id":33, "name":"Vorax Battle-Automata w/Irrad Cleansers",			"pts":5},
+		
+		{"id":35, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":70},
+		{"id":36, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":70},
+		{"id":37, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":75},
+		
+		{"id":40, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":50},
+		{"id":41, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":50},
+		{"id":42, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":50},
+	
+		{"id":130, "name":"6x Myrmidon Secutors Units w/2x Volkite Chargers",		"pts":350},
+		{"id":131, "name":"6x Myrmidon Secutors Units w/2x Maxim Bolters",		"pts":350},
+		{"id":132, "name":"6x Myrmidon Secutors Units w/2x Graviton Guns",		"pts":350},
+		{"id":133, "name":"6x Myrmidon Secutors Units w/2x Irrad Cleansers",		"pts":350},
+		{"id":134, "name":"6x Myrmidon Secutors Units w/2x Phased Plasma Fusils",	"pts":350},
+		{"id":150, "name":"6x Myrmidon Destructors Units w/Volkite Culverins",		"pts":400},
+		{"id":151, "name":"6x Myrmidon Destructors Units w/Photon Thrusters",		"pts":400},
+		{"id":152, "name":"6x Myrmidon Destructors Units w/Irrad Engines",		"pts":400},
+		{"id":153, "name":"6x Myrmidon Destructors Units w/Graviton Imploders",		"pts":400},
+		{"id":154, "name":"6x Myrmidon Destructors Units w/Conversion Beamers",		"pts":400},
+		
+		{"id":55, "name":"Tarantula Sentry Guns w/TL Heavy bolter",		 	"pts":25},
+		{"id":56, "name":"Tarantula Sentry Guns w/TL Lascannon",			"pts":25},
+		{"id":57, "name":"Tarantula Sentry Guns w/TL Rotor Cannon",			"pts":25},
+		{"id":58, "name":"Tarantula Sentry Guns w/TL Multimelta", 			"pts":25},
+		{"id":59, "name":"Tarantula Sentry Guns w/TL Heavy Flamer", 			"pts":25},
+		
+		{"id":62, "name":"Skitarii units",		 				"pts":45},
+		
+		{"id":70, "name":"Arlatax Battle Automata", 					"pts":60},
+		{"id":75, "name":"Domitar Battle Automata", 					"pts":45},
+		
+		{"id":80, "name":"Scyllax Guardian-Automata Units w/Volkite Chargers",		"pts":40},
+		{"id":81, "name":"Scyllax Guardian-Automata Units w/Flamers",			"pts":40},
+		{"id":82, "name":"Scyllax Guardian-Automata Units w/Rotor Cannons",		"pts":40},
+		
+		{"id":90, "name":"Thanatar Siege-Automata w/ Hellex Plasma Mortar",		"pts":60},
+		{"id":91, "name":"Thanatar Siege-Automata w/ Cynis Plasma Ejector",		"pts":60},
+		{"id":92, "name":"Thanatar Calix Siege-Automata w/ Sollex Heavy Lascannon",	"pts":65},
+		
+        	{"id":200, "name":"Krios Battle Tank",						"pts":45},
+        	{"id":201, "name":"Krios Venator",						"pts":75},
+        	{"id":202, "name":"Karacnos Assault Tank",					"pts":75},
+		
+        	{"id":205, "name":"4x Karacnos Assault Tanks",					"pts":300},
+        	{"id":206, "name":"5x Karacnos Assault Tanks",					"pts":375},
+        	{"id":207, "name":"6x Karacnos Assault Tanks",					"pts":450},
+        	{"id":208, "name":"3x Minotaur Artillery Tanks",				"pts":350},
+        	{"id":209, "name":"3x Ordo Reductor Artillery Tanks",				"pts":240},
+        	{"id":210, "name":"4x Ordo Reductor Artillery Tanks",				"pts":330},
+        	{"id":211, "name":"5x Ordo Reductor Artillery Tanks",				"pts":400},
+		
+        	{"id":212, "name":"No Ordo Reductor Artillery Tanks in the formation",		"pts":0},
+		
+        	{"id":213, "name":"3x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":214, "name":"3x Dual Melta Cannon",					"pts":0},
+        	{"id":215, "name":"3x Quad Lascannon",						"pts":-150},
+        	{"id":216, "name":"3x Hyperios Missile Launcher",				"pts":75},
+        	{"id":217, "name":"3x Demolisher Cannon",					"pts":-75},
+        	{"id":218, "name":"3x Medusa Siege Cannon",					"pts":0},
+        	{"id":219, "name":"3x Earthshaker Cannon",					"pts":75},
+        	{"id":220, "name":"3x Mars Colossus Bombard",					"pts":150},
+		
+        	{"id":221, "name":"4x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":222, "name":"4x Dual Melta Cannon",					"pts":0},
+        	{"id":223, "name":"4x Quad Lascannon",						"pts":-200},
+        	{"id":224, "name":"4x Hyperios Missile Launcher",				"pts":100},
+        	{"id":225, "name":"4x Demolisher Cannon",					"pts":-100},
+        	{"id":226, "name":"4x Medusa Siege Cannon",					"pts":0},
+        	{"id":227, "name":"4x Earthshaker Cannon",					"pts":100},
+        	{"id":228, "name":"4x Mars Colossus Bombard",					"pts":200},
+		
+        	{"id":229, "name":"5x Venegance and Castellan Missiles",			"pts":0},
+        	{"id":230, "name":"5x Dual Melta Cannon",					"pts":0},
+        	{"id":231, "name":"5x Quad Lascannon",						"pts":-250},
+        	{"id":232, "name":"5x Hyperios Missile Launcher",				"pts":125},
+        	{"id":233, "name":"5x Demolisher Cannon",					"pts":-125},
+        	{"id":234, "name":"5x Medusa Siege Cannon",					"pts":0},
+        	{"id":235, "name":"5x Earthshaker Cannon",					"pts":125},
+        	{"id":236, "name":"5x Mars Colossus Bombard",					"pts":250},
+		
+		
+        	{"id":240, "name":"2x Primaris-Lightning Fighter units",			"pts":250},
+        	{"id":241, "name":"2x Primaris-Lightning Fighter Strike units",			"pts":250},
+        	{"id":242, "name":"2x Thunderbolt Heavy Fighter",				"pts":300},
+        	{"id":243, "name":"2x Thunderbolt Fury",					"pts":300},
+        	{"id":244, "name":"Marauder Bomber",						"pts":225},
+        	{"id":245, "name":"Marauder Destroyer",						"pts":225},
+		
+		
+        	{"id":99, "name":"Flak Armour",							"pts":0},
+        	{"id":100, "name":"Carapace Armour",						"pts":50},
+		
+		{"id":101, "name":"Volkite Chargers",						"pts":0},
+		{"id":102, "name":"Flamers",							"pts":0},
+		{"id":103, "name":"Rotor Cannons",						"pts":0},
+		{"id":104, "name":"Heavy Bolters",						"pts":0},
+		{"id":105, "name":"Phased Plasma Fusils",					"pts":0},
+		{"id":106, "name":"Maxim Bolters",						"pts":0},
+		{"id":107, "name":"Multi Melta",						"pts":0},
+		{"id":108, "name":"Servo Arms",							"pts":0},
+		{"id":109, "name":"Photon Thruster Cannons",					"pts":0},
+		{"id":110, "name":"Irrad Cleansers",						"pts":0},
+		{"id":111, "name":"Darkfire Cannon",						"pts":25},
+		{"id":112, "name":"Mauler Bolt Cannon",						"pts":0},
+		
+		{"id":120, "name":"Galvanic Casters",						"pts":0},
+		{"id":121, "name":"Arc Rifles",							"pts":0},
+		{"id":122, "name":"Radium Carabines",						"pts":25},
+		
+		{"id":123, "name":"Lightning Claws",						"pts":0},
+		{"id":124, "name":"Power Fists",						"pts":0},
+	
+		{"id":125, "name":"Pair of Hellstrike Missiles",				"pts":75},
+		{"id":126, "name":"Pair of Skystrike Missiles",					"pts":75},
+		{"id":127, "name":"Pair of Wing Bombs",						"pts":75},
+		{"id":128, "name":"Pair of Phospex Wing Bombs",					"pts":150},
+		{"id":129, "name":"Kraken Heavy Missiles",					"pts":150},
+		
+		{"id":170, "name":"Volcano Cannon",						"pts":0},
+		{"id":171, "name":"TL Volcano Cannon",						"pts":35},
+	
+		{"id":250, "name":"Ordinatus Minoris Sagittar",					"pts":425},
+		{"id":251, "name":"Ordinatus Minoris Ulator",					"pts":450},
+		{"id":252, "name":"Ordinatus Minoris Akateus",					"pts":500}
+    ],
+	"formationConstraints":[
+		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
+		{"maxPercent":33, "name":"ALLIES & LORDS OF WAR", "from":[700,701,702,703,704,705,706,707,708]},
+		
+		{"max":1, "name":"Artillery Battery", "perPoints":1000, "from":[615]},
+		{"max":1, "name":"Ordinatii Minoris", "perPoints":2000, "from":[705]},
+
+		{"max":1, "from":[602]},
+		{"max":1, "from":[706]},
+		{"max":1, "from":[708]}		
+	],
+	"upgradeConstraints":[ 
+       		{"min":0, "max":1, "from":[10,11],	 	"appliesTo":[500,502, 600,603,606,607,607,608,610,611]},
+       		{"min":1, "max":1, "from":[12],	 		"appliesTo":[500]},
+
+       		{"min":0, "max":3, "from":[30,31],	 	"appliesTo":[500,503,504, 600,603]},
+       		{"min":0, "max":4, "from":[40,41,42],		"appliesTo":[500,502, 600,601,602,603,610,611]},
+       		{"min":1, "max":1, "from":[99,100],	 	"appliesTo":[500]},
+       		{"min":0, "max":3, "from":[35,36,37],	 	"appliesTo":[500,502,505, 601,602]},
+       		
+		{"min":6, "max":6, "from":[32,33],	 	"appliesTo":[501]},
+		{"min":0, "max":2, "from":[12],		 	"appliesTo":[501, 603,604,606,607,608,610,611, 705]},
+		
+       		{"min":2, "max":2, "from":[12],		 	"appliesTo":[502,505]},
+       		{"min":1, "max":1, "from":[112,107,111], 	"appliesTo":[502]},
+		
+       		{"min":1, "max":1, "from":[120,121,122],	"appliesTo":[503]},
+		
+       		{"min":1, "max":1, "from":[104,102,105,106,103,107,108],	"appliesTo":[505]},
+		
+		
+       		{"min":1, "max":1, "from":[130,131,132,133,134,150,151,152,153,154],	"appliesTo":[600]},
+		
+       		{"min":1, "max":1, "from":[10,11],	 	"appliesTo":[602]},
+       		{"min":8, "max":12, "from":[62],	 	"appliesTo":[602]},
+		
+       		{"min":1, "max":1, "from":[107,105,109,110],	"appliesTo":[603]},
+       		{"min":6, "max":6, "from":[123,124],		"appliesTo":[604]},
+		
+       		{"min":3, "max":6, "from":[55,56,57,58,59],	"appliesTo":[605]},
+		
+       		{"min":4, "max":6, "from":[70],			"appliesTo":[606]},
+       		{"min":4, "max":6, "from":[75],			"appliesTo":[607]},
+		
+       		{"min":6, "max":8, "from":[80,81,82],		"appliesTo":[608]},
+		
+       		{"min":3, "max":6, "from":[90,91],		"appliesTo":[610]},
+       		{"min":3, "max":6, "from":[92],			"appliesTo":[611]},
+		
+       		{"min":5, "max":9, "from":[200,201],		"appliesTo":[612]},
+       		{"min":0, "max":3, "from":[202],		"appliesTo":[612]},
+		
+       		{"min":1, "max":1, "from":[170,171],		"appliesTo":[613]},
+		
+		{"min":1, "max":1, "from":[205,206,207,208,209,210,211],	"appliesTo":[615]},		
+       		{"min":1, "max":1, "from":[212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236],	"appliesTo":[615]},
+		
+       		{"min":0, "max":2, "from":[125,126,127,128,129],		"appliesTo":[700]},
+       		{"min":0, "max":4, "from":[125,126,127,128,129],		"appliesTo":[701,702]},
+       		{"min":0, "max":12, "from":[125,126,127,128,129],		"appliesTo":[703,704]},
+		
+       		{"min":1, "max":1, "from":[240,241],		"appliesTo":[701]},
+       		{"min":1, "max":1, "from":[242,243],		"appliesTo":[702]},
+       		{"min":1, "max":3, "from":[244],		"appliesTo":[703]},
+       		{"min":1, "max":3, "from":[245],		"appliesTo":[704]},
+		
+       		{"min":1, "max":1, "from":[250,251,252],	"appliesTo":[705]},
+		
+        	{"max":1, "perArmy":true, "from":[10]}				
+	]
+}
