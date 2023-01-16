@@ -28,23 +28,23 @@
 			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
       
 			{"id":601, "name":"Militia Cavalry Squad",			"pts":200, "upgrades":[3], "units":"8 Cavalry Auxiliary units"},
-			{"id":602, "name":"Militia Motorcycle Squad", 			"pts":175, "upgrades":[3], "units":"8 Militia Bikers units"},
+			{"id":602, "name":"Militia Motorcycle Squad", 			"pts":150, "upgrades":[3], "units":"8 Militia Bikers units"},
 			{"id":603, "name":"Militia Sentinel Scout Squadron",		"pts":100, "upgrades":[3], "units":"5 Auxilia Sentinel units"},
       
 			{"id":604, "name":"Militia Rapier Battery",			"pts":100, "upgrades":[3]},
 			{"id":605, "name":"Militia Heavy Ordnance Battery",		"pts":0, "upgrades":[3, 40,41]},
 			{"id":606, "name":"Militia Heavy Artillery Tank Squadron",	"pts":0, "upgrades":[3]},
       
-			{"id":607, "name":"Militia Malcador Heavy Tank Squadron",	"pts":350, "upgrades":[3, 65]},
-			{"id":608, "name":"Militia Super Heavy Tank",			"pts":200, "upgrades":[3]},
-			{"id":609, "name":"Militia Super Heavy Tank Platoon",		"pts":200, "upgrades":[3]},
-			{"id":610, "name":"Militia Elite Super Heavy Tank",		"pts":200, "upgrades":[3]},
+			{"id":607, "name":"Militia Malcador Heavy Tank Squadron",	"pts":0, "upgrades":[3, 65]},
+			{"id":608, "name":"Militia Super Heavy Tank",			"pts":0, "upgrades":[3]},
+			{"id":609, "name":"Militia Super Heavy Tank Platoon",		"pts":0, "upgrades":[3]},
+			{"id":610, "name":"Militia Elite Super Heavy Tank",		"pts":0, "upgrades":[3]},
       
 			{"id":611, "name":"Militia Battle Tank Squadron",		"pts":350, "upgrades":[3, 40,41]},
 			{"id":612, "name":"Militia Specialized Tank Squadron",		"pts":325, "upgrades":[3, 40,41]},
       
 			{"id":613, "name":"Macharius Heavy Tank Squadron",		"pts":250, "upgrades":[3], "units":"2x Macharius Heavy Tanks"},
-			{"id":614, "name":"Macharius Heavy Tank Assault Squadron",	"pts":350, "upgrades":[3]},
+			{"id":614, "name":"Macharius Heavy Tank Assault Squadron",	"pts":0, "upgrades":[3]},
       
 			{"id":615, "name":"Hydra Flak Tank Battery",			"pts":-100, "upgrades":[3]},      
 			{"id":616, "name":"Carnodon Light Tank Squadron",		"pts":350, "upgrades":[3]},      
@@ -86,7 +86,7 @@
 		{"id":37, "name":"2x Heavy Bolters Sponsons",		"pts":0},
 		{"id":38, "name":"2x Lascannons Sponsons",		"pts":60},
     
-		{"id":40, "name":"Hydra Flak Tank w/Heavy Flamer",	"pts":100},
+		{"id":40, "name":"Hydra Flak Tank w/Heavy Bolter",	"pts":100},
 		{"id":41, "name":"Hydra Flak Tank w/Heavy Flamer",	"pts":100},
 		
 		
