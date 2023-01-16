@@ -1,0 +1,212 @@
+{
+	"id":"Gene-crafted Imperial Militia",
+	"version":"Epichammer v2.14",
+	"by":"by spaal574",
+	"notes":["Line Detachments may only take a total of four upgrades per detachment.",
+		" ",
+		"Support Detachments may only take a single upgrade per detachment.",
+		" ",
+		"When using Transports you must take exactly enough to carry all units(rounding up) in the formation after any upgrades have been added.",
+		"You can't mix transports within a formation.",
+		"Transports count towards the number of upgrade allowances of a formation.",
+		" ",
+		"Transport units capacity: Aurox(2, no rapiers), Gorgon(8), Crassus(8), Arvus(3), Leviathan(25), Da. Cruiser(20 + Shuttles), Emp. Battleship(60 + Shuttles)",
+		"Transportable units size: Gene-gholams(2), Rapiers(2), Sentinels(5, only Leviathan)"],
+	
+	"sections":[
+		{"name":"LINE DETACHMENTS", "formations":[
+			{"id":500, "name":"Gene-crafted Command Detachment", 	"pts":325, "upgrades":[10,11,16, 21], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
+			{"id":501, "name":"Gene-crafted Elite Infantry", 	"pts":0, "upgrades":[10,11,16, 21]},
+			{"id":502, "name":"Gene-crafted Infantry", 	"pts":0, "upgrades":[10,11,16, 21]}
+	]},
+		{"name":"SUPPORT DETACHMENTS", "formations":[
+			{"id":599, "name":"Gene-gholams Detachment",				"pts":0, "upgrades":[21]},
+      
+			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
+      
+			{"id":601, "name":"Militia Cavalry Squad",			"pts":200, "upgrades":[], "units":"8 Cavalry Auxiliary units"},
+			{"id":602, "name":"Militia Motorcycle Squad", 			"pts":150, "upgrades":[], "units":"8 Militia Bikers units"},
+			{"id":603, "name":"Militia Sentinel Scout Squadron",		"pts":100, "upgrades":[], "units":"5 Auxilia Sentinel units"},
+      
+			{"id":604, "name":"Militia Rapier Battery",			"pts":100, "upgrades":[]},
+			{"id":605, "name":"Militia Heavy Ordnance Battery",		"pts":0, "upgrades":[40,41]},
+			{"id":606, "name":"Militia Heavy Artillery Tank Squadron",	"pts":0, "upgrades":[]},
+      
+			{"id":607, "name":"Militia Malcador Heavy Tank Squadron",	"pts":0, "upgrades":[65]},
+			{"id":608, "name":"Militia Super Heavy Tank",			"pts":0, "upgrades":[]},
+			{"id":609, "name":"Militia Super Heavy Tank Platoon",		"pts":0, "upgrades":[]},
+			{"id":610, "name":"Militia Elite Super Heavy Tank",		"pts":0, "upgrades":[]},
+      
+			{"id":611, "name":"Militia Battle Tank Squadron",		"pts":350, "upgrades":[40,41]},
+			{"id":612, "name":"Militia Specialized Tank Squadron",		"pts":325, "upgrades":[40,41]},
+      
+			{"id":613, "name":"Macharius Heavy Tank Squadron",		"pts":250, "upgrades":[], "units":"2x Macharius Heavy Tanks"},
+			{"id":614, "name":"Macharius Heavy Tank Assault Squadron",	"pts":0, "upgrades":[]},
+      
+			{"id":615, "name":"Hydra Flak Tank Battery",			"pts":-100, "upgrades":[]},      
+			{"id":616, "name":"Carnodon Light Tank Squadron",		"pts":225, "upgrades":[]},      
+			{"id":617, "name":"Arvus Lighter Orbital Shuttles",		"pts":0, "upgrades":[95]}
+
+	]},
+		{"name":"LORDS OF WAR", "formations":[
+			{"id":700, "name":"Leviathan Mobile HQ",		"pts":700, "upgrades":[], "units":"1x Leviathan Mobile HQ"},
+			{"id":701, "name":"Imperial Militia Avenger Wing",	"pts":250, "upgrades":[150,151,152,153,154], "units":"2x Avenger Strike Fighter"},
+			{"id":702, "name":"Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[150,151,152,153,154]},
+			{"id":703, "name":"Marauder Wing",			"pts":0, "upgrades":[110, 150,151,152,153]},
+			{"id":704, "name":"Marauder Destroyer Wing",		"pts":0, "upgrades":[111, 150,151,152,153,154]}
+	]} 
+	],	
+	"upgrades":[
+		{"id":10, "name":"Heavy Transport: Gorgon Heavy Transports",		"pts":100},
+		{"id":11, "name":"Heavy Transport: Crassus Armoured Transports",	"pts":100},
+		{"id":16, "name":"Transport: Aurox",					"pts":25},
+		
+		{"id":21, "name":"Gene-gholams Squads",		"pts":65},
+    
+		{"id":30, "name":"Leman Russes",			"pts":0},
+		{"id":31, "name":"Leman Russ Exterminators",		"pts":0},
+		{"id":32, "name":"Leman Russ Annihilators",		"pts":0},
+		{"id":33, "name":"Leman Russ Demolishers",		"pts":0},
+		{"id":34, "name":"Leman Russ Vanquishers",		"pts":10},
+    
+		{"id":35, "name":"6x Leman Russ Thunderers",		"pts":0},
+		{"id":36, "name":"6x Leman Russ Destroyers",		"pts":0},
+    
+		{"id":37, "name":"2x Heavy Bolters Sponsons",		"pts":0},
+		{"id":38, "name":"2x Lascannons Sponsons",		"pts":60},
+    
+		{"id":40, "name":"Hydra Flak Tank w/Heavy Bolter",	"pts":100},
+		{"id":41, "name":"Hydra Flak Tank w/Heavy Flamer",	"pts":100},
+		
+		
+		{"id":50, "name":"Auxilia Rapier Platforms w/Laser Destroyer",		"pts":0},
+		{"id":51, "name":"Auxilia Rapier Platforms w/Quad Mortars",		"pts":0},
+		{"id":52, "name":"Auxilia Rapier Platforms w/Quad Heavy Bolters",	"pts":0},
+		
+		{"id":55, "name":"6x Basilisk Artillery Carriages",		"pts":275},
+		{"id":56, "name":"6x Medusa Artillery Carriages",		"pts":250},
+		
+		{"id":60, "name":"3x Praetor Armoured Assault Launchers",	"pts":575},
+		{"id":61, "name":"3x Dominus Armoured Siege Bombards",		"pts":300},
+		{"id":62, "name":"3x Minotaur Artillery Tanks",			"pts":375},
+		
+		
+		{"id":65, "name":"Siege Armour",				"pts":0},
+		
+		{"id":66, "name":"4x Auxilia Malcador Heavy Tanks",		"pts":400},
+		{"id":67, "name":"4x Auxilia Malcador Annihilator Tanks",	"pts":400},
+		
+		{"id":69, "name":"2x Heavy Bolters Sponsons",			"pts":-40},
+		{"id":70, "name":"2x Lascannons Sponsons",			"pts":0},
+		{"id":71, "name":"2x Autocannons Sponsons",			"pts":0},
+		{"id":72, "name":"2x Heavy Flamers Sponsons",			"pts":0},
+    
+		
+		{"id":75, "name":"Baneblade",					"pts":175},
+		{"id":76, "name":"Stormsword",					"pts":175},
+		{"id":77, "name":"Stormhammer",					"pts":175},
+    
+		{"id":80, "name":"3x Baneblade",				"pts":450},
+		{"id":81, "name":"3x Stormsword",				"pts":450},
+		{"id":82, "name":"3x Stormhammer",				"pts":450},
+   	
+		{"id":85, "name":"Shadowsword",					"pts":275},
+		{"id":86, "name":"Stormblade",					"pts":275},
+		
+		
+		{"id":90, "name":"2x Macharius Vanquisher Heavy Tanks",		"pts":300},
+		{"id":91, "name":"2x Macharius Vulcan Heavy Tanks",		"pts":300},
+		{"id":92, "name":"2x Macharius Omega Heavy Tanks",		"pts":350},
+    
+		{"id":95, "name":"Arvus Lighter Shuttles",				"pts":40},
+		{"id":97, "name":"Carnodon Light Tank w/2x Heavy Bolters",		"pts":0},
+		{"id":98, "name":"Carnodon Light Tank w/2x Heavy Flamers",		"pts":0},
+
+		{"id":100, "name":"Emperor Class Battleship",		"pts":300},
+		{"id":101, "name":"Dauntless Class Light Cruiser",	"pts":150},
+    
+    
+		{"id":105, "name":"2x Thunderbolt Heavy Fighter",		"pts":0},
+		{"id":106, "name":"2x Thunderbolt Heavy Fury",		"pts":0},
+    
+		{"id":110, "name":"Marauder Bomber",			"pts":250},
+		{"id":111, "name":"Marauder Destroyer",			"pts":250},
+		
+
+		{"id":140, "name":"Multi-lasers",			"pts":0},
+		{"id":141, "name":"Heavy Flamers",			"pts":25},
+		{"id":142, "name":"Lascannons",				"pts":25},
+		{"id":143, "name":"Autocannons/Missile Launchers",	"pts":25},
+		{"id":144, "name":"Multi-meltas",			"pts":50},
+    
+    
+		{"id":150, "name":"Pair of Hellstrike Missiles",	"pts":75},
+		{"id":151, "name":"Pair of Skystrike Missiles",		"pts":75},
+		{"id":152, "name":"Pair of Wing Bombs",			"pts":75},
+		{"id":153, "name":"Pair of Phospex Wing Bombs",		"pts":150},
+		{"id":154, "name":"Kraken Heavy Missiles",		"pts":150}
+	],
+	"formationConstraints":[
+		{"max":2, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617], "forEach":[500,501,502,503], "name2":"Line Detachment"},
+		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[701,702,703,704]},
+		{"max":1, "perPoints":1000, "from":[605]},
+		{"max":1, "perPoints":6000, "from":[606]},
+		{"max":1, "perPoints":4000, "from":[612]},
+		{"max":1, "perPoints":2000, "from":[614]},
+		{"max":1, "perPoints":2000, "from":[615]},
+		{"max":1, "from":[500]},
+		{"max":1, "from":[600]}
+	],
+	"upgradeConstraints":[		
+		{"max":1, "from":[3],"perPoints":500},
+		{"min":0, "max":1, "from":[3], "appliesTo":[500,501,502,503,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,701,702,703,704]},
+		
+		
+		{"min":0, "max":4, "from":[21], "appliesTo":[500,501,503]},
+		
+		{"min":4, "max":8, "from":[21], "appliesTo":[599]},
+    
+    
+		{"min":1, "max":1, "from":[100,101], "appliesTo":[600]},
+    
+		{"min":1, "max":1, "from":[140,141,142,143,144], "appliesTo":[603]},
+		
+		{"min":4, "max":4, "from":[50,51,52], "appliesTo":[604]},
+    
+		{"min":1, "max":1, "from":[55,56], "appliesTo":[605]},
+		{"min":1, "max":1, "from":[60,61,62], "appliesTo":[606]},
+		
+		{"min":0, "max":1, "from":[65], "appliesTo":[607]},
+		{"min":1, "max":1, "from":[66,67], "appliesTo":[607]},
+		{"min":1, "max":1, "from":[69,70,71,72], "appliesTo":[607]},
+		
+		{"min":1, "max":1, "from":[75,76,77], "appliesTo":[608]},
+		{"min":1, "max":1, "from":[80,81,82], "appliesTo":[609]},
+		{"min":1, "max":1, "from":[85,86], "appliesTo":[610]},
+		
+		{"min":6, "max":6, "from":[30,31,32,33,34], "appliesTo":[611]},
+		{"min":1, "max":1, "from":[37,38], "appliesTo":[611]},
+    
+		{"min":1, "max":1, "from":[35,36], "appliesTo":[612]},
+    
+		{"min":1, "max":1, "from":[90,91,92], "appliesTo":[614]},
+		
+		{"min":4, "max":4, "from":[40,41], "appliesTo":[615]},
+		
+		{"min":6, "max":6, "from":[97,98], "appliesTo":[616]},
+		
+		{"min":2, "max":8, "from":[95], "appliesTo":[617]},
+    
+		
+		{"min":1, "max":1, "from":[105,106], "appliesTo":[702]},
+    
+		{"min":1, "max":3, "from":[110], "appliesTo":[703]},
+		{"min":1, "max":3, "from":[111], "appliesTo":[704]},
+    
+    
+		{"min":0, "max":1, "from":[150,151,152,153,154], "appliesTo":[701]},
+		{"min":0, "max":2, "from":[150,151,152,153,154], "appliesTo":[702]},
+		{"min":0, "max":4, "from":[150,151,152,153], "appliesTo":[703]},
+		{"min":0, "max":4, "from":[150,151,152,153,154], "appliesTo":[704]}
+	]
+}
