@@ -15,18 +15,18 @@
 	
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Militia Command Squad", 	"pts":325, "upgrades":[10,11,16, 20], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
+			{"id":500, "name":"Militia Command Squad", 			"pts":325, "upgrades":[10,11,16, 20], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
 			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,15,16, 20]},
-			{"id":502, "name":"Gene-crafted Infantry Detachment", 	"pts":0, "upgrades":[6, 10,11,16, 20]}			
+			{"id":502, "name":"Gene-crafted Infantry Detachment", 		"pts":0, "upgrades":[6, 10,11,16, 20]}			
 	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":599, "name":"Gene-gholams Detachment",			"pts":0, "upgrades":[20]},
 			
 			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
       
-			{"id":601, "name":"Militia Cavalry Squad",			"pts":200, "upgrades":[], "units":"8 Cavalry Auxiliary units"},
-			{"id":602, "name":"Militia Motorcycle Squad", 			"pts":150, "upgrades":[], "units":"8 Militia Bikers units"},
-			{"id":603, "name":"Militia Sentinel Scout Squadron",		"pts":100, "upgrades":[], "units":"5 Auxilia Sentinel units"},
+			{"id":601, "name":"Militia Cavalry Squad",			"pts":200, "upgrades":[], "units":"8x Cavalry Auxiliary units"},
+			{"id":602, "name":"Militia Motorcycle Squad", 			"pts":150, "upgrades":[], "units":"8x Militia Bikers units"},
+			{"id":603, "name":"Militia Sentinel Scout Squadron",		"pts":100, "upgrades":[], "units":"5x Auxilia Sentinel units"},
       
 			{"id":604, "name":"Militia Rapier Battery",			"pts":100, "upgrades":[]},
 			{"id":605, "name":"Militia Heavy Ordnance Battery",		"pts":0, "upgrades":[40,41]},
