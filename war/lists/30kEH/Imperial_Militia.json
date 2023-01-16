@@ -137,7 +137,7 @@
 		{"id":101, "name":"Dauntless Class Light Cruiser",	"pts":150},
     
     
-		{"id":105, "name":"2x Thunderbolt Heavy Fighter",		"pts":0},
+		{"id":105, "name":"2x Thunderbolt Heavy Fighter",	"pts":0},
 		{"id":106, "name":"2x Thunderbolt Heavy Fury",		"pts":0},
     
 		{"id":110, "name":"Marauder Bomber",			"pts":250},
@@ -175,7 +175,7 @@
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617], "forEach":[500,501,502,503], "name2":"Line Detachment"},
-		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[701,702,703,704]},
+		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[700,701,702,703,704]},
 		{"max":1, "perPoints":1000, "from":[605]},
 		{"max":1, "perPoints":6000, "from":[606]},
 		{"max":1, "perPoints":4000, "from":[612]},
