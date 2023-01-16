@@ -1,5 +1,5 @@
 {
-	"id":"Gene-crafted Imperial Militia",
+	"id":"Gene-crafted Militia",
 	"version":"Epichammer v2.14",
 	"by":"by spaal574",
 	"notes":["Line Detachments may only take a total of four upgrades per detachment.",
@@ -10,18 +10,18 @@
 		"You can't mix transports within a formation.",
 		"Transports count towards the number of upgrade allowances of a formation.",
 		" ",
-		"Transport units capacity: Aurox(2, no rapiers), Gorgon(8), Crassus(8), Arvus(3), Leviathan(25), Da. Cruiser(20 + Shuttles), Emp. Battleship(60 + Shuttles)",
+		"Transport units capacity: Aurox(2, no rapiers), Termite(4 Grenadiers), Gorgon(8), Crassus(8), Arvus(3), Leviathan(25), Da. Cruiser(20 + Shuttles), Emp. Battleship(60 + Shuttles)",
 		"Transportable units size: Gene-gholams(2), Rapiers(2), Sentinels(5, only Leviathan)"],
 	
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Gene-crafted Command Detachment", 	"pts":325, "upgrades":[10,11,16, 21], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
-			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,16, 21]},
-			{"id":502, "name":"Gene-crafted Infantry Detachment", 		"pts":0, "upgrades":[6, 10,11,16, 21]}
+			{"id":500, "name":"Militia Command Squad", 	"pts":325, "upgrades":[10,11,16, 20], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
+			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,15,16, 20]},
+			{"id":502, "name":"Gene-crafted Infantry Detachment", 	"pts":0, "upgrades":[6, 10,11,16, 20]}			
 	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":599, "name":"Gene-gholams Detachment",			"pts":0, "upgrades":[21]},
-      
+			{"id":599, "name":"Gene-gholams Detachment",			"pts":0, "upgrades":[20]},
+			
 			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
       
 			{"id":601, "name":"Militia Cavalry Squad",			"pts":200, "upgrades":[], "units":"8 Cavalry Auxiliary units"},
@@ -56,16 +56,17 @@
 			{"id":704, "name":"Marauder Destroyer Wing",		"pts":0, "upgrades":[111, 150,151,152,153,154]}
 	]} 
 	],	
-	"upgrades":[		
+	"upgrades":[
 		{"id":5, "name":"Gene-crafted Elite Infantry units",	"pts":35},
 		{"id":6, "name":"Gene-crafted Infantry units",		"pts":20},
-
+		
 		{"id":10, "name":"Heavy Transport: Gorgon Heavy Transports",		"pts":100},
 		{"id":11, "name":"Heavy Transport: Crassus Armoured Transports",	"pts":100},
 		{"id":16, "name":"Transport: Aurox",					"pts":25},
 		
-		{"id":21, "name":"Gene-gholams Squads",			"pts":65},
+		{"id":20, "name":"Gene-gholams units",				"pts":65},
     
+		
 		{"id":30, "name":"Leman Russes",			"pts":0},
 		{"id":31, "name":"Leman Russ Exterminators",		"pts":0},
 		{"id":32, "name":"Leman Russ Annihilators",		"pts":0},
@@ -129,7 +130,7 @@
 		{"id":101, "name":"Dauntless Class Light Cruiser",	"pts":150},
     
     
-		{"id":105, "name":"2x Thunderbolt Heavy Fighter",		"pts":0},
+		{"id":105, "name":"2x Thunderbolt Heavy Fighter",	"pts":0},
 		{"id":106, "name":"2x Thunderbolt Heavy Fury",		"pts":0},
     
 		{"id":110, "name":"Marauder Bomber",			"pts":250},
@@ -151,7 +152,7 @@
 	],
 	"formationConstraints":[
 		{"max":2, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617], "forEach":[500,501,502], "name2":"Line Detachment"},
-		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[701,702,703,704]},
+		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[700,701,702,703,704]},
 		{"max":1, "perPoints":1000, "from":[605]},
 		{"max":1, "perPoints":6000, "from":[606]},
 		{"max":1, "perPoints":4000, "from":[612]},
@@ -161,17 +162,9 @@
 		{"max":1, "from":[600]}
 	],
 	"upgradeConstraints":[		
-		{"max":1, "from":[3],"perPoints":500},
-		{"min":0, "max":1, "from":[3], "appliesTo":[500,501,502,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,701,702,703,704]},
+		{"min":0, "max":4, "from":[20], "appliesTo":[500,501,502]},
+		{"min":4, "max":8, "from":[20], "appliesTo":[599]},
 		
-		
-		{"min":0, "max":4, "from":[21], "appliesTo":[500,501,502]},
-		{"min":8, "max":16, "from":[5], "appliesTo":[501]},
-		{"min":8, "max":16, "from":[6], "appliesTo":[502]},
-		
-		{"min":4, "max":8, "from":[21], "appliesTo":[599]},
-    
-    
 		{"min":1, "max":1, "from":[100,101], "appliesTo":[600]},
     
 		{"min":1, "max":1, "from":[140,141,142,143,144], "appliesTo":[603]},
@@ -209,9 +202,14 @@
 		{"min":1, "max":3, "from":[111], "appliesTo":[704]},
     
     
-		{"min":0, "max":1, "from":[150,151,152,153,154], "appliesTo":[701]},
-		{"min":0, "max":2, "from":[150,151,152,153,154], "appliesTo":[702]},
-		{"min":0, "max":4, "from":[150,151,152,153], "appliesTo":[703]},
-		{"min":0, "max":4, "from":[150,151,152,153,154], "appliesTo":[704]}
+		{"min":0, "max":2, "from":[150,151,152,153,154], "appliesTo":[701]},
+		{"min":0, "max":4, "from":[150,151,152,153,154], "appliesTo":[702]},
+		{"min":0, "max":12, "from":[150,151,152,153], "appliesTo":[703]},
+		{"min":0, "max":12, "from":[150,151,152,153,154], "appliesTo":[704]}
 	]
 }
+
+
+
+
+
