@@ -48,7 +48,7 @@
       
 			{"id":615, "name":"Hydra Flak Tank Battery",			"pts":-100, "upgrades":[3]},      
 			{"id":616, "name":"Carnodon Light Tank Squadron",		"pts":350, "upgrades":[3]},      
-			{"id":617, "name":"Arvus Lighter Orbital Shuttles",		"pts":0, "upgrades":[3]}
+			{"id":617, "name":"Arvus Lighter Orbital Shuttles",		"pts":0, "upgrades":[3, 95]}
 
 	]},
 		{"name":"LORDS OF WAR", "formations":[
@@ -130,8 +130,8 @@
 		{"id":92, "name":"2x Macharius Omega Heavy Tanks",		"pts":350},
     
 		{"id":95, "name":"Arvus Lighter Shuttles",				"pts":40},
-		{"id":97, "name":"Arvus Lighter Shuttles w/2x Heavy Bolters",		"pts":0},
-		{"id":98, "name":"Arvus Lighter Shuttles w/2x Heavy Flamers",		"pts":0},
+		{"id":97, "name":"Carnodon Light Tank w/2x Heavy Bolters",		"pts":0},
+		{"id":98, "name":"Carnodon Light Tank w/2x Heavy Flamers",		"pts":0},
 
 		{"id":100, "name":"Emperor Class Battleship",		"pts":300},
 		{"id":101, "name":"Dauntless Class Light Cruiser",	"pts":150},
@@ -194,8 +194,9 @@
 		{"min":0, "max":1, "from":[20], "appliesTo":[500,503]},
 		{"min":0, "max":1, "from":[23], "appliesTo":[500,503]},
 		
-		{"min":1, "max":1, "from":[125,126,127], "appliesTo":[503]},
-		{"min":1, "max":1, "from":[130,131,132,133,134,135], "appliesTo":[503]},
+		{"min":1, "max":1, "from":[125,126,127], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[130,131,132,133,134,135], "appliesTo":[502]},
+		{"min":0, "max":2, "from":[15], "appliesTo":[502]},
 	
 		
 		{"min":1, "max":1, "from":[100,101], "appliesTo":[600]},
