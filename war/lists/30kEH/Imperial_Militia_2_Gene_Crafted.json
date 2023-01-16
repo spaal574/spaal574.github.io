@@ -16,8 +16,8 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Gene-crafted Command Detachment", 	"pts":325, "upgrades":[10,11,16, 21], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
-			{"id":501, "name":"Gene-crafted Elite Infantry", 	"pts":0, "upgrades":[10,11,16, 21]},
-			{"id":502, "name":"Gene-crafted Infantry", 	"pts":0, "upgrades":[10,11,16, 21]}
+			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,16, 21]},
+			{"id":502, "name":"Gene-crafted Infantry Detachment", 		"pts":0, "upgrades":[6, 10,11,16, 21]}
 	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":599, "name":"Gene-gholams Detachment",			"pts":0, "upgrades":[21]},
@@ -56,12 +56,15 @@
 			{"id":704, "name":"Marauder Destroyer Wing",		"pts":0, "upgrades":[111, 150,151,152,153,154]}
 	]} 
 	],	
-	"upgrades":[
+	"upgrades":[		
+		{"id":5, "name":"Gene-crafted Elite Infantry units",	"pts":35},
+		{"id":6, "name":"Gene-crafted Infantry units",		"pts":20},
+
 		{"id":10, "name":"Heavy Transport: Gorgon Heavy Transports",		"pts":100},
 		{"id":11, "name":"Heavy Transport: Crassus Armoured Transports",	"pts":100},
 		{"id":16, "name":"Transport: Aurox",					"pts":25},
 		
-		{"id":21, "name":"Gene-gholams Squads",		"pts":65},
+		{"id":21, "name":"Gene-gholams Squads",			"pts":65},
     
 		{"id":30, "name":"Leman Russes",			"pts":0},
 		{"id":31, "name":"Leman Russ Exterminators",		"pts":0},
@@ -163,6 +166,8 @@
 		
 		
 		{"min":0, "max":4, "from":[21], "appliesTo":[500,501,502]},
+		{"min":8, "max":16, "from":[5], "appliesTo":[501]},
+		{"min":8, "max":16, "from":[6], "appliesTo":[502]},
 		
 		{"min":4, "max":8, "from":[21], "appliesTo":[599]},
     
