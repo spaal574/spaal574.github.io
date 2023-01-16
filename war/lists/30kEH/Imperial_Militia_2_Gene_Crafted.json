@@ -16,7 +16,7 @@
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
 			{"id":500, "name":"Militia Command Squad", 			"pts":325, "upgrades":[10,11,16, 20], "units":"1x Gene-crafted Force Commander and 7x Gene-crafted Elite Infantry Squad units"},
-			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,15,16, 20]},
+			{"id":501, "name":"Gene-crafted Elite Infantry Detachment", 	"pts":0, "upgrades":[5, 10,11,16, 20]},
 			{"id":502, "name":"Gene-crafted Infantry Detachment", 		"pts":0, "upgrades":[6, 10,11,16, 20]}			
 	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
