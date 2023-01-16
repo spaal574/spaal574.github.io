@@ -52,11 +52,11 @@
 
 	]},
 		{"name":"LORDS OF WAR", "formations":[
-			{"id":700, "name":"Leviathan Mobile HQ",		"pts":700, "upgrades":[60], "units":"1x Leviathan Mobile HQ"},
-			{"id":701, "name":"Imperial Militia Avenger Wing",	"pts":250, "upgrades":[60, 150,151,152,153,154], "units":"2x Avenger Strike Fighter"},
-			{"id":702, "name":"Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[60, 150,151,152,153,154]},
-			{"id":703, "name":"Marauder Wing",			"pts":0, "upgrades":[60, 80, 150,151,152,153]},
-			{"id":704, "name":"Marauder Destroyer Wing",		"pts":0, "upgrades":[60, 81, 150,151,152,153,154]}
+			{"id":700, "name":"Leviathan Mobile HQ",		"pts":700, "upgrades":[3], "units":"1x Leviathan Mobile HQ"},
+			{"id":701, "name":"Imperial Militia Avenger Wing",	"pts":250, "upgrades":[3, 150,151,152,153,154], "units":"2x Avenger Strike Fighter"},
+			{"id":702, "name":"Thunderbolt Heavy Fighter Wing",	"pts":300, "upgrades":[3, 150,151,152,153,154]},
+			{"id":703, "name":"Marauder Wing",			"pts":0, "upgrades":[3, 110, 150,151,152,153]},
+			{"id":704, "name":"Marauder Destroyer Wing",		"pts":0, "upgrades":[3, 111, 150,151,152,153,154]}
 	]} 
 	],	
 	"upgrades":[
@@ -137,8 +137,8 @@
 		{"id":101, "name":"Dauntless Class Light Cruiser",	"pts":150},
     
     
-		{"id":105, "name":"Thunderbolt Heavy Fighter",		"pts":0},
-		{"id":106, "name":"Thunderbolt Heavy Fury",		"pts":0},
+		{"id":105, "name":"2x Thunderbolt Heavy Fighter",		"pts":0},
+		{"id":106, "name":"2x Thunderbolt Heavy Fury",		"pts":0},
     
 		{"id":110, "name":"Marauder Bomber",			"pts":250},
 		{"id":111, "name":"Marauder Destroyer",			"pts":250},
