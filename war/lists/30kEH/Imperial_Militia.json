@@ -47,7 +47,7 @@
 			{"id":614, "name":"Macharius Heavy Tank Assault Squadron",	"pts":0, "upgrades":[3]},
       
 			{"id":615, "name":"Hydra Flak Tank Battery",			"pts":-100, "upgrades":[3]},      
-			{"id":616, "name":"Carnodon Light Tank Squadron",		"pts":350, "upgrades":[3]},      
+			{"id":616, "name":"Carnodon Light Tank Squadron",		"pts":225, "upgrades":[3]},      
 			{"id":617, "name":"Arvus Lighter Orbital Shuttles",		"pts":0, "upgrades":[3, 95]}
 
 	]},
