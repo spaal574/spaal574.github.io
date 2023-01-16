@@ -20,7 +20,7 @@
 			{"id":502, "name":"Gene-crafted Infantry", 	"pts":0, "upgrades":[10,11,16, 21]}
 	]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":599, "name":"Gene-gholams Detachment",				"pts":0, "upgrades":[21]},
+			{"id":599, "name":"Gene-gholams Detachment",			"pts":0, "upgrades":[21]},
       
 			{"id":600, "name":"Orbital Support",				"pts":0, "upgrades":[]},
       
@@ -147,7 +147,7 @@
 		{"id":154, "name":"Kraken Heavy Missiles",		"pts":150}
 	],
 	"formationConstraints":[
-		{"max":2, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617], "forEach":[500,501,502,503], "name2":"Line Detachment"},
+		{"max":2, "name":"Support Detachment", "from":[599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617], "forEach":[500,501,502], "name2":"Line Detachment"},
 		{"maxPercent":33.34, "name":"LORDS OF WAR", "from":[701,702,703,704]},
 		{"max":1, "perPoints":1000, "from":[605]},
 		{"max":1, "perPoints":6000, "from":[606]},
@@ -159,10 +159,10 @@
 	],
 	"upgradeConstraints":[		
 		{"max":1, "from":[3],"perPoints":500},
-		{"min":0, "max":1, "from":[3], "appliesTo":[500,501,502,503,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,701,702,703,704]},
+		{"min":0, "max":1, "from":[3], "appliesTo":[500,501,502,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,701,702,703,704]},
 		
 		
-		{"min":0, "max":4, "from":[21], "appliesTo":[500,501,503]},
+		{"min":0, "max":4, "from":[21], "appliesTo":[500,501,502]},
 		
 		{"min":4, "max":8, "from":[21], "appliesTo":[599]},
     
