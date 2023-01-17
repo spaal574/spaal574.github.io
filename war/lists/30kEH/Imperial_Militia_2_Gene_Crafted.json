@@ -10,7 +10,7 @@
 		"You can't mix transports within a formation.",
 		"Transports count towards the number of upgrade allowances of a formation.",
 		" ",
-		"Transport units capacity: Aurox(2, no rapiers), Termite(4 Grenadiers), Gorgon(8), Crassus(8), Arvus(3), Leviathan(25), Da. Cruiser(20 + Shuttles), Emp. Battleship(60 + Shuttles)",
+		"Transport units capacity: Aurox(2, no rapiers), Gorgon(8), Crassus(8), Arvus(3), Leviathan(25), Da. Cruiser(20 + Shuttles), Emp. Battleship(60 + Shuttles)",
 		"Transportable units size: Gene-gholams(2), Rapiers(2), Sentinels(5, only Leviathan)"],
 	
 	"sections":[
