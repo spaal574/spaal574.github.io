@@ -155,9 +155,8 @@
 		{"id":130, "name":"Plasma Guns",			"pts":0},
 		{"id":131, "name":"Melta Guns",				"pts":0},
 		{"id":132, "name":"Flamers",				"pts":0},
-		{"id":133, "name":"Flamers",				"pts":0},
-		{"id":134, "name":"Rotor Cannons",			"pts":0},
-		{"id":135, "name":"Grenade Launchers",			"pts":0},
+		{"id":133, "name":"Rotor Cannons",			"pts":0},
+		{"id":134, "name":"Grenade Launchers",			"pts":0},
     
 
 		{"id":140, "name":"Multi-lasers",			"pts":0},
@@ -195,7 +194,7 @@
 		{"min":0, "max":1, "from":[23], "appliesTo":[500,503]},
 		
 		{"min":1, "max":1, "from":[125,126,127], "appliesTo":[502]},
-		{"min":1, "max":1, "from":[130,131,132,133,134,135], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[130,131,132,133,134], "appliesTo":[502]},
 		{"min":0, "max":2, "from":[15], "appliesTo":[502]},
 	
 		
