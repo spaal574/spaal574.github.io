@@ -181,7 +181,7 @@
 	
 		{"id":250, "name":"Ordinatus Minoris Sagittar",					"pts":425},
 		{"id":251, "name":"Ordinatus Minoris Ulator",					"pts":450},
-		{"id":252, "name":"Ordinatus Minoris Akateus",					"pts":500}
+		{"id":252, "name":"Ordinatus Minoris Aktaeus",					"pts":500}
     ],
 	"formationConstraints":[
 		{"max":3, "name":"Support Detachment", "from":[600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615], "forEach":[500,501,502,503,504,505], "name2":"Cohort"},
