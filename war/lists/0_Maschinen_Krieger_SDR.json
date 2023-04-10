@@ -13,7 +13,7 @@
 			{"id":506, "name":"Krote",		"pts":40,   "upgrades":[]},
 			{"id":507, "name":"Oskar I",		"pts":50,   "upgrades":[]},
 			{"id":508, "name":"Oskar II",		"pts":55,   "upgrades":[]},
-			{"id":509, "name":"Infantry",		"pts":10,   "upgrades":[10,11],	"units":"10x figures"},
+			{"id":509, "name":"Infantry",		"pts":10,   "upgrades":[10,11],	"units":"10x figures"}
 		]},
 		{"name":"RARE", "formations":[
 			{"id":600, "name":"Melusine",			"pts":20,   "upgrades":[],	"units":"6x figures"},
@@ -23,7 +23,7 @@
 			{"id":604, "name":"Pak Krote",			"pts":45,   "upgrades":[]},
 			{"id":605, "name":"Nutcracker",			"pts":70,   "upgrades":[]},
 			{"id":606, "name":"Kraken Vogal",		"pts":15,   "upgrades":[]},
-			{"id":607, "name":"Neuspotter",			"pts":10,   "upgrades":[]},
+			{"id":607, "name":"Neuspotter",			"pts":10,   "upgrades":[]}
 		]}
 	],	
 	"upgrades":[
