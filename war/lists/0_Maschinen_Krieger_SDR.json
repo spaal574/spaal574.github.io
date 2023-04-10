@@ -29,7 +29,7 @@
 	"upgrades":[
 		{"id":1, "name":"Training Rating : Green",	"pts":10},
 		{"id":2, "name":"Training Rating : Regular",	"pts":20},
-		{"id":5, "name":"Training Rating : Elite",	"pts":40},
+		{"id":3, "name":"Training Rating : Elite",	"pts":40},
     
 		{"id":10, "name":"HMG Support Unit : 2x figures",	"pts":3},
 		{"id":11, "name":"RL Support Unit : 2x figures",	"pts":2},
