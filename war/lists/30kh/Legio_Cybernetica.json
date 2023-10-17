@@ -4,18 +4,18 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Robot Line Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 140,141]},
+			{"id":500, "name":"Robot Line Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 30, 125,126,127, 140,141]},
 			{"id":501, "name":"Adsecularis Covenant", 		"pts":30, "upgrades":[11,12,13,14, 20, 141]}
         ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
-			{"id":600, "name":"Robot Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 140,141]},
+			{"id":600, "name":"Robot Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 30, 125,126,127, 140,141]},
 			{"id":601, "name":"Vulturax Maniple",			"pts":275, "upgrades":[10, 140], 	"units":"4 Vulturax Stratos-Automata"},
 			{"id":602, "name":"Bombot Detachment",			"pts":125, "upgrades":[30, 20], 	"units":"10 Bombots stands"},
 			{"id":603, "name":"Avengers",				"pts":200, "upgrades":[], 	"units":"2 Avenger Strike Fighter units"},
 			{"id":604, "name":"Orbital Support",			"pts":200, "upgrades":[], 	"units":"1 Cybernetica Ark Mechanicus"}
 	]},
 		{"name":"HEAVY SUPPORT DETACHMENTS", "formations":[
-			{"id":700, "name":"Thanatar Maniple",			"pts":300, "upgrades":[10, 11,12,13,14, 20, 140]},
+			{"id":700, "name":"Thanatar Maniple",			"pts":300, "upgrades":[10, 11,12,13,14, 20, 30, 127, 140]},
 			{"id":701, "name":"Minotaur Artillery Battery",		"pts":350, "upgrades":[], 	"units":"3 Minotaur Artillery Tank"},
 			{"id":702, "name":"Ordinatus Minorus Tormenta",		"pts":500, "upgrades":[]},
 			{"id":703, "name":"Ordinatus Majoris",			"pts":450, "upgrades":[]},
@@ -82,13 +82,16 @@
         	{"min":1, "max":1, "from":[55,56,57,58,59], 	"appliesTo":[600]},
 
         	{"min":12, "max":17, "from":[20], 	"appliesTo":[501]},
-        	{"min":0, "max":5, "from":[20], 	"appliesTo":[500,600]},
+        	{"min":0, "max":5, "from":[20], 	"appliesTo":[500,600,602,700]},
         	{"min":4, "max":9, "from":[20], 	"appliesTo":[602]},
 
 
-
+ 
+        	{"min":0, "max":1, "from":[125,126], 	"appliesTo":[500,600,700]},
+        	{"min":0, "max":2, "from":[127], 	"appliesTo":[500,600,700]},
     
 
+        	{"min":1, "max":1, "from":[70,71,72], 	"appliesTo":[700]},
         	{"min":1, "max":1, "from":[95,96], 	"appliesTo":[702]},
         	{"min":1, "max":1, "from":[100,101,102], 	"appliesTo":[703]},
         	{"max":1, "perArmy":true, "from":[11]}				
