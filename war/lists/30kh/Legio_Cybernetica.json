@@ -4,13 +4,13 @@
 	"by":"spaal574",
 	"sections":[
 		{"name":"LINE DETACHMENTS", "formations":[
-			{"id":500, "name":"Robot Line Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 30, 125,126,127, 140,141]},
+			{"id":500, "name":"Robot Line Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 30, 125,127, 140,141]},
 			{"id":501, "name":"Adsecularis Covenant", 		"pts":30, "upgrades":[11,12,13,14, 20, 141]}
         ]},
 		{"name":"SUPPORT DETACHMENTS", "formations":[
 			{"id":600, "name":"Robot Maniple",			"pts":0, "upgrades":[10, 11,12,13,14, 20, 30, 125,126,127, 140,141]},
 			{"id":601, "name":"Vulturax Maniple",			"pts":275, "upgrades":[10, 140], 	"units":"4 Vulturax Stratos-Automata"},
-			{"id":602, "name":"Bombot Detachment",			"pts":0, "upgrades":[30, 20]},
+			{"id":602, "name":"Bombot Detachment",			"pts":10, "upgrades":[30, 20]},
 			{"id":603, "name":"Avengers",				"pts":200, "upgrades":[], 	"units":"2 Avenger Strike Fighter units"},
 			{"id":604, "name":"Orbital Support",			"pts":200, "upgrades":[], 	"units":"1 Cybernetica Ark Mechanicus"}
 	]},
@@ -78,14 +78,16 @@
         	{"min":0, "max":1, "from":[11,12], 	"appliesTo":[500,501,600,601,700]},
         	{"min":0, "max":2, "from":[13,14], 	"appliesTo":[500]},
         	{"min":0, "max":1, "from":[13,14], 	"appliesTo":[501,600,601,700]},
+        	{"min":0, "max":5, "from":[30], 	"appliesTo":[500,600,700]},
 		
         	{"min":1, "max":1, "from":[50,51], 	"appliesTo":[500]},
         	{"min":1, "max":1, "from":[55,56,57,58,59], 	"appliesTo":[600]},
 
-        	{"min":12, "max":17, "from":[20], 	"appliesTo":[501]},
-        	{"min":0, "max":5, "from":[20], 	"appliesTo":[500,600,602,700]},
-        	{"min":4, "max":9, "from":[20], 	"appliesTo":[602]},
+		
         	{"min":10, "max":15, "from":[30], 	"appliesTo":[602]},
+        	{"min":12, "max":17, "from":[20], 	"appliesTo":[501]},
+        	{"min":0, "max":5, "from":[20], 	"appliesTo":[500,600,700]},
+        	{"min":4, "max":9, "from":[20], 	"appliesTo":[602]},
         	{"min":1, "max":1, "from":[14], 	"appliesTo":[602]},
 
 
