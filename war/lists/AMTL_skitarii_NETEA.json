@@ -10,7 +10,7 @@
 		]},
 		{"name":"CENTURIO ORDINATUS FORMATIONS", "formations":[
 			{"id":571, "name":"Ordinatus Minorus",	"pts":50, "units":"2 Ordinatus Minorus", "upgrades":[225,226,227,228,229,231,232,233,234,235,237,238]},
-			{"id":572, "name":"Ordinatus Majoris",	"pts":350, "upgrades":[]}	
+			{"id":572, "name":"Ordinatus Majoris",	"pts":0, "upgrades":[]}	
 		]},
 		{"name":"SKITARII SUPPORT FORMATIONS", "formations":[
 			{"id":561, "name":"Crusader Scout Maniple",		"pts":125, "units":"4 Crusader Robots", "upgrades":[]},
@@ -30,13 +30,13 @@
 	],
 	"upgrades":[	
 		{"id":101, "name":"5 Gun Servitor Unit",		"pts":0},
-		{"id":102, "name":"5 Rapier Laser Destroyer Unit",	"pts":25},
+		{"id":102, "name":"3 Rapier Laser Destroyer Unit",	"pts":25},
 		{"id":103, "name":"Hydra",				"pts":50},
 		{"id":104, "name":"10 Chimedons",			"pts":175},
 		{"id":105, "name":"Magos Character",			"pts":50},
-		{"id":110, "name":"Ordinatus Mars (Sonic Disruptor)",		"pts":100},
-		{"id":111, "name":"Ordinatus Golgotha (Hellfire Missiles)",	"pts":150},
-		{"id":112, "name":"Ordinatus Armageddon (Nova Cannon)",		"pts":150},
+		{"id":110, "name":"Ordinatus Mars (Sonic Disruptor)",		"pts":450},
+		{"id":111, "name":"Ordinatus Golgotha (Hellfire Missiles)",	"pts":550},
+		{"id":112, "name":"Ordinatus Armageddon (Nova Cannon)",		"pts":500},
 		{"id":11, "name":"Imperator Configuration",	"pts":0},
 		{"id":12, "name":"Warmonger Configuration",	"pts":0},
 		{"id":13, "name":"Inferno Gun", 		"pts":0},
