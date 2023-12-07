@@ -9,7 +9,7 @@
 			{"id":567, "name":"Sagitarii Demi-Century",	"pts":250, "units":"5 Sagitarii units",	 "upgrades":[103,104,105,214,225,226,227,228,229,231,232,233,234,235,237,238]}	
 		]},
 		{"name":"CENTURIO ORDINATUS FORMATIONS", "formations":[
-			{"id":571, "name":"Ordinatus Minorus",	"pts":50, "units":"2 Ordinatus Minorus", "upgrades":[225,226,227,228,229,231,232,233,234,235,237,238]},
+			{"id":571, "name":"Ordinatus Minorus",	"pts":50, "upgrades":[225,226,227,228,229,231,232,233,234,235,237,238]},
 			{"id":572, "name":"Ordinatus Majoris",	"pts":0, "upgrades":[]}	
 		]},
 		{"name":"SKITARII SUPPORT FORMATIONS", "formations":[
