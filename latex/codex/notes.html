@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Legio Cybernetica Cohort notes</title>
+<link rel="stylesheet" type="text/css" href="./codex.css">
+</head>	
+<body>
+
+
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openSubfactions(event, 'HHgeneric')">Cybernetica Cohort</button>
+  <button class="tablinks" onclick="openSubfactions(event, 'SarumBodt')">Bodt Garrison Cohort</button>
+  <button class="tablinks" onclick="openSubfactions(event, 'SarumBase')">Redjak Cult Spearhead</button>
+  <button class="tablinks" onclick="openSubfactions(event, 'Zhao')">Zhao-Arkhadian Mercenaries</button>
+</div>
+
+<div id="HHgeneric" class="tabcontent">
+  <p>x</p>
+</div>
+
+<div id="SarumBase" class="tabcontent">
+  <p>y</p> 
+</div>
+
+<div id="SarumBodt" class="tabcontent">
+  <p>z</p>
+</div>
+
+<div id="Zhao" class="tabcontent">
+  <p>z</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<script>
+function openSubfactions(evt, subFaction) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(subFaction).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body></html>
